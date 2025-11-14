@@ -2,6 +2,7 @@
 import Navbar from "@/component/Navbar";
 import AboutSection from "@/sections/AboutSection";
 import LandingHero from "@/sections/LandingHero";
+import OurWorkSection from "@/sections/OurWorkSection";
 import ServicesSection from "@/sections/Servicessection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       />
       <AboutSection />
       <ServicesSection />
+      <OurWorkSection />
     </>
   );
 }

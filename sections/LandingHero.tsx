@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 interface LandingHeroProps {
   title?: string;
@@ -52,6 +53,38 @@ export default function LandingHero({
       <div className="absolute inset-0 bg-black/40 z-10" />
 
       <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/70 z-10" />
+
+      {/* Social Icons - Bottom Left */}
+      <div className="absolute bottom-6 left-4 md:bottom-6 md:left-6 z-30 flex flex-col gap-4">
+        <Link
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/10 hover:bg-white/50 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
+        >
+          <Image
+            src="/icons/facebook.svg"
+            alt="Facebook"
+            width={20}
+            height={20}
+            className="w-5 h-5 md:w-6 md:h-6 opacity-80 group-hover:opacity-100 transition-opacity"
+          />
+        </Link>
+        <Link
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/10 hover:bg-white/50 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
+        >
+          <Image
+            src="/icons/instagram.svg"
+            alt="Instagram"
+            width={20}
+            height={20}
+            className="w-5 h-5 md:w-6 md:h-6 opacity-80 group-hover:opacity-100 transition-opacity"
+          />
+        </Link>
+      </div>
 
       {/* Content Container */}
       <div className="relative z-20 flex items-center justify-center h-full px-6">
