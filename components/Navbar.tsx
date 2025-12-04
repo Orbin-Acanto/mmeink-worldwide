@@ -50,7 +50,7 @@ export default function Navbar() {
     >
       <div className="navbar-container w-full px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-center h-28 lg:h-32">
-          <div className="flex items-center justify-between w-full px-12">
+          <div className="flex items-center justify-between w-full">
             {/* Logo */}
             <div className="shrink-0">
               <Link href="/" className="flex items-center">
@@ -88,7 +88,6 @@ export default function Navbar() {
                                 key={subItem.name}
                                 href={subItem.href}
                                 className={`block px-6 py-4 text-sm text-white hover:bg-purple/60 hover:text-white transition-all duration-200 ${
-                                  // index !== 0 ? "border-t border-gray/10" : ""
                                   index !== 0 ? "" : ""
                                 }`}
                               >

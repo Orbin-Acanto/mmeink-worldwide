@@ -87,15 +87,15 @@ export default function LandingHero({
       </div>
 
       {/* Content Container */}
-      <div className="relative z-20 flex items-center justify-center h-full px-6">
-        <div className="max-w-6xl text-center">
+      <div className="relative z-20 flex items-center justify-center mt-12 h-full px-6">
+        <div className="max-w-7xl text-center">
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight drop-shadow-2xl">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-widest leading-tight drop-shadow-2xl">
             {title}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-12 max-w-4xl mx-auto font-light drop-shadow-lg">
+          <p className="text-base sm:text-lg md:text-xl lg:text-[1.8rem]  text-white/90 mb-12 max-w-4xl mx-auto font-light drop-shadow-lg leading-relaxed xl:leading-tight">
             {subtitle}
           </p>
           <Link
