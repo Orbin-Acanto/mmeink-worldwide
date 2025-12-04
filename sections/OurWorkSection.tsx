@@ -12,17 +12,15 @@ export default function OurWorkSection() {
   return (
     <section className="py-18 md:py-32 bg-white overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-6 xl:px-12">
-        {/* Header */}
         <div className="text-center xl:mb-4 mb-12">
           <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-gray-500 mb-4 font-semibold">
-            Our Work
+            Stories We&apos;ve Brought to Life
           </p>
           <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold text-black tracking-tight">
-            OUR CREATIVITY HAS NO LIMITS
+            OUR <span className="text-purple">CREATIVITY</span> HAS NO LIMITS
           </h2>
         </div>
 
-        {/* Overlapping Cards */}
         <div className="hidden xl:block relative h-[600px]">
           <div className="relative w-full max-w-[1400px] h-full flex items-center justify-center mx-auto">
             {workItems.map((item, index) => (
@@ -39,14 +37,12 @@ export default function OurWorkSection() {
           </div>
         </div>
 
-        {/* Tablet: 2 Column Grid */}
         <div className="hidden md:grid xl:hidden grid-cols-2 gap-6">
           {workItems.map((item) => (
             <MobileWorkCard key={item.id} item={item} />
           ))}
         </div>
 
-        {/* Mobile: Single Column */}
         <div className="grid md:hidden grid-cols-1 gap-6">
           {workItems.map((item) => (
             <MobileWorkCard key={item.id} item={item} />
@@ -158,7 +154,7 @@ function MobileWorkCard({ item }: { item: WorkItem }) {
   return (
     <Link
       href={item.href}
-      className="group relative h-[400px] rounded-3xl overflow-hidden shadow-xl transition-all duration-500 cursor-pointer hover:shadow-2xl"
+      className="group relative h-[400px] overflow-hidden shadow-xl transition-all duration-500 cursor-pointer hover:shadow-2xl"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

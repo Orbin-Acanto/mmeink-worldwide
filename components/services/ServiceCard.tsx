@@ -33,7 +33,6 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.4, ease: "easeOut" }}
         >
-          {/* Image */}
           <motion.div
             className="relative w-full h-full"
             animate={{ scale: isHovered ? 1.1 : 1 }}
@@ -49,14 +48,12 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
             />
           </motion.div>
 
-          {/* Dark overlay */}
           <motion.div
             className="absolute inset-0 bg-black/70"
             animate={{ opacity: isHovered ? 1 : 0 }}
             transition={{ duration: 0.5 }}
           />
 
-          {/* Title */}
           <motion.div
             className="absolute inset-0 flex items-center justify-center p-6"
             animate={{
@@ -70,7 +67,6 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
             </h3>
           </motion.div>
 
-          {/* Arrow button */}
           <motion.div
             className="absolute top-4 right-4"
             animate={{

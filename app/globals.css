@@ -188,3 +188,18 @@ body {
     -webkit-text-stroke: 3px white;
   }
 }
+
+@layer utilities {
+  @keyframes marquee-offset {
+    0% {
+      transform: translateX(-15%);
+    }
+    100% {
+      transform: translateX(-65%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee-offset 54s linear infinite;
+  }
+}
