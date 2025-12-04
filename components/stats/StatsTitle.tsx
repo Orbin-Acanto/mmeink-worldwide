@@ -40,7 +40,7 @@ export default function StatsTitle({
           duration={0.8}
           delay={0.5}
           once={false}
-          className="inline text-gray-300"
+          className="inline text-purple"
         >
           {highlightedText}
         </TextAnimate>
@@ -51,7 +51,7 @@ export default function StatsTitle({
             duration={0.8}
             delay={0.5}
             once={false}
-            className="inline text-gray-300"
+            className="inline text-purple"
           >
             {parts[1]}
           </TextAnimate>

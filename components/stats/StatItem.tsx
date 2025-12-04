@@ -72,7 +72,7 @@ export default function StatItem({
         )}
       </div>
 
-      <p className="text-sm sm:text-base lg:text-lg text-gray-600 font-light">
+      <p className="text-sm sm:text-base lg:text-lg text-purple font-medium ml-12">
         {label}
       </p>
     </div>

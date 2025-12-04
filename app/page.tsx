@@ -1,10 +1,10 @@
 "use client";
 import Navbar from "@/components/Navbar";
+import ServicesOverviewSection from "@/components/services/ServicesOverviewSection";
 import StatsSection from "@/components/stats/StatsSection";
-import { stats } from "@/data";
+import { services, stats } from "@/data";
 import LandingHero from "@/sections/LandingHero";
 import OurWorkSection from "@/sections/OurWorkSection";
-import ServicesSection from "@/sections/Servicessection";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         highlightedText="strategies to drive impactful results with"
         stats={stats}
       />
-      <ServicesSection />
+      <ServicesOverviewSection services={services} />
       <OurWorkSection />
     </>
   );
