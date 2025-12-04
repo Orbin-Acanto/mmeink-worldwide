@@ -69,7 +69,7 @@ export default function ServicesOverviewSection({
                 delay: index * 0.05,
                 duration: 0.3,
               }}
-              className="text-6xl xl:text-7xl font-bold hollow-text"
+              className="text-6xl xl:text-7xl font-bold text-white"
             >
               {letter}
             </motion.span>
