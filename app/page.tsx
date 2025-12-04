@@ -16,6 +16,7 @@ export default function Home() {
         subtitle="Premium event planning and production"
       />
       <AboutSection />
+
       <ServicesOverviewSection services={services} />
       <StatsSection
         title="Crafting exceptional, well experienced & technology driven strategies to drive impactful results with"

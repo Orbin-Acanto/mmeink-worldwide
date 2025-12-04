@@ -17,26 +17,12 @@ export default function ServicesOverviewGrid({
   services,
 }: ServicesOverviewGridProps) {
   return (
-    <div className="relative px-6 sm:px-10 py-10 space-y-[-140px] sm:-space-y-40 lg:-space-y-[180px]">
-      {services.map((service, index) => {
-        const alignment = index % 2 === 0 ? "left" : "right";
-
-        return (
-          <div
-            key={service.id}
-            className="relative"
-            style={{ zIndex: services.length - index }}
-          >
-            <div className="mb-28 sm:mb-10 md:mb-2 lg:mb-0 px-2 sm:px-4">
-              <ServiceCard
-                service={service}
-                index={index}
-                alignment={alignment}
-              />
-            </div>
-          </div>
-        );
-      })}
+    <div className="relative px-6 sm:px-10 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.id} service={service} index={index} />
+        ))}
+      </div>
     </div>
   );
 }

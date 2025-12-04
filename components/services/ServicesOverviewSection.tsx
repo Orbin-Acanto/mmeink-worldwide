@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import ServicesOverviewGrid from "./ServicesOverviewGrid";
-import ServicesCTA from "./ServicesCTA";
 
 interface Service {
   id: string;
@@ -30,7 +29,7 @@ export default function ServicesOverviewSection({
 
   const verticalOpacity = useTransform(
     scrollYProgress,
-    [0.01, 0.05, 0.9, 1],
+    [0.01, 0.05, 0.9, 1.05],
     [0, 1, 1, 0]
   );
   const verticalX = useTransform(scrollYProgress, [0.05, 0.15], [-50, 0]);
@@ -44,9 +43,23 @@ export default function ServicesOverviewSection({
     >
       <motion.div>
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl text-center md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-widest leading-tight drop-shadow-2xl">
+          <h1 className="text-4xl text-center md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-widest leading-tight drop-shadow-2xl">
+            {/* <span className="text-white">OUR</span> */}
             OUR <span className="text-purple">SERVICES</span>
-          </h2>
+            {/* <TypingText
+              text={[
+                "Creative Vision",
+                "Event Productions",
+                "Signature Experiences",
+              ]}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor={true}
+              cursorCharacter="|"
+              className="text-purple"
+              variableSpeed={{ min: 50, max: 120 }}
+            /> */}
+          </h1>
         </div>
       </motion.div>
 
@@ -55,7 +68,7 @@ export default function ServicesOverviewSection({
           opacity: verticalOpacity,
           x: verticalX,
         }}
-        className="fixed left-6 sm:left-8 top-1/2 -translate-y-1/2 z-20 pointer-events-none"
+        className="fixed left-5 sm:left-8 top-1/2 -translate-y-1/2 z-20 pointer-events-none"
       >
         <div className="flex flex-col gap-1 lg:gap-2 leading-none">
           {letters.map((letter, index) => (
@@ -80,7 +93,6 @@ export default function ServicesOverviewSection({
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <ServicesOverviewGrid services={services} />
       </div>
-      <ServicesCTA />
     </section>
   );
 }
