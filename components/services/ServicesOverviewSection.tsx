@@ -24,11 +24,15 @@ export default function ServicesOverviewSection({
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
-    offset: ["start start", "end start"],
+    offset: ["start start", "end end"],
   });
 
-  const verticalOpacity = useTransform(scrollYProgress, [0.1, 0.25], [0, 1]);
-  const verticalX = useTransform(scrollYProgress, [0.1, 0.25], [-50, 0]);
+  const verticalOpacity = useTransform(
+    scrollYProgress,
+    [0.01, 0.05, 0.95, 1.05],
+    [0, 1, 1, 0]
+  );
+  const verticalX = useTransform(scrollYProgress, [0.05, 0.15], [-50, 0]);
 
   const letters = ["S", "E", "R", "V", "I", "C", "E", "S"];
 
@@ -39,12 +43,13 @@ export default function ServicesOverviewSection({
     >
       <motion.div>
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-widest leading-tight drop-shadow-2xl">
-            OUR SERVICES
+          <h2 className="text-4xl text-center md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-widest leading-tight drop-shadow-2xl">
+            OUR <span className="text-purple">SERVICES</span>
           </h2>
         </div>
       </motion.div>
 
+      {/* Desktop Vertical Text */}
       <motion.div
         style={{
           opacity: verticalOpacity,
@@ -72,7 +77,12 @@ export default function ServicesOverviewSection({
         </div>
       </motion.div>
 
-      <div className="fixed left-3 top-1/2 -translate-y-1/2 z-20 pointer-events-none md:hidden">
+      <motion.div
+        style={{
+          opacity: verticalOpacity,
+        }}
+        className="fixed left-3 top-1/2 -translate-y-1/2 z-20 pointer-events-none md:hidden"
+      >
         <div className="flex flex-col gap-0.5 leading-none">
           {letters.map((letter, index) => (
             <span
@@ -83,7 +93,8 @@ export default function ServicesOverviewSection({
             </span>
           ))}
         </div>
-      </div>
+      </motion.div>
+
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <ServicesOverviewGrid services={services} />
       </div>

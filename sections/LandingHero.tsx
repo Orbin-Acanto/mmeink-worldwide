@@ -42,7 +42,6 @@ export default function LandingHero({
               minHeight: "56.25vw",
               transform: "translate(-50%, -50%)",
             }}
-            frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             className="pointer-events-none"
             title="Background Video"
