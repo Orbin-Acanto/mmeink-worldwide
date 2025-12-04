@@ -59,7 +59,7 @@ export default function LandingHero({
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/10 hover:bg-white/50 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
+          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/70 hover:bg-white/30 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
         >
           <Image
             src="/icons/facebook.svg"
@@ -73,7 +73,7 @@ export default function LandingHero({
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/10 hover:bg-white/50 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
+          className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/70 hover:bg-white/30 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
         >
           <Image
             src="/icons/instagram.svg"

@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import ServicesOverviewGrid from "./ServicesOverviewGrid";
+import ServicesCTA from "./ServicesCTA";
 
 interface Service {
   id: string;
@@ -29,7 +30,7 @@ export default function ServicesOverviewSection({
 
   const verticalOpacity = useTransform(
     scrollYProgress,
-    [0.01, 0.05, 0.95, 1.05],
+    [0.01, 0.05, 0.9, 1],
     [0, 1, 1, 0]
   );
   const verticalX = useTransform(scrollYProgress, [0.05, 0.15], [-50, 0]);
@@ -49,13 +50,12 @@ export default function ServicesOverviewSection({
         </div>
       </motion.div>
 
-      {/* Desktop Vertical Text */}
       <motion.div
         style={{
           opacity: verticalOpacity,
           x: verticalX,
         }}
-        className="fixed left-6 sm:left-8 lg:left-10 xl:left-12 top-1/2 -translate-y-1/2 z-20 pointer-events-none hidden md:block"
+        className="fixed left-6 sm:left-8 top-1/2 -translate-y-1/2 z-20 pointer-events-none"
       >
         <div className="flex flex-col gap-1 lg:gap-2 leading-none">
           {letters.map((letter, index) => (
@@ -69,7 +69,7 @@ export default function ServicesOverviewSection({
                 delay: index * 0.05,
                 duration: 0.3,
               }}
-              className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold hollow-text"
+              className="text-6xl xl:text-7xl font-bold hollow-text"
             >
               {letter}
             </motion.span>
@@ -77,27 +77,10 @@ export default function ServicesOverviewSection({
         </div>
       </motion.div>
 
-      <motion.div
-        style={{
-          opacity: verticalOpacity,
-        }}
-        className="fixed left-3 top-1/2 -translate-y-1/2 z-20 pointer-events-none md:hidden"
-      >
-        <div className="flex flex-col gap-0.5 leading-none">
-          {letters.map((letter, index) => (
-            <span
-              key={index}
-              className="text-3xl sm:text-4xl font-bold hollow-text"
-            >
-              {letter}
-            </span>
-          ))}
-        </div>
-      </motion.div>
-
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <ServicesOverviewGrid services={services} />
       </div>
+      <ServicesCTA />
     </section>
   );
 }
