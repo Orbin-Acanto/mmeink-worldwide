@@ -29,6 +29,10 @@
   --breakpoint-xs: 29rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;

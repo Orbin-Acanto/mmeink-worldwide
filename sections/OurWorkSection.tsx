@@ -10,7 +10,7 @@ export default function OurWorkSection() {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <section className="py-18 md:py-32 bg-white overflow-hidden">
+    <section className="py-16 sm:py-20 lg:py-24 bg-white overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-6 xl:px-12">
         <div className="text-center xl:mb-4 mb-12">
           <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-gray-500 mb-4 font-semibold">

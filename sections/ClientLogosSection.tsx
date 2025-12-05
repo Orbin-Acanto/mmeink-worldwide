@@ -84,9 +84,10 @@ export default function ClientLogosSection({
           <p className="text-xs sm:text-sm font-semibold tracking-[0.22em] text-gray-600 uppercase mb-3">
             Trusted Clients
           </p>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-tight text-black mb-3">
-            Brands <span className="text-purple">who trust Us</span>
-          </h2>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-tight text-black mb-3">
+            Brands{" "}
+            <span className="text-purple block sm:inline">who trust Us</span>
+          </h1>
           <p className="text-sm sm:text-base text-gray-600">
             From global corporations to visionary creatives, we partner with
             clients who care about impactful, well-executed experiences.

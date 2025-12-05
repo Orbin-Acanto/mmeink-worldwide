@@ -112,7 +112,7 @@ export default function Navbar() {
                     href="/contact"
                     className="px-8 py-3 bg-purple text-white font-medium text-sm tracking-wider uppercase hover:bg-purple/70  transition-all duration-300 shadow-lg hover:shadow-2xl"
                   >
-                    Enquire
+                    Let&apos;s Connect
                   </Link>
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function Navbar() {
                 setOpenDropdown(null);
               }}
             >
-              Make an Inquiry
+              Let&apos;s Connect
             </Link>
           </div>
         </div>

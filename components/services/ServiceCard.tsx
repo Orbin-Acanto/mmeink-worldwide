@@ -50,15 +50,15 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
 
           <motion.div
             className="absolute inset-0 bg-black/70"
-            animate={{ opacity: isHovered ? 1 : 0 }}
+            animate={{ opacity: isHovered ? 0 : 1 }}
             transition={{ duration: 0.5 }}
           />
 
           <motion.div
             className="absolute inset-0 flex items-center justify-center p-6"
             animate={{
-              opacity: isHovered ? 1 : 0,
-              scale: isHovered ? 1 : 0.9,
+              opacity: isHovered ? 0 : 1,
+              scale: isHovered ? 0.9 : 1,
             }}
             transition={{ duration: 0.5 }}
           >

@@ -5,7 +5,10 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="relative bg-white py-16 sm:py-20 lg:py-24">
+    <section
+      id="about-us"
+      className="relative bg-white py-16 sm:py-20 lg:py-24"
+    >
       <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 sm:gap-12 md:gap-16 lg:grid-cols-2 items-center">
           <div className="space-y-5 sm:space-y-6">
@@ -30,18 +33,6 @@ export default function AboutSection() {
               lighting, sound, logistics, and full event-day coordination. All
               under one roof.
             </p>
-
-            <div className="flex flex-wrap gap-2 sm:gap-3 pt-1 sm:pt-2">
-              <span className="px-3 sm:px-4 py-1 text-xs font-medium text-purple bg-purple/5 rounded-full">
-                Corporate Events
-              </span>
-              <span className="px-3 sm:px-4 py-1 text-xs font-medium text-gray-700 bg-gray-100 rounded-full">
-                Brand Activations
-              </span>
-              <span className="px-3 sm:px-4 py-1 text-xs font-medium text-gray-700 bg-gray-100 rounded-full">
-                Weddings &amp; Socials
-              </span>
-            </div>
           </div>
 
           <motion.div

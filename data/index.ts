@@ -1,5 +1,4 @@
 import { WorkItem } from "@/types";
-import { Sparkles, Lightbulb, Target } from "lucide-react";
 
 export const navItems = [
   {
@@ -83,17 +82,38 @@ export const stats = [
 
 export const services = [
   {
+    id: "brand-activations",
+    name: "Brand Activations",
+    image:
+      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+    href: "/services/brand-activations",
+  },
+  {
+    id: "exhibits-trade-shows",
+    name: "Exhibits & Trade Shows",
+    image:
+      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+    href: "/services/exhibits-trade-shows",
+  },
+  {
+    id: "conferences-meetings",
+    name: "Conferences & Meetings",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/conferences-meetings",
+  },
+  {
     id: "custom-fabrication",
     name: "Custom Fabrication",
     image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
     href: "/services/custom-fabrication",
   },
   {
     id: "audio-visual",
     name: "Audio Visual",
     image:
-      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
     href: "/services/audio-visual",
   },
   {
@@ -102,27 +122,6 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
     href: "/services/design-decor",
-  },
-  {
-    id: "logistics",
-    name: "Logistics",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
-    href: "/services/logistics",
-  },
-  {
-    id: "rentals",
-    name: "Rentals",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-    href: "/services/rentals",
-  },
-  {
-    id: "event-types",
-    name: "Event Types",
-    image:
-      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80",
-    href: "/events",
   },
 ];
 
