@@ -48,7 +48,7 @@ export default function Footer() {
     <footer className="relative bg-black text-white overflow-hidden">
       <div className="h-1 bg-linear-to-r from-purple via-cyan to-purple-light" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 pb-16 border-b border-white/10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 border-b border-white/10">
           {/* Left - Newsletter */}
           <div className="space-y-6">
             <h3 className="text-3xl md:text-4xl font-bold uppercase tracking-tight">
@@ -189,7 +189,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/10">
+        <div className="border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3">
               <div className="relative w-32 h-18">
