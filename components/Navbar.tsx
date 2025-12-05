@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { navItems } from "@/data";
+import Button from "./Button";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,14 +45,13 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 3xl:px-38 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled ? "bg-black shadow-2xl" : "bg-black/50 backdrop-blur-md"
       }`}
     >
       <div className="navbar-container w-full px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-center h-28 lg:h-32">
           <div className="flex items-center justify-between w-full">
-            {/* Logo */}
             <div className="shrink-0">
               <Link href="/" className="flex items-center">
                 <Image
@@ -65,7 +65,6 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* Desktop Menu - Centered */}
             <div className="hidden lg:flex items-center justify-end flex-1 px-6">
               <div className="flex items-center gap-6 xl:gap-8">
                 {navItems.map((item) => (
@@ -118,7 +117,6 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Mobile menu button */}
             <div className="lg:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -160,18 +158,16 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div
         className={`lg:hidden fixed top-28 right-0 transition-all duration-300 ease-in-out z-40 ${
           isMobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
         <div
-          className="fixed inset-0 bg-black/80 backdrop-blur-sm -z-10"
+          className="fixed top-28 inset-0 bg-black/80 backdrop-blur-sm -z-10"
           onClick={() => setIsMobileMenuOpen(false)}
         />
 
-        {/* Menu Card */}
         <div className="mobile-menu-card w-[85vw] max-w-md h-[calc(100vh-100px)] bg-charcoal-dark/95 backdrop-blur-lg shadow-2xl border-l border-gray-dark overflow-hidden flex flex-col">
           <div className="flex-1 px-6 py-4 space-y-2 overflow-y-auto">
             {navItems.map((item) => (
@@ -202,7 +198,6 @@ export default function Navbar() {
                         />
                       </svg>
                     </button>
-                    {/* Mobile Submenu */}
                     <div
                       className={`overflow-hidden transition-all duration-300 ${
                         openDropdown === item.name
@@ -221,12 +216,8 @@ export default function Navbar() {
                               setOpenDropdown(null);
                             }}
                           >
-                            {/* Tree connector line */}
                             <span className="absolute -left-4 top-1/2 w-4 h-px bg-gray-dark/50 group-hover:bg-purple transition-colors" />
-
-                            {/* Tree dot */}
                             <span className="absolute -left-[18px] top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-gray-dark group-hover:bg-purple transition-colors" />
-
                             {subItem.name}
                           </Link>
                         ))}
@@ -250,16 +241,9 @@ export default function Navbar() {
           </div>
 
           <div className="px-6 py-4 ">
-            <Link
-              href="/enquire"
-              className="block w-full text-center px-6 py-4 bg-purple text-white font-semibold uppercase tracking-wider hover:bg-purple-light transition-all duration-300 shadow-lg"
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                setOpenDropdown(null);
-              }}
-            >
+            <Button href="/contact-us" className="w-full mb-4">
               Let&apos;s Connect
-            </Link>
+            </Button>
           </div>
         </div>
       </div>

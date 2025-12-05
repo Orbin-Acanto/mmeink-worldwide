@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import Button from "@/components/Button";
 
 interface LandingHeroProps {
   title?: string;
@@ -97,12 +98,7 @@ export default function LandingHero({
           <p className="text-base sm:text-lg md:text-xl lg:text-[1.8rem]  text-white/90 mb-12 max-w-4xl mx-auto font-light drop-shadow-lg leading-relaxed xl:leading-tight">
             {subtitle}
           </p>
-          <Link
-            href="#about-us"
-            className="px-8 py-3 bg-purple text-white font-medium text-sm tracking-wider uppercase hover:bg-purple/70  transition-all duration-300 shadow-lg hover:shadow-2xl"
-          >
-            Learn More
-          </Link>
+          <Button href="#about-us">Learn More</Button>
         </div>
       </div>
 

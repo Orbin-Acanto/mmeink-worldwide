@@ -27,6 +27,7 @@
 
   --breakpoint-lmd: 56rem;
   --breakpoint-xs: 29rem;
+  --breakpoint-3xl: 110rem;
 }
 
 html {
