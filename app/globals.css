@@ -210,3 +210,7 @@ body {
     animation: marquee-offset 54s linear infinite;
   }
 }
+
+.journey-card {
+  margin-block-end: 0;
+}
