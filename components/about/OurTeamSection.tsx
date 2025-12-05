@@ -3,63 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Linkedin, Mail } from "lucide-react";
-
-const team = [
-  {
-    id: 1,
-    name: "Michael Tardi",
-    role: "Founder & CEO",
-    bio: "Visionary leader with 30 years of experience transforming events into unforgettable experiences.",
-    avatar: "https://avatar.iran.liara.run/public/1",
-    linkedin: "#",
-    email: "michael@mmeink.com",
-  },
-  {
-    id: 2,
-    name: "Sarah Martinez",
-    role: "Creative Director",
-    bio: "Award-winning designer specializing in immersive event experiences and brand activations.",
-    avatar: "https://avatar.iran.liara.run/public/2",
-    linkedin: "#",
-    email: "sarah@mmeink.com",
-  },
-  {
-    id: 3,
-    name: "James Chen",
-    role: "Production Manager",
-    bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
-    avatar: "https://avatar.iran.liara.run/public/3",
-    linkedin: "#",
-    email: "james@mmeink.com",
-  },
-  {
-    id: 4,
-    name: "Emily Rodriguez",
-    role: "Client Relations",
-    bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
-    avatar: "https://avatar.iran.liara.run/public/4",
-    linkedin: "#",
-    email: "emily@mmeink.com",
-  },
-  {
-    id: 5,
-    name: "David Park",
-    role: "Technical Lead",
-    bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
-    avatar: "https://avatar.iran.liara.run/public/5",
-    linkedin: "#",
-    email: "david@mmeink.com",
-  },
-  {
-    id: 6,
-    name: "Lisa Thompson",
-    role: "Operations Director",
-    bio: "Logistics mastermind coordinating seamless events from concept to completion.",
-    avatar: "https://avatar.iran.liara.run/public/6",
-    linkedin: "#",
-    email: "lisa@mmeink.com",
-  },
-];
+import { team } from "@/data";
 
 export default function OurTeamSection() {
   return (
@@ -81,13 +25,13 @@ export default function OurTeamSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-purple uppercase mb-4">
+            <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-gray-500 uppercase">
               The Dream Team
             </p>
-            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-black mb-6">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
               Our <span className="text-purple">Team</span>
             </h2>
-            <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto font-light">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
               Meet the crew that makes magic happen
             </p>
           </motion.div>
@@ -166,7 +110,7 @@ export default function OurTeamSection() {
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black mb-4">
               Want to Join Our Team?
             </h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
               We're always looking for talented individuals who share our
               passion for creating unforgettable experiences.
             </p>

@@ -2,59 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { MapPin, Award, TrendingUp, Users } from "lucide-react";
-
-const timeline = [
-  {
-    year: "1995",
-    title: "The Beginning",
-    description:
-      "Founded by Michael Tardi with a vision to revolutionize event production in New York City.",
-    icon: <Award className="w-6 h-6" />,
-  },
-  {
-    year: "2005",
-    title: "Expansion",
-    description:
-      "Extended operations to Long Island, bringing unforgettable experiences to a wider audience.",
-    icon: <TrendingUp className="w-6 h-6" />,
-  },
-  {
-    year: "2015",
-    title: "Going South",
-    description:
-      "Opened Miami location, establishing MMEink as a tri-state powerhouse in event production.",
-    icon: <MapPin className="w-6 h-6" />,
-  },
-  {
-    year: "2025",
-    title: "30 Years Strong",
-    description:
-      "Celebrating three decades of creating unforgettable moments and pushing creative boundaries.",
-    icon: <Users className="w-6 h-6" />,
-  },
-];
-
-const locations = [
-  {
-    city: "New York City",
-    address: "234 West 39th Street, 10th Floor",
-    image:
-      "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    city: "Long Island",
-    address: "Premium Event Venue",
-    image:
-      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    city: "Miami",
-    address: "Coastal Event Center",
-    image:
-      "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?q=80&w=2071&auto=format&fit=crop",
-  },
-];
+import { MapPin } from "lucide-react";
+import { locations, timeline } from "@/data";
 
 export default function OurStorySection() {
   return (
@@ -76,7 +25,7 @@ export default function OurStorySection() {
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
               Our <span className="text-purple">Story</span>
             </h2>
-            <p className="text-base sm:text-lg md:text-xl lg:text-[1.8rem]  text-gray-700 mb-12 max-w-4xl mx-auto font-light drop-shadow-lg leading-relaxed xl:leading-tight">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
               Three decades of innovation, creativity, and unforgettable moments
             </p>
           </motion.div>
@@ -129,8 +78,8 @@ export default function OurStorySection() {
             ))}
           </div>
         </div>
-        {/* Location Area  */}
 
+        {/* Location Area  */}
         <div>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -139,10 +88,10 @@ export default function OurStorySection() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-black mb-4">
+            <h3 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
               Our <span className="text-purple">Locations</span>
             </h3>
-            <p className="text-lg text-gray-600">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
               Serving clients across three iconic cities
             </p>
           </motion.div>

@@ -88,7 +88,7 @@ export default function ClientLogosSection({
             Brands{" "}
             <span className="text-purple block sm:inline">who trust Us</span>
           </h1>
-          <p className="text-sm sm:text-base text-gray-600">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
             From global corporations to visionary creatives, we partner with
             clients who care about impactful, well-executed experiences.
           </p>

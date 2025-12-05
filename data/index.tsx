@@ -1,4 +1,5 @@
 import { WorkItem } from "@/types";
+import { MapPin, Award, TrendingUp, Users } from "lucide-react";
 
 export const navItems = [
   {
@@ -241,4 +242,113 @@ export const clientLogos = [
   { id: "brand-30", name: "Brand Thirty", src: "/client_logo/ (30).png" },
   { id: "brand-31", name: "Brand Thirty-One", src: "/client_logo/ (31).png" },
   { id: "brand-32", name: "Brand Thirty-Two", src: "/client_logo/ (1).png" },
+];
+
+export const team = [
+  {
+    id: 1,
+    name: "Michael Tardi",
+    role: "Founder & CEO",
+    bio: "Visionary leader with 30 years of experience transforming events into unforgettable experiences.",
+    avatar: "https://avatar.iran.liara.run/public/1",
+    linkedin: "#",
+    email: "michael@mmeink.com",
+  },
+  {
+    id: 2,
+    name: "Sarah Martinez",
+    role: "Creative Director",
+    bio: "Award-winning designer specializing in immersive event experiences and brand activations.",
+    avatar: "https://avatar.iran.liara.run/public/2",
+    linkedin: "#",
+    email: "sarah@mmeink.com",
+  },
+  {
+    id: 3,
+    name: "James Chen",
+    role: "Production Manager",
+    bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
+    avatar: "https://avatar.iran.liara.run/public/3",
+    linkedin: "#",
+    email: "james@mmeink.com",
+  },
+  {
+    id: 4,
+    name: "Emily Rodriguez",
+    role: "Client Relations",
+    bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
+    avatar: "https://avatar.iran.liara.run/public/4",
+    linkedin: "#",
+    email: "emily@mmeink.com",
+  },
+  {
+    id: 5,
+    name: "David Park",
+    role: "Technical Lead",
+    bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
+    avatar: "https://avatar.iran.liara.run/public/5",
+    linkedin: "#",
+    email: "david@mmeink.com",
+  },
+  {
+    id: 6,
+    name: "Lisa Thompson",
+    role: "Operations Director",
+    bio: "Logistics mastermind coordinating seamless events from concept to completion.",
+    avatar: "https://avatar.iran.liara.run/public/6",
+    linkedin: "#",
+    email: "lisa@mmeink.com",
+  },
+];
+
+export const timeline = [
+  {
+    year: "1995",
+    title: "The Beginning",
+    description:
+      "Founded by Michael Tardi with a vision to revolutionize event production in New York City.",
+    icon: <Award className="w-6 h-6" />,
+  },
+  {
+    year: "2005",
+    title: "Expansion",
+    description:
+      "Extended operations to Long Island, bringing unforgettable experiences to a wider audience.",
+    icon: <TrendingUp className="w-6 h-6" />,
+  },
+  {
+    year: "2015",
+    title: "Going South",
+    description:
+      "Opened Miami location, establishing MMEink as a tri-state powerhouse in event production.",
+    icon: <MapPin className="w-6 h-6" />,
+  },
+  {
+    year: "2025",
+    title: "30 Years Strong",
+    description:
+      "Celebrating three decades of creating unforgettable moments and pushing creative boundaries.",
+    icon: <Users className="w-6 h-6" />,
+  },
+];
+
+export const locations = [
+  {
+    city: "New York City",
+    address: "234 West 39th Street, 10th Floor",
+    image:
+      "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    city: "Long Island",
+    address: "Premium Event Venue",
+    image:
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    city: "Miami",
+    address: "Coastal Event Center",
+    image:
+      "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?q=80&w=2071&auto=format&fit=crop",
+  },
 ];
