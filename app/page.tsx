@@ -8,7 +8,6 @@ import HomeCTA from "@/sections/HomeCTA";
 import LandingHero from "@/sections/LandingHero";
 import OurWorkMarqueSection from "@/sections/OurWorkMarqueSection";
 import OurWorkSection from "@/sections/OurWorkSection";
-import ProcessSection from "@/sections/ProcessSection";
 
 export default function Home() {
   return (

@@ -18,7 +18,7 @@ export default function AboutSection() {
 
             <h1 className="uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
               Crafting unforgettable
-              <span className="block text-purple">event experiences.</span>
+              <span className="block text-purple">event experiences</span>
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
