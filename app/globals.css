@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
-@custom-variant lmd (&:where(@media (width >= 900px)));
-@custom-variant dark (&:is(.dark *));
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 @theme {
   --color-sky: #b4e4f1;
@@ -24,6 +24,9 @@
   --color-primary: #6b4c9a;
   --color-secondary: #00b5e2;
   --color-accent: #b4e4f1;
+
+  --breakpoint-lmd: 56rem;
+  --breakpoint-xs: 29rem;
 }
 
 body {
