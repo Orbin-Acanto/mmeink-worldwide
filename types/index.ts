@@ -5,3 +5,12 @@ export interface WorkItem {
   image: string;
   href: string;
 }
+
+export interface Project {
+  id: string;
+  title: string;
+  venue: string;
+  eventType: string;
+  category: string;
+  image: string;
+}

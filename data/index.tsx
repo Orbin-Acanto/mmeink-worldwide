@@ -1,4 +1,4 @@
-import { WorkItem } from "@/types";
+import { Project, WorkItem } from "@/types";
 import { MapPin, Award, TrendingUp, Users } from "lucide-react";
 
 export const navItems = [
@@ -350,5 +350,116 @@ export const locations = [
     address: "Coastal Event Center",
     image:
       "https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?q=80&w=2071&auto=format&fit=crop",
+  },
+];
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "Tech Summit 2024",
+    venue: "Javits Center, NYC",
+    eventType: "Conference",
+    category: "conference",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "2",
+    title: "Luxury Brand Launch",
+    venue: "SoHo House",
+    eventType: "Product Launch",
+    category: "product-launch",
+    image:
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "3",
+    title: "Annual Charity Gala",
+    venue: "Plaza Hotel",
+    eventType: "Gala",
+    category: "gala",
+    image:
+      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "4",
+    title: "Fortune 500 Meeting",
+    venue: "Waldorf Astoria",
+    eventType: "Corporate Event",
+    category: "corporate",
+    image:
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
+  },
+  {
+    id: "5",
+    title: "Innovation Expo",
+    venue: "Brooklyn Expo Center",
+    eventType: "Trade Show",
+    category: "trade-show",
+    image:
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
+  },
+  {
+    id: "6",
+    title: "Virtual Summit Series",
+    venue: "Hybrid Platform",
+    eventType: "Hybrid Event",
+    category: "hybrid",
+    image:
+      "https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "7",
+    title: "Fashion Week After Party",
+    venue: "The Standard Hotel",
+    eventType: "Gala",
+    category: "gala",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop",
+  },
+  {
+    id: "8",
+    title: "Global Tech Conference",
+    venue: "Manhattan Convention Center",
+    eventType: "Conference",
+    category: "conference",
+    image:
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "9",
+    title: "Startup Product Demo",
+    venue: "WeWork Space",
+    eventType: "Product Launch",
+    category: "product-launch",
+    image:
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074&auto=format&fit=crop",
+  },
+  {
+    id: "10",
+    title: "Healthcare Industry Expo",
+    venue: "Pier 94",
+    eventType: "Trade Show",
+    category: "trade-show",
+    image:
+      "https://images.unsplash.com/photo-1560439513-74b037a25d84?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "11",
+    title: "Corporate Retreat",
+    venue: "Hudson Valley Resort",
+    eventType: "Corporate Event",
+    category: "corporate",
+    image:
+      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+  },
+  {
+    id: "12",
+    title: "International Webinar",
+    venue: "Virtual + NYC Studio",
+    eventType: "Hybrid Event",
+    category: "hybrid",
+    image:
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop",
   },
 ];
