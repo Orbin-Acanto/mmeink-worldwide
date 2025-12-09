@@ -14,3 +14,10 @@ export interface Project {
   category: string;
   image: string;
 }
+
+export interface Step {
+  id: string;
+  title: string;
+  subtitle: string;
+  image: string;
+}

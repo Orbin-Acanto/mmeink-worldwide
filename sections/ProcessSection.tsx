@@ -3,44 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-interface Step {
-  id: string;
-  title: string;
-  subtitle: string;
-  image: string;
-}
-
-const steps: Step[] = [
-  {
-    id: "discover",
-    title: "Discover",
-    subtitle: "We listen and strategize",
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    id: "design",
-    title: "Design",
-    subtitle: "Creative concepts that wow",
-    image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2064&auto=format&fit=crop",
-  },
-  {
-    id: "produce",
-    title: "Produce",
-    subtitle: "Flawless execution",
-    image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    id: "deliver",
-    title: "Deliver",
-    subtitle: "Memorable experiences",
-    image:
-      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
-  },
-];
+import { steps } from "@/data";
 
 export default function ProcessSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -164,7 +127,7 @@ export default function ProcessSection() {
               ref={(el) => {
                 cardRefs.current[index] = el;
               }}
-              className={`relative journey-card ${
+              className={`relative journey-card mt-4 lg:mt-0 ${
                 index % 2 === 0 ? "lg:ml-0 lg:mr-auto" : "lg:ml-auto lg:mr-0 "
               } w-full lg:w-[45%]`}
             >

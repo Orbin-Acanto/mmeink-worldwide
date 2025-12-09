@@ -1,4 +1,4 @@
-import { Project, WorkItem } from "@/types";
+import { Project, Step, WorkItem } from "@/types";
 import { MapPin, Award, TrendingUp, Users } from "lucide-react";
 
 export const navItems = [
@@ -461,5 +461,36 @@ export const projects: Project[] = [
     category: "hybrid",
     image:
       "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop",
+  },
+];
+
+export const steps: Step[] = [
+  {
+    id: "discover",
+    title: "Discover",
+    subtitle: "We listen and strategize",
+    image:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "design",
+    title: "Design",
+    subtitle: "Creative concepts that wow",
+    image:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2064&auto=format&fit=crop",
+  },
+  {
+    id: "produce",
+    title: "Produce",
+    subtitle: "Flawless execution",
+    image:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: "deliver",
+    title: "Deliver",
+    subtitle: "Memorable experiences",
+    image:
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
   },
 ];
