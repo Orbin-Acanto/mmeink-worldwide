@@ -35,7 +35,7 @@ export default function ProjectsGrid({ projects }: ProjectsGridProps) {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24">
+    <section className="py-16 sm:py-6 lg:py-8">
       <div className="max-w-[1920px] mx-auto px-4 lg:px-6">
         {projects.length > 0 ? (
           <motion.div
