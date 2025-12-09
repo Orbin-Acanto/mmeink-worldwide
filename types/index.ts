@@ -13,6 +13,7 @@ export interface Project {
   eventType: string;
   category: string;
   image: string;
+  href: string;
 }
 
 export interface Step {

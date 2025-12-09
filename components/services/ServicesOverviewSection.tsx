@@ -22,11 +22,6 @@ export default function ServicesOverviewSection({
 }: ServicesOverviewSectionProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start start", "end end"],
-  });
-
   return (
     <section
       ref={sectionRef}

@@ -4,7 +4,23 @@ import { motion } from "framer-motion";
 import { Play, Pause } from "lucide-react";
 import { useRef, useState } from "react";
 
-export default function WorkHero() {
+interface WorkHeroProps {
+  videoSrc: string;
+  title: string;
+  highlightedWord: string;
+  subtitle: string;
+  showScrollIndicator?: boolean;
+  showVideoControls?: boolean;
+}
+
+export default function WorkHero({
+  videoSrc,
+  title,
+  highlightedWord,
+  subtitle,
+  showScrollIndicator = true,
+  showVideoControls = true,
+}: WorkHeroProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -29,10 +45,7 @@ export default function WorkHero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source
-          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
-          type="video/mp4"
-        />
+        <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -46,15 +59,14 @@ export default function WorkHero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white mb-6 [text-shadow:0_4px_12px_rgb(0_0_0_/80%),0_2px_4px_rgb(0_0_0_/60%)]">
-              Our{" "}
+              {title}{" "}
               <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-purple-light to-cyan [text-shadow:0_0_20px_rgb(104_50_147_/60%)]">
-                Work
+                {highlightedWord}
               </span>
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl text-white font-light max-w-4xl mx-auto leading-relaxed [text-shadow:0_2px_8px_rgb(0_0_0_/80%),0_1px_3px_rgb(0_0_0_/60%)] px-4">
-              Three decades of unforgettable events, exceptional experiences,
-              and lasting impressions
+              {subtitle}
             </p>
           </motion.div>
         </div>

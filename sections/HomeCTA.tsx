@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Button from "@/components/Button";
 
 interface CTASectionProps {
   backgroundImage: string;
@@ -76,21 +77,7 @@ export default function HomeCTA({
           </p>
 
           <div className="flex justify-center animate-fadeIn animation-delay-300">
-            <Link
-              href={primaryButton.href}
-              className="
-                px-8 py-3 
-                bg-purple text-white 
-                font-medium text-sm 
-                tracking-wider uppercase 
-                hover:bg-purple-dark
-                transition-all duration-300 
-                shadow-lg hover:shadow-2xl
-                hover:scale-105
-              "
-            >
-              {primaryButton.text}
-            </Link>
+            <Button href={primaryButton.href}>{primaryButton.text}</Button>
           </div>
         </div>
       </div>

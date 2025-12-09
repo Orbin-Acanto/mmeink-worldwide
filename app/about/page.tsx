@@ -3,6 +3,7 @@
 import Hero from "@/components/about/Hero";
 import OurStorySection from "@/components/about/OurStorySection";
 import OurTeamSection from "@/components/about/OurTeamSection";
+import CTASection from "@/components/CTASection";
 import AboutSection from "@/sections/AboutSection";
 import HomeCTA from "@/sections/HomeCTA";
 import ProcessSection from "@/sections/ProcessSection";
@@ -25,6 +26,12 @@ export default function About() {
       <OurStorySection />
       <OurTeamSection />
       <ProcessSection />
+      <CTASection
+        primaryButton={{
+          href: "/contact",
+          text: "Get Started",
+        }}
+      />
     </>
   );
 }

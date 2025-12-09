@@ -1,37 +1,24 @@
 "use client";
 
-import WorkFilter from "@/components/work/WorkFilter";
 import WorkHero from "@/components/work/WorkHero";
-import ProjectsGrid from "@/components/work/ProjectsGrid";
-import { useState } from "react";
-import { projects } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import ServicesOverviewSection from "@/components/services/ServicesOverviewSection";
+import { faqs, projects, services } from "@/data";
+import AdditionalExperiences from "@/components/services/AdditionalExperiences";
+import WhyChooseUs from "@/components/services/WhyChooseUs";
+import FAQ from "@/components/FAQ";
 
-export default function WorkPage() {
-  const [activeFilter, setActiveFilter] = useState("all");
-
-  const handleFilterChange = (filter: string) => {
-    setActiveFilter(filter);
-  };
-
-  const filteredProjects =
-    activeFilter === "all"
-      ? projects
-      : projects.filter((project) => project.category === activeFilter);
-
+export default function ServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <WorkHero
         videoSrc="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
-        title="Our"
-        highlightedWord="Work"
-        subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"
+        title="Exceptional"
+        highlightedWord="Services"
+        subtitle="Crafted with precision, delivered with passion"
       />
-      <WorkFilter
-        activeFilter={activeFilter}
-        onFilterChange={handleFilterChange}
-      />
-      <ProjectsGrid projects={filteredProjects} />
+      <WhyChooseUs />
+      <ServicesOverviewSection services={services} />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         title="Ready to Create Magic?"
@@ -42,6 +29,14 @@ export default function WorkPage() {
           href: "/contact",
         }}
       />
+      <AdditionalExperiences
+        projects={projects}
+        title="Featured"
+        highlightedText="Projects"
+        subtitle="A showcase of our most memorable events and experiences"
+        autoPlayInterval={4000}
+      />
+      <FAQ faqs={faqs} />
     </div>
   );
 }

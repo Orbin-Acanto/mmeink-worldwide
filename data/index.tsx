@@ -81,7 +81,7 @@ export const stats = [
   },
 ];
 
-export const services = [
+export const servicesHome = [
   {
     id: "brand-activations",
     name: "Brand Activations",
@@ -123,6 +123,96 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
     href: "/services/design-decor",
+  },
+];
+
+export const events = [
+  {
+    id: "brand-activations",
+    name: "Brand Activations",
+    image:
+      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+    href: "/services/brand-activations",
+  },
+  {
+    id: "product-launches",
+    name: "Product Launches",
+    image:
+      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+    href: "/services/product-launches",
+  },
+  {
+    id: "conferences-meetings",
+    name: "Conferences & Meetings",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/conferences-meetings",
+  },
+  {
+    id: "Virtual & Hybrid Events",
+    name: "virtual-hybrid-events",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    href: "/services/custom-fabrication",
+  },
+  {
+    id: "galas",
+    name: "Galas",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    href: "/services/galas",
+  },
+  {
+    id: "exhibits-trade-shows",
+    name: "Exhibits & Trade Shows",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/exhibits-trade-shows",
+  },
+];
+
+export const services = [
+  {
+    id: "custom-fabrication",
+    name: "Custom Fabrication",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    href: "/services/custom-fabrication",
+  },
+  {
+    id: "audio-visual",
+    name: "Audio Visual",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    href: "/services/audio-visual",
+  },
+  {
+    id: "design-decor",
+    name: "Design & Decor",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/design-decor",
+  },
+  {
+    id: "logistics",
+    name: "Logistics",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/logistics",
+  },
+  {
+    id: "rentals",
+    name: "Rentals",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    href: "/services/rentals",
+  },
+  {
+    id: "brand-activations",
+    name: "Brand Activations",
+    image:
+      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+    href: "/services/brand-activations",
   },
 ];
 
@@ -362,6 +452,7 @@ export const projects: Project[] = [
     category: "conference",
     image:
       "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "2",
@@ -371,6 +462,7 @@ export const projects: Project[] = [
     category: "product-launch",
     image:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "3",
@@ -380,6 +472,7 @@ export const projects: Project[] = [
     category: "gala",
     image:
       "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "4",
@@ -389,6 +482,7 @@ export const projects: Project[] = [
     category: "corporate",
     image:
       "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "5",
@@ -398,6 +492,7 @@ export const projects: Project[] = [
     category: "trade-show",
     image:
       "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "6",
@@ -407,6 +502,7 @@ export const projects: Project[] = [
     category: "hybrid",
     image:
       "https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "7",
@@ -416,6 +512,7 @@ export const projects: Project[] = [
     category: "gala",
     image:
       "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "8",
@@ -425,6 +522,7 @@ export const projects: Project[] = [
     category: "conference",
     image:
       "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "9",
@@ -434,6 +532,7 @@ export const projects: Project[] = [
     category: "product-launch",
     image:
       "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "10",
@@ -443,6 +542,7 @@ export const projects: Project[] = [
     category: "trade-show",
     image:
       "https://images.unsplash.com/photo-1560439513-74b037a25d84?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "11",
@@ -452,6 +552,7 @@ export const projects: Project[] = [
     category: "corporate",
     image:
       "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+    href: "/project-details/test",
   },
   {
     id: "12",
@@ -461,6 +562,7 @@ export const projects: Project[] = [
     category: "hybrid",
     image:
       "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop",
+    href: "/project-details/test",
   },
 ];
 
@@ -492,5 +594,40 @@ export const steps: Step[] = [
     subtitle: "Memorable experiences",
     image:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+  },
+];
+
+export const faqs = [
+  {
+    question: "What services does MMEink provide?",
+    answer:
+      "MMEink offers comprehensive event production services including audio-visual solutions, lighting design, stage production, event management, and technical support. We handle everything from corporate conferences to large-scale galas.",
+  },
+  {
+    question: "How far in advance should I book your services?",
+    answer:
+      "We recommend booking at least 3-6 months in advance for major events. However, we understand that some events come up quickly, and we'll do our best to accommodate shorter timelines based on availability.",
+  },
+  {
+    question:
+      "Do you provide equipment rentals only, or full event production?",
+    answer:
+      "We offer both! You can rent individual equipment pieces, or we can provide complete turnkey event production services including planning, setup, execution, and breakdown. Our team works with you to create a customized solution.",
+  },
+  {
+    question:
+      "What makes MMEink different from other event production companies?",
+    answer:
+      "With 30 years of expertise, in-house capabilities, and 24/7 support, we offer unmatched reliability and quality. Our team handles every detail from concept to completion, ensuring seamless execution for your event.",
+  },
+  {
+    question: "Do you work with events outside of New York?",
+    answer:
+      "Yes! While we're based in New York, we provide event production services nationwide. Our experienced team travels to deliver the same high-quality service regardless of location.",
+  },
+  {
+    question: "What is your cancellation and refund policy?",
+    answer:
+      "Our cancellation policy varies depending on the scope and timing of your event. We work with clients to find fair solutions. Contact us directly to discuss specific terms for your event.",
   },
 ];

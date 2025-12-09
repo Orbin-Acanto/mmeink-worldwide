@@ -75,7 +75,7 @@ export default function Navbar() {
                           className="text-white hover:text-white/50 text-base font-light tracking-wide uppercase transition-colors duration-300"
                           onMouseEnter={() => setOpenDropdown(item.name)}
                         >
-                          {item.name}
+                          <Link href={item.href}>{item.name}</Link>
                         </button>
                         <div
                           className="absolute left-1/2 transform -translate-x-1/2 mt-6 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-40"
