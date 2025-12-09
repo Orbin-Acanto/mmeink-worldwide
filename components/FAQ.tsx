@@ -69,7 +69,7 @@ export default function FAQ({
                 <h3 className="text-base md:text-lg lg:text-xl font-semibold text-gray-900 pr-8 group-hover:text-purple-700 transition-colors duration-300">
                   {faq.question}
                 </h3>
-                <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-600 transition-colors duration-300">
+                <div className="shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-600 transition-colors duration-300">
                   {openIndex === index ? (
                     <Minus className="w-5 h-5 text-purple-600 group-hover:text-white transition-colors duration-300" />
                   ) : (
