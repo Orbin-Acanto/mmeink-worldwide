@@ -41,7 +41,7 @@ export default function ClientLogosSection({
       <div
         className="
           flex items-center justify-center
-          h-20 sm:h-24 md:h-28 xl:h-32
+          h-24 sm:h-28 md:h-28 xl:h-32
           bg-white border border-gray-200
           shadow-md hover:shadow-xl
           transition-all duration-300
@@ -49,7 +49,7 @@ export default function ClientLogosSection({
           rounded-lg
         "
       >
-        <div className="relative w-32 sm:w-28 md:w-32 xl:w-38 h-10 sm:h-12 md:h-14 lg:h-16 xl:h-16 px-4">
+        <div className="relative w-34 sm:w-38 md:w-32 xl:w-38 h-10 sm:h-12 md:h-14 lg:h-16 xl:h-16 px-4">
           <Image
             src={logo.src}
             alt={logo.name}
