@@ -49,7 +49,7 @@ export default function Navbar() {
         isScrolled ? "bg-black shadow-2xl" : "bg-black/50 backdrop-blur-md"
       }`}
     >
-      <div className="navbar-container w-full px-6 sm:px-8 lg:px-12">
+      <div className="navbar-container w-full px-2 sm:px-4 lg:px-8">
         <div className="flex items-center justify-center h-28 lg:h-32">
           <div className="flex items-center justify-between w-full">
             <div className="shrink-0">
