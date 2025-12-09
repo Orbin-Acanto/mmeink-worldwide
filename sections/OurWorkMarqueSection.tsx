@@ -5,17 +5,10 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
-
-interface WorkItem {
-  id: string;
-  title: string;
-  location?: string;
-  image: string;
-  href: string;
-}
+import { Project } from "@/types";
 
 interface OurWorkMarqueSectionProps {
-  items: WorkItem[];
+  items: Project[];
   className?: string;
 }
 
@@ -90,9 +83,9 @@ export default function OurWorkMarqueSection({
               </Link>
 
               <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5 z-10">
-                {item.location && (
+                {item.eventType && (
                   <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-black/70 text-emerald-100 mb-2">
-                    {item.location}
+                    {item.eventType}
                   </span>
                 )}
                 <h3 className="text-base sm:text-lg md:text-xl font-semibold text-white drop-shadow">

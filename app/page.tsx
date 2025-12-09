@@ -1,7 +1,7 @@
 "use client";
 import ServicesOverviewSection from "@/components/services/ServicesOverviewSection";
 import StatsSection from "@/components/stats/StatsSection";
-import { clientLogos, MarqueWorkItems, servicesHome, stats } from "@/data";
+import { clientLogos, projects, servicesEventsHome, stats } from "@/data";
 import AboutSection from "@/sections/AboutSection";
 import ClientLogosSection from "@/sections/ClientLogosSection";
 import HomeCTA from "@/sections/HomeCTA";
@@ -17,8 +17,8 @@ export default function Home() {
         subtitle="Premium event planning and production"
       />
       <AboutSection />
-      <OurWorkMarqueSection items={MarqueWorkItems} />
-      <ServicesOverviewSection services={servicesHome} />
+      <OurWorkMarqueSection items={projects} />
+      <ServicesOverviewSection services={servicesEventsHome} />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         title="Ready to Create Magic?"
