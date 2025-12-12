@@ -22,16 +22,22 @@ export default function AboutSection() {
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
-              We are a full-service event management company bringing visions to
-              life through thoughtful design, seamless production, and immersive
-              guest experiences. From large-scale corporate events to intimate
-              gatherings, our team ensures every detail is executed beautifully.
+              With over 30 years of excellence, MME is a full-service Event
+              Management and Hospitality agency known for creating
+              extraordinary, first-class experiences. Operating with a boutique
+              approach, we combine creativity, innovation, and strategic
+              expertise to deliver exceptional events. Under the leadership of
+              CEO Michael Tardi, our team blends the managerial strength of a
+              large firm with the flexibility of a boutique agency, now proudly
+              serving clients worldwide from our headquarters in Manhattan, Long
+              Island, and Miami.
             </p>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
-              Our expertise includes concept development, staging, decor,
-              lighting, sound, logistics, and full event-day coordination. All
-              under one roof.
+              Expanding globally, MME continues to be a trusted partner in event
+              production and hospitality. From concept to completion, we craft
+              authentic, engaging experiences that align with your brand,
+              ensuring every detail exceeds expectations.
             </p>
           </div>
 

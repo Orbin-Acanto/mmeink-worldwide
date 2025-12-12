@@ -22,3 +22,9 @@ export interface Step {
   subtitle: string;
   image: string;
 }
+
+export interface EventDetailsImageSlider {
+  id: string;
+  image: string;
+  alt: string;
+}

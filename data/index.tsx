@@ -1,4 +1,4 @@
-import { Project, Step, WorkItem } from "@/types";
+import { EventDetailsImageSlider, Project, Step, WorkItem } from "@/types";
 import { MapPin, Award, TrendingUp, Users } from "lucide-react";
 
 export const navItems = [
@@ -369,7 +369,7 @@ export const projects: Project[] = [
     category: "conference",
     image:
       "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "2",
@@ -379,7 +379,7 @@ export const projects: Project[] = [
     category: "product-launch",
     image:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "3",
@@ -389,7 +389,7 @@ export const projects: Project[] = [
     category: "gala",
     image:
       "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "4",
@@ -399,7 +399,7 @@ export const projects: Project[] = [
     category: "corporate",
     image:
       "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "5",
@@ -409,7 +409,7 @@ export const projects: Project[] = [
     category: "trade-show",
     image:
       "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "6",
@@ -419,7 +419,7 @@ export const projects: Project[] = [
     category: "hybrid",
     image:
       "https://images.unsplash.com/photo-1591115765373-5207764f72e7?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "7",
@@ -429,7 +429,7 @@ export const projects: Project[] = [
     category: "gala",
     image:
       "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "8",
@@ -439,7 +439,7 @@ export const projects: Project[] = [
     category: "conference",
     image:
       "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "9",
@@ -449,7 +449,7 @@ export const projects: Project[] = [
     category: "product-launch",
     image:
       "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2074&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "10",
@@ -459,7 +459,7 @@ export const projects: Project[] = [
     category: "trade-show",
     image:
       "https://images.unsplash.com/photo-1560439513-74b037a25d84?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "11",
@@ -469,7 +469,7 @@ export const projects: Project[] = [
     category: "corporate",
     image:
       "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
   {
     id: "12",
@@ -479,7 +479,7 @@ export const projects: Project[] = [
     category: "hybrid",
     image:
       "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=2070&auto=format&fit=crop",
-    href: "/project-details/test",
+    href: "/work/work-details",
   },
 ];
 
@@ -597,5 +597,38 @@ export const testimonials = [
     role: "Director of Events",
     quote:
       "Outstanding service and impeccable execution. They made our trade show booth the highlight of the entire conference.",
+  },
+];
+
+export const featuredSlides: EventDetailsImageSlider[] = [
+  {
+    id: "1",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80",
+    alt: "Conference Setup",
+  },
+  {
+    id: "2",
+    image:
+      "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600&q=80",
+    alt: "Event Production",
+  },
+  {
+    id: "3",
+    image:
+      "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=1600&q=80",
+    alt: "Stage Design",
+  },
+  {
+    id: "4",
+    image:
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1600&q=80",
+    alt: "Event Decor",
+  },
+  {
+    id: "5",
+    image:
+      "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=1600&q=80",
+    alt: "Gala Setup",
   },
 ];
