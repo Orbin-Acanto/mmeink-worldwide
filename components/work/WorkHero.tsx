@@ -60,7 +60,7 @@ export default function WorkHero({
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white mb-6 [text-shadow:0_4px_12px_rgb(0_0_0_/80%),0_2px_4px_rgb(0_0_0_/60%)]">
               {title}{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-purple-light to-cyan [text-shadow:0_0_20px_rgb(104_50_147_/60%)]">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-cyan to-purple-light [text-shadow:0_0_20px_rgb(104_50_147_/60%)]">
                 {highlightedWord}
               </span>
             </h1>

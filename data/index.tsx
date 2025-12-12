@@ -548,3 +548,54 @@ export const faqs = [
       "Our cancellation policy varies depending on the scope and timing of your event. We work with clients to find fair solutions. Contact us directly to discuss specific terms for your event.",
   },
 ];
+
+export const testimonials = [
+  {
+    id: "1",
+    name: "Sarah Johnson",
+    company: "Tech Innovations Inc",
+    role: "VP of Marketing",
+    quote:
+      "MMEink transformed our annual conference into an unforgettable experience. Their attention to detail and creative vision exceeded all expectations.",
+  },
+  {
+    id: "2",
+    name: "Michael Chen",
+    company: "Global Finance Corp",
+    role: "Event Director",
+    quote:
+      "Professional, reliable, and incredibly creative. They handled every aspect of our product launch flawlessly from start to finish.",
+  },
+  {
+    id: "3",
+    name: "Emily Rodriguez",
+    company: "Fashion Forward",
+    role: "Brand Manager",
+    quote:
+      "Working with MMEink was seamless. They understood our vision and brought it to life with precision and style.",
+  },
+  {
+    id: "4",
+    name: "David Thompson",
+    company: "Horizon Ventures",
+    role: "CEO",
+    quote:
+      "Their expertise and dedication made our corporate gala a tremendous success. Highly recommend for any high-profile event.",
+  },
+  {
+    id: "5",
+    name: "Lisa Park",
+    company: "Creative Studios",
+    role: "Operations Manager",
+    quote:
+      "From planning to execution, MMEink delivered excellence at every stage. Our clients were thoroughly impressed.",
+  },
+  {
+    id: "6",
+    name: "James Wilson",
+    company: "Summit Group",
+    role: "Director of Events",
+    quote:
+      "Outstanding service and impeccable execution. They made our trade show booth the highlight of the entire conference.",
+  },
+];
