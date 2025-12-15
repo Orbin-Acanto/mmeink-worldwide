@@ -632,3 +632,30 @@ export const featuredSlides: EventDetailsImageSlider[] = [
     alt: "Gala Setup",
   },
 ];
+
+export const RelatedProject = [
+  {
+    id: "1",
+    title: "Spotify Brand Experience",
+    category: "Brand Activation",
+    image:
+      "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+    href: "/work/spotify-experience",
+  },
+  {
+    id: "2",
+    title: "Tech Innovation Summit",
+    category: "Corporate | Conferences",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    href: "/work/tech-summit",
+  },
+  {
+    id: "3",
+    title: "Fashion Week Gala",
+    category: "Private Events",
+    image:
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
+    href: "/work/fashion-gala",
+  },
+];

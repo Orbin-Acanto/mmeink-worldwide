@@ -13,7 +13,7 @@ export default function EventPage() {
   return (
     <div className="min-h-screen bg-white">
       <WorkHero
-        videoSrc="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        videoSrc="/temp_video.mp4"
         title="Every Event"
         highlightedWord="An Experience"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"
