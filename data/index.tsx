@@ -1,17 +1,33 @@
-import { EventDetailsImageSlider, Project, Step, WorkItem } from "@/types";
-import { MapPin, Award, TrendingUp, Users } from "lucide-react";
+import {
+  EventDetailsImageSlider,
+  GalleryImage,
+  Project,
+  Step,
+  WorkItem,
+} from "@/types";
+import {
+  MapPin,
+  Award,
+  TrendingUp,
+  Users,
+  Presentation,
+  Sparkles,
+} from "lucide-react";
 
 export const navItems = [
   {
     name: "Events",
     href: "/events",
     submenu: [
-      { name: "Brand Activations", href: "/events/corporate" },
-      { name: "Product Launches", href: "/events/corporate" },
-      { name: "Exhibits & Trade Shows", href: "/events/corporate" },
-      { name: "Conferences & Meetings", href: "/events/corporate" },
-      { name: "Virtual & Hybrid Events", href: "/events/corporate" },
-      { name: "Galas", href: "/events/corporate" },
+      { name: "Brand Activations", href: "/events/brand-activations" },
+      { name: "Product Launches", href: "/events/product-launches" },
+      { name: "Exhibits & Trade Shows", href: "/events/exhibits-trade-shows" },
+      { name: "Conferences & Meetings", href: "/events/conferences-meetings" },
+      {
+        name: "Virtual & Hybrid Events",
+        href: "/events/virtual-hybrid-events",
+      },
+      { name: "Galas", href: "/events/galas" },
     ],
   },
   {
@@ -657,5 +673,168 @@ export const RelatedProject = [
     image:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
     href: "/work/fashion-gala",
+  },
+];
+
+export const EventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Conference Production",
+    description:
+      "From intimate boardroom meetings to large-scale conferences, we handle every detail of your corporate event. Our team manages staging, AV production, speaker coordination, and attendee experience to ensure your message resonates.",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Team Building Experiences",
+    description:
+      "Strengthen your team dynamics with customized activities and workshops. We design engaging experiences that foster collaboration, boost morale, and create lasting connections among your employees.",
+    image:
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Product Launches",
+    description:
+      "Make a memorable first impression with a stunning product launch event. We create buzz-worthy experiences that showcase your innovation and generate excitement among media, influencers, and customers.",
+    image:
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Executive Summits",
+    description:
+      "Facilitate high-level discussions with sophisticated summit experiences. We provide white-glove service for C-suite gatherings, ensuring privacy, professionalism, and impeccable execution.",
+    image:
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+  },
+];
+
+export const CaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Tech Corp",
+    projectTitle: "Annual Innovation Summit 2024",
+    challenge:
+      "Tech Corp needed to create an immersive experience for 2,000+ attendees at their annual summit, showcasing cutting-edge innovations while maintaining seamless networking opportunities across multiple venues.",
+    solution:
+      "We designed a multi-stage environment with interactive demo zones, implemented advanced AV systems for hybrid attendance, and created custom networking lounges with smart badge technology for targeted connections.",
+    impact:
+      "The event achieved 95% attendee satisfaction, generated 40% more qualified leads than previous years, and secured $5M in new partnerships. Post-event engagement increased by 300% through our custom digital platform.",
+    gallery: [
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&q=80",
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1920&q=80",
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1920&q=80",
+      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1920&q=80",
+    ],
+  },
+];
+
+export const BrandActivationImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
+    alt: "Brand activation event with confetti and crowd",
+  },
+  {
+    id: "2",
+    src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    alt: "Conference audience engaged in presentation",
+  },
+  {
+    id: "3",
+    src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+    alt: "Team building workshop activity",
+  },
+  {
+    id: "4",
+    src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+    alt: "Product launch showcase with lighting",
+  },
+  {
+    id: "5",
+    src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
+    alt: "Corporate event networking session",
+  },
+  {
+    id: "6",
+    src: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+    alt: "Conference stage with speaker",
+  },
+  {
+    id: "7",
+    src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    alt: "Event space setup with tables",
+  },
+  {
+    id: "8",
+    src: "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=800&q=80",
+    alt: "Elegant gala dinner setting",
+  },
+  {
+    id: "9",
+    src: "https://images.unsplash.com/photo-1561489396-888724a1543d?w=800&q=80",
+    alt: "Brand booth at trade show",
+  },
+  {
+    id: "10",
+    src: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+    alt: "Outdoor brand activation tent",
+  },
+  {
+    id: "11",
+    src: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&q=80",
+    alt: "Interactive brand experience booth",
+  },
+  {
+    id: "12",
+    src: "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80",
+    alt: "Corporate presentation with screens",
+  },
+  {
+    id: "13",
+    src: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80",
+    alt: "Event attendees mingling",
+  },
+  {
+    id: "14",
+    src: "https://images.unsplash.com/photo-1558008258-3256797b43f3?w=800&q=80",
+    alt: "Stage lighting at corporate event",
+  },
+  {
+    id: "15",
+    src: "https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=800&q=80",
+    alt: "Conference breakout session",
+  },
+  {
+    id: "16",
+    src: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?w=800&q=80",
+    alt: "Brand pop-up installation",
+  },
+  {
+    id: "17",
+    src: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+    alt: "Team collaboration at event",
+  },
+  {
+    id: "18",
+    src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80",
+    alt: "Evening gala with chandelier",
+  },
+  {
+    id: "19",
+    src: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+    alt: "Modern conference venue",
+  },
+  {
+    id: "20",
+    src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
+    alt: "Live music at brand event",
   },
 ];

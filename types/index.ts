@@ -28,3 +28,10 @@ export interface EventDetailsImageSlider {
   image: string;
   alt: string;
 }
+
+export interface GalleryImage {
+  id: string;
+  src: string;
+  alt: string;
+  span?: "col-span-1" | "col-span-2" | "row-span-2";
+}
