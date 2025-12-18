@@ -14,7 +14,7 @@ import {
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 
-export default function EventPage() {
+export default function EventVirtualHybridPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
