@@ -1,6 +1,7 @@
 import {
   EventDetailsImageSlider,
   GalleryImage,
+  ProcessStep,
   Project,
   Step,
   WorkItem,
@@ -838,3 +839,131 @@ export const BrandActivationImageGallery: GalleryImage[] = [
     alt: "Live music at brand event",
   },
 ];
+
+export const audioVisualData = {
+  title: "What We Offer",
+  subtitle: "Comprehensive Audio Visual Solutions",
+  topRow: [
+    {
+      id: "1",
+      title: "Professional Sound Systems",
+      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Stage Lighting",
+      image: "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "LED Video Walls",
+      image: "https://media.giphy.com/media/xUOxeZUc8UFwMgH2MM/giphy.gif",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Projection Mapping",
+      image: "https://media.giphy.com/media/l0HlDtKDqfGZssL5e/giphy.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Live Event Production",
+      image: "https://media.giphy.com/media/xT1R9JHEbqXYCKPDnq/giphy.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Concert Sound",
+      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "Live Streaming",
+      image: "https://media.giphy.com/media/26tPnAAJxXTvpLwJy/giphy.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Wireless Microphones",
+      image: "https://media.giphy.com/media/l0HlQXlQ3nHyLMvte/giphy.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "DJ Equipment",
+      image: "https://media.giphy.com/media/xUOxeRGiClGCx8fWBG/giphy.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Video Production",
+      image: "https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Moving Head Lights",
+      image: "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Truss & Rigging",
+      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const processSteps: ProcessStep[] = [
+  {
+    number: 1,
+    title: "Consultation",
+    description:
+      "Understanding your vision to create the perfect event experience",
+  },
+  {
+    number: 2,
+    title: "Design & Planning",
+    description:
+      "Crafting detailed plans and designs tailored to your specific needs",
+  },
+  {
+    number: 3,
+    title: "Execution",
+    description:
+      "Bringing your event to life with precision and professional expertise",
+  },
+  {
+    number: 4,
+    title: "Breakdown & Support",
+    description:
+      "Ensuring seamless teardown and continued support after your event",
+  },
+];
+
+export const VISIBILITY_CONFIG = {
+  canvasOpacity: 0.8,
+
+  particleSize: 3.5,
+  particleOpacity: 1,
+  particleCount: 80,
+
+  lineOpacity: 0.6,
+  lineWidth: 1.5,
+  maxConnectionDistance: 140,
+
+  mouseLineOpacity: 0.9,
+  mouseLineWidth: 2,
+  mouseCursorSize: 5,
+  mouseCursorOpacity: 1,
+  mouseConnectionDistance: 180,
+
+  gradientOpacity: 0.2,
+};

@@ -162,7 +162,7 @@ export default function CaseStudiesSection({
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
           Case<span className="text-purple"> Studies</span>
         </h2>
-        <p className="text-base sm:text-lg md:text-xl text-neutral-700 mb-6 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
           Real results from real events
         </p>
       </motion.div>
@@ -341,7 +341,6 @@ function CaseStudyCard({
         </motion.div>
 
         <div className="relative">
-          {/* Progress Line */}
           <div className="hidden lg:block absolute top-6 left-6 right-6 h-0.5 bg-neutral-300">
             <motion.div
               initial={{ scaleX: 0 }}
@@ -353,7 +352,6 @@ function CaseStudyCard({
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12 relative">
-            {/* Challenge */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -389,7 +387,6 @@ function CaseStudyCard({
               </div>
             </motion.div>
 
-            {/* Solution */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -425,7 +422,6 @@ function CaseStudyCard({
               </div>
             </motion.div>
 
-            {/* Impact */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}

@@ -35,3 +35,9 @@ export interface GalleryImage {
   alt: string;
   span?: "col-span-1" | "col-span-2" | "row-span-2";
 }
+
+export interface ProcessStep {
+  number: number;
+  title: string;
+  description: string;
+}

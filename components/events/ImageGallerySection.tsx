@@ -87,17 +87,14 @@ export default function ImageGallerySection({
             className="mb-12 sm:mb-16 md:mb-20 text-center"
           >
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-neutral-900 mb-6 tracking-tight">
-              {title}
+              {title} <span className="text-purple">Gallery</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-neutral-700 max-w-2xl mx-auto">
               {subtitle}
             </p>
           </motion.div>
 
-          <div
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5"
-            style={{ gridAutoRows: "400px" }}
-          >
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 lg:gap-4 auto-rows-[200px] sm:auto-rows-[250px] md:auto-rows-[300px] lg:auto-rows-[350px]">
             {imagesWithSpans.map((image, index) => (
               <motion.div
                 key={image.id}

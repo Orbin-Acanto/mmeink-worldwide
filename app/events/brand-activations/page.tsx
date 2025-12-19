@@ -24,7 +24,7 @@ export default function EventBrandActivationPage() {
       <WhatWeDoSection offerings={EventTypeOfferings} />
       <CaseStudiesSection caseStudies={CaseStudiesData} />
       <ImageGallerySection
-        title="Brand Activation Gallery"
+        title="Brand Activation"
         subtitle="Explore our most memorable brand experiences"
         images={BrandActivationImageGallery}
       />
