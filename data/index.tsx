@@ -37,7 +37,7 @@ export const navItems = [
     submenu: [
       { name: "Custom Fabrication", href: "/services/custom-fabrication" },
       { name: "Audio Visual", href: "/services/audio-visual" },
-      { name: "Design & Decor", href: "/services/design-decor" },
+      { name: "Design & Decor", href: "/services/dd" },
       { name: "Logistics", href: "/services/logistics" },
       { name: "Rentals", href: "/services/rentals" },
     ],
@@ -123,8 +123,7 @@ export const servicesEventsHome = [
   {
     id: "custom-fabrication",
     name: "Custom Fabrication",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    image: "/services/cf/26.jpeg",
     href: "/services/custom-fabrication",
   },
   {
@@ -137,8 +136,7 @@ export const servicesEventsHome = [
   {
     id: "design-decor",
     name: "Design & Decor",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    image: "/services/dd/18.jpg",
     href: "/services/design-decor",
   },
 ];
@@ -737,6 +735,28 @@ export const CaseStudiesData = [
   },
 ];
 
+export const CustomFabricationCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Estée Lauder",
+    projectTitle: "The Estée Edit Experiential Pop-Up",
+    challenge:
+      "Estée Lauder needed a fully branded pop-up environment to present The Estée Edit collection while engaging guests in a high-traffic setting with limited space and strict brand standards.",
+    solution:
+      "MMEink designed and fabricated a custom modular pop-up with illuminated branding, integrated screens, and bespoke product displays optimized for guest flow and hands-on interaction.",
+    impact:
+      "The activation increased guest engagement, encouraged product interaction, and delivered a premium brand experience that supported live demos and strong social sharing.",
+    gallery: [
+      "/services/cf/case-study/1.JPG",
+      "/services/cf/case-study/2.JPG",
+      "/services/cf/case-study/3.JPG",
+      "/services/cf/case-study/4.JPG",
+      "/services/cf/case-study/5.JPG",
+      "/services/cf/case-study/6.JPG",
+    ],
+  },
+];
+
 export const BrandActivationImageGallery: GalleryImage[] = [
   {
     id: "1",
@@ -840,44 +860,44 @@ export const BrandActivationImageGallery: GalleryImage[] = [
   },
 ];
 
-export const audioVisualData = {
+export const AudioVisualData = {
   title: "What We Offer",
   subtitle: "Comprehensive Audio Visual Solutions",
   topRow: [
     {
       id: "1",
       title: "Professional Sound Systems",
-      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      image: "/services/cf/gif/1.gif",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Stage Lighting",
-      image: "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
+      image: "/services/av/20.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "https://media.giphy.com/media/xUOxeZUc8UFwMgH2MM/giphy.gif",
+      image: "/services/av/7.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Projection Mapping",
-      image: "https://media.giphy.com/media/l0HlDtKDqfGZssL5e/giphy.gif",
+      image: "/services/cf/gif/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Live Event Production",
-      image: "https://media.giphy.com/media/xT1R9JHEbqXYCKPDnq/giphy.gif",
+      image: "/services/av/5.jpg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Concert Sound",
-      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      image: "/services/cf/gif/3.gif",
       width: "md" as const,
     },
   ],
@@ -885,41 +905,741 @@ export const audioVisualData = {
     {
       id: "7",
       title: "Live Streaming",
-      image: "https://media.giphy.com/media/26tPnAAJxXTvpLwJy/giphy.gif",
+      image: "/services/cf/gif/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "https://media.giphy.com/media/l0HlQXlQ3nHyLMvte/giphy.gif",
+      image: "/services/av/2.jpg",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "DJ Equipment",
-      image: "https://media.giphy.com/media/xUOxeRGiClGCx8fWBG/giphy.gif",
+      image: "/services/cf/gif/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Video Production",
-      image: "https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif",
+      image: "/services/av/18.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Moving Head Lights",
-      image: "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
+      image: "/services/cf/gif/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif",
+      image: "/services/av/12.jpg",
       width: "lg" as const,
     },
   ],
 };
+
+export const AudioVisualImageGallery = [
+  {
+    id: "1",
+    src: "/services/av/1.jpg",
+    alt: "Professional audio visual setup with stage lighting and sound system for corporate event",
+  },
+  {
+    id: "2",
+    src: "/services/av/2.jpg",
+    alt: "Live event production featuring LED screens, stage lighting, and AV control systems",
+  },
+  {
+    id: "3",
+    src: "/services/av/3.jpg",
+    alt: "Conference audio visual setup with large projection screens and professional sound",
+  },
+  {
+    id: "4",
+    src: "/services/av/4.jpg",
+    alt: "Stage lighting design with truss structures and color-changing LED fixtures",
+  },
+  {
+    id: "5",
+    src: "/services/av/5.jpg",
+    alt: "Audio visual control booth managing sound, lighting, and video for live event",
+  },
+  {
+    id: "6",
+    src: "/services/av/6.jpg",
+    alt: "Corporate presentation setup with microphones, screens, and professional lighting",
+  },
+  {
+    id: "7",
+    src: "/services/av/7.jpg",
+    alt: "Event stage with dynamic lighting effects and integrated video displays",
+  },
+  {
+    id: "8",
+    src: "/services/av/8.jpg",
+    alt: "Live panel discussion supported by professional audio and video equipment",
+  },
+  {
+    id: "9",
+    src: "/services/av/9.jpg",
+    alt: "Hybrid event production with cameras, lighting, and live streaming setup",
+  },
+  {
+    id: "10",
+    src: "/services/av/10.jpg",
+    alt: "LED wall installation with synchronized lighting for branded event experience",
+  },
+  {
+    id: "11",
+    src: "/services/av/11.jpg",
+    alt: "Sound system setup with speakers and mixing console for indoor event",
+  },
+  {
+    id: "12",
+    src: "/services/av/12.jpg",
+    alt: "Event lighting design highlighting stage and audience areas",
+  },
+  {
+    id: "13",
+    src: "/services/av/13.jpg",
+    alt: "Professional camera setup for live event recording and streaming",
+  },
+  {
+    id: "14",
+    src: "/services/av/14.jpg",
+    alt: "Corporate keynote stage with projection screens and theatrical lighting",
+  },
+  {
+    id: "15",
+    src: "/services/av/15.jpg",
+    alt: "Audio visual equipment setup during event rehearsal and sound check",
+  },
+  {
+    id: "16",
+    src: "/services/av/16.jpg",
+    alt: "Lighting truss and rigging installation for large-scale event production",
+  },
+  {
+    id: "17",
+    src: "/services/av/17.jpg",
+    alt: "Event production team managing live audio and video during presentation",
+  },
+  {
+    id: "18",
+    src: "/services/av/18.jpg",
+    alt: "Stage wash lighting and accent lights creating immersive event atmosphere",
+  },
+  {
+    id: "19",
+    src: "/services/av/19.jpg",
+    alt: "Multi-camera setup capturing speakers and audience at corporate event",
+  },
+  {
+    id: "20",
+    src: "/services/av/20.jpg",
+    alt: "Complete audio visual production with lighting, sound, and video integration",
+  },
+];
+
+export const AudioVisualFAQ = [
+  {
+    question: "What audio visual services do you provide?",
+    answer:
+      "We provide full-service audio visual support including sound systems, lighting, video displays, staging, and technical production for corporate and social events.",
+  },
+  {
+    question: "Do you support corporate meetings and conferences?",
+    answer:
+      "Yes. Our AV team supports meetings, conferences, panels, and presentations with reliable equipment and experienced technical staff.",
+  },
+  {
+    question: "Can you handle hybrid or live-streamed events?",
+    answer:
+      "Absolutely. We offer live streaming and hybrid event solutions, including cameras, switching, audio mixing, and virtual audience integration.",
+  },
+  {
+    question: "Do you provide on-site technical support during events?",
+    answer:
+      "Yes. Our technicians manage setup, rehearsals, live operation, and breakdown to ensure smooth and uninterrupted event execution.",
+  },
+  {
+    question: "Can AV solutions be customized to the venue?",
+    answer:
+      "Yes. We design AV systems tailored to your venue layout, audience size, and event goals for optimal sound, visuals, and lighting.",
+  },
+  {
+    question: "How far in advance should AV services be booked?",
+    answer:
+      "We recommend booking audio visual services 3–6 weeks in advance, especially for complex or large-scale events.",
+  },
+];
+
+export const AudioVisualCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Corporate Client",
+    projectTitle: "Executive Conference & Live Presentation",
+    challenge:
+      "The client required a reliable audio visual setup to support keynote presentations, panel discussions, and video content in a large venue with complex technical requirements.",
+    solution:
+      "MMEink delivered a fully integrated AV solution including professional sound reinforcement, stage lighting, projection, and on-site technical management to ensure seamless execution.",
+    impact:
+      "The event ran smoothly with clear audio, strong visuals, and consistent production quality, allowing speakers to present confidently and attendees to stay fully engaged.",
+    gallery: [
+      "/services/av/1.jpg",
+      "/services/av/5.jpg",
+      "/services/av/9.jpg",
+      "/services/av/14.jpg",
+      "/services/av/20.jpg",
+    ],
+  },
+];
+
+export const CustomFabricationImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/services/cf/1.jpg",
+    alt: "Custom fabricated vinyl record wall with dimensional logo for branded event installation",
+  },
+  {
+    id: "2",
+    src: "/services/cf/2.jpg",
+    alt: "Immersive music-themed brand booth with custom guitars and experiential display design",
+  },
+  {
+    id: "3",
+    src: "/services/cf/3.jpg",
+    alt: "Custom branded cocktail bar installation with signage and premium mixology setup",
+  },
+  {
+    id: "4",
+    src: "/services/cf/4.jpg",
+    alt: "Luxury outdoor brand activation featuring sculptural mannequin display and greenery",
+  },
+  {
+    id: "5",
+    src: "/services/cf/5.jpg",
+    alt: "Custom stage backdrop panels with LED uplighting for corporate conference seating",
+  },
+  {
+    id: "6",
+    src: "/services/cf/6.jpg",
+    alt: "Champagne service wall with custom shelving and greenery for upscale event experience",
+  },
+  {
+    id: "7",
+    src: "/services/cf/7.jpg",
+    alt: "Custom fabricated bar facade with illuminated marquee lettering for themed event bar",
+  },
+  {
+    id: "8",
+    src: "/services/cf/8.jpeg",
+    alt: "Branded retail fitting room activation with illuminated mirrors and custom structures",
+  },
+  {
+    id: "9",
+    src: "/services/cf/9.jpg",
+    alt: "Large-scale custom art wall installation with graphic panels for brand storytelling",
+  },
+  {
+    id: "10",
+    src: "/services/cf/10.jpg",
+    alt: "Custom event stage design with LED sculptures, banquet seating, and immersive lighting",
+  },
+  {
+    id: "11",
+    src: "/services/cf/11.jpg",
+    alt: "Luxury tented anniversary event with custom cocktail tables, lighting, and floral backdrop",
+  },
+  {
+    id: "12",
+    src: "/services/cf/12.jpg",
+    alt: "Banana Republic custom pop-up dessert kiosk with branded signage and display shelving",
+  },
+  {
+    id: "13",
+    src: "/services/cf/13.jpg",
+    alt: "Tropical Havana Nights themed backdrop with custom lettering and oversized foliage",
+  },
+  {
+    id: "14",
+    src: "/services/cf/14.jpg",
+    alt: "Custom sports-themed photo backdrop with large-scale graphics and event lighting",
+  },
+  {
+    id: "15",
+    src: "/services/cf/15.jpeg",
+    alt: "Outdoor immersive brand installation with palm trees, lighting, and ribbon art structure",
+  },
+  {
+    id: "16",
+    src: "/services/cf/16.jpg",
+    alt: "The Estée Edit beauty brand activation booth with product displays and illuminated signage",
+  },
+  {
+    id: "17",
+    src: "/services/cf/17.jpg",
+    alt: "Trade show booth fabrication with shelving, seating, and branded wall graphics",
+  },
+  {
+    id: "18",
+    src: "/services/cf/18.jpg",
+    alt: "Custom branded ice cream cart activation for outdoor corporate event experience",
+  },
+  {
+    id: "19",
+    src: "/services/cf/19.jpg",
+    alt: "Street-level automotive brand activation with custom kiosk and display platform",
+  },
+  {
+    id: "20",
+    src: "/services/cf/20.jpg",
+    alt: "Rustic custom wood sign installation for outdoor brand event and experiential marketing",
+  },
+  {
+    id: "21",
+    src: "/services/cf/21.jpg",
+    alt: "Whimsical indoor set design with custom cabin facades, greenery, and campfire installation",
+  },
+  {
+    id: "22",
+    src: "/services/cf/22.jpg",
+    alt: "Premium Camus cognac bar setup with custom signage and luxury barware display",
+  },
+  {
+    id: "23",
+    src: "/services/cf/23.jpg",
+    alt: "Marie Claire MC30 custom kiosk fabrication in workshop prior to brand activation",
+  },
+  {
+    id: "24",
+    src: "/services/cf/24.jpg",
+    alt: "Womenterprise Summit stage design with custom arches, seating, and branded lighting",
+  },
+  {
+    id: "25",
+    src: "/services/cf/25.jpg",
+    alt: "Elegant wedding table signage with custom street sign centerpiece and ambient lighting",
+  },
+  {
+    id: "26",
+    src: "/services/cf/26.jpeg",
+    alt: "Colorful custom candy wall installation with cylindrical containers for guest interaction",
+  },
+  {
+    id: "27",
+    src: "/services/cf/27.jpg",
+    alt: "Suspended sneaker display installation for immersive retail brand experience",
+  },
+  {
+    id: "28",
+    src: "/services/cf/28.jpg",
+    alt: "Custom stage platform and truss structure for ASICS brand product launch event",
+  },
+  {
+    id: "29",
+    src: "/services/cf/29.JPG",
+    alt: "Retail pop-up fitting room installations for Macy’s Tommy Girl brand activation",
+  },
+  {
+    id: "30",
+    src: "/services/cf/30.jpg",
+    alt: "Interactive tech-driven brand installation with illuminated tunnel and digital interface",
+  },
+];
+
+export const CustomFabricationData = {
+  title: "What We Offer",
+  subtitle: "Comprehensive Audio Visual Solutions",
+  topRow: [
+    {
+      id: "1",
+      title: "Professional Sound Systems",
+      image: "/services/cf/gif/1.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Stage Lighting",
+      image: "/services/cf/20.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "LED Video Walls",
+      image: "/services/cf/27.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Projection Mapping",
+      image: "/services/cf/gif/2.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Live Event Production",
+      image: "/services/cf/26.jpeg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Concert Sound",
+      image: "/services/cf/gif/3.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "Live Streaming",
+      image: "/services/cf/gif/4.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Wireless Microphones",
+      image: "/services/cf/2.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "DJ Equipment",
+      image: "/services/cf/gif/5.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Video Production",
+      image: "/services/cf/18.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Moving Head Lights",
+      image: "/services/cf/gif/6.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Truss & Rigging",
+      image: "/services/cf/12.jpg",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const DesignDecorImageGallery = [
+  {
+    id: "1",
+    src: "/services/dd/1.jpg",
+    alt: "Elegant crystal candle centerpieces on modern event dining tables",
+  },
+  {
+    id: "2",
+    src: "/services/dd/2.jpg",
+    alt: "Modern lounge furniture setup with illuminated cocktail tables",
+  },
+  {
+    id: "3",
+    src: "/services/dd/3.jpg",
+    alt: "Themed event tablescape with custom signage and warm ambient lighting",
+  },
+  {
+    id: "4",
+    src: "/services/dd/4.jpg",
+    alt: "Cathedral-style event space with dramatic blue uplighting and banquet seating",
+  },
+  {
+    id: "5",
+    src: "/services/dd/5.jpg",
+    alt: "Romantic wedding reception decor with floral centerpieces and soft draping",
+  },
+  {
+    id: "6",
+    src: "/services/dd/6.jpg",
+    alt: "Winter-themed lounge decor with illuminated tables and seasonal accents",
+  },
+  {
+    id: "7",
+    src: "/services/dd/7.jpg",
+    alt: "Green hedge wall backdrop with event branding and styled seating",
+  },
+  {
+    id: "8",
+    src: "/services/dd/8.jpg",
+    alt: "Indoor garden-inspired event decor with floral installations and lighting",
+  },
+  {
+    id: "9",
+    src: "/services/dd/9.jpg",
+    alt: "Upscale indoor café-style seating with umbrellas and bistro tables",
+  },
+  {
+    id: "10",
+    src: "/services/dd/10.jpg",
+    alt: "Luxury banquet setup with tall floral arrangements and chandeliers",
+  },
+  {
+    id: "11",
+    src: "/services/dd/11.jpg",
+    alt: "Modern lounge vignette with white seating and ambient accent lighting",
+  },
+  {
+    id: "12",
+    src: "/services/dd/12.jpg",
+    alt: "Contemporary event space with magenta lighting and modular lounge seating",
+  },
+  {
+    id: "13",
+    src: "/services/dd/13.jpg",
+    alt: "Floral garden entrance installation with greenery and decorative archways",
+  },
+  {
+    id: "14",
+    src: "/services/dd/14.jpg",
+    alt: "Grand ballroom reception with warm uplighting and elegant table settings",
+  },
+  {
+    id: "15",
+    src: "/services/dd/15.jpg",
+    alt: "Modern mirrored wall installation with ambient purple event lighting",
+  },
+  {
+    id: "16",
+    src: "/services/dd/16.jpg",
+    alt: "Stylish bar and lounge setup with hanging decor and mood lighting",
+  },
+  {
+    id: "17",
+    src: "/services/dd/17.jpg",
+    alt: "Branded dessert display with floral accents and curated table styling",
+  },
+  {
+    id: "18",
+    src: "/services/dd/18.jpg",
+    alt: "Tent-style event decor with chandeliers, cocktail tables, and greenery",
+  },
+  {
+    id: "19",
+    src: "/services/dd/19.jpg",
+    alt: "Long banquet table with floral runner and gold-accented place settings",
+  },
+  {
+    id: "20",
+    src: "/services/dd/20.jpg",
+    alt: "Colorful candy wall display as part of playful event decor installation",
+  },
+  {
+    id: "21",
+    src: "/services/dd/21.jpg",
+    alt: "Custom-designed event lounge with soft seating and accent lighting",
+  },
+  {
+    id: "22",
+    src: "/services/dd/22.jpg",
+    alt: "Luxury event decor featuring layered lighting and modern furniture",
+  },
+  {
+    id: "23",
+    src: "/services/dd/23.jpg",
+    alt: "Elegant corporate event setup with neutral tones and floral accents",
+  },
+  {
+    id: "24",
+    src: "/services/dd/24.jpg",
+    alt: "Chic cocktail reception decor with illuminated furniture and bar styling",
+  },
+  {
+    id: "25",
+    src: "/services/dd/25.jpg",
+    alt: "Romantic event tablescape with candles, florals, and refined linens",
+  },
+  {
+    id: "26",
+    src: "/services/dd/26.jpg",
+    alt: "Modern event design with clean lines, ambient lighting, and lounge seating",
+  },
+  {
+    id: "27",
+    src: "/services/dd/27.jpg",
+    alt: "Upscale indoor event decor with custom lighting and contemporary furnishings",
+  },
+  {
+    id: "28",
+    src: "/services/dd/28.jpg",
+    alt: "Stylish social event environment with coordinated decor and lighting design",
+  },
+  {
+    id: "29",
+    src: "/services/dd/29.jpg",
+    alt: "Premium event space styling with dramatic lighting and curated furniture",
+  },
+  {
+    id: "30",
+    src: "/services/dd/30.jpg",
+    alt: "Sophisticated event lounge area designed for guest comfort and flow",
+  },
+  {
+    id: "31",
+    src: "/services/dd/31.jpg",
+    alt: "Elegant evening event decor with warm lighting and refined finishes",
+  },
+  {
+    id: "32",
+    src: "/services/dd/32.jpg",
+    alt: "Contemporary event atmosphere created through lighting and decor styling",
+  },
+  {
+    id: "33",
+    src: "/services/dd/33.jpg",
+    alt: "High-end event design featuring layered textures and ambient illumination",
+  },
+  {
+    id: "34",
+    src: "/services/dd/34.jpg",
+    alt: "Timeless event decor setup blending modern elements with classic elegance",
+  },
+];
+
+export const DesignDecorData = {
+  title: "What We Offer",
+  subtitle: "Comprehensive Design & Decor Solutions",
+  topRow: [
+    {
+      id: "1",
+      title: "Professional Sound Systems",
+      image: "/services/cf/gif/1.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Stage Lighting",
+      image: "/services/dd/20.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "LED Video Walls",
+      image: "/services/dd/27.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Projection Mapping",
+      image: "/services/cf/gif/2.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Live Event Production",
+      image: "/services/dd/26.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Concert Sound",
+      image: "/services/cf/gif/3.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "Live Streaming",
+      image: "/services/cf/gif/4.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Wireless Microphones",
+      image: "/services/dd/2.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "DJ Equipment",
+      image: "/services/cf/gif/5.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Video Production",
+      image: "/services/dd/18.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Moving Head Lights",
+      image: "/services/cf/gif/6.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Truss & Rigging",
+      image: "/services/dd/12.jpg",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const DesignDecorCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Friedman and Kaplan",
+    projectTitle: "Corporate Halloween Celebration",
+    challenge:
+      "Friedman & Kaplan sought a Halloween celebration that felt festive and immersive while maintaining a refined, professional atmosphere appropriate for a corporate legal environment.",
+    solution:
+      "MME developed a custom Halloween design and décor concept using dramatic lighting, themed installations, and tailored styling elements that elevated the space without compromising sophistication.",
+    impact:
+      "The event delivered a memorable guest experience that encouraged engagement and interaction, reinforcing company culture while maintaining the firm’s polished brand identity.",
+    gallery: [
+      "/services/dd/case-study/1.jpg",
+      "/services/dd/case-study/2.jpg",
+      "/services/dd/case-study/3.jpg",
+      "/services/dd/case-study/4.jpg",
+      "/services/dd/case-study/5.jpg",
+      "/services/dd/case-study/6.jpg",
+    ],
+  },
+];
+
+export const DesignAndDecorFAQ = [
+  {
+    question: "What does your design and décor service include?",
+    answer:
+      "Our design and décor services include concept development, space styling, furniture selection, lighting design, floral accents, and cohesive visual theming tailored to your event.",
+  },
+  {
+    question: "Do you create custom décor concepts for corporate events?",
+    answer:
+      "Yes. We design custom décor concepts that align with corporate branding, event objectives, and venue requirements while maintaining a polished, professional aesthetic.",
+  },
+  {
+    question: "Can you handle both small and large-scale events?",
+    answer:
+      "Absolutely. We design and execute décor for events of all sizes, from intimate gatherings to large-scale corporate celebrations and galas.",
+  },
+  {
+    question: "Do you provide décor for different event types?",
+    answer:
+      "Yes. Our design and décor services support corporate events, social celebrations, weddings, brand activations, and seasonal or themed events.",
+  },
+  {
+    question: "How early should we start planning event décor?",
+    answer:
+      "We recommend beginning décor planning 4–6 weeks in advance to allow time for concept development, customization, and seamless execution.",
+  },
+  {
+    question: "Can your team work within an existing venue or theme?",
+    answer:
+      "Yes. We collaborate closely with clients and venues to enhance existing spaces or themes while ensuring a cohesive and elevated final design.",
+  },
+];
 
 export const processSteps: ProcessStep[] = [
   {
@@ -967,3 +1687,36 @@ export const VISIBILITY_CONFIG = {
 
   gradientOpacity: 0.2,
 };
+
+export const CustomFabricationFAQ = [
+  {
+    question: "What does MMEink offer in custom fabrication?",
+    answer:
+      "MMEink designs and fabricates custom-built environments including brand activations, pop-ups, kiosks, stages, scenic backdrops, and experiential installations tailored to each client’s vision.",
+  },
+  {
+    question: "Do you handle both design and fabrication?",
+    answer:
+      "Yes. We provide full-service support from creative design and fabrication to logistics, installation, and on-site execution.",
+  },
+  {
+    question: "What types of events use MMEink custom fabrication?",
+    answer:
+      "Our custom fabrication supports corporate events, brand activations, retail pop-ups, product launches, conferences, galas, and experiential marketing campaigns.",
+  },
+  {
+    question: "Can MMEink build fully branded and immersive installations?",
+    answer:
+      "Absolutely. Every fabrication is customized to match your brand guidelines, including colors, materials, logos, lighting, and finishes.",
+  },
+  {
+    question: "Do you fabricate for indoor and outdoor events?",
+    answer:
+      "Yes. We build custom structures for both indoor and outdoor environments using materials appropriate for durability, safety, and visual impact.",
+  },
+  {
+    question: "How far in advance should I plan a custom fabrication project?",
+    answer:
+      "We recommend contacting MMEink 4-8 weeks in advance, depending on project scope and complexity.",
+  },
+];

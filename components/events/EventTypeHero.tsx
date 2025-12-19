@@ -20,7 +20,7 @@ export default function EventTypeHero({
         <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/40 to-black/60" />
       </div>
 
-      <div className="relative h-full flex items-center justify-center">
+      <div className="relative h-full flex items-center justify-center mt-18">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-16 w-full text-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
