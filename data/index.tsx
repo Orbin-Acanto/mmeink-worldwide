@@ -757,6 +757,7 @@ export const CustomFabricationCaseStudiesData = [
   },
 ];
 
+// Product Launches Event Data Start
 export const ProductLaunchesEventTypeOfferings = [
   {
     id: "1",
@@ -789,6 +790,28 @@ export const ProductLaunchesEventTypeOfferings = [
     description:
       "Transform your launch into an interactive experience. From hands-on demos to immersive brand environments, we create activations that drive engagement and lasting impressions.",
     image: "/gallery/product-launches/10.jpg",
+  },
+];
+
+export const ProductLaunchesCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Adidas",
+    projectTitle: "Adidas Experiential Product Launch",
+    challenge:
+      "Adidas needed a high-impact product launch that could showcase new footwear in an immersive, on-brand environment while engaging guests through interaction, movement, and visual storytelling within a temporary event space.",
+    solution:
+      "We transformed the venue into a fully branded experiential environment featuring custom fabrication, illuminated product displays, branded courts, interactive stations, and dynamic lighting to reinforce Adidas’ performance-driven identity.",
+    impact:
+      "The activation delivered strong guest engagement, increased product interaction, and elevated brand visibility. Attendees spent extended time exploring the space, creating social content and leaving with a memorable hands-on brand experience.",
+    gallery: [
+      "/gallery/product-launches/case-study/1.jpg",
+      "/gallery/product-launches/case-study/2.jpg",
+      "/gallery/product-launches/case-study/3.jpg",
+      "/gallery/product-launches/case-study/4.jpg",
+      "/gallery/product-launches/case-study/5.jpg",
+      "/gallery/product-launches/case-study/6.jpg",
+    ],
   },
 ];
 
@@ -930,28 +953,6 @@ export const ProductLaunchesImageGallery: GalleryImage[] = [
   },
 ];
 
-export const ProductLaunchesCaseStudiesData = [
-  {
-    id: "1",
-    clientName: "Adidas",
-    projectTitle: "Adidas Experiential Product Launch",
-    challenge:
-      "Adidas needed a high-impact product launch that could showcase new footwear in an immersive, on-brand environment while engaging guests through interaction, movement, and visual storytelling within a temporary event space.",
-    solution:
-      "We transformed the venue into a fully branded experiential environment featuring custom fabrication, illuminated product displays, branded courts, interactive stations, and dynamic lighting to reinforce Adidas’ performance-driven identity.",
-    impact:
-      "The activation delivered strong guest engagement, increased product interaction, and elevated brand visibility. Attendees spent extended time exploring the space, creating social content and leaving with a memorable hands-on brand experience.",
-    gallery: [
-      "/gallery/product-launches/case-study/1.jpg",
-      "/gallery/product-launches/case-study/2.jpg",
-      "/gallery/product-launches/case-study/3.jpg",
-      "/gallery/product-launches/case-study/4.jpg",
-      "/gallery/product-launches/case-study/5.jpg",
-      "/gallery/product-launches/case-study/6.jpg",
-    ],
-  },
-];
-
 export const ProductLaunchesFaqs = [
   {
     question: "What types of product launches do you produce?",
@@ -984,7 +985,226 @@ export const ProductLaunchesFaqs = [
       "Yes. We produce product launches nationwide, delivering the same level of quality and execution regardless of location.",
   },
 ];
+// Product Launches Event Data End
 
+// Exhibits & Trade Shows Event Data Start
+export const ExhibitsTradeShowsEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Custom Exhibit Design",
+    description:
+      "We design and build custom trade show exhibits that reflect your brand and attract attention on the show floor. From modular booths to large-scale custom builds, our designs balance visual impact with functionality.",
+    image: "/gallery/trade-shows/3.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Trade Show Engagement",
+    description:
+      "Our exhibits are designed to drive interaction and conversation. We create layouts and experiences that encourage attendee flow, product demonstrations, and meaningful brand engagement.",
+    image: "/gallery/trade-shows/5.jpg",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Product & Brand Showcases",
+    description:
+      "We help brands showcase products effectively through lighting, displays, and integrated AV. Our team ensures your products remain the focal point while reinforcing your brand identity.",
+    image: "/gallery/trade-shows/10.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "End-to-End Show Execution",
+    description:
+      "From logistics and installation to on-site support and breakdown, we manage every aspect of your trade show presence. Our experienced team ensures a smooth, stress-free execution from load-in to load-out.",
+    image: "/gallery/trade-shows/18.jpg",
+  },
+];
+
+export const ExhibitsTradeShowsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Formula E",
+    projectTitle: "Brooklyn E-Prix Experience",
+    challenge:
+      "Formula E required a high-impact event environment that could support racing operations, sponsor visibility, and large crowds in a waterfront urban setting. The experience needed to balance safety, branding, and guest engagement while maintaining seamless flow across multiple activation zones.",
+    solution:
+      "We delivered a fully integrated event build featuring branded installations, modular structures, lighting, and experiential zones designed for both spectators and partners. Our team managed layout planning, on-site coordination, and technical execution to ensure a cohesive and polished experience throughout the venue.",
+    impact:
+      "The event successfully engaged thousands of attendees while providing strong brand exposure for sponsors and partners. The environment enhanced the overall race experience, supported smooth event operations, and reinforced Formula E’s presence as a premier global motorsport brand in New York City.",
+    gallery: [
+      "/gallery/trade-shows/case-study/1.jpg",
+      "/gallery/trade-shows/case-study/2.jpg",
+      "/gallery/trade-shows/case-study/3.jpg",
+      "/gallery/trade-shows/case-study/4.jpg",
+      "/gallery/trade-shows/case-study/5.jpg",
+      "/gallery/trade-shows/case-study/6.jpg",
+      "/gallery/trade-shows/case-study/7.jpg",
+      "/gallery/trade-shows/case-study/8.jpg",
+    ],
+  },
+];
+
+export const ExhibitsTradeShowsImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/trade-shows/1.jpg",
+    alt: "Custom trade show exhibit with branded booth design",
+  },
+  {
+    id: "2",
+    src: "/gallery/trade-shows/2.jpg",
+    alt: "Modern exhibition booth with integrated lighting and graphics",
+  },
+  {
+    id: "3",
+    src: "/gallery/trade-shows/3.jpg",
+    alt: "Trade show floor with large-scale branded exhibits",
+  },
+  {
+    id: "4",
+    src: "/gallery/trade-shows/4.jpg",
+    alt: "Custom exhibit fabrication for corporate trade show",
+  },
+  {
+    id: "5",
+    src: "/gallery/trade-shows/5.jpg",
+    alt: "Interactive trade show booth attracting attendees",
+  },
+  {
+    id: "7",
+    src: "/gallery/trade-shows/7.jpg",
+    alt: "Branded trade show display with clean architectural design",
+  },
+  {
+    id: "8",
+    src: "/gallery/trade-shows/8.jpg",
+    alt: "Trade show exhibit showcasing product demonstrations",
+  },
+  {
+    id: "9",
+    src: "/gallery/trade-shows/9.jpg",
+    alt: "Exhibition hall with multiple custom-built booths",
+  },
+  {
+    id: "10",
+    src: "/gallery/trade-shows/10.jpg",
+    alt: "High-impact trade show booth with bold brand graphics",
+  },
+  {
+    id: "11",
+    src: "/gallery/trade-shows/11.jpg",
+    alt: "Corporate exhibit featuring interactive brand elements",
+  },
+  {
+    id: "12",
+    src: "/gallery/trade-shows/12.jpg",
+    alt: "Trade show booth with custom counters and signage",
+  },
+  {
+    id: "13",
+    src: "/gallery/trade-shows/13.jpg",
+    alt: "Exhibit space designed for attendee engagement",
+  },
+  {
+    id: "14",
+    src: "/gallery/trade-shows/14.jpg",
+    alt: "Large-scale trade show installation with lighting design",
+  },
+  {
+    id: "15",
+    src: "/gallery/trade-shows/15.jpg",
+    alt: "Minimalist exhibition booth with premium finishes",
+  },
+  {
+    id: "16",
+    src: "/gallery/trade-shows/16.jpg",
+    alt: "Trade show display highlighting product branding",
+  },
+  {
+    id: "17",
+    src: "/gallery/trade-shows/17.jpg",
+    alt: "Custom trade show booth designed for networking",
+  },
+  {
+    id: "18",
+    src: "/gallery/trade-shows/18.jpg",
+    alt: "Exhibit booth with immersive brand experience elements",
+  },
+  {
+    id: "19",
+    src: "/gallery/trade-shows/19.jpg",
+    alt: "Trade show environment with coordinated booth layout",
+  },
+  {
+    id: "20",
+    src: "/gallery/trade-shows/20.jpg",
+    alt: "Exhibition booth featuring branded lighting and displays",
+  },
+  {
+    id: "21",
+    src: "/gallery/trade-shows/21.jpg",
+    alt: "Corporate trade show exhibit with custom fabrication",
+  },
+  {
+    id: "22",
+    src: "/gallery/trade-shows/22.jpg",
+    alt: "Trade show booth setup prior to event opening",
+  },
+  {
+    id: "23",
+    src: "/gallery/trade-shows/23.jpg",
+    alt: "Exhibit hall showcasing premium brand activations",
+  },
+  {
+    id: "25",
+    src: "/gallery/trade-shows/25.jpg",
+    alt: "Custom-built exhibition booth with strong brand presence",
+  },
+  {
+    id: "26",
+    src: "/gallery/trade-shows/26.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+];
+
+export const ExhibitsTradeShowsFaqs = [
+  {
+    question: "What trade show services do you provide?",
+    answer:
+      "We offer full-service trade show support including booth design, custom fabrication, lighting, AV, branding, logistics, and on-site management.",
+  },
+  {
+    question: "Can you create custom exhibit booths?",
+    answer:
+      "Yes. We design and fabricate custom booths tailored to your brand, goals, and show requirements, ensuring maximum visual impact and functionality.",
+  },
+  {
+    question: "Do you handle installation and breakdown?",
+    answer:
+      "Absolutely. Our team manages delivery, installation, on-site support, and post-show dismantling for a seamless experience.",
+  },
+  {
+    question: "Can you work within our trade show guidelines?",
+    answer:
+      "Yes. We are experienced with venue regulations, union rules, and exhibitor guidelines to ensure full compliance.",
+  },
+  {
+    question: "Do you support multi-city or touring trade shows?",
+    answer:
+      "We do. Our team can manage exhibits across multiple cities, maintaining consistency and quality at every stop.",
+  },
+  {
+    question: "How far in advance should we start planning?",
+    answer:
+      "We recommend starting 3–6 months in advance, but we can accommodate shorter timelines based on scope and availability.",
+  },
+];
+// Exhibits & Trade Shows Event Data End
+
+// Brand Activation Event Data Start
 export const BrandActivationEventTypeOfferings = [
   {
     id: "1",
@@ -1334,6 +1554,64 @@ export const BrandActivationfaqs = [
       "Yes. We produce brand activations nationwide, delivering the same level of quality, execution, and attention to detail across all locations.",
   },
 ];
+// Brand Activation Event Data End
+
+// Conference Event Data Start
+export const ConferenceEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Conference Production",
+    description:
+      "As New York City’s number one choice for event production, our full-service event and production team is able to assist you with all of your event needs. Our capabilities are extensive; we offer the very best in: lighting, AV & staging, musical entertainment, custom fabrication, design, and event planning services. Our in-house resources make us your most valued partner when planning your next company holiday party, gala, marketing event, or milestone celebration.",
+    image: "/gallery/conferences/6.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Meetings & Conferences",
+    description:
+      "When planning your next company meeting, summit, fundraiser, or trade show, partner with a team you can trust. With over 20 years of experience, MMEink specializes in corporate meetings and events across New York City, bringing your vision to life while staying mindful of your budget. From venue selection to event design and on-site management, we create programs tailored to your needs. We look forward to collaborating on your next event.",
+    image: "/gallery/conferences/18.jpg",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Event Planning",
+    description:
+      "The MMEink event production and management team is a group of experienced and dedicated individuals who dedicate themselves to making the planning and execution of your special event an exciting process. Our team will seamlessly orchestrate your corporate event or meeting from start to finish, allowing you to be involved in the exciting aspects while remaining isolated from the stresses associated with putting on an elaborate affair. From event design to development and on-site coordination, we are devoted to producing an event that will exceed your every expectation.",
+    image: "/gallery/conferences/30.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Event Management",
+    description:
+      "MMEink provides event management services that are delivered with seamless integration and precision. With a full time team of experienced planners and on-site coordinators, we ensure that your event runs smoothly from start to finish. Our team will be with you every step of the way, from the initial event design and planning, to on-site registration, our team will provide you with the right choice in management to effectively plan and execute your next meeting or event.",
+    image: "/gallery/conferences/22.jpg",
+  },
+];
+
+export const ConferenceCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "NYCOMS",
+    projectTitle: "NYCOMS Annual Summit 2023",
+    challenge:
+      "NYCOMS needed a professional conference environment that supported a large audience while ensuring clear sightlines, strong audio, and smooth attendee flow within a historic venue. The event required precise technical execution without disrupting the venue’s architectural character.",
+    solution:
+      "We designed and delivered a fully integrated conference setup, including large-format screens, optimized sound reinforcement, and dynamic stage lighting. Custom staging, scenic draping, and branded registration areas ensured clarity, cohesion, and seamless transitions throughout the program.",
+    impact:
+      "The conference was executed flawlessly, delivering a focused and engaging experience for speakers and attendees alike. Clear visuals, consistent audio, and smooth pacing elevated the event’s professionalism and reinforced NYCOMS’ reputation for high-quality programming.",
+    gallery: [
+      "/gallery/conferences/case-study/1.jpg",
+      "/gallery/conferences/case-study/2.jpg",
+      "/gallery/conferences/case-study/3.jpg",
+      "/gallery/conferences/case-study/4.jpg",
+      "/gallery/conferences/case-study/5.jpg",
+    ],
+  },
+];
 
 export const ConferenceImageGallery: GalleryImage[] = [
   {
@@ -1488,62 +1766,6 @@ export const ConferenceImageGallery: GalleryImage[] = [
   },
 ];
 
-export const ConferenceEventTypeOfferings = [
-  {
-    id: "1",
-    icon: Presentation,
-    headline: "Conference Production",
-    description:
-      "As New York City’s number one choice for event production, our full-service event and production team is able to assist you with all of your event needs. Our capabilities are extensive; we offer the very best in: lighting, AV & staging, musical entertainment, custom fabrication, design, and event planning services. Our in-house resources make us your most valued partner when planning your next company holiday party, gala, marketing event, or milestone celebration.",
-    image: "/gallery/conferences/6.jpg",
-  },
-  {
-    id: "2",
-    icon: Users,
-    headline: "Meetings & Conferences",
-    description:
-      "When planning your next company meeting, summit, fundraiser, or trade show, partner with a team you can trust. With over 20 years of experience, MMEink specializes in corporate meetings and events across New York City, bringing your vision to life while staying mindful of your budget. From venue selection to event design and on-site management, we create programs tailored to your needs. We look forward to collaborating on your next event.",
-    image: "/gallery/conferences/18.jpg",
-  },
-  {
-    id: "3",
-    icon: Sparkles,
-    headline: "Event Planning",
-    description:
-      "The MMEink event production and management team is a group of experienced and dedicated individuals who dedicate themselves to making the planning and execution of your special event an exciting process. Our team will seamlessly orchestrate your corporate event or meeting from start to finish, allowing you to be involved in the exciting aspects while remaining isolated from the stresses associated with putting on an elaborate affair. From event design to development and on-site coordination, we are devoted to producing an event that will exceed your every expectation.",
-    image: "/gallery/conferences/30.jpg",
-  },
-  {
-    id: "4",
-    icon: TrendingUp,
-    headline: "Event Management",
-    description:
-      "MMEink provides event management services that are delivered with seamless integration and precision. With a full time team of experienced planners and on-site coordinators, we ensure that your event runs smoothly from start to finish. Our team will be with you every step of the way, from the initial event design and planning, to on-site registration, our team will provide you with the right choice in management to effectively plan and execute your next meeting or event.",
-    image: "/gallery/conferences/22.jpg",
-  },
-];
-
-export const ConferenceCaseStudiesData = [
-  {
-    id: "1",
-    clientName: "NYCOMS",
-    projectTitle: "NYCOMS Annual Summit 2023",
-    challenge:
-      "NYCOMS needed a professional conference environment that supported a large audience while ensuring clear sightlines, strong audio, and smooth attendee flow within a historic venue. The event required precise technical execution without disrupting the venue’s architectural character.",
-    solution:
-      "We designed and delivered a fully integrated conference setup, including large-format screens, optimized sound reinforcement, and dynamic stage lighting. Custom staging, scenic draping, and branded registration areas ensured clarity, cohesion, and seamless transitions throughout the program.",
-    impact:
-      "The conference was executed flawlessly, delivering a focused and engaging experience for speakers and attendees alike. Clear visuals, consistent audio, and smooth pacing elevated the event’s professionalism and reinforced NYCOMS’ reputation for high-quality programming.",
-    gallery: [
-      "/gallery/conferences/case-study/1.jpg",
-      "/gallery/conferences/case-study/2.jpg",
-      "/gallery/conferences/case-study/3.jpg",
-      "/gallery/conferences/case-study/4.jpg",
-      "/gallery/conferences/case-study/5.jpg",
-    ],
-  },
-];
-
 export const ConferenceEventFAQ = [
   {
     question: "What types of conferences do you support?",
@@ -1576,6 +1798,7 @@ export const ConferenceEventFAQ = [
       "We recommend starting conference planning 8-12 weeks in advance to allow time for venue coordination, speaker scheduling, and production planning.",
   },
 ];
+// Conference Event Data End
 
 export const AudioVisualData = {
   title: "What We Offer",
