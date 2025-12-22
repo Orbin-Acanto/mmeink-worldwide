@@ -757,106 +757,353 @@ export const CustomFabricationCaseStudiesData = [
   },
 ];
 
-export const BrandActivationImageGallery: GalleryImage[] = [
+export const BrandActivationEventTypeOfferings = [
   {
     id: "1",
-    src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
-    alt: "Brand activation event with confetti and crowd",
+    icon: Presentation,
+    headline: "Experiential Brand Activations",
+    description:
+      "We design immersive brand activations that transform messaging into real-world experiences. From pop-ups to interactive installations, our team brings your brand story to life through thoughtful design, strategic production, and flawless execution.",
+    image: "/gallery/brand-activation/7.jpg",
   },
   {
     id: "2",
-    src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-    alt: "Conference audience engaged in presentation",
+    icon: Users,
+    headline: "Consumer Engagement Experiences",
+    description:
+      "Create meaningful connections with your audience through interactive, share-worthy experiences. We craft activations that invite participation, encourage social engagement, and leave a lasting impression long after the event ends.",
+    image: "/gallery/brand-activation/12.jpg",
   },
   {
     id: "3",
-    src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
-    alt: "Team building workshop activity",
+    icon: Sparkles,
+    headline: "Product Launch Activations",
+    description:
+      "Launch your product with impact. We produce visually compelling activations that generate buzz, attract media attention, and showcase your product through immersive environments and curated brand moments.",
+    image: "/gallery/brand-activation/44.jpg",
   },
   {
     id: "4",
-    src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
-    alt: "Product launch showcase with lighting",
+    icon: TrendingUp,
+    headline: "Corporate Brand Experiences",
+    description:
+      "Elevate your brand presence with polished, high-impact experiences designed for corporate audiences. From internal brand moments to large-scale activations, we deliver experiences that align with your brand values and business goals.",
+    image: "/gallery/brand-activation/36.jpg",
+  },
+];
+
+export const BrandActivationCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "OpenText",
+    projectTitle: "OpenText Summit 2024",
+    challenge:
+      "OpenText needed a large-scale brand activation that would engage a senior audience while clearly presenting key messages, maintaining strong brand visibility, and supporting multiple presentations within a refined conference environment.",
+    solution:
+      "We produced a fully branded summit experience featuring custom stage design, large-format LED displays, integrated lighting, and cohesive brand elements that supported keynote sessions, panels, and seamless audience engagement.",
+    impact:
+      "The activation delivered a polished, immersive experience that elevated brand presence, enhanced audience engagement, and reinforced OpenText’s leadership position through consistent messaging and high-quality production.",
+    gallery: [
+      "/gallery/brand-activation/case-study/1.jpg",
+      "/gallery/brand-activation/case-study/2.jpg",
+      "/gallery/brand-activation/case-study/3.jpg",
+      "/gallery/brand-activation/case-study/4.jpg",
+      "/gallery/brand-activation/case-study/5.jpg",
+      "/gallery/brand-activation/case-study/6.jpg",
+      "/gallery/brand-activation/case-study/7.jpg",
+      "/gallery/brand-activation/case-study/8.jpg",
+      "/gallery/brand-activation/case-study/9.jpg",
+    ],
+  },
+];
+
+export const BrandActivationImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/brand-activation/1.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "2",
+    src: "/gallery/brand-activation/2.jpg",
+    alt: "Custom branded event environment",
+  },
+  {
+    id: "3",
+    src: "/gallery/brand-activation/3.jpg",
+    alt: "Interactive brand showcase installation",
+  },
+  {
+    id: "4",
+    src: "/gallery/brand-activation/4.jpg",
+    alt: "Live brand engagement experience",
   },
   {
     id: "5",
-    src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
-    alt: "Corporate event networking session",
+    src: "/gallery/brand-activation/5.jpg",
+    alt: "Experiential marketing event setup",
   },
   {
     id: "6",
-    src: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
-    alt: "Conference stage with speaker",
+    src: "/gallery/brand-activation/6.jpg",
+    alt: "Audience interaction at brand activation",
   },
   {
     id: "7",
-    src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
-    alt: "Event space setup with tables",
+    src: "/gallery/brand-activation/7.jpg",
+    alt: "Creative branded pop-up environment",
   },
   {
     id: "8",
-    src: "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=800&q=80",
-    alt: "Elegant gala dinner setting",
+    src: "/gallery/brand-activation/8.jpg",
+    alt: "Product-focused brand activation design",
   },
   {
     id: "9",
-    src: "https://images.unsplash.com/photo-1561489396-888724a1543d?w=800&q=80",
-    alt: "Brand booth at trade show",
+    src: "/gallery/brand-activation/9.jpg",
+    alt: "High-impact experiential brand moment",
   },
   {
     id: "10",
-    src: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
-    alt: "Outdoor brand activation tent",
+    src: "/gallery/brand-activation/10.jpg",
+    alt: "Custom event branding and lighting",
   },
+
   {
     id: "11",
-    src: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&q=80",
-    alt: "Interactive brand experience booth",
+    src: "/gallery/brand-activation/11.jpg",
+    alt: "Interactive brand storytelling experience",
   },
   {
     id: "12",
-    src: "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80",
-    alt: "Corporate presentation with screens",
+    src: "/gallery/brand-activation/12.jpg",
+    alt: "Corporate brand activation setup",
   },
   {
     id: "13",
-    src: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80",
-    alt: "Event attendees mingling",
+    src: "/gallery/brand-activation/13.jpg",
+    alt: "Branded experiential marketing space",
   },
   {
     id: "14",
-    src: "https://images.unsplash.com/photo-1558008258-3256797b43f3?w=800&q=80",
-    alt: "Stage lighting at corporate event",
+    src: "/gallery/brand-activation/14.jpg",
+    alt: "Modern brand engagement event",
   },
   {
     id: "15",
-    src: "https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=800&q=80",
-    alt: "Conference breakout session",
+    src: "/gallery/brand-activation/15.jpg",
+    alt: "Immersive product launch activation",
   },
   {
     id: "16",
-    src: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?w=800&q=80",
-    alt: "Brand pop-up installation",
+    src: "/gallery/brand-activation/16.jpg",
+    alt: "Branded installation with custom decor",
   },
   {
     id: "17",
-    src: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
-    alt: "Team collaboration at event",
+    src: "/gallery/brand-activation/17.jpg",
+    alt: "Consumer-focused brand experience",
   },
   {
     id: "18",
-    src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80",
-    alt: "Evening gala with chandelier",
+    src: "/gallery/brand-activation/18.jpg",
+    alt: "Creative brand activation environment",
   },
   {
     id: "19",
-    src: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
-    alt: "Modern conference venue",
+    src: "/gallery/brand-activation/19.jpg",
+    alt: "Engaging brand pop-up activation",
   },
   {
     id: "20",
-    src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
-    alt: "Live music at brand event",
+    src: "/gallery/brand-activation/20.jpg",
+    alt: "Experiential brand marketing display",
+  },
+
+  {
+    id: "21",
+    src: "/gallery/brand-activation/21.jpg",
+    alt: "Branded event space design",
+  },
+  {
+    id: "22",
+    src: "/gallery/brand-activation/22.jpg",
+    alt: "Interactive brand activation booth",
+  },
+  {
+    id: "23",
+    src: "/gallery/brand-activation/23.jpg",
+    alt: "Live audience engagement experience",
+  },
+  {
+    id: "24",
+    src: "/gallery/brand-activation/24.jpg",
+    alt: "Custom experiential brand setup",
+  },
+  {
+    id: "25",
+    src: "/gallery/brand-activation/25.jpg",
+    alt: "Brand-driven event activation moment",
+  },
+  {
+    id: "26",
+    src: "/gallery/brand-activation/26.jpg",
+    alt: "Immersive branded event environment",
+  },
+  {
+    id: "27",
+    src: "/gallery/brand-activation/27.jpg",
+    alt: "High-energy brand activation experience",
+  },
+  {
+    id: "28",
+    src: "/gallery/brand-activation/28.jpg",
+    alt: "Creative experiential marketing design",
+  },
+  {
+    id: "29",
+    src: "/gallery/brand-activation/29.jpg",
+    alt: "Custom brand engagement installation",
+  },
+  {
+    id: "30",
+    src: "/gallery/brand-activation/30.jpg",
+    alt: "Branded interactive event experience",
+  },
+  {
+    id: "32",
+    src: "/gallery/brand-activation/32.jpg",
+    alt: "Audience-centered brand experience",
+  },
+  {
+    id: "33",
+    src: "/gallery/brand-activation/33.jpg",
+    alt: "Branded environment with custom lighting",
+  },
+  {
+    id: "34",
+    src: "/gallery/brand-activation/34.jpg",
+    alt: "Engaging experiential brand moment",
+  },
+  {
+    id: "35",
+    src: "/gallery/brand-activation/35.jpg",
+    alt: "Brand activation with immersive design",
+  },
+  {
+    id: "36",
+    src: "/gallery/brand-activation/36.jpg",
+    alt: "Creative branded pop-up experience",
+  },
+  {
+    id: "37",
+    src: "/gallery/brand-activation/37.jpg",
+    alt: "Experiential event branding execution",
+  },
+  {
+    id: "38",
+    src: "/gallery/brand-activation/38.jpg",
+    alt: "Live brand engagement activation",
+  },
+  {
+    id: "40",
+    src: "/gallery/brand-activation/40.jpg",
+    alt: "Branded marketing activation space",
+  },
+
+  {
+    id: "41",
+    src: "/gallery/brand-activation/41.jpg",
+    alt: "Immersive brand storytelling environment",
+  },
+  {
+    id: "42",
+    src: "/gallery/brand-activation/42.jpg",
+    alt: "Creative brand activation concept",
+  },
+  {
+    id: "44",
+    src: "/gallery/brand-activation/44.jpg",
+    alt: "High-impact brand engagement design",
+  },
+  {
+    id: "45",
+    src: "/gallery/brand-activation/45.jpg",
+    alt: "Branded experiential event moment",
+  },
+  {
+    id: "46",
+    src: "/gallery/brand-activation/46.jpg",
+    alt: "Interactive consumer brand activation",
+  },
+  {
+    id: "48",
+    src: "/gallery/brand-activation/48.jpg",
+    alt: "Creative branded environment design",
+  },
+  {
+    id: "49",
+    src: "/gallery/brand-activation/49.jpg",
+    alt: "Live experiential brand interaction",
+  },
+  {
+    id: "50",
+    src: "/gallery/brand-activation/50.jpg",
+    alt: "Custom brand activation experience",
+  },
+
+  {
+    id: "51",
+    src: "/gallery/brand-activation/51.jpg",
+    alt: "Immersive experiential brand display",
+  },
+  {
+    id: "52",
+    src: "/gallery/brand-activation/52.jpg",
+    alt: "Branded event activation execution",
+  },
+  {
+    id: "53",
+    src: "/gallery/brand-activation/53.jpg",
+    alt: "Audience-driven brand engagement experience",
+  },
+  {
+    id: "54",
+    src: "/gallery/brand-activation/54.jpg",
+    alt: "Signature experiential brand activation",
+  },
+];
+
+export const BrandActivationfaqs = [
+  {
+    question: "What is a brand activation?",
+    answer:
+      "A brand activation is an experiential marketing initiative designed to engage audiences, build emotional connections, and bring your brand to life through immersive, interactive experiences.",
+  },
+  {
+    question: "What types of brand activations do you produce?",
+    answer:
+      "We produce pop-ups, product launches, experiential installations, trade show activations, corporate brand experiences, and custom interactive environments.",
+  },
+  {
+    question: "Can you customize the activation to match our brand?",
+    answer:
+      "Yes. Every activation is fully customized to align with your brand identity, messaging, color palette, and campaign objectives while maintaining brand consistency.",
+  },
+  {
+    question: "Do you handle both design and execution?",
+    answer:
+      "Absolutely. We manage the entire process from concept and design through fabrication, installation, on-site management, and breakdown.",
+  },
+  {
+    question: "Can you support short timelines or last-minute activations?",
+    answer:
+      "Yes. While advanced planning is ideal, our in-house capabilities allow us to support accelerated timelines based on scope and availability.",
+  },
+  {
+    question: "Do you manage activations outside of New York?",
+    answer:
+      "Yes. We produce brand activations nationwide, delivering the same level of quality, execution, and attention to detail across all locations.",
   },
 ];
 
