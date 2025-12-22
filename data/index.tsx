@@ -757,6 +757,234 @@ export const CustomFabricationCaseStudiesData = [
   },
 ];
 
+export const ProductLaunchesEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Sparkles,
+    headline: "Product Reveal Events",
+    description:
+      "Create anticipation and excitement with impactful product reveal experiences. We design immersive environments, stage moments, and visual storytelling that highlight your product’s features and value.",
+    image: "/gallery/product-launches/4.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Media & Influencer Launches",
+    description:
+      "Engage media and influencers with visually compelling launch events designed for coverage, content creation, and social sharing. Every detail is crafted to maximize exposure and brand reach.",
+    image: "/gallery/product-launches/8.jpg",
+  },
+  {
+    id: "3",
+    icon: Presentation,
+    headline: "Corporate Product Announcements",
+    description:
+      "Deliver polished, professional product announcements for internal teams, partners, or clients. We manage staging, AV, and production to ensure your message is clear, confident, and impactful.",
+    image: "/gallery/product-launches/17.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Experiential Launch Activations",
+    description:
+      "Transform your launch into an interactive experience. From hands-on demos to immersive brand environments, we create activations that drive engagement and lasting impressions.",
+    image: "/gallery/product-launches/10.jpg",
+  },
+];
+
+export const ProductLaunchesImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/product-launches/1.jpg",
+    alt: "Immersive product launch event experience",
+  },
+  {
+    id: "2",
+    src: "/gallery/product-launches/2.jpg",
+    alt: "Branded product reveal with stage lighting",
+  },
+  {
+    id: "3",
+    src: "/gallery/product-launches/3.jpg",
+    alt: "Corporate product launch presentation stage",
+  },
+  {
+    id: "4",
+    src: "/gallery/product-launches/4.jpg",
+    alt: "Luxury product unveiling event setup",
+  },
+  {
+    id: "5",
+    src: "/gallery/product-launches/5.jpg",
+    alt: "Interactive product demonstration area",
+  },
+  {
+    id: "6",
+    src: "/gallery/product-launches/6.jpg",
+    alt: "Large-scale product launch with LED screens",
+  },
+  {
+    id: "7",
+    src: "/gallery/product-launches/7.jpg",
+    alt: "Modern product launch stage design",
+  },
+  {
+    id: "8",
+    src: "/gallery/product-launches/8.jpg",
+    alt: "Product launch event with audience engagement",
+  },
+  {
+    id: "9",
+    src: "/gallery/product-launches/9.jpg",
+    alt: "High-impact brand reveal at product launch",
+  },
+  {
+    id: "10",
+    src: "/gallery/product-launches/10.jpg",
+    alt: "Product launch lighting and scenic design",
+  },
+  {
+    id: "11",
+    src: "/gallery/product-launches/11.jpg",
+    alt: "Executive product announcement event",
+  },
+  {
+    id: "12",
+    src: "/gallery/product-launches/12.jpg",
+    alt: "Product launch event with custom branding",
+  },
+  {
+    id: "13",
+    src: "/gallery/product-launches/13.jpg",
+    alt: "Immersive brand storytelling at product launch",
+  },
+  {
+    id: "14",
+    src: "/gallery/product-launches/14.jpg",
+    alt: "Product launch experience with multimedia displays",
+  },
+  {
+    id: "15",
+    src: "/gallery/product-launches/15.jpg",
+    alt: "Premium product launch environment design",
+  },
+  {
+    id: "16",
+    src: "/gallery/product-launches/16.jpg",
+    alt: "Technology-focused product launch presentation",
+  },
+  {
+    id: "17",
+    src: "/gallery/product-launches/17.jpg",
+    alt: "Product launch event with keynote speaker",
+  },
+  {
+    id: "18",
+    src: "/gallery/product-launches/18.jpg",
+    alt: "Branded product showcase installation",
+  },
+  {
+    id: "19",
+    src: "/gallery/product-launches/19.jpg",
+    alt: "Product launch stage with dramatic lighting",
+  },
+  {
+    id: "20",
+    src: "/gallery/product-launches/20.jpg",
+    alt: "Corporate product launch audience experience",
+  },
+  {
+    id: "21",
+    src: "/gallery/product-launches/21.jpg",
+    alt: "Product launch activation with custom visuals",
+  },
+  {
+    id: "22",
+    src: "/gallery/product-launches/22.jpg",
+    alt: "High-end product reveal event production",
+  },
+  {
+    id: "23",
+    src: "/gallery/product-launches/23.jpg",
+    alt: "Product launch environment with branded elements",
+  },
+  {
+    id: "24",
+    src: "/gallery/product-launches/24.jpg",
+    alt: "Immersive launch event with experiential design",
+  },
+  {
+    id: "25",
+    src: "/gallery/product-launches/25.jpg",
+    alt: "Product launch experience with lighting and staging",
+  },
+  {
+    id: "26",
+    src: "/gallery/product-launches/26.jpg",
+    alt: "Corporate brand product launch event setup",
+  },
+  {
+    id: "27",
+    src: "/gallery/product-launches/27.jpg",
+    alt: "Large-scale product launch production and staging",
+  },
+];
+
+export const ProductLaunchesCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Adidas",
+    projectTitle: "Adidas Experiential Product Launch",
+    challenge:
+      "Adidas needed a high-impact product launch that could showcase new footwear in an immersive, on-brand environment while engaging guests through interaction, movement, and visual storytelling within a temporary event space.",
+    solution:
+      "We transformed the venue into a fully branded experiential environment featuring custom fabrication, illuminated product displays, branded courts, interactive stations, and dynamic lighting to reinforce Adidas’ performance-driven identity.",
+    impact:
+      "The activation delivered strong guest engagement, increased product interaction, and elevated brand visibility. Attendees spent extended time exploring the space, creating social content and leaving with a memorable hands-on brand experience.",
+    gallery: [
+      "/gallery/product-launches/case-study/1.jpg",
+      "/gallery/product-launches/case-study/2.jpg",
+      "/gallery/product-launches/case-study/3.jpg",
+      "/gallery/product-launches/case-study/4.jpg",
+      "/gallery/product-launches/case-study/5.jpg",
+      "/gallery/product-launches/case-study/6.jpg",
+    ],
+  },
+];
+
+export const ProductLaunchesFaqs = [
+  {
+    question: "What types of product launches do you produce?",
+    answer:
+      "We produce product launches across technology, consumer goods, beauty, lifestyle, and corporate sectors, delivering experiences tailored to each brand and audience.",
+  },
+  {
+    question: "Do you handle both design and production for launches?",
+    answer:
+      "Yes. We manage the full product launch process including creative concepting, event design, production, audio visual, staging, and on-site execution.",
+  },
+  {
+    question: "Can product launches be customized to our brand?",
+    answer:
+      "Absolutely. Every launch is custom-designed to align with your brand identity, messaging, and campaign goals.",
+  },
+  {
+    question: "Do you support media and influencer-focused launches?",
+    answer:
+      "Yes. We design launches that attract media and influencers, creating visually compelling moments that encourage coverage and social sharing.",
+  },
+  {
+    question: "Can you manage short timelines or last-minute launches?",
+    answer:
+      "Yes. Our in-house production capabilities allow us to support accelerated timelines based on scope, availability, and technical requirements.",
+  },
+  {
+    question: "Do you produce product launches outside of New York?",
+    answer:
+      "Yes. We produce product launches nationwide, delivering the same level of quality and execution regardless of location.",
+  },
+];
+
 export const BrandActivationEventTypeOfferings = [
   {
     id: "1",

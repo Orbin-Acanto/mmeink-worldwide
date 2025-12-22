@@ -7,10 +7,10 @@ import WhatWeDoSection from "@/components/events/WhatWeDoSection";
 import FAQ from "@/components/FAQ";
 
 import {
-  BrandActivationImageGallery,
-  CaseStudiesData,
-  EventTypeOfferings,
-  faqs,
+  ProductLaunchesCaseStudiesData,
+  ProductLaunchesEventTypeOfferings,
+  ProductLaunchesFaqs,
+  ProductLaunchesImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 
@@ -18,28 +18,30 @@ export default function EventProductLaunchesPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&q=80"
-        title="Experiential Marketing"
-        subtitle="Create lasting connections through memorable brand experiences"
+        image="/gallery/product-launches/20.jpg"
+        title="Product Launches"
+        subtitle="Create powerful first impressions that drive excitement, engagement, and impact"
       />
-      <WhatWeDoSection offerings={EventTypeOfferings} />
-      <CaseStudiesSection caseStudies={CaseStudiesData} />
+
+      <WhatWeDoSection offerings={ProductLaunchesEventTypeOfferings} />
+      <CaseStudiesSection caseStudies={ProductLaunchesCaseStudiesData} />
       <ImageGallerySection
-        title="Brand Activation"
-        subtitle="Explore our most memorable brand experiences"
-        images={BrandActivationImageGallery}
+        title="Product Launches"
+        subtitle="Explore our most memorable product launches experiences"
+        images={ProductLaunchesImageGallery}
       />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Ready to Create Magic?"
-        subtitle="Let's Work Together"
-        description="Transform your vision into an unforgettable experience. Our team is ready to bring your event to life."
+        title="Launch Boldly"
+        subtitle="Bring Your Product to Life"
+        description="From first reveal to lasting impact, we create product launches that captivate and convert."
         primaryButton={{
-          text: "Get Started",
+          text: "Start Your Launch",
           href: "/contact",
         }}
       />
-      <FAQ faqs={faqs} />
+
+      <FAQ faqs={ProductLaunchesFaqs} />
     </div>
   );
 }

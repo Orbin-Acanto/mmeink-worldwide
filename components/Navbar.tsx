@@ -45,11 +45,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 3xl:px-38 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled ? "bg-black shadow-2xl" : "bg-black/50 backdrop-blur-md"
       }`}
     >
-      <div className="navbar-container w-full px-2 sm:px-4 lg:px-8">
+      <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-28 lg:h-32">
           <div className="flex items-center justify-between w-full">
             <div className="shrink-0">
@@ -59,7 +59,7 @@ export default function Navbar() {
                   alt="MMEINK Logo"
                   width={180}
                   height={60}
-                  className="h-12 md:h-18 lg:h-22 w-auto"
+                  className="h-16 md:h-18 lg:h-24 w-auto"
                   priority
                 />
               </Link>
