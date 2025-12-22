@@ -735,28 +735,6 @@ export const CaseStudiesData = [
   },
 ];
 
-export const CustomFabricationCaseStudiesData = [
-  {
-    id: "1",
-    clientName: "Estée Lauder",
-    projectTitle: "The Estée Edit Experiential Pop-Up",
-    challenge:
-      "Estée Lauder needed a fully branded pop-up environment to present The Estée Edit collection while engaging guests in a high-traffic setting with limited space and strict brand standards.",
-    solution:
-      "MMEink designed and fabricated a custom modular pop-up with illuminated branding, integrated screens, and bespoke product displays optimized for guest flow and hands-on interaction.",
-    impact:
-      "The activation increased guest engagement, encouraged product interaction, and delivered a premium brand experience that supported live demos and strong social sharing.",
-    gallery: [
-      "/services/cf/case-study/1.JPG",
-      "/services/cf/case-study/2.JPG",
-      "/services/cf/case-study/3.JPG",
-      "/services/cf/case-study/4.JPG",
-      "/services/cf/case-study/5.JPG",
-      "/services/cf/case-study/6.JPG",
-    ],
-  },
-];
-
 // Product Launches Event Data Start
 export const ProductLaunchesEventTypeOfferings = [
   {
@@ -1800,6 +1778,7 @@ export const ConferenceEventFAQ = [
 ];
 // Conference Event Data End
 
+// Audio Visual Service Data Start
 export const AudioVisualData = {
   title: "What We Offer",
   subtitle: "Comprehensive Audio Visual Solutions",
@@ -1880,6 +1859,27 @@ export const AudioVisualData = {
     },
   ],
 };
+
+export const AudioVisualCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Corporate Client",
+    projectTitle: "Executive Conference & Live Presentation",
+    challenge:
+      "The client required a reliable audio visual setup to support keynote presentations, panel discussions, and video content in a large venue with complex technical requirements.",
+    solution:
+      "MMEink delivered a fully integrated AV solution including professional sound reinforcement, stage lighting, projection, and on-site technical management to ensure seamless execution.",
+    impact:
+      "The event ran smoothly with clear audio, strong visuals, and consistent production quality, allowing speakers to present confidently and attendees to stay fully engaged.",
+    gallery: [
+      "/services/av/1.jpg",
+      "/services/av/5.jpg",
+      "/services/av/9.jpg",
+      "/services/av/14.jpg",
+      "/services/av/20.jpg",
+    ],
+  },
+];
 
 export const AudioVisualImageGallery = [
   {
@@ -2016,24 +2016,108 @@ export const AudioVisualFAQ = [
       "We recommend booking audio visual services 3–6 weeks in advance, especially for complex or large-scale events.",
   },
 ];
+// Audio Visual Service Data End
 
-export const AudioVisualCaseStudiesData = [
+// Custom Fabrication Service Data Start
+export const CustomFabricationData = {
+  title: "What We Offer",
+  subtitle: "Comprehensive Audio Visual Solutions",
+  topRow: [
+    {
+      id: "1",
+      title: "Professional Sound Systems",
+      image: "/services/cf/gif/1.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Stage Lighting",
+      image: "/services/cf/20.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "LED Video Walls",
+      image: "/services/cf/27.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Projection Mapping",
+      image: "/services/cf/gif/2.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Live Event Production",
+      image: "/services/cf/26.jpeg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Concert Sound",
+      image: "/services/cf/gif/3.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "Live Streaming",
+      image: "/services/cf/gif/4.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Wireless Microphones",
+      image: "/services/cf/2.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "DJ Equipment",
+      image: "/services/cf/gif/5.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Video Production",
+      image: "/services/cf/18.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Moving Head Lights",
+      image: "/services/cf/gif/6.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Truss & Rigging",
+      image: "/services/cf/12.jpg",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const CustomFabricationCaseStudiesData = [
   {
     id: "1",
-    clientName: "Corporate Client",
-    projectTitle: "Executive Conference & Live Presentation",
+    clientName: "Estée Lauder",
+    projectTitle: "The Estée Edit Experiential Pop-Up",
     challenge:
-      "The client required a reliable audio visual setup to support keynote presentations, panel discussions, and video content in a large venue with complex technical requirements.",
+      "Estée Lauder needed a fully branded pop-up environment to present The Estée Edit collection while engaging guests in a high-traffic setting with limited space and strict brand standards.",
     solution:
-      "MMEink delivered a fully integrated AV solution including professional sound reinforcement, stage lighting, projection, and on-site technical management to ensure seamless execution.",
+      "MMEink designed and fabricated a custom modular pop-up with illuminated branding, integrated screens, and bespoke product displays optimized for guest flow and hands-on interaction.",
     impact:
-      "The event ran smoothly with clear audio, strong visuals, and consistent production quality, allowing speakers to present confidently and attendees to stay fully engaged.",
+      "The activation increased guest engagement, encouraged product interaction, and delivered a premium brand experience that supported live demos and strong social sharing.",
     gallery: [
-      "/services/av/1.jpg",
-      "/services/av/5.jpg",
-      "/services/av/9.jpg",
-      "/services/av/14.jpg",
-      "/services/av/20.jpg",
+      "/services/cf/case-study/1.JPG",
+      "/services/cf/case-study/2.JPG",
+      "/services/cf/case-study/3.JPG",
+      "/services/cf/case-study/4.JPG",
+      "/services/cf/case-study/5.JPG",
+      "/services/cf/case-study/6.JPG",
     ],
   },
 ];
@@ -2191,9 +2275,44 @@ export const CustomFabricationImageGallery: GalleryImage[] = [
   },
 ];
 
-export const CustomFabricationData = {
+export const CustomFabricationFAQ = [
+  {
+    question: "What does MMEink offer in custom fabrication?",
+    answer:
+      "MMEink designs and fabricates custom-built environments including brand activations, pop-ups, kiosks, stages, scenic backdrops, and experiential installations tailored to each client’s vision.",
+  },
+  {
+    question: "Do you handle both design and fabrication?",
+    answer:
+      "Yes. We provide full-service support from creative design and fabrication to logistics, installation, and on-site execution.",
+  },
+  {
+    question: "What types of events use MMEink custom fabrication?",
+    answer:
+      "Our custom fabrication supports corporate events, brand activations, retail pop-ups, product launches, conferences, galas, and experiential marketing campaigns.",
+  },
+  {
+    question: "Can MMEink build fully branded and immersive installations?",
+    answer:
+      "Absolutely. Every fabrication is customized to match your brand guidelines, including colors, materials, logos, lighting, and finishes.",
+  },
+  {
+    question: "Do you fabricate for indoor and outdoor events?",
+    answer:
+      "Yes. We build custom structures for both indoor and outdoor environments using materials appropriate for durability, safety, and visual impact.",
+  },
+  {
+    question: "How far in advance should I plan a custom fabrication project?",
+    answer:
+      "We recommend contacting MMEink 4-8 weeks in advance, depending on project scope and complexity.",
+  },
+];
+// Custom Fabrication Service Data End
+
+// Design & Decor Service Data Start
+export const DesignDecorData = {
   title: "What We Offer",
-  subtitle: "Comprehensive Audio Visual Solutions",
+  subtitle: "Comprehensive Design & Decor Solutions",
   topRow: [
     {
       id: "1",
@@ -2204,13 +2323,13 @@ export const CustomFabricationData = {
     {
       id: "2",
       title: "Stage Lighting",
-      image: "/services/cf/20.jpg",
+      image: "/services/dd/20.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "/services/cf/27.jpg",
+      image: "/services/dd/27.jpg",
       width: "xl" as const,
     },
     {
@@ -2222,7 +2341,7 @@ export const CustomFabricationData = {
     {
       id: "5",
       title: "Live Event Production",
-      image: "/services/cf/26.jpeg",
+      image: "/services/dd/26.jpg",
       width: "lg" as const,
     },
     {
@@ -2242,7 +2361,7 @@ export const CustomFabricationData = {
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "/services/cf/2.jpg",
+      image: "/services/dd/2.jpg",
       width: "sm" as const,
     },
     {
@@ -2254,7 +2373,7 @@ export const CustomFabricationData = {
     {
       id: "10",
       title: "Video Production",
-      image: "/services/cf/18.jpg",
+      image: "/services/dd/18.jpg",
       width: "xl" as const,
     },
     {
@@ -2266,11 +2385,33 @@ export const CustomFabricationData = {
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "/services/cf/12.jpg",
+      image: "/services/dd/12.jpg",
       width: "lg" as const,
     },
   ],
 };
+
+export const DesignDecorCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Friedman and Kaplan",
+    projectTitle: "Corporate Halloween Celebration",
+    challenge:
+      "Friedman & Kaplan sought a Halloween celebration that felt festive and immersive while maintaining a refined, professional atmosphere appropriate for a corporate legal environment.",
+    solution:
+      "MME developed a custom Halloween design and décor concept using dramatic lighting, themed installations, and tailored styling elements that elevated the space without compromising sophistication.",
+    impact:
+      "The event delivered a memorable guest experience that encouraged engagement and interaction, reinforcing company culture while maintaining the firm’s polished brand identity.",
+    gallery: [
+      "/services/dd/case-study/1.jpg",
+      "/services/dd/case-study/2.jpg",
+      "/services/dd/case-study/3.jpg",
+      "/services/dd/case-study/4.jpg",
+      "/services/dd/case-study/5.jpg",
+      "/services/dd/case-study/6.jpg",
+    ],
+  },
+];
 
 export const DesignDecorImageGallery = [
   {
@@ -2445,109 +2586,6 @@ export const DesignDecorImageGallery = [
   },
 ];
 
-export const DesignDecorData = {
-  title: "What We Offer",
-  subtitle: "Comprehensive Design & Decor Solutions",
-  topRow: [
-    {
-      id: "1",
-      title: "Professional Sound Systems",
-      image: "/services/cf/gif/1.gif",
-      width: "lg" as const,
-    },
-    {
-      id: "2",
-      title: "Stage Lighting",
-      image: "/services/dd/20.jpg",
-      width: "md" as const,
-    },
-    {
-      id: "3",
-      title: "LED Video Walls",
-      image: "/services/dd/27.jpg",
-      width: "xl" as const,
-    },
-    {
-      id: "4",
-      title: "Projection Mapping",
-      image: "/services/cf/gif/2.gif",
-      width: "sm" as const,
-    },
-    {
-      id: "5",
-      title: "Live Event Production",
-      image: "/services/dd/26.jpg",
-      width: "lg" as const,
-    },
-    {
-      id: "6",
-      title: "Concert Sound",
-      image: "/services/cf/gif/3.gif",
-      width: "md" as const,
-    },
-  ],
-  bottomRow: [
-    {
-      id: "7",
-      title: "Live Streaming",
-      image: "/services/cf/gif/4.gif",
-      width: "md" as const,
-    },
-    {
-      id: "8",
-      title: "Wireless Microphones",
-      image: "/services/dd/2.jpg",
-      width: "sm" as const,
-    },
-    {
-      id: "9",
-      title: "DJ Equipment",
-      image: "/services/cf/gif/5.gif",
-      width: "lg" as const,
-    },
-    {
-      id: "10",
-      title: "Video Production",
-      image: "/services/dd/18.jpg",
-      width: "xl" as const,
-    },
-    {
-      id: "11",
-      title: "Moving Head Lights",
-      image: "/services/cf/gif/6.gif",
-      width: "md" as const,
-    },
-    {
-      id: "12",
-      title: "Truss & Rigging",
-      image: "/services/dd/12.jpg",
-      width: "lg" as const,
-    },
-  ],
-};
-
-export const DesignDecorCaseStudiesData = [
-  {
-    id: "1",
-    clientName: "Friedman and Kaplan",
-    projectTitle: "Corporate Halloween Celebration",
-    challenge:
-      "Friedman & Kaplan sought a Halloween celebration that felt festive and immersive while maintaining a refined, professional atmosphere appropriate for a corporate legal environment.",
-    solution:
-      "MME developed a custom Halloween design and décor concept using dramatic lighting, themed installations, and tailored styling elements that elevated the space without compromising sophistication.",
-    impact:
-      "The event delivered a memorable guest experience that encouraged engagement and interaction, reinforcing company culture while maintaining the firm’s polished brand identity.",
-    gallery: [
-      "/services/dd/case-study/1.jpg",
-      "/services/dd/case-study/2.jpg",
-      "/services/dd/case-study/3.jpg",
-      "/services/dd/case-study/4.jpg",
-      "/services/dd/case-study/5.jpg",
-      "/services/dd/case-study/6.jpg",
-    ],
-  },
-];
-
 export const DesignAndDecorFAQ = [
   {
     question: "What does your design and décor service include?",
@@ -2580,6 +2618,7 @@ export const DesignAndDecorFAQ = [
       "Yes. We collaborate closely with clients and venues to enhance existing spaces or themes while ensuring a cohesive and elevated final design.",
   },
 ];
+// Design & Decor Service Data End
 
 export const processSteps: ProcessStep[] = [
   {
@@ -2627,36 +2666,3 @@ export const VISIBILITY_CONFIG = {
 
   gradientOpacity: 0.2,
 };
-
-export const CustomFabricationFAQ = [
-  {
-    question: "What does MMEink offer in custom fabrication?",
-    answer:
-      "MMEink designs and fabricates custom-built environments including brand activations, pop-ups, kiosks, stages, scenic backdrops, and experiential installations tailored to each client’s vision.",
-  },
-  {
-    question: "Do you handle both design and fabrication?",
-    answer:
-      "Yes. We provide full-service support from creative design and fabrication to logistics, installation, and on-site execution.",
-  },
-  {
-    question: "What types of events use MMEink custom fabrication?",
-    answer:
-      "Our custom fabrication supports corporate events, brand activations, retail pop-ups, product launches, conferences, galas, and experiential marketing campaigns.",
-  },
-  {
-    question: "Can MMEink build fully branded and immersive installations?",
-    answer:
-      "Absolutely. Every fabrication is customized to match your brand guidelines, including colors, materials, logos, lighting, and finishes.",
-  },
-  {
-    question: "Do you fabricate for indoor and outdoor events?",
-    answer:
-      "Yes. We build custom structures for both indoor and outdoor environments using materials appropriate for durability, safety, and visual impact.",
-  },
-  {
-    question: "How far in advance should I plan a custom fabrication project?",
-    answer:
-      "We recommend contacting MMEink 4-8 weeks in advance, depending on project scope and complexity.",
-  },
-];
