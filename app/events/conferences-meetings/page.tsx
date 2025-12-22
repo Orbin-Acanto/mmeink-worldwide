@@ -7,10 +7,10 @@ import WhatWeDoSection from "@/components/events/WhatWeDoSection";
 import FAQ from "@/components/FAQ";
 
 import {
-  BrandActivationImageGallery,
-  CaseStudiesData,
-  EventTypeOfferings,
-  faqs,
+  ConferenceCaseStudiesData,
+  ConferenceEventFAQ,
+  ConferenceEventTypeOfferings,
+  ConferenceImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 
@@ -18,28 +18,28 @@ export default function EventConferencesMeetingsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80"
+        image="/gallery/conferences/conference_hero.jpg"
         title="Corporate Events"
         subtitle="From conferences to team building, we create impactful experiences"
       />
-      <WhatWeDoSection offerings={EventTypeOfferings} />
-      <CaseStudiesSection caseStudies={CaseStudiesData} />
+      <WhatWeDoSection offerings={ConferenceEventTypeOfferings} />
+      <CaseStudiesSection caseStudies={ConferenceCaseStudiesData} />
       <ImageGallerySection
-        title="Brand Activation"
-        subtitle="Explore our most memorable brand experiences"
-        images={BrandActivationImageGallery}
+        title="Conference"
+        subtitle="Explore our most memorable conference experiences"
+        images={ConferenceImageGallery}
       />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Ready to Create Magic?"
-        subtitle="Let's Work Together"
-        description="Transform your vision into an unforgettable experience. Our team is ready to bring your event to life."
+        title="Conferences Done Right"
+        subtitle="Expert Planning & Production"
+        description="From executive meetings to large-scale conferences, we deliver seamless planning, production, and technical execution."
         primaryButton={{
-          text: "Get Started",
+          text: "Plan Your Conference",
           href: "/contact",
         }}
       />
-      <FAQ faqs={faqs} />
+      <FAQ faqs={ConferenceEventFAQ} />
     </div>
   );
 }

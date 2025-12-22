@@ -860,6 +860,248 @@ export const BrandActivationImageGallery: GalleryImage[] = [
   },
 ];
 
+export const ConferenceImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/conferences/1.jpg",
+    alt: "Elegant table setup with floral centerpieces at a conference event",
+  },
+  {
+    id: "2",
+    src: "/gallery/conferences/2.jpg",
+    alt: "Large conference crowd seated at round tables in an ornate ballroom",
+  },
+  {
+    id: "3",
+    src: "/gallery/conferences/3.jpg",
+    alt: "Conference stage setup with a giant 'C' logo display and rows of chairs",
+  },
+  {
+    id: "4",
+    src: "/gallery/conferences/4.jpg",
+    alt: "Conference stage with 'eMarketer attention' display screen and chairs",
+  },
+  {
+    id: "5",
+    src: "/gallery/conferences/5.jpg",
+    alt: "Drive banner displays in an arched conference venue space",
+  },
+  {
+    id: "6",
+    src: "/gallery/conferences/6.jpg",
+    alt: "Conference hall with bright lighting and rows of chairs facing a stage",
+  },
+  {
+    id: "7",
+    src: "/gallery/conferences/7.jpg",
+    alt: "Large conference crowd watching presentations on stage with a heart logo display",
+  },
+  {
+    id: "8",
+    src: "/gallery/conferences/8.jpg",
+    alt: "Elegant banquet table setup for a conference event dinner",
+  },
+  {
+    id: "9",
+    src: "/gallery/conferences/9.jpg",
+    alt: "Conference stage with red carpet and 'engagement' logo display",
+  },
+  {
+    id: "10",
+    src: "/gallery/conferences/10.jpg",
+    alt: "Conference setup with tables, chairs, and colorful lighting under arched ceilings",
+  },
+  {
+    id: "11",
+    src: "/gallery/conferences/11.jpg",
+    alt: "Welcome sign and tables at a conference check-in area",
+  },
+  {
+    id: "12",
+    src: "/gallery/conferences/12.jpg",
+    alt: "Overhead view of a conference hall with round tables and a lit up stage",
+  },
+  {
+    id: "13",
+    src: "/gallery/conferences/13.jpg",
+    alt: "Conference hall with arched ceilings lit up in purple and a large chandelier",
+  },
+  {
+    id: "14",
+    src: "/gallery/conferences/14.jpg",
+    alt: "Close-up of a 'We Are VML' display at a conference",
+  },
+  {
+    id: "15",
+    src: "/gallery/conferences/15.jpg",
+    alt: "Banquet tables with candles and a stage with a ParentChild+ logo display",
+  },
+  {
+    id: "16",
+    src: "/gallery/conferences/16.jpg",
+    alt: "Conference hall setup with round tables and colorful ParentChild+ branding",
+  },
+  {
+    id: "17",
+    src: "/gallery/conferences/17.jpg",
+    alt: "Conference hall entryway with Success Academy branding",
+  },
+  {
+    id: "18",
+    src: "/gallery/conferences/18.jpg",
+    alt: "Close-up of a Success Academy logo display on stage at a conference",
+  },
+  {
+    id: "19",
+    src: "/gallery/conferences/19.jpg",
+    alt: "Wide view of a large conference crowd and stage in an ornate hall",
+  },
+  {
+    id: "20",
+    src: "/gallery/conferences/20.jpg",
+    alt: "Close-up of an elegant table setting at a conference event",
+  },
+  {
+    id: "21",
+    src: "/gallery/conferences/21.jpg",
+    alt: "Conference audience seated at round tables in a modern event space",
+  },
+  {
+    id: "22",
+    src: "/gallery/conferences/22.jpg",
+    alt: "Speaker panel on stage with a giant '50' logo display in the background",
+  },
+  {
+    id: "23",
+    src: "/gallery/conferences/23.jpg",
+    alt: "Conference stage setup with 'Empowering the Financial World' branding",
+  },
+  {
+    id: "24",
+    src: "/gallery/conferences/24.jpg",
+    alt: "Wide view of a grand ballroom set up for a conference with rows of chairs",
+  },
+  {
+    id: "25",
+    src: "/gallery/conferences/25.jpg",
+    alt: "Close-up of a 'nest' branded display on stage at a conference",
+  },
+  {
+    id: "26",
+    src: "/gallery/conferences/26.jpg",
+    alt: "Conference stage setup with 'Digital Disruption' text and city graphics",
+  },
+  {
+    id: "27",
+    src: "/gallery/conferences/27.jpg",
+    alt: "Rows of chairs set up facing a stage in a dimly lit conference hall",
+  },
+  {
+    id: "28",
+    src: "/gallery/conferences/28.jpg",
+    alt: "Conference hall with purple lighting and a stage setup for a panel discussion",
+  },
+  {
+    id: "29",
+    src: "/gallery/conferences/29.jpg",
+    alt: "Crowded conference audience watching presentations on multiple screens",
+  },
+  {
+    id: "30",
+    src: "/gallery/conferences/30.jpg",
+    alt: "Rows of black chairs set up in a conference space with a podium on stage",
+  },
+];
+
+export const ConferenceEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Conference Production",
+    description:
+      "As New York City’s number one choice for event production, our full-service event and production team is able to assist you with all of your event needs. Our capabilities are extensive; we offer the very best in: lighting, AV & staging, musical entertainment, custom fabrication, design, and event planning services. Our in-house resources make us your most valued partner when planning your next company holiday party, gala, marketing event, or milestone celebration.",
+    image: "/gallery/conferences/6.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Meetings & Conferences",
+    description:
+      "When planning your next company meeting, summit, fundraiser, or trade show, partner with a team you can trust. With over 20 years of experience, MMEink specializes in corporate meetings and events across New York City, bringing your vision to life while staying mindful of your budget. From venue selection to event design and on-site management, we create programs tailored to your needs. We look forward to collaborating on your next event.",
+    image: "/gallery/conferences/18.jpg",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Event Planning",
+    description:
+      "The MMEink event production and management team is a group of experienced and dedicated individuals who dedicate themselves to making the planning and execution of your special event an exciting process. Our team will seamlessly orchestrate your corporate event or meeting from start to finish, allowing you to be involved in the exciting aspects while remaining isolated from the stresses associated with putting on an elaborate affair. From event design to development and on-site coordination, we are devoted to producing an event that will exceed your every expectation.",
+    image: "/gallery/conferences/30.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Event Management",
+    description:
+      "MMEink provides event management services that are delivered with seamless integration and precision. With a full time team of experienced planners and on-site coordinators, we ensure that your event runs smoothly from start to finish. Our team will be with you every step of the way, from the initial event design and planning, to on-site registration, our team will provide you with the right choice in management to effectively plan and execute your next meeting or event.",
+    image: "/gallery/conferences/22.jpg",
+  },
+];
+
+export const ConferenceCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "NYCOMS",
+    projectTitle: "NYCOMS Annual Summit 2023",
+    challenge:
+      "NYCOMS needed a professional conference environment that supported a large audience while ensuring clear sightlines, strong audio, and smooth attendee flow within a historic venue. The event required precise technical execution without disrupting the venue’s architectural character.",
+    solution:
+      "We designed and delivered a fully integrated conference setup, including large-format screens, optimized sound reinforcement, and dynamic stage lighting. Custom staging, scenic draping, and branded registration areas ensured clarity, cohesion, and seamless transitions throughout the program.",
+    impact:
+      "The conference was executed flawlessly, delivering a focused and engaging experience for speakers and attendees alike. Clear visuals, consistent audio, and smooth pacing elevated the event’s professionalism and reinforced NYCOMS’ reputation for high-quality programming.",
+    gallery: [
+      "/gallery/conferences/case-study/1.jpg",
+      "/gallery/conferences/case-study/2.jpg",
+      "/gallery/conferences/case-study/3.jpg",
+      "/gallery/conferences/case-study/4.jpg",
+      "/gallery/conferences/case-study/5.jpg",
+    ],
+  },
+];
+
+export const ConferenceEventFAQ = [
+  {
+    question: "What types of conferences do you support?",
+    answer:
+      "We support corporate conferences, executive meetings, annual summits, panel discussions, and multi-day events across a wide range of industries.",
+  },
+  {
+    question: "Do you manage conferences from planning to execution?",
+    answer:
+      "Yes. Our team provides end-to-end conference support including planning, logistics, production, audio visual coordination, and on-site management.",
+  },
+  {
+    question: "Can you handle large-scale or multi-day conferences?",
+    answer:
+      "Absolutely. We manage conferences of all sizes, from single-day meetings to large, multi-day events with complex schedules and multiple sessions.",
+  },
+  {
+    question: "Do you provide audio visual and technical production?",
+    answer:
+      "Yes. We deliver full audio visual production including sound, lighting, video, staging, and technical support to ensure seamless presentations.",
+  },
+  {
+    question: "Can conferences be customized to match our brand?",
+    answer:
+      "Yes. We tailor conference design, staging, signage, and attendee experience to align with your brand identity and event objectives.",
+  },
+  {
+    question: "How far in advance should we start planning a conference?",
+    answer:
+      "We recommend starting conference planning 8-12 weeks in advance to allow time for venue coordination, speaker scheduling, and production planning.",
+  },
+];
+
 export const AudioVisualData = {
   title: "What We Offer",
   subtitle: "Comprehensive Audio Visual Solutions",
