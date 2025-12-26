@@ -1001,6 +1001,7 @@ export const ExhibitsTradeShowsCaseStudiesData = [
       "/gallery/trade-shows/case-study/6.jpg",
       "/gallery/trade-shows/case-study/7.jpg",
       "/gallery/trade-shows/case-study/8.jpg",
+      "/gallery/trade-shows/case-study/9.jpg",
     ],
   },
 ];
@@ -1124,6 +1125,57 @@ export const ExhibitsTradeShowsImageGallery: GalleryImage[] = [
   {
     id: "26",
     src: "/gallery/trade-shows/26.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+
+  {
+    id: "27",
+    src: "/gallery/trade-shows/28.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "28",
+    src: "/gallery/trade-shows/29.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "29",
+    src: "/gallery/trade-shows/27.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "30",
+    src: "/gallery/trade-shows/30.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "31",
+    src: "/gallery/trade-shows/31.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "32",
+    src: "/gallery/trade-shows/32.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "33",
+    src: "/gallery/trade-shows/33.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "34",
+    src: "/gallery/trade-shows/34.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "35",
+    src: "/gallery/trade-shows/35.jpg",
+    alt: "Trade show exhibit combining design, lighting, and AV",
+  },
+  {
+    id: "36",
+    src: "/gallery/trade-shows/36.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
 ];
@@ -1513,6 +1565,274 @@ export const BrandActivationfaqs = [
   },
 ];
 // Brand Activation Event Data End
+
+// Virtual and Hybrid Event Data Start
+export const VirtualHyrbidEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Virtual Conferences",
+    description:
+      "We produce fully virtual conferences that deliver clear messaging, seamless streaming, and engaging digital experiences. From keynote sessions to breakout rooms, our team manages production, platforms, and live execution.",
+    image: "/gallery/virtual-hybrid/13.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Hybrid Events",
+    description:
+      "Connect in-person and remote audiences through thoughtfully designed hybrid events. We integrate live production, streaming technology, and audience engagement tools to ensure a cohesive experience for all attendees.",
+    image: "/gallery/virtual-hybrid/4.jpg",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Live Streaming & Broadcasts",
+    description:
+      "Deliver professional live streams with broadcast-quality video, sound, and lighting. We support product announcements, panels, town halls, and special events with reliable streaming solutions.",
+    image: "/gallery/virtual-hybrid/15.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Digital Engagement Experiences",
+    description:
+      "Enhance virtual participation with interactive features such as live Q&A, polls, moderated chat, and branded digital environments designed to keep audiences engaged throughout the event.",
+    image: "/gallery/virtual-hybrid/24.jpg",
+  },
+];
+
+export const VirtualHyrbidCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "OpenText",
+    projectTitle: "OpenText Summit 2024",
+    challenge:
+      "OpenText required a hybrid event that could connect a live executive audience with a global virtual audience while maintaining consistent branding, clear communication, and reliable technical delivery across multiple sessions and formats.",
+    solution:
+      "We delivered an integrated hybrid production combining live stage design, multi-camera broadcasting, LED displays, and a synchronized virtual platform. In-room presentations were seamlessly aligned with live streaming and interactive virtual tools.",
+    impact:
+      "The event successfully engaged both in-person and remote audiences with consistent messaging and high production quality. Smooth session transitions and reliable streaming reinforced OpenText’s leadership and delivered a polished global experience.",
+    gallery: [
+      "/gallery/virtual-hybrid/case-study/1.jpg",
+      "/gallery/virtual-hybrid/case-study/2.jpg",
+      "/gallery/virtual-hybrid/case-study/3.jpg",
+      "/gallery/virtual-hybrid/case-study/4.jpg",
+      "/gallery/virtual-hybrid/case-study/5.jpg",
+      "/gallery/virtual-hybrid/case-study/6.jpg",
+      "/gallery/virtual-hybrid/case-study/7.jpg",
+      "/gallery/virtual-hybrid/case-study/8.jpg",
+      "/gallery/virtual-hybrid/case-study/9.jpg",
+    ],
+  },
+];
+
+export const VirtualHyrbidImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/virtual-hybrid/1.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "2",
+    src: "/gallery/virtual-hybrid/2.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "3",
+    src: "/gallery/virtual-hybrid/3.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "4",
+    src: "/gallery/virtual-hybrid/4.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "5",
+    src: "/gallery/virtual-hybrid/5.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "6",
+    src: "/gallery/virtual-hybrid/6.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "7",
+    src: "/gallery/virtual-hybrid/7.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "8",
+    src: "/gallery/virtual-hybrid/8.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "9",
+    src: "/gallery/virtual-hybrid/9.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "10",
+    src: "/gallery/virtual-hybrid/10.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "11",
+    src: "/gallery/virtual-hybrid/11.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "12",
+    src: "/gallery/virtual-hybrid/12.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "13",
+    src: "/gallery/virtual-hybrid/13.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "14",
+    src: "/gallery/virtual-hybrid/14.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "15",
+    src: "/gallery/virtual-hybrid/15.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "16",
+    src: "/gallery/virtual-hybrid/16.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "17",
+    src: "/gallery/virtual-hybrid/17.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "18",
+    src: "/gallery/virtual-hybrid/18.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "19",
+    src: "/gallery/virtual-hybrid/19.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "20",
+    src: "/gallery/virtual-hybrid/20.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "21",
+    src: "/gallery/virtual-hybrid/21.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "22",
+    src: "/gallery/virtual-hybrid/22.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "23",
+    src: "/gallery/virtual-hybrid/23.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "24",
+    src: "/gallery/virtual-hybrid/24.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "25",
+    src: "/gallery/virtual-hybrid/25.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "26",
+    src: "/gallery/virtual-hybrid/26.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "27",
+    src: "/gallery/virtual-hybrid/27.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "28",
+    src: "/gallery/virtual-hybrid/28.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "29",
+    src: "/gallery/virtual-hybrid/29.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "30",
+    src: "/gallery/virtual-hybrid/30.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "31",
+    src: "/gallery/virtual-hybrid/31.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "32",
+    src: "/gallery/virtual-hybrid/32.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "33",
+    src: "/gallery/virtual-hybrid/33.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+  {
+    id: "34",
+    src: "/gallery/virtual-hybrid/34.jpg",
+    alt: "Immersive brand activation event experience",
+  },
+];
+
+export const VirtualHyrbidfaqs = [
+  {
+    question: "What is the difference between virtual and hybrid events?",
+    answer:
+      "Virtual events are hosted entirely online, while hybrid events combine an in-person experience with a live virtual component. Hybrid events allow you to engage both on-site and remote audiences simultaneously.",
+  },
+  {
+    question: "What platforms do you support for virtual and hybrid events?",
+    answer:
+      "We support a wide range of platforms including Zoom, Microsoft Teams, Webex, Vimeo, and custom streaming solutions. Our team helps select and configure the best platform based on your event goals.",
+  },
+  {
+    question: "Can you manage both the technical setup and live production?",
+    answer:
+      "Yes. We handle full production including live streaming, audio-visual setup, lighting, camera operation, content playback, and real-time technical support for a seamless experience.",
+  },
+  {
+    question: "How do you ensure audience engagement for virtual attendees?",
+    answer:
+      "We incorporate interactive features such as live Q&A, polls, chat moderation, breakout rooms, and branded digital experiences to keep remote audiences actively engaged.",
+  },
+  {
+    question: "Do you provide recording and post-event content?",
+    answer:
+      "Absolutely. We offer high-quality event recordings, edited highlight reels, and on-demand playback options so your content continues to deliver value after the event ends.",
+  },
+  {
+    question: "How far in advance should we plan a virtual or hybrid event?",
+    answer:
+      "We recommend planning at least 4–6 weeks in advance for complex events. However, we can accommodate shorter timelines depending on scope and technical requirements.",
+  },
+];
+// Virtual and Hybrid Data End
 
 // Conference Event Data Start
 export const ConferenceEventTypeOfferings = [
