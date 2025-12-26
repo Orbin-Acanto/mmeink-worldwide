@@ -226,7 +226,7 @@ export default function ContactPage() {
       <section className="relative w-full h-[90vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=2074&auto=format&fit=crop"
+            src="/gallery/trade-shows/3.jpg"
             alt="Contact Us"
             fill
             className="object-cover"
@@ -302,10 +302,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-black text-lg mb-1">Phone</h3>
                     <a
-                      href="tel:+12126161655"
+                      href="tel:+18778850705"
                       className="text-gray-600 hover:text-purple transition-colors"
                     >
-                      1 (212) 616-1655
+                      1-877-885-0705
                     </a>
                   </div>
                 </div>
@@ -317,10 +317,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-black text-lg mb-1">Email</h3>
                     <a
-                      href="mailto:info@mmeink.com"
+                      href="mailto:mtardi@mmeink.com"
                       className="text-gray-600 hover:text-purple transition-colors"
                     >
-                      info@mmeink.com
+                      mtardi@mmeink.com
                     </a>
                   </div>
                 </div>
@@ -334,9 +334,7 @@ export default function ContactPage() {
                       Headquarters
                     </h3>
                     <p className="text-gray-600">
-                      234 West 39th Street, 10th Floor
-                      <br />
-                      New York, NY 10018
+                      140 Florida St, Farmingdale, NY
                     </p>
                   </div>
                 </div>
@@ -344,12 +342,17 @@ export default function ContactPage() {
 
               <div className="mt-12 p-8 bg-linear-to-br from-purple/5 to-cyan/5 border-l-4 border-purple">
                 <p className="text-gray-700 italic">
-                  "Working with MMEink transformed our annual gala into an
-                  unforgettable experience. Their attention to detail and
-                  creative vision exceeded all expectations."
+                  "We had the most beautiful Bar Mitzvah at the Nassau County
+                  Museum of Art, thanks to MMEink. Lauren, Mike, and Joseph
+                  worked so hard to make sure the day was absolute perfection.
+                  Everything from the decor, to the food, to our amazing MC
+                  Levi, was just wonderful. Everyone said that it was the best
+                  and most fun celebration they had ever attended. I loved
+                  working with Lauren, and with her dedication and talent, the
+                  day was just magical."
                 </p>
                 <p className="text-purple font-semibold mt-4">
-                  — Sarah Johnson, Event Director
+                  — Valerie Goldstein
                 </p>
               </div>
             </motion.div>

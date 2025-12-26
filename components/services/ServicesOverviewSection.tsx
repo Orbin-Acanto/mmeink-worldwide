@@ -29,7 +29,7 @@ export default function ServicesOverviewSection({
   return (
     <section
       ref={sectionRef}
-      className={`relative bg-white min-h-screen py-12 sm:py-14 lg:py-16 overflow-x-clip ${className}`}
+      className={`relative bg-white min-h-screen py-12 sm:py-14 lg:py-16 px-4 overflow-x-clip ${className}`}
     >
       <motion.div>
         <div className="max-w-7xl mx-auto">
