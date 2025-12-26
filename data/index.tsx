@@ -102,22 +102,19 @@ export const servicesEventsHome = [
   {
     id: "brand-activations",
     name: "Brand Activations",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+    image: "/gallery/brand-activation/51.jpg",
     href: "/events/brand-activations",
   },
   {
     id: "exhibits-trade-shows",
     name: "Exhibits & Trade Shows",
-    image:
-      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+    image: "/gallery/trade-shows/3.jpg",
     href: "/events/exhibits-trade-shows",
   },
   {
     id: "conferences-meetings",
     name: "Conferences & Meetings",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    image: "/gallery/conferences/30.jpg",
     href: "/events/conferences-meetings",
   },
   {
@@ -129,8 +126,7 @@ export const servicesEventsHome = [
   {
     id: "audio-visual",
     name: "Audio Visual",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    image: "/services/av/4.jpg",
     href: "/services/audio-visual",
   },
   {
