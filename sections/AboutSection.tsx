@@ -3,7 +3,19 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export default function AboutSection() {
+interface AboutSectionProps {
+  label?: string;
+  title: string;
+  titleHighlight: string;
+  description: string;
+}
+
+export default function AboutSection({
+  label = "About Us",
+  title,
+  titleHighlight,
+  description,
+}: AboutSectionProps) {
   return (
     <section
       id="about-us"
@@ -11,23 +23,17 @@ export default function AboutSection() {
     >
       <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] mb-12 text-gray-500 uppercase">
-          About Us
+          {label}
         </p>
         <div className="grid gap-10 sm:gap-12 md:gap-16 lg:grid-cols-2 items-start">
           <div className="space-y-5 sm:space-y-6">
             <h1 className="uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
-              Crafting unforgettable
-              <span className="block text-purple">event experiences</span>
+              {title}
+              <span className="block text-purple">{titleHighlight}</span>
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
-              With over 30 years of experience, MME is a full-service event
-              management and hospitality agency creating exceptional,
-              first-class experiences. We combine creative vision with strategic
-              expertise, delivering boutique-level flexibility backed by proven
-              leadership. From concept to execution, MME partners with brands
-              worldwide to produce authentic, engaging events that align with
-              your vision and exceed expectations.
+              {description}
             </p>
 
             {/* <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed"></p> */}

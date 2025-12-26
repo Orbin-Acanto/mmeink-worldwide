@@ -115,7 +115,9 @@ export default function OurTeamSection() {
               passion for creating unforgettable experiences.
             </p>
             <a
-              href="/careers"
+              href="https://www.indeed.com/cmp/Mmeink"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-3 bg-purple text-white font-medium text-sm tracking-wider uppercase hover:bg-purple/70 transition-all duration-300 shadow-lg hover:shadow-2xl"
             >
               View Open Positions

@@ -16,7 +16,18 @@ export default function Home() {
         title="Creating Unforgettable Experiences"
         subtitle="Premium event planning and production"
       />
-      <AboutSection />
+      <AboutSection
+        label="About Us"
+        description="With over 30 years of experience, MME is a full-service event
+              management and hospitality agency creating exceptional,
+              first-class experiences. We combine creative vision with strategic
+              expertise, delivering boutique-level flexibility backed by proven
+              leadership. From concept to execution, MME partners with brands
+              worldwide to produce authentic, engaging events that align with
+              your vision and exceed expectations."
+        title="Crafting unforgettable"
+        titleHighlight="event experiences"
+      />
       <OurWorkMarqueSection items={projects} />
       <ServicesOverviewSection
         services={servicesEventsHome}

@@ -270,56 +270,56 @@ export const team = [
   {
     id: 1,
     name: "Michael Tardi",
-    role: "Founder & CEO",
+    role: "Owner",
     bio: "Visionary leader with 30 years of experience transforming events into unforgettable experiences.",
-    avatar: "https://avatar.iran.liara.run/public/1",
-    linkedin: "#",
-    email: "michael@mmeink.com",
+    avatar: "/avatar/michael.jpg",
+    linkedin: "https://www.linkedin.com/in/michael-tardi-1788672a/",
+    email: "mtardi@mmeink.com",
   },
   {
     id: 2,
-    name: "Sarah Martinez",
-    role: "Creative Director",
+    name: "Lauren Leuci",
+    role: "Director of Sales",
     bio: "Award-winning designer specializing in immersive event experiences and brand activations.",
-    avatar: "https://avatar.iran.liara.run/public/2",
-    linkedin: "#",
-    email: "sarah@mmeink.com",
+    avatar: "/avatar/Lauren.png",
+    linkedin: "https://www.linkedin.com/in/lauren-leuci-a47075242/",
+    email: "lleuci@mmeink.com",
   },
   {
     id: 3,
-    name: "James Chen",
-    role: "Production Manager",
+    name: "Andrew Heaton",
+    role: "Director of Operations",
     bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
-    avatar: "https://avatar.iran.liara.run/public/3",
+    avatar: "/avatar/Andy.png",
     linkedin: "#",
-    email: "james@mmeink.com",
+    email: "aheaton@mmeink.com",
   },
   {
     id: 4,
-    name: "Emily Rodriguez",
-    role: "Client Relations",
+    name: "Juan Fuentes",
+    role: "Warehouse Manager",
     bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
     avatar: "https://avatar.iran.liara.run/public/4",
     linkedin: "#",
-    email: "emily@mmeink.com",
+    email: "jfuentes@mmeink.com",
   },
   {
     id: 5,
-    name: "David Park",
-    role: "Technical Lead",
+    name: "Desmond Hyatt",
+    role: "Director of Events & Production",
     bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
     avatar: "https://avatar.iran.liara.run/public/5",
     linkedin: "#",
-    email: "david@mmeink.com",
+    email: "dhyatt@mmeink.com",
   },
   {
     id: 6,
-    name: "Lisa Thompson",
-    role: "Operations Director",
-    bio: "Logistics mastermind coordinating seamless events from concept to completion.",
-    avatar: "https://avatar.iran.liara.run/public/6",
+    name: "Herberto Deleon",
+    role: "AV Technician",
+    bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
+    avatar: "https://avatar.iran.liara.run/public/5",
     linkedin: "#",
-    email: "lisa@mmeink.com",
+    email: "herberto@mmeink.com",
   },
 ];
 
@@ -356,16 +356,15 @@ export const timeline = [
 
 export const locations = [
   {
-    city: "New York City",
-    address: "234 West 39th Street, 10th Floor",
+    city: "New York",
+    address: "140 Florida St, Farmingdale, NY",
     image:
       "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop",
   },
   {
     city: "Long Island",
     address: "Premium Event Venue",
-    image:
-      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop",
+    image: "/montauk-point.jpg",
   },
   {
     city: "Miami",
@@ -510,22 +509,19 @@ export const steps: Step[] = [
     id: "design",
     title: "Design",
     subtitle: "Creative concepts that wow",
-    image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2064&auto=format&fit=crop",
+    image: "/services/cf/process_1.jpg",
   },
   {
     id: "produce",
     title: "Produce",
     subtitle: "Flawless execution",
-    image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+    image: "/services/dd/1.jpg",
   },
   {
     id: "deliver",
     title: "Deliver",
     subtitle: "Memorable experiences",
-    image:
-      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+    image: "/services/cf/8.jpeg",
   },
 ];
 

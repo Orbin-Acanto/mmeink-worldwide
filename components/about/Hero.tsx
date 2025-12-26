@@ -11,7 +11,7 @@ export default function Hero() {
     <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop"
+          src="/gallery/conferences/20.jpg"
           alt="MMEink Team"
           fill
           className="object-cover"
