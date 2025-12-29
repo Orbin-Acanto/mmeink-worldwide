@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 interface Testimonial {
   id: string;
   name: string;
-  company: string;
+  company?: string;
   role?: string;
   quote: string;
 }
@@ -22,11 +22,10 @@ export default function TestimonialsSection({
   className = "",
 }: TestimonialsSectionProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [canScrollLeft, setCanScrollLeft] = useState(true);
-  const [canScrollRight, setCanScrollRight] = useState(true);
   const [isPaused, setIsPaused] = useState(false);
   const animationRef = useRef<number | null>(null);
-  const lastTimeRef = useRef<number>(0);
+  const isPausedRef = useRef(false);
+  const scrollAccumulator = useRef(0);
 
   const duplicatedTestimonials = Array(
     Math.max(10, Math.ceil(20 / testimonials.length))
@@ -58,30 +57,40 @@ export default function TestimonialsSection({
   };
 
   useEffect(() => {
-    if (isPaused || !scrollRef.current) return;
+    isPausedRef.current = isPaused;
+  }, [isPaused]);
+
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
 
     const scrollSpeed = 0.5;
 
-    const animate = (currentTime: number) => {
-      if (!scrollRef.current || isPaused) return;
+    const animate = () => {
+      if (!container) return;
 
-      if (lastTimeRef.current !== 0) {
-        const deltaTime = currentTime - lastTimeRef.current;
-        const scrollAmount = (scrollSpeed * deltaTime) / 16;
+      if (!isPausedRef.current) {
+        scrollAccumulator.current += scrollSpeed;
 
-        const { scrollLeft, scrollWidth } = scrollRef.current;
+        if (scrollAccumulator.current >= 1) {
+          const pixelsToScroll = Math.floor(scrollAccumulator.current);
+          container.scrollLeft += pixelsToScroll;
+          scrollAccumulator.current -= pixelsToScroll;
 
-        const oneSetWidth =
-          scrollWidth / Math.max(10, Math.ceil(20 / testimonials.length));
+          const cardElement = container.querySelector(
+            ".testimonial-card"
+          ) as HTMLElement;
+          if (cardElement) {
+            const cardWidth = cardElement.offsetWidth + 32;
+            const oneSetWidth = cardWidth * testimonials.length;
 
-        if (scrollLeft >= scrollWidth - oneSetWidth) {
-          scrollRef.current.scrollLeft = oneSetWidth;
-        } else {
-          scrollRef.current.scrollLeft += scrollAmount;
+            if (container.scrollLeft >= oneSetWidth) {
+              container.scrollLeft = 0;
+            }
+          }
         }
       }
 
-      lastTimeRef.current = currentTime;
       animationRef.current = requestAnimationFrame(animate);
     };
 
@@ -91,9 +100,8 @@ export default function TestimonialsSection({
       if (animationRef.current) {
         cancelAnimationFrame(animationRef.current);
       }
-      lastTimeRef.current = 0;
     };
-  }, [isPaused, testimonials.length]);
+  }, [testimonials.length]);
 
   return (
     <section
@@ -154,34 +162,32 @@ export default function TestimonialsSection({
                         {testimonial.role}
                       </div>
                     )}
-                    <div className="text-sm text-purple font-medium mt-1">
-                      {testimonial.company}
-                    </div>
+                    {testimonial.company ?? (
+                      <div className="text-sm text-purple font-medium mt-1">
+                        {testimonial.company}
+                      </div>
+                    )}
                   </div>
                 </div>
               </motion.div>
             ))}
           </div>
 
-          {canScrollLeft && (
-            <button
-              onClick={() => scroll("left")}
-              className="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-purple text-white flex items-center justify-center shadow-lg hover:bg-purple/90 transition-all duration-300 z-10"
-              aria-label="Scroll left"
-            >
-              <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
-            </button>
-          )}
+          <button
+            onClick={() => scroll("left")}
+            className="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-purple text-white flex items-center justify-center shadow-lg hover:bg-purple/90 transition-all duration-300 z-10"
+            aria-label="Scroll left"
+          >
+            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
 
-          {canScrollRight && (
-            <button
-              onClick={() => scroll("right")}
-              className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-purple text-white flex items-center justify-center shadow-lg hover:bg-purple/90 transition-all duration-300 z-10"
-              aria-label="Scroll right"
-            >
-              <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
-            </button>
-          )}
+          <button
+            onClick={() => scroll("right")}
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-purple text-white flex items-center justify-center shadow-lg hover:bg-purple/90 transition-all duration-300 z-10"
+            aria-label="Scroll right"
+          >
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
         </div>
       </div>
     </section>

@@ -35,7 +35,7 @@ export default function FAQ({
   };
 
   return (
-    <section className="py-12 sm:py-14 lg:py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-50 to-gray-50">
+    <section className="py-12 sm:py-14 lg:py-16 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-white to-gray-50">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

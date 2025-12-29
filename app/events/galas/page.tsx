@@ -7,10 +7,10 @@ import WhatWeDoSection from "@/components/events/WhatWeDoSection";
 import FAQ from "@/components/FAQ";
 
 import {
-  BrandActivationImageGallery,
-  CaseStudiesData,
-  EventTypeOfferings,
-  faqs,
+  GalasCaseStudiesData,
+  GalasEventTypeOfferings,
+  Galasfaqs,
+  GalasImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 
@@ -18,28 +18,29 @@ export default function EventGalasPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="https://images.unsplash.com/photo-1519167758481-83f29da8c2b9?w=1920&q=80"
+        image="/gallery/galas/13.jpg"
         title="Private Galas"
-        subtitle="Celebrate life's special moments with unforgettable gatherings"
+        subtitle="Elegant, immersive galas designed to inspire and impress"
       />
-      <WhatWeDoSection offerings={EventTypeOfferings} />
-      <CaseStudiesSection caseStudies={CaseStudiesData} />
+      <WhatWeDoSection offerings={GalasEventTypeOfferings} />
+      <CaseStudiesSection caseStudies={GalasCaseStudiesData} />
       <ImageGallerySection
-        title="Brand Activation"
-        subtitle="Explore our most memorable brand experiences"
-        images={BrandActivationImageGallery}
+        title="Private Galas"
+        subtitle="Explore our most memorable gala celebrations and elegant event experiences."
+        images={GalasImageGallery}
       />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Ready to Create Magic?"
-        subtitle="Let's Work Together"
-        description="Transform your vision into an unforgettable experience. Our team is ready to bring your event to life."
+        title="Timeless Evenings"
+        subtitle="Elegant Gala Experiences"
+        description="From black-tie celebrations to fundraising galas, we design and produce refined events that leave a lasting impression."
         primaryButton={{
-          text: "Get Started",
+          text: "Start Planning",
           href: "/contact",
         }}
       />
-      <FAQ faqs={faqs} />
+
+      <FAQ faqs={Galasfaqs} />
     </div>
   );
 }

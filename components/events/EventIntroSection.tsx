@@ -13,7 +13,7 @@ export default function EventIntroSection({
 }: EventIntroSectionProps) {
   return (
     <section
-      className={`relative bg-gray-50 py-12 sm:py-14 lg:py-16 ${className}`}
+      className={`relative bg-gray-100 py-12 sm:py-14 lg:py-16 ${className}`}
     >
       <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid xl:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -77,7 +77,7 @@ export default function EventIntroSection({
                 className="col-span-2 relative h-[250px] sm:h-[300px] lg:h-[350px] overflow-hidden"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=900&q=80"
+                  src="/services/rentals/case-study/2.jpg"
                   alt="Event Production"
                   fill
                   className="object-cover"
@@ -93,7 +93,7 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=500&q=80"
+                  src="/services/dd/4.jpg"
                   alt="Event Design"
                   fill
                   className="object-cover"
@@ -109,7 +109,7 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&q=80"
+                  src="/services/cf/10.jpg"
                   alt="Event Setup"
                   fill
                   className="object-cover"

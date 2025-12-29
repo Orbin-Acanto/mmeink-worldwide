@@ -141,44 +141,38 @@ export const events = [
   {
     id: "brand-activations",
     name: "Brand Activations",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
-    href: "/services/brand-activations",
+    image: "/gallery/brand-activation/51.jpg",
+    href: "/events/brand-activations",
   },
   {
     id: "product-launches",
     name: "Product Launches",
-    image:
-      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+    image: "/gallery/product-launches/23.jpg",
     href: "/services/product-launches",
   },
   {
     id: "conferences-meetings",
     name: "Conferences & Meetings",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
-    href: "/services/conferences-meetings",
+    image: "/gallery/conferences/30.jpg",
+    href: "/events/conferences-meetings",
   },
   {
-    id: "Virtual & Hybrid Events",
-    name: "virtual-hybrid-events",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    id: "virtual-hybrid-events",
+    name: "Virtual & Hybrid Events",
+    image: "/gallery/virtual-hybrid/13.jpg",
     href: "/services/custom-fabrication",
   },
   {
     id: "galas",
     name: "Galas",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    image: "/gallery/galas/13.jpg",
     href: "/services/galas",
   },
   {
     id: "exhibits-trade-shows",
     name: "Exhibits & Trade Shows",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
-    href: "/services/exhibits-trade-shows",
+    image: "/gallery/trade-shows/3.jpg",
+    href: "/events/exhibits-trade-shows",
   },
 ];
 
@@ -204,15 +198,13 @@ export const services = [
   {
     id: "logistics",
     name: "Logistics",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    image: "/services/logistics/1.jpg",
     href: "/services/logistics",
   },
   {
     id: "rentals",
     name: "Rentals",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    image: "/services/rentals/case-study/2.jpg",
     href: "/services/rentals",
   },
   {
@@ -543,51 +535,39 @@ export const faqs = [
 export const testimonials = [
   {
     id: "1",
-    name: "Sarah Johnson",
-    company: "Tech Innovations Inc",
-    role: "VP of Marketing",
+    name: "Hannah Young",
     quote:
-      "MMEink transformed our annual conference into an unforgettable experience. Their attention to detail and creative vision exceeded all expectations.",
+      "An unforgettable wedding experience with a stunning, elegant venue, an exceptionally professional and caring team, and outstanding food and service. Every detail was handled flawlessly, bringing the couple’s vision to life and creating a truly magical day.",
   },
   {
     id: "2",
-    name: "Michael Chen",
-    company: "Global Finance Corp",
-    role: "Event Director",
+    name: "Kathleen Agaton",
     quote:
-      "Professional, reliable, and incredibly creative. They handled every aspect of our product launch flawlessly from start to finish.",
+      "An outstanding end-of-year celebration hosted at 48 Wall Street, marked by exceptional service, professionalism, and attention to detail from start to finish. The venue is stunning, the staff attentive and gracious, and the experience created a memorable and meaningful evening that made employees feel truly appreciated. Highly recommended, with hopes to work together again.",
   },
   {
     id: "3",
-    name: "Emily Rodriguez",
-    company: "Fashion Forward",
-    role: "Brand Manager",
+    name: "Beth Gilchrist",
     quote:
-      "Working with MMEink was seamless. They understood our vision and brought it to life with precision and style.",
+      "A fantastic experience working with Michael, Lauren, and the MMEink team over the past two years. They are highly professional, responsive, creative, and a joy to collaborate with, consistently delivering outstanding events of any size. Strongly recommended, with great enthusiasm for continuing the partnership in the years ahead.",
   },
   {
     id: "4",
-    name: "David Thompson",
-    company: "Horizon Ventures",
-    role: "CEO",
+    name: "Robert Iodice",
     quote:
-      "Their expertise and dedication made our corporate gala a tremendous success. Highly recommend for any high-profile event.",
+      "Michael and team are a godsend. After venue cancelled on me 2 weeks before an event for 160+ people, Michael went out of his way to make it work for us on short notice and at an extremely reasonable price. Not only that but day of he and his team were on top of EVERYTHING. Truly, they are magic. I couldn’t recommend them enough.",
   },
   {
     id: "5",
-    name: "Lisa Park",
-    company: "Creative Studios",
-    role: "Operations Manager",
+    name: "Valerie Goldstein",
     quote:
-      "From planning to execution, MMEink delivered excellence at every stage. Our clients were thoroughly impressed.",
+      "A truly magical Bar Mitzvah celebration at the Nassau County Museum of Art, flawlessly executed by the MMEink team. From décor and food to entertainment, every detail was perfectly planned, creating a beautiful and unforgettable event that guests described as one of the best and most fun they’ve attended.",
   },
   {
     id: "6",
-    name: "James Wilson",
-    company: "Summit Group",
-    role: "Director of Events",
+    name: "Alex Price",
     quote:
-      "Outstanding service and impeccable execution. They made our trade show booth the highlight of the entire conference.",
+      "A beautifully executed celebration of life held at the Nassau County Museum of Art, made seamless by the MMEink team’s professionalism, flexibility, and thoughtful guidance. From planning the layout, menu, and AV to flawless execution on the day of the event, every detail was handled with care, allowing the family to focus on honoring their loved one and supporting their guests. Feedback on the venue, service, food, and program was overwhelmingly positive.",
   },
 ];
 
@@ -1561,6 +1541,256 @@ export const BrandActivationfaqs = [
   },
 ];
 // Brand Activation Event Data End
+
+// Gala Event Data Start
+export const GalasEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Sparkles,
+    headline: "Black-Tie Galas",
+    description:
+      "We produce sophisticated black-tie galas with thoughtful design, elevated décor, and seamless production. From lighting and staging to guest flow and ambiance, every detail is crafted to reflect elegance and prestige.",
+    image: "/gallery/galas/22.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Fundraising & Benefit Events",
+    description:
+      "Our team designs and executes fundraising galas that inspire generosity while maintaining a refined guest experience. We balance storytelling, donor engagement, and production excellence to support your cause.",
+    image: "/gallery/galas/21.jpg",
+  },
+  {
+    id: "3",
+    icon: Presentation,
+    headline: "Awards & Recognition Nights",
+    description:
+      "Celebrate achievements with polished award ceremonies and recognition events. We manage staging, lighting, audio-visuals, and run-of-show to ensure a smooth, memorable evening.",
+    image: "/gallery/galas/8.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Private Celebrations",
+    description:
+      "From milestone celebrations to invitation-only evenings, we create intimate yet impactful gala experiences. Our approach blends custom design with flawless execution for truly unforgettable events.",
+    image: "/gallery/galas/17.jpg",
+  },
+];
+
+export const GalasCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "FPM (Fellows of Politecnico di Milano)",
+    projectTitle: "FPM Annual Corporate Gala",
+    challenge:
+      "FPM required an elegant corporate gala that reflected its global academic prestige while accommodating a large guest list, formal programming, sponsor visibility, and a refined guest experience within a historic New York City venue.",
+    solution:
+      "We delivered a fully produced gala experience featuring custom stage design, branded LED screens, architectural lighting, elegant table layouts, and seamless AV integration to support speeches, dining, and sponsor recognition throughout the evening.",
+    impact:
+      "The gala achieved a polished, immersive atmosphere that elevated brand presence, enhanced guest engagement, and reinforced FPM’s institutional identity, resulting in a memorable evening that balanced sophistication, storytelling, and flawless execution.",
+    gallery: [
+      "/gallery/galas/case-study/1.jpg",
+      "/gallery/galas/case-study/2.jpg",
+      "/gallery/galas/case-study/3.jpg",
+      "/gallery/galas/case-study/4.jpg",
+      "/gallery/galas/case-study/5.jpg",
+      "/gallery/galas/case-study/6.jpg",
+      "/gallery/galas/case-study/7.jpg",
+      "/gallery/galas/case-study/8.jpg",
+      "/gallery/galas/case-study/9.jpg",
+      "/gallery/galas/case-study/10.jpg",
+      "/gallery/galas/case-study/11.jpg",
+    ],
+  },
+];
+
+export const GalasImageGallery: GalleryImage[] = [
+  {
+    id: "1",
+    src: "/gallery/galas/1.jpg",
+    alt: "Elegant private gala with formal table settings and ambient lighting",
+  },
+  {
+    id: "2",
+    src: "/gallery/galas/2.jpg",
+    alt: "Black-tie gala event with dramatic lighting and décor",
+  },
+  {
+    id: "3",
+    src: "/gallery/galas/3.jpg",
+    alt: "Luxury gala dinner setup with candlelit tables",
+  },
+  {
+    id: "4",
+    src: "/gallery/galas/4.jpg",
+    alt: "Formal gala reception with sophisticated floral arrangements",
+  },
+  {
+    id: "5",
+    src: "/gallery/galas/5.jpg",
+    alt: "Upscale gala event featuring elegant stage and lighting design",
+  },
+  {
+    id: "6",
+    src: "/gallery/galas/6.jpg",
+    alt: "Grand ballroom gala with chandeliers and refined décor",
+  },
+  {
+    id: "7",
+    src: "/gallery/galas/7.jpg",
+    alt: "Private gala celebration with immersive lighting ambiance",
+  },
+  {
+    id: "8",
+    src: "/gallery/galas/8.jpg",
+    alt: "Luxury gala event with custom tablescapes and linens",
+  },
+  {
+    id: "9",
+    src: "/gallery/galas/9.jpg",
+    alt: "Formal gala dinner with stage presentation and seating",
+  },
+  {
+    id: "10",
+    src: "/gallery/galas/10.jpg",
+    alt: "Evening gala event with elegant uplighting and décor accents",
+  },
+  {
+    id: "11",
+    src: "/gallery/galas/11.jpg",
+    alt: "High-end gala reception with refined event styling",
+  },
+  {
+    id: "12",
+    src: "/gallery/galas/12.jpg",
+    alt: "Black-tie gala featuring luxurious event design",
+  },
+  {
+    id: "13",
+    src: "/gallery/galas/13.jpg",
+    alt: "Formal gala environment with dramatic lighting effects",
+  },
+  {
+    id: "14",
+    src: "/gallery/galas/14.jpg",
+    alt: "Elegant gala dinner showcasing premium event décor",
+  },
+  {
+    id: "15",
+    src: "/gallery/galas/15.jpg",
+    alt: "Private gala event with polished table décor and lighting",
+  },
+  {
+    id: "16",
+    src: "/gallery/galas/16.jpg",
+    alt: "Sophisticated gala setting designed for formal celebrations",
+  },
+  {
+    id: "17",
+    src: "/gallery/galas/17.jpg",
+    alt: "Luxury gala night with ambient lighting and elegant finishes",
+  },
+  {
+    id: "18",
+    src: "/gallery/galas/18.jpg",
+    alt: "Grand gala event featuring elevated décor and staging",
+  },
+  {
+    id: "19",
+    src: "/gallery/galas/19.jpg",
+    alt: "Formal gala reception with refined lighting design",
+  },
+  {
+    id: "20",
+    src: "/gallery/galas/20.jpg",
+    alt: "Elegant gala celebration with custom event styling",
+  },
+  {
+    id: "21",
+    src: "/gallery/galas/21.jpg",
+    alt: "Black-tie gala environment with immersive atmosphere",
+  },
+  {
+    id: "22",
+    src: "/gallery/galas/22.jpg",
+    alt: "Luxury gala event featuring premium décor elements",
+  },
+  {
+    id: "23",
+    src: "/gallery/galas/23.jpg",
+    alt: "Sophisticated gala setup with coordinated lighting and décor",
+  },
+  {
+    id: "24",
+    src: "/gallery/galas/24.jpg",
+    alt: "Formal gala evening with elegant event production",
+  },
+  {
+    id: "25",
+    src: "/gallery/galas/25.jpg",
+    alt: "Private gala celebration showcasing refined design details",
+  },
+  {
+    id: "26",
+    src: "/gallery/galas/26.jpg",
+    alt: "Upscale gala event with dramatic ambiance lighting",
+  },
+  {
+    id: "27",
+    src: "/gallery/galas/27.jpg",
+    alt: "Luxury gala dinner experience with polished presentation",
+  },
+  {
+    id: "28",
+    src: "/gallery/galas/28.jpg",
+    alt: "Formal gala environment designed for high-profile guests",
+  },
+  {
+    id: "29",
+    src: "/gallery/galas/29.jpg",
+    alt: "Elegant gala reception highlighting premium décor and lighting",
+  },
+  {
+    id: "30",
+    src: "/gallery/galas/30.jpg",
+    alt: "Sophisticated private gala with refined event styling",
+  },
+];
+
+export const Galasfaqs = [
+  {
+    question: "What types of galas do you produce?",
+    answer:
+      "We produce private, corporate, and nonprofit galas including black-tie dinners, fundraising events, award ceremonies, and formal celebrations.",
+  },
+  {
+    question: "Can you customize the design and theme of a gala?",
+    answer:
+      "Yes. Every gala is custom-designed to reflect your vision, brand, and event objectives while maintaining a refined and elegant atmosphere.",
+  },
+  {
+    question: "Do you provide full-service gala production?",
+    answer:
+      "Absolutely. We manage all aspects of gala production including design, décor, lighting, audio-visual, staging, entertainment coordination, and on-site execution.",
+  },
+  {
+    question: "Can you handle high-profile or VIP guest events?",
+    answer:
+      "Yes. Our team is experienced in producing events for VIP guests, executives, and high-profile attendees, ensuring discretion, professionalism, and seamless service.",
+  },
+  {
+    question: "How far in advance should a gala be planned?",
+    answer:
+      "We recommend beginning planning 3–6 months in advance to allow time for creative development, vendor coordination, and flawless execution.",
+  },
+  {
+    question: "Do you produce galas outside of New York City?",
+    answer:
+      "Yes. While we are based in New York City, we produce gala events nationwide and deliver the same level of quality and attention to detail at every location.",
+  },
+];
+// Gala Event Data End
 
 // Virtual and Hybrid Event Data Start
 export const VirtualHyrbidEventTypeOfferings = [

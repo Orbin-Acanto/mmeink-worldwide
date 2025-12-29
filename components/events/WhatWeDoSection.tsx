@@ -256,7 +256,7 @@ function OfferingSlide({
 
                 <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
 
-                <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 hidden sm:block">
+                {/* <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 hidden sm:block">
                   <motion.div
                     initial={{ scale: 0, rotate: -180 }}
                     whileInView={{ scale: 1, rotate: 0 }}
@@ -266,7 +266,7 @@ function OfferingSlide({
                   >
                     {String(index + 1).padStart(2, "0")}
                   </motion.div>
-                </div>
+                </div> */}
               </div>
             </div>
           </motion.div>
