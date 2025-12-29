@@ -37,7 +37,7 @@ export const navItems = [
     submenu: [
       { name: "Custom Fabrication", href: "/services/custom-fabrication" },
       { name: "Audio Visual", href: "/services/audio-visual" },
-      { name: "Design & Decor", href: "/services/dd" },
+      { name: "Design & Decor", href: "/services/design-decor" },
       { name: "Logistics", href: "/services/logistics" },
       { name: "Rentals", href: "/services/rentals" },
     ],
@@ -186,22 +186,19 @@ export const services = [
   {
     id: "custom-fabrication",
     name: "Custom Fabrication",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    image: "/services/cf/26.jpeg",
     href: "/services/custom-fabrication",
   },
   {
     id: "audio-visual",
     name: "Audio Visual",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+    image: "/services/av/4.jpg",
     href: "/services/audio-visual",
   },
   {
     id: "design-decor",
     name: "Design & Decor",
-    image:
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+    image: "/services/dd/18.jpg",
     href: "/services/design-decor",
   },
   {
@@ -221,8 +218,7 @@ export const services = [
   {
     id: "brand-activations",
     name: "Brand Activations",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+    image: "/gallery/brand-activation/51.jpg",
     href: "/events/brand-activations",
   },
 ];
@@ -2608,6 +2604,319 @@ export const CustomFabricationFAQ = [
   },
 ];
 // Custom Fabrication Service Data End
+
+// Rentals Data Start
+export const RentalData = {
+  title: "What We Offer",
+  subtitle: "Professional Event Equipment & AV Rentals",
+  topRow: [
+    {
+      id: "1",
+      title: "Professional Sound Systems",
+      image: "/services/cf/gif/1.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Stage Lighting",
+      image: "/services/rentals/7.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "LED Video Walls",
+      image: "/services/rentals/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Projection Mapping",
+      image: "/services/cf/gif/2.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Live Event Production",
+      image: "/services/rentals/16.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Concert Sound",
+      image: "/services/cf/gif/3.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "Live Streaming",
+      image: "/services/cf/gif/4.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Wireless Microphones",
+      image: "/services/rentals/21.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "DJ Equipment",
+      image: "/services/cf/gif/5.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Video Production",
+      image: "/services/rentals/22.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Moving Head Lights",
+      image: "/services/cf/gif/6.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Truss & Rigging",
+      image: "/services/rentals/33.jpg",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const RentalCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Joan Creative Carnival",
+    projectTitle: "Halloween Celebration",
+    challenge:
+      "Joan Creative Carnival needed a Halloween event that felt immersive and playful while remaining polished and well-executed within a professional event venue in Lower Manhattan.",
+    solution:
+      "We provided a curated rental package including lighting, staging elements, atmospheric effects, and themed production support to transform the space while maintaining seamless setup and flow.",
+    impact:
+      "The event delivered a high-energy Halloween experience that encouraged guest interaction and visual impact, showcasing how strategic rentals can elevate themed events within a corporate venue.",
+    gallery: [
+      "/services/rentals/case-study/2.jpg",
+      "/services/rentals/case-study/3.jpg",
+      "/services/rentals/case-study/5.jpg",
+      "/services/rentals/case-study/6.jpg",
+      "/services/rentals/case-study/9.jpg",
+      "/services/rentals/case-study/8.jpg",
+      "/services/rentals/case-study/10.jpg",
+    ],
+  },
+];
+
+export const RentalImageGallery = [
+  {
+    id: "1",
+    src: "/services/rentals/1.jpg",
+    alt: "Professional event audio equipment rental setup",
+  },
+  {
+    id: "2",
+    src: "/services/rentals/2.jpg",
+    alt: "Stage lighting rental with truss and uplighting",
+  },
+  {
+    id: "3",
+    src: "/services/rentals/3.jpg",
+    alt: "LED video wall rental for corporate events",
+  },
+  {
+    id: "4",
+    src: "/services/rentals/4.jpg",
+    alt: "Projection equipment rental for live presentations",
+  },
+  {
+    id: "5",
+    src: "/services/rentals/5.jpg",
+    alt: "Live event production equipment rental setup",
+  },
+  {
+    id: "6",
+    src: "/services/rentals/6.jpg",
+    alt: "Concert sound system rental with speakers and mixing console",
+  },
+  {
+    id: "7",
+    src: "/services/rentals/7.jpg",
+    alt: "Live streaming equipment rental for hybrid events",
+  },
+  {
+    id: "8",
+    src: "/services/rentals/8.jpg",
+    alt: "Wireless microphone rental for conferences and panels",
+  },
+  {
+    id: "9",
+    src: "/services/rentals/9.jpg",
+    alt: "DJ equipment rental including mixers and turntables",
+  },
+  {
+    id: "10",
+    src: "/services/rentals/10.jpg",
+    alt: "Professional video production equipment rental",
+  },
+  {
+    id: "11",
+    src: "/services/rentals/11.jpg",
+    alt: "Moving head light rental for dynamic stage lighting",
+  },
+  {
+    id: "12",
+    src: "/services/rentals/12.jpg",
+    alt: "Truss and rigging rental for event production",
+  },
+  {
+    id: "13",
+    src: "/services/rentals/13.jpg",
+    alt: "Event lighting rental with color-changing LED fixtures",
+  },
+  {
+    id: "14",
+    src: "/services/rentals/14.jpg",
+    alt: "Audio speaker rental for indoor and outdoor events",
+  },
+  {
+    id: "15",
+    src: "/services/rentals/15.jpg",
+    alt: "Stage platform rental for live performances",
+  },
+  {
+    id: "16",
+    src: "/services/rentals/16.jpg",
+    alt: "Large-scale LED screen rental for event backdrops",
+  },
+  {
+    id: "17",
+    src: "/services/rentals/17.jpg",
+    alt: "Lighting control console rental for event production",
+  },
+  {
+    id: "18",
+    src: "/services/rentals/18.jpg",
+    alt: "Camera and broadcast equipment rental for live events",
+  },
+  {
+    id: "19",
+    src: "/services/rentals/19.jpg",
+    alt: "Event power distribution and cabling rental",
+  },
+  {
+    id: "20",
+    src: "/services/rentals/20.jpg",
+    alt: "Professional microphone and audio accessory rental",
+  },
+  {
+    id: "21",
+    src: "/services/rentals/21.jpg",
+    alt: "Event staging and riser rental setup",
+  },
+  {
+    id: "22",
+    src: "/services/rentals/22.jpg",
+    alt: "Lighting truss rental with suspended fixtures",
+  },
+  {
+    id: "23",
+    src: "/services/rentals/23.jpg",
+    alt: "Portable sound system rental for small events",
+  },
+  {
+    id: "24",
+    src: "/services/rentals/24.jpg",
+    alt: "Video switcher and control equipment rental",
+  },
+  {
+    id: "25",
+    src: "/services/rentals/25.jpg",
+    alt: "Event lighting package rental for corporate functions",
+  },
+  {
+    id: "26",
+    src: "/services/rentals/26.jpg",
+    alt: "Professional speaker stack rental for concerts",
+  },
+  {
+    id: "27",
+    src: "/services/rentals/27.jpg",
+    alt: "Stage backdrop and scenic rental for events",
+  },
+  {
+    id: "28",
+    src: "/services/rentals/28.jpg",
+    alt: "AV equipment rental for conferences and meetings",
+  },
+  {
+    id: "29",
+    src: "/services/rentals/29.jpg",
+    alt: "Lighting and audio rental setup during event load-in",
+  },
+  {
+    id: "30",
+    src: "/services/rentals/30.jpg",
+    alt: "Event production rental equipment in use on-site",
+  },
+  {
+    id: "31",
+    src: "/services/rentals/31.jpg",
+    alt: "High-quality event rental equipment prepared for setup",
+  },
+  {
+    id: "32",
+    src: "/services/rentals/32.jpg",
+    alt: "Complete AV rental solution for large-scale events",
+  },
+  {
+    id: "33",
+    src: "/services/rentals/33.jpg",
+    alt: "Professional lighting and staging rental configuration",
+  },
+  {
+    id: "34",
+    src: "/services/rentals/34.jpg",
+    alt: "Reliable event rental equipment supporting live production",
+  },
+];
+
+export const RentalFAQ = [
+  {
+    question: "What types of equipment do you offer for rent?",
+    answer:
+      "We offer a wide range of professional event rentals including audio systems, lighting, LED video walls, staging, truss and rigging, DJ equipment, and live streaming solutions.",
+  },
+  {
+    question: "Do your rentals include delivery and setup?",
+    answer:
+      "Yes. Our rental services can include delivery, setup, on-site support, and breakdown depending on your event needs and rental package.",
+  },
+  {
+    question: "Can I rent equipment only, without full event production?",
+    answer:
+      "Absolutely. We offer both equipment-only rentals and full-service rental packages with technical support to match your event requirements.",
+  },
+  {
+    question: "Do you provide technical support during the event?",
+    answer:
+      "Yes. Our experienced technicians are available to manage setup, operation, and troubleshooting to ensure reliable performance throughout your event.",
+  },
+  {
+    question: "How far in advance should rental equipment be booked?",
+    answer:
+      "We recommend booking rental equipment 2–4 weeks in advance, especially for larger events or high-demand items.",
+  },
+  {
+    question: "Do you offer rentals for events outside of New York?",
+    answer:
+      "Yes. We provide rental services both locally and nationwide, depending on equipment availability and event logistics.",
+  },
+];
+
+// Rentals Data End
 
 // Design & Decor Service Data Start
 export const DesignDecorData = {

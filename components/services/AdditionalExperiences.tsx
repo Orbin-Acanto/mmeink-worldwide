@@ -104,7 +104,7 @@ export default function AdditionalExperiences({
                   >
                     <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-3 md:mb-4 lg:mb-6">
                       {projects[currentIndex].title}{" "}
-                      <span className="inline-block">→</span>
+                      {/* <span className="inline-block">→</span> */}
                     </h3>
                     <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-1 md:mb-2">
                       {projects[currentIndex].venue}

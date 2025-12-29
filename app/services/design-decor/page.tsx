@@ -31,8 +31,8 @@ export default function DesignDecorServicePage() {
       <ProcessApproach />
       <CaseStudiesSection caseStudies={DesignDecorCaseStudiesData} />
       <ImageGallerySection
-        title="Custom Fabrication"
-        subtitle="Explore our most memorable Custom Fabrication experiences"
+        title="Design & Décor"
+        subtitle="Explore our most memorable design and décor environments crafted for impactful events."
         images={DesignDecorImageGallery}
       />
       <HomeCTA
