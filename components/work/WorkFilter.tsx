@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const eventTypes = [
   { id: "all", label: "All" },
   { id: "corporate", label: "Corporate" },
-  { id: "gala", label: "Galas" },
+  { id: "galas", label: "Galas" },
   { id: "conference", label: "Conferences" },
   { id: "product-launch", label: "Product Launches" },
   { id: "trade-show", label: "Trade Shows" },
