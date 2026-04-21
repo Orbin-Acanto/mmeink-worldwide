@@ -78,8 +78,8 @@ export default function Footer() {
                 {submitted
                   ? "✓ SUBSCRIBED"
                   : isSubmitting
-                  ? "..."
-                  : "SUBSCRIBE"}
+                    ? "..."
+                    : "SUBSCRIBE"}
               </button>
             </form>
           </div>
@@ -189,7 +189,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10">
+        <div className="h-px w-full bg-linear-to-r from-transparent via-purple/60 to-transparent my-6" />
+        <div>
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3">
               <div className="relative w-32 h-18">
