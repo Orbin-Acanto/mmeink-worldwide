@@ -24,8 +24,8 @@ export default function OurWorkMarqueSection({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
         <div className="flex items-center justify-center">
-          <h2 className="flex items-center justify-center gap-3 text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white tracking-tight leading-tight drop-shadow-2xl">
-            <span className="text-white">Our</span>
+          <h2 className="cta-heading mb-0">
+            <span className="text-white">Our </span>
             <span className="inline-block min-w-5 text-center">
               <TypingText
                 text={[
@@ -37,7 +37,7 @@ export default function OurWorkMarqueSection({
                 pauseDuration={1500}
                 showCursor={true}
                 cursorCharacter="|"
-                className="text-purple"
+                className="gradient-text"
                 variableSpeed={{ min: 50, max: 120 }}
               />
             </span>
@@ -71,7 +71,8 @@ export default function OurWorkMarqueSection({
                 className="object-cover transition-transform duration-700 group-hover/card:scale-105"
               />
 
-              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-black/30 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300" />
 
               <Link
                 href={item.href}
@@ -88,7 +89,10 @@ export default function OurWorkMarqueSection({
                     {item.eventType}
                   </span>
                 )}
-                <h3 className="text-base sm:text-lg md:text-xl font-semibold text-white drop-shadow">
+                <h3
+                  className="text-base sm:text-lg md:text-xl font-bold text-white uppercase tracking-wide"
+                  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.9)" }}
+                >
                   {item.title}
                 </h3>
               </div>
