@@ -55,11 +55,7 @@ export default function CTASection({
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <Button
-              href={primaryButton.href}
-              variant="primary"
-              icon={<ArrowRight className="w-4 h-4" />}
-            >
+            <Button href={primaryButton.href} variant="primary">
               {primaryButton.text}
             </Button>
           </motion.div>
