@@ -302,3 +302,15 @@ body {
 .section-body {
   @apply text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-justify;
 }
+
+.cta-label {
+  @apply text-xs sm:text-sm font-semibold tracking-[0.25em] mb-6 text-gray-300 uppercase;
+}
+
+.cta-heading {
+  @apply uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-white mb-4;
+}
+
+.cta-body {
+  @apply text-xs sm:text-sm md:text-base text-gray-200 leading-relaxed text-center max-w-2xl mx-auto mb-8 sm:mb-10;
+}

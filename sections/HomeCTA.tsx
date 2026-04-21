@@ -63,16 +63,16 @@ export default function HomeCTA({
       <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center z-10">
           {subtitle && (
-            <p className="text-xs sm:text-sm font-semibold tracking-[0.22em] text-gray-300 uppercase mb-3 animate-fadeIn">
+            <p className="cta-label animate-fadeIn">
               {subtitle}
             </p>
           )}
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-tight drop-shadow-2xl">
+          <h1 className="cta-heading">
             {title}
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+          <p className="cta-body animate-fadeIn animation-delay-200">
             {description}
           </p>
 
