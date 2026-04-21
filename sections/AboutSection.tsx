@@ -2,6 +2,13 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Award, Users, Star } from "lucide-react";
+
+const badges = [
+  { icon: Award, label: "Years of Excellence", value: "30+" },
+  { icon: Users, label: "Events Produced", value: "5,000+" },
+  { icon: Star, label: "Industry Awards", value: "20+" },
+];
 
 interface AboutSectionProps {
   label?: string;
@@ -31,6 +38,21 @@ export default function AboutSection({
             </h1>
 
             <p className="section-body">{description}</p>
+
+            <div className="flex flex-wrap gap-3 pt-2">
+              {badges.map(({ icon: Icon, label, value }) => (
+                <div
+                  key={label}
+                  className="flex items-center gap-3 border border-purple/20 bg-purple/5 px-4 py-3 rounded-sm"
+                >
+                  <Icon className="w-5 h-5 text-purple shrink-0" />
+                  <div>
+                    <p className="text-base font-bold text-gray-900 leading-none">{value}</p>
+                    <p className="text-[0.65rem] uppercase tracking-widest text-gray-500 mt-0.5">{label}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <motion.div
