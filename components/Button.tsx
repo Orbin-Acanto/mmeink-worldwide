@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 
 interface ButtonProps {
   children: React.ReactNode;
   href?: string;
   onClick?: () => void;
   variant?: "primary" | "secondary" | "outline";
-  icon?: boolean;
+  icon?: React.ReactNode;
   className?: string;
   disabled?: boolean;
   type?: "button" | "submit" | "reset";
@@ -27,7 +26,7 @@ export default function Button({
 
   const variants = {
     primary:
-      "bg-purple text-white hover:bg-purple/70 shadow-lg hover:shadow-2xl",
+      "bg-purple text-white hover:bg-purple/70 hover:scale-105 shadow-lg hover:shadow-2xl",
     secondary:
       "bg-transparent text-white border-2 border-white hover:bg-white hover:text-black hover:scale-105 shadow-xl",
     outline:
@@ -40,7 +39,7 @@ export default function Button({
     return (
       <Link href={href} className={combinedClassName}>
         {children}
-        {icon && <ArrowRight className="ml-2 w-4 h-4 transition-transform" />}
+        {icon && <span className="ml-2">{icon}</span>}
       </Link>
     );
   }
@@ -53,7 +52,7 @@ export default function Button({
       className={combinedClassName}
     >
       {children}
-      {icon && <ArrowRight className="ml-2 w-4 h-4 transition-transform" />}
+      {icon && <span className="ml-2">{icon}</span>}
     </button>
   );
 }
