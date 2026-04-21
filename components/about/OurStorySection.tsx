@@ -7,7 +7,7 @@ import { locations, timeline } from "@/data";
 
 export default function OurStorySection() {
   return (
-    <section className="relative w-full py-16 sm:py-20 lg:py-24 bg-linear-to-b from-white via-gray-50 to-white overflow-hidden">
+    <section className="relative w-full pt-20 bg-linear-to-b from-white via-gray-50 to-white overflow-hidden">
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-purple/5 blur-3xl rounded-full" />
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-cyan/5 blur-3xl rounded-full" />
 
@@ -20,13 +20,11 @@ export default function OurStorySection() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-gray-500 uppercase">
-                Our Journey
-              </p>
-              <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
+              <p className="section-label">Our Journey</p>
+              <h1 className="section-heading mb-4">
                 Our <span className="text-purple">Story</span>
-              </h2>
-              <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+              </h1>
+              <p className="section-body-center animate-fadeIn animation-delay-200">
                 Three decades of innovation, creativity, and unforgettable
                 moments
               </p>
@@ -36,7 +34,7 @@ export default function OurStorySection() {
           <div className="relative mb-16">
             <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-1 bg-linear-to-b from-purple via-purple-light to-purple transform -translate-x-1/2" />
 
-            <div className="space-y-12 lg:space-y-24">
+            <div className="space-y-8 lg:space-y-16">
               {timeline.map((item, index) => (
                 <motion.div
                   key={item.year}
@@ -53,7 +51,7 @@ export default function OurStorySection() {
                       index % 2 === 0 ? "lg:text-right" : "lg:text-left"
                     }`}
                   >
-                    <div className="group p-8 bg-white border-2 border-gray-200 hover:border-purple/50 transition-all duration-300 hover:shadow-xl">
+                    <div className="group p-5 sm:p-6 lg:p-8 bg-white border-2 border-gray-200 hover:border-purple/50 transition-all duration-300 hover:shadow-xl">
                       <div
                         className={`flex items-center gap-3 mb-4 ${
                           index % 2 === 0
@@ -64,16 +62,10 @@ export default function OurStorySection() {
                         <div className="p-3 bg-purple/10 text-purple rounded-full group-hover:bg-purple group-hover:text-white transition-colors duration-300">
                           {item.icon}
                         </div>
-                        <span className="text-4xl md:text-5xl font-bold text-purple">
-                          {item.year}
-                        </span>
+                        <span className="timeline-year">{item.year}</span>
                       </div>
-                      <h3 className="text-2xl md:text-3xl font-bold uppercase text-black mb-3">
-                        {item.title}
-                      </h3>
-                      <p className="text-gray-600 leading-relaxed">
-                        {item.description}
-                      </p>
+                      <h3 className="timeline-heading">{item.title}</h3>
+                      <p className="timeline-body">{item.description}</p>
                     </div>
                   </div>
 
@@ -84,7 +76,7 @@ export default function OurStorySection() {
           </div>
         </div>
         {/* Location Area  */}
-        <div className="relative -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-16 bg-black">
+        <div className="relative -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-20 bg-black">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -92,13 +84,10 @@ export default function OurStorySection() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h3 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-tight drop-shadow-2xl">
-              Our{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-cyan to-purple-light">
-                Locations
-              </span>
-            </h3>
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+            <h1 className="cta-heading">
+              Our <span className="gradient-text">Locations</span>
+            </h1>
+            <p className="cta-body animate-fadeIn animation-delay-200">
               Serving clients across three iconic cities
             </p>
           </motion.div>
@@ -126,7 +115,7 @@ export default function OurStorySection() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <div className="flex items-center gap-2 mb-2">
                     <MapPin className="w-5 h-5 text-purple-light" />
-                    <h4 className="text-2xl font-bold uppercase">
+                    <h4 className="text-lg sm:text-xl font-bold uppercase">
                       {location.city}
                     </h4>
                   </div>

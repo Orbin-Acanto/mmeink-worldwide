@@ -77,7 +77,7 @@ export default function ClientLogosSection({
 
   return (
     <section
-      className={`relative w-full bg-white py-16 sm:py-20 lg:py-24 ${className}`}
+      className={`relative w-full bg-white py-20 ${className}`}
     >
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-5xl mx-auto mb-12">

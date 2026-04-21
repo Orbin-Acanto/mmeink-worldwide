@@ -303,6 +303,22 @@ body {
   @apply text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-justify;
 }
 
+.timeline-year {
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold text-purple;
+}
+
+.timeline-heading {
+  @apply text-xl sm:text-2xl font-bold uppercase text-black mb-3;
+}
+
+.timeline-body {
+  @apply text-xs sm:text-sm text-gray-600 leading-relaxed;
+}
+
+.section-body-center {
+  @apply text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center max-w-2xl mx-auto mb-8 sm:mb-10;
+}
+
 .cta-label {
   @apply text-xs sm:text-sm font-semibold tracking-[0.25em] mb-6 text-gray-300 uppercase;
 }

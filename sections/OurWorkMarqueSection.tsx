@@ -20,7 +20,7 @@ export default function OurWorkMarqueSection({
 
   return (
     <section
-      className={`relative bg-black py-16 sm:py-20 lg:py-24 overflow-hidden w-full ${className}`}
+      className={`relative bg-black py-20 overflow-hidden w-full ${className}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
         <div className="flex items-center justify-center">

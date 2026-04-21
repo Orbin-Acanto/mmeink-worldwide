@@ -26,7 +26,7 @@ export default function AboutSection({
   return (
     <section
       id="about-us"
-      className="relative bg-white py-12 sm:py-16 lg:py-20"
+      className="relative bg-white py-20"
     >
       <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
         <p className="section-label">{label}</p>

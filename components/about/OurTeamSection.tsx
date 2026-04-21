@@ -7,7 +7,7 @@ import { team } from "@/data";
 
 export default function OurTeamSection() {
   return (
-    <section className="relative w-full py-16 sm:py-20 lg:py-24 bg-white overflow-hidden">
+    <section className="relative w-full py-20 bg-white overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <Image
           src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"

@@ -48,7 +48,7 @@ export default function ProcessSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full py-16 sm:py-20 lg:py-24 bg-white overflow-hidden"
+      className="relative w-full py-20 bg-white overflow-hidden"
       style={{ minHeight: "200vh" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
