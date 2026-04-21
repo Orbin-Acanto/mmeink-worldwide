@@ -87,23 +87,16 @@ export default function LandingHero({
       </div>
 
       {/* Content Container */}
-      <div className="relative z-20 flex items-center justify-center mt-12 h-full px-6">
-        <div className="max-w-7xl text-center">
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-tight drop-shadow-2xl">
-            {title}
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-[1.8rem]  text-white/90 mb-12 max-w-4xl mx-auto font-light drop-shadow-lg leading-relaxed xl:leading-tight">
-            {subtitle}
-          </p>
+      <div className="relative z-20 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl w-full text-center">
+          <h1 className="hero-heading">{title}</h1>
+          <p className="hero-subheading-center">{subtitle}</p>
           <Button href="#about-us">Learn More</Button>
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+      <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 z-20 animate-bounce">
         <div className="flex flex-col items-center gap-2 text-white/70 hover:text-white transition-colors cursor-pointer">
           <span className="text-sm uppercase tracking-widest font-light">
             Scroll
