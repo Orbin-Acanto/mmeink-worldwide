@@ -31,7 +31,7 @@ export default function StatsSection({
   });
 
   return (
-    <section className={`bg-gray-50 py-16 sm:py-20 lg:py-24 ${className}`}>
+    <section className={`bg-gray-50 py-20 ${className}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={ref} className="text-center">
           <StatsTitle title={title} highlightedText={highlightedText} />
