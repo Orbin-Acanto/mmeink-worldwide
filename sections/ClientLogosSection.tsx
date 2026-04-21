@@ -81,14 +81,12 @@ export default function ClientLogosSection({
     >
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-5xl mx-auto mb-12">
-          <p className="text-xs sm:text-sm font-semibold tracking-[0.22em] text-gray-600 uppercase mb-3">
-            Trusted Clients
-          </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-tight text-black mb-3">
+          <p className="section-label">Trusted Clients</p>
+          <h2 className="section-heading">
             Brands{" "}
-            <span className="text-purple block sm:inline">who trust Us</span>
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+            <span className="gradient-text block sm:inline">who trust Us</span>
+          </h2>
+          <p className="section-body-center">
             From global corporations to visionary creatives, we partner with
             clients who care about impactful, well-executed experiences.
           </p>
