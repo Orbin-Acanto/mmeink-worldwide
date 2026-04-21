@@ -62,7 +62,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
             }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white text-center">
               {service.name}
             </h3>
           </motion.div>
