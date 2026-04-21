@@ -21,7 +21,7 @@ export default function OurStorySection() {
               transition={{ duration: 0.8 }}
             >
               <p className="section-label">Our Journey</p>
-              <h1 className="section-heading mb-4">
+              <h1 className="section-heading">
                 Our <span className="text-purple">Story</span>
               </h1>
               <p className="section-body-center animate-fadeIn animation-delay-200">
