@@ -22,21 +22,15 @@ export default function AboutSection({
       className="relative bg-white py-12 sm:py-16 lg:py-20"
     >
       <div className="max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] mb-12 text-gray-500 uppercase">
-          {label}
-        </p>
+        <p className="section-label">{label}</p>
         <div className="grid gap-10 sm:gap-12 md:gap-16 lg:grid-cols-2 items-start">
           <div className="space-y-5 sm:space-y-6">
-            <h1 className="uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
+            <h1 className="section-heading">
               {title}
-              <span className="block text-purple">{titleHighlight}</span>
+              <span className="section-heading-highlight">{titleHighlight}</span>
             </h1>
 
-            <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed">
-              {description}
-            </p>
-
-            {/* <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed"></p> */}
+            <p className="section-body">{description}</p>
           </div>
 
           <motion.div
