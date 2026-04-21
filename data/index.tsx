@@ -3458,6 +3458,158 @@ export const DesignAndDecorFAQ = [
 ];
 // Design & Decor Service Data End
 
+// Logistics Service Data Start
+export const LogisticsData = {
+  title: "What We Offer",
+  subtitle: "End-to-End Event Logistics & Operations",
+  topRow: [
+    {
+      id: "1",
+      title: "Venue Sourcing & Coordination",
+      image: "/services/rentals/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Load-In & Load-Out Management",
+      image: "/services/rentals/29.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Event Staffing & Crew",
+      image: "/services/rentals/16.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Transportation & Freight",
+      image: "/services/cf/gif/2.gif",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Permitting & Compliance",
+      image: "/services/rentals/28.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Vendor Management",
+      image: "/services/cf/gif/3.gif",
+      width: "md" as const,
+    },
+  ],
+  bottomRow: [
+    {
+      id: "7",
+      title: "On-Site Production Management",
+      image: "/services/cf/gif/4.gif",
+      width: "md" as const,
+    },
+    {
+      id: "8",
+      title: "Timeline & Run-of-Show",
+      image: "/services/rentals/30.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "9",
+      title: "Warehouse & Storage",
+      image: "/services/cf/gif/5.gif",
+      width: "lg" as const,
+    },
+    {
+      id: "10",
+      title: "Budget & Cost Management",
+      image: "/services/rentals/31.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "11",
+      title: "Safety & Risk Planning",
+      image: "/services/cf/gif/6.gif",
+      width: "md" as const,
+    },
+    {
+      id: "12",
+      title: "Post-Event Reporting",
+      image: "/services/rentals/32.jpg",
+      width: "lg" as const,
+    },
+  ],
+};
+
+export const LogisticsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Fortune 500 Corporation",
+    projectTitle: "Multi-City National Conference Tour",
+    challenge:
+      "A Fortune 500 client needed seamless coordination of a six-city national conference tour — managing freight logistics, crew deployment, venue coordination, and production timelines across multiple states within a compressed 10-day window.",
+    solution:
+      "MMEink deployed a dedicated logistics team to manage all production freight, local vendor sourcing, permitting, and on-site crew across all six markets. A centralized run-of-show and real-time coordination protocol kept every city on schedule.",
+    impact:
+      "All six events executed on time and within budget. The client received a unified brand experience across every market, with zero production delays and full post-event reporting delivered within 48 hours.",
+    gallery: [
+      "/services/rentals/case-study/1.jpg",
+      "/services/rentals/case-study/2.jpg",
+      "/services/rentals/case-study/3.jpg",
+      "/services/rentals/case-study/4.jpg",
+      "/services/rentals/case-study/5.jpg",
+    ],
+  },
+];
+
+export const LogisticsImageGallery = [
+  { id: "1", src: "/services/rentals/1.jpg", alt: "Event logistics setup with equipment staging and crew coordination" },
+  { id: "2", src: "/services/rentals/2.jpg", alt: "Production load-in with freight and staging equipment" },
+  { id: "3", src: "/services/rentals/3.jpg", alt: "On-site logistics management at large-scale event venue" },
+  { id: "4", src: "/services/rentals/4.jpg", alt: "Venue coordination and floor plan logistics for corporate event" },
+  { id: "5", src: "/services/rentals/5.jpg", alt: "Event staffing and crew management during production setup" },
+  { id: "6", src: "/services/rentals/6.jpg", alt: "Transportation and freight logistics for event equipment" },
+  { id: "7", src: "/services/rentals/7.jpg", alt: "Production timeline coordination during event load-in" },
+  { id: "8", src: "/services/rentals/8.jpg", alt: "Vendor management and logistics coordination on-site" },
+  { id: "9", src: "/services/rentals/9.jpg", alt: "Warehouse staging and inventory management for event production" },
+  { id: "10", src: "/services/rentals/10.jpg", alt: "Event safety briefing and risk planning before production" },
+  { id: "11", src: "/services/rentals/11.jpg", alt: "Run-of-show coordination with event production team" },
+  { id: "12", src: "/services/rentals/12.jpg", alt: "Budget management and logistics reporting post-event" },
+];
+
+export const LogisticsFAQ = [
+  {
+    question: "What does your logistics service include?",
+    answer:
+      "Our logistics services cover venue sourcing, freight and transportation, load-in/load-out management, crew staffing, vendor coordination, permitting, on-site production management, and post-event reporting.",
+  },
+  {
+    question: "Do you manage multi-city or touring events?",
+    answer:
+      "Yes. We specialize in coordinating multi-city tours and national events, managing production logistics, crew deployment, and vendor relationships across multiple markets simultaneously.",
+  },
+  {
+    question: "Can you handle permitting and compliance for events?",
+    answer:
+      "Absolutely. Our team manages all necessary permits, insurance requirements, and local compliance regulations to ensure your event runs without any administrative issues.",
+  },
+  {
+    question: "Do you provide on-site production management?",
+    answer:
+      "Yes. Our logistics managers are on-site throughout your event — overseeing crew, managing timelines, coordinating vendors, and resolving any production challenges in real time.",
+  },
+  {
+    question: "How do you manage event budgets and costs?",
+    answer:
+      "We provide transparent budget planning, vendor cost negotiation, and ongoing cost tracking throughout the production cycle, with full post-event financial reporting.",
+  },
+  {
+    question: "How far in advance should logistics be planned?",
+    answer:
+      "For large-scale or multi-city events, we recommend engaging our logistics team 6–8 weeks in advance. Smaller events can typically be coordinated with 2–4 weeks of lead time.",
+  },
+];
+// Logistics Service Data End
+
 export const processSteps: ProcessStep[] = [
   {
     number: 1,
