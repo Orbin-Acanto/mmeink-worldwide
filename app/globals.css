@@ -303,6 +303,14 @@ body {
   @apply text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-justify;
 }
 
+.card-heading {
+  @apply text-base sm:text-lg font-bold uppercase text-black;
+}
+
+.card-body {
+  @apply text-xs text-gray-600 leading-relaxed;
+}
+
 .timeline-year {
   @apply text-2xl sm:text-3xl md:text-4xl font-bold text-purple;
 }

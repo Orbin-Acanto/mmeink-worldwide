@@ -18,20 +18,18 @@ export default function OurTeamSection() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16 lg:mb-20">
+        <div className="text-center mb-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-gray-500 uppercase">
-              The Dream Team
-            </p>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
+            <p className="section-label">The Dream Team</p>
+            <h2 className="section-heading mb-4">
               Our <span className="text-purple">Team</span>
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+            <p className="section-body-center animate-fadeIn animation-delay-200">
               Meet the crew that makes magic happen
             </p>
           </motion.div>
@@ -69,15 +67,13 @@ export default function OurTeamSection() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold uppercase text-black mb-1 group-hover:text-purple transition-colors duration-300">
+                  <h3 className="card-heading mb-1 group-hover:text-purple transition-colors duration-300">
                     {member.name}
                   </h3>
-                  <p className="text-purple font-semibold text-sm tracking-wider uppercase mb-4">
+                  <p className="text-purple font-semibold text-xs tracking-wider uppercase mb-4">
                     {member.role}
                   </p>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                    {member.bio}
-                  </p>
+                  <p className="card-body mb-6">{member.bio}</p>
 
                   <div className="flex gap-3">
                     <a
@@ -106,11 +102,9 @@ export default function OurTeamSection() {
           transition={{ duration: 0.8 }}
           className="mt-16 lg:mt-20 text-center"
         >
-          <div className="inline-block p-8 md:p-12 bg-linear-to-br from-purple/5 to-cyan/5 border-2 border-purple/20">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black mb-4">
-              Want to Join Our Team?
-            </h3>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto animate-fadeIn animation-delay-200">
+          <div className="inline-block p-6 sm:p-8 md:p-12 bg-linear-to-br from-purple/5 to-cyan/5 border-2 border-purple/20">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold uppercase text-black mb-3">Want to Join Our Team?</h3>
+            <p className="card-body max-w-xl mx-auto text-center mb-8 animate-fadeIn animation-delay-200">
               We're always looking for talented individuals who share our
               passion for creating unforgettable experiences.
             </p>
