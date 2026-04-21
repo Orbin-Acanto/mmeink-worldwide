@@ -332,7 +332,7 @@ body {
 }
 
 .cta-heading {
-  @apply uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-white mb-4;
+  @apply uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-white mb-4 leading-snug;
 }
 
 .cta-body {

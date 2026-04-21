@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import Button from "./Button";
 
 export default function CTASection({
@@ -10,15 +14,56 @@ export default function CTASection({
   subtitle?: string;
 }) {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
-      <div className="max-w-3xl mx-auto text-center space-y-8">
-        <div className="space-y-4">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
+    <section className="relative w-full h-[40vh] min-h-80 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center scale-105"
+        style={{ backgroundImage: "url('/abstract-bg.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-black/50" />
+
+      <motion.div
+        className="absolute inset-0 bg-linear-to-r from-purple/50 via-black/20 to-cyan/40"
+        animate={{ opacity: [0.7, 1, 0.7] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+      />
+
+      <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="cta-label"
+          >
+            {subtitle}
+          </motion.p>
+
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            className="cta-heading"
+          >
             {title}
-          </h2>
-          <p className="text-lg text-gray-300">{subtitle}</p>
+          </motion.h2>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <Button
+              href={primaryButton.href}
+              variant="primary"
+              icon={<ArrowRight className="w-4 h-4" />}
+            >
+              {primaryButton.text}
+            </Button>
+          </motion.div>
         </div>
-        <Button href={primaryButton.href}>{primaryButton.text}</Button>
       </div>
     </section>
   );
