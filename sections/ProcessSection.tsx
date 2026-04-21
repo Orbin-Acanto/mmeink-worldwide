@@ -52,19 +52,16 @@ export default function ProcessSection() {
       style={{ minHeight: "200vh" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16 lg:mb-20">
+        <div className="text-center mb-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-gray-500 uppercase mb-4">
-              Our Approach
-            </p>
-            <h1 className="uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
-              How We Bring Your
-              <br />
+            <p className="section-label">Our Approach</p>
+            <h1 className="section-heading">
+              How We Bring Your{" "}
               <span className="text-purple">Vision to Life</span>
             </h1>
           </motion.div>
@@ -169,11 +166,9 @@ export default function ProcessSection() {
                     <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
                   </div>
 
-                  <div className="p-4">
-                    <h3 className="text-xl md:text-3xl font-bold uppercase text-black">
-                      {step.title}
-                    </h3>
-                    <p className="text-purple font-semibold tracking-wide text-lg md:text-xl">
+                  <div className="p-4 sm:p-5">
+                    <h3 className="card-heading">{step.title}</h3>
+                    <p className="text-purple font-semibold tracking-wide text-xs sm:text-sm uppercase">
                       {step.subtitle}
                     </p>
                   </div>

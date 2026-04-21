@@ -474,26 +474,25 @@ export const steps: Step[] = [
     id: "discover",
     title: "Discover",
     subtitle: "We listen and strategize",
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
+    image: "/about/discover.png",
   },
   {
     id: "design",
     title: "Design",
     subtitle: "Creative concepts that wow",
-    image: "/services/cf/process_1.jpg",
+    image: "/about/design.png",
   },
   {
     id: "produce",
     title: "Produce",
     subtitle: "Flawless execution",
-    image: "/services/dd/1.jpg",
+    image: "/about/produce.png",
   },
   {
     id: "deliver",
     title: "Deliver",
     subtitle: "Memorable experiences",
-    image: "/services/cf/8.jpeg",
+    image: "/about/deliver.png",
   },
 ];
 
