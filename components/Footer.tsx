@@ -22,20 +22,30 @@ export default function Footer() {
   };
 
   const eventTypes = [
-    { name: "Brand Activations", href: "/events/corporate" },
-    { name: "Product Launches", href: "/events/corporate" },
-    { name: "Exhibits & Trade Shows", href: "/events/corporate" },
-    { name: "Conferences & Meetings", href: "/events/corporate" },
-    { name: "Virtual & Hybrid Events", href: "/events/corporate" },
-    { name: "Galas", href: "/events/corporate" },
+    { name: "Brand Activations", href: "/events/brand-activations" },
+    { name: "Product Launches", href: "/events/product-launches" },
+    { name: "Exhibitions", href: "/events/exhibits-trade-shows" },
+    { name: "Conferences & Meetings", href: "/events/conferences-meetings" },
+    { name: "Award Dinners", href: "/events/award-dinners" },
+    { name: "Galas", href: "/events/galas" },
+    { name: "Corporate Events", href: "/events/corporate-events" },
+    { name: "Themed Events", href: "/events/themed-events" },
+    { name: "Seasonal Events", href: "/events/seasonal-events" },
   ];
 
   const services = [
-    { name: "Custom Fabrication", href: "/services/production" },
-    { name: "Audio Visual", href: "/services/production" },
-    { name: "Design & Decor", href: "/services/production" },
-    { name: "Logistics", href: "/services/production" },
-    { name: "Rentals", href: "/services/production" },
+    { name: "Custom Fabrication", href: "/services/custom-fabrication" },
+    { name: "Printing", href: "/services/printing" },
+    { name: "Audio Visual", href: "/services/audio-visual" },
+    { name: "Lighting", href: "/services/lighting" },
+    { name: "Staging", href: "/services/staging" },
+    { name: "Design & Decor", href: "/services/design-decor" },
+    { name: "Themes", href: "/services/themes" },
+    { name: "Props", href: "/services/props" },
+    { name: "Rentals", href: "/services/rentals" },
+    { name: "Musical Entertainment", href: "/services/musical-entertainment" },
+    { name: "Entertainment", href: "/services/entertainment" },
+    { name: "Logistics", href: "/services/logistics" },
   ];
 
   const company = [
@@ -152,16 +162,16 @@ export default function Footer() {
 
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider text-purple mb-4">
-              Get in Touch
+              Get in Touch With Us
             </h4>
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:+12126161655"
+                  href="tel:+18778850705"
                   className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors group"
                 >
                   <Phone className="w-4 h-4 mt-0.5 group-hover:text-purple transition-colors" />
-                  <span className="text-sm">1 (212) 616-1655</span>
+                  <span className="text-sm">1-877-885-0705</span>
                 </a>
               </li>
               <li>
@@ -177,15 +187,19 @@ export default function Footer() {
                 <div className="flex items-start gap-3 text-gray-400">
                   <MapPin className="w-4 h-4 mt-0.5 text-purple" />
                   <span className="text-sm">
-                    234 West 39th Street
+                    140 Florida St
                     <br />
-                    10th Floor
-                    <br />
-                    New York, NY 10018
+                    Farmingdale, NY 11735
                   </span>
                 </div>
               </li>
             </ul>
+            <Link
+              href="/contact"
+              className="mt-6 inline-flex items-center px-8 py-3 bg-purple text-white font-medium text-sm tracking-wider uppercase transition-all duration-300 shadow-lg hover:bg-purple/70 hover:shadow-2xl"
+            >
+              Let&apos;s Connect
+            </Link>
           </div>
         </div>
 

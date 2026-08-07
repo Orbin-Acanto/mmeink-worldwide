@@ -53,12 +53,21 @@ export default function OurTeamSection() {
                       transition={{ duration: 0.3 }}
                       className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl"
                     >
-                      <Image
-                        src={member.avatar}
-                        alt={member.name}
-                        fill
-                        className="object-cover"
-                      />
+                      {member.avatar ? (
+                        <Image
+                          src={member.avatar}
+                          alt={member.name}
+                          fill
+                          className="object-cover"
+                        />
+                      ) : (
+                        <div className="flex h-full w-full items-center justify-center bg-linear-to-br from-purple/20 to-cyan/20 text-4xl font-bold tracking-wider text-purple">
+                          {member.name
+                            .split(" ")
+                            .map((part) => part[0])
+                            .join("")}
+                        </div>
+                      )}
                     </motion.div>
                   </div>
 

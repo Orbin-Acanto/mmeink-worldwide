@@ -19,13 +19,13 @@ export default function EventExhibitsTradeShowsPage() {
     <div className="min-h-screen bg-white">
       <EventTypeHero
         image="/gallery/trade-shows/3.jpg"
-        title="Exhibits & Trade Shows"
+        title="Exhibitions"
         subtitle="Create standout booths that attract, engage, and convert"
       />
       <WhatWeDoSection offerings={ExhibitsTradeShowsEventTypeOfferings} />
       <CaseStudiesSection caseStudies={ExhibitsTradeShowsCaseStudiesData} />
       <ImageGallerySection
-        title="Exhibits & Trade Shows"
+        title="Exhibitions"
         subtitle="Custom booths and show-floor experiences designed to stand out"
         images={ExhibitsTradeShowsImageGallery}
       />

@@ -121,7 +121,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const submissionData = {
+    const formType = (formData.get("formType") as string) || "contact";
+
+    const submissionData: Record<string, string> = {
+      formType,
       fullName,
       company: formData.get("company") as string,
       phone: formData.get("phone") as string,
@@ -140,6 +143,35 @@ export async function POST(request: NextRequest) {
       submittedAt: new Date().toISOString(),
       page: (formData.get("page") as string) || "/",
     };
+
+    // RFP submissions carry a structured payload of every selection made in
+    // the multi-step builder. Validate it here so malformed JSON never
+    // reaches the downstream workflow.
+    if (formType === "rfp") {
+      const rawRfp = formData.get("rfp") as string | null;
+
+      if (!rawRfp) {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "RFP details are missing. Please try again.",
+          },
+          { status: 400 }
+        );
+      }
+
+      try {
+        submissionData.rfp = JSON.stringify(JSON.parse(rawRfp));
+      } catch {
+        return NextResponse.json(
+          {
+            success: false,
+            message: "RFP details were malformed. Please try again.",
+          },
+          { status: 400 }
+        );
+      }
+    }
 
     const n8nFormData = new FormData();
 

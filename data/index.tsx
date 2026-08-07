@@ -16,34 +16,45 @@ import {
 } from "lucide-react";
 
 export const navItems = [
+  { name: "About", href: "/about" },
+  {
+    name: "Services",
+    href: "/services",
+    submenu: [
+      { name: "Custom Fabrication", href: "/services/custom-fabrication" },
+      { name: "Printing", href: "/services/printing" },
+      { name: "Audio Visual", href: "/services/audio-visual" },
+      { name: "Lighting", href: "/services/lighting" },
+      { name: "Staging", href: "/services/staging" },
+      { name: "Design & Decor", href: "/services/design-decor" },
+      { name: "Themes", href: "/services/themes" },
+      { name: "Props", href: "/services/props" },
+      { name: "Rentals", href: "/services/rentals" },
+      { name: "Musical Entertainment", href: "/services/musical-entertainment" },
+      { name: "Entertainment", href: "/services/entertainment" },
+      { name: "Logistics", href: "/services/logistics" },
+    ],
+  },
   {
     name: "Events",
     href: "/events",
     submenu: [
       { name: "Brand Activations", href: "/events/brand-activations" },
       { name: "Product Launches", href: "/events/product-launches" },
-      { name: "Exhibits & Trade Shows", href: "/events/exhibits-trade-shows" },
+      { name: "Exhibitions", href: "/events/exhibits-trade-shows" },
       { name: "Conferences & Meetings", href: "/events/conferences-meetings" },
+      { name: "Award Dinners", href: "/events/award-dinners" },
+      { name: "Galas", href: "/events/galas" },
+      { name: "Corporate Events", href: "/events/corporate-events" },
+      { name: "Themed Events", href: "/events/themed-events" },
+      { name: "Seasonal Events", href: "/events/seasonal-events" },
       {
         name: "Virtual & Hybrid Events",
         href: "/events/virtual-hybrid-events",
       },
-      { name: "Galas", href: "/events/galas" },
-    ],
-  },
-  {
-    name: "Services",
-    href: "/services",
-    submenu: [
-      { name: "Custom Fabrication", href: "/services/custom-fabrication" },
-      { name: "Audio Visual", href: "/services/audio-visual" },
-      { name: "Design & Decor", href: "/services/design-decor" },
-      { name: "Logistics", href: "/services/logistics" },
-      { name: "Rentals", href: "/services/rentals" },
     ],
   },
   { name: "Our Work", href: "/work" },
-  { name: "About", href: "/about" },
 ];
 
 export const workItems: WorkItem[] = [
@@ -148,7 +159,13 @@ export const events = [
     id: "product-launches",
     name: "Product Launches",
     image: "/gallery/product-launches/23.jpg",
-    href: "/services/product-launches",
+    href: "/events/product-launches",
+  },
+  {
+    id: "exhibitions",
+    name: "Exhibitions",
+    image: "/gallery/trade-shows/3.jpg",
+    href: "/events/exhibits-trade-shows",
   },
   {
     id: "conferences-meetings",
@@ -157,22 +174,40 @@ export const events = [
     href: "/events/conferences-meetings",
   },
   {
-    id: "virtual-hybrid-events",
-    name: "Virtual & Hybrid Events",
-    image: "/gallery/virtual-hybrid/13.jpg",
-    href: "/services/custom-fabrication",
+    id: "award-dinners",
+    name: "Award Dinners",
+    image: "/gallery/galas/21.jpg",
+    href: "/events/award-dinners",
   },
   {
     id: "galas",
     name: "Galas",
     image: "/gallery/galas/13.jpg",
-    href: "/services/galas",
+    href: "/events/galas",
   },
   {
-    id: "exhibits-trade-shows",
-    name: "Exhibits & Trade Shows",
-    image: "/gallery/trade-shows/3.jpg",
-    href: "/events/exhibits-trade-shows",
+    id: "corporate-events",
+    name: "Corporate Events",
+    image: "/gallery/conferences/12.jpg",
+    href: "/events/corporate-events",
+  },
+  {
+    id: "themed-events",
+    name: "Themed Events",
+    image: "/gallery/brand-activation/22.jpg",
+    href: "/events/themed-events",
+  },
+  {
+    id: "seasonal-events",
+    name: "Seasonal Events",
+    image: "/gallery/galas/27.jpg",
+    href: "/events/seasonal-events",
+  },
+  {
+    id: "virtual-hybrid-events",
+    name: "Virtual & Hybrid Events",
+    image: "/gallery/virtual-hybrid/13.jpg",
+    href: "/events/virtual-hybrid-events",
   },
 ];
 
@@ -184,10 +219,28 @@ export const services = [
     href: "/services/custom-fabrication",
   },
   {
+    id: "printing",
+    name: "Printing",
+    image: "/services/cf/12.jpg",
+    href: "/services/printing",
+  },
+  {
     id: "audio-visual",
     name: "Audio Visual",
     image: "/services/av/4.jpg",
     href: "/services/audio-visual",
+  },
+  {
+    id: "lighting",
+    name: "Lighting",
+    image: "/services/av/9.jpg",
+    href: "/services/lighting",
+  },
+  {
+    id: "staging",
+    name: "Staging",
+    image: "/services/av/13.jpg",
+    href: "/services/staging",
   },
   {
     id: "design-decor",
@@ -196,10 +249,16 @@ export const services = [
     href: "/services/design-decor",
   },
   {
-    id: "logistics",
-    name: "Logistics",
-    image: "/services/logistics/1.jpg",
-    href: "/services/logistics",
+    id: "themes",
+    name: "Themes",
+    image: "/services/dd/7.jpg",
+    href: "/services/themes",
+  },
+  {
+    id: "props",
+    name: "Props",
+    image: "/services/dd/14.jpg",
+    href: "/services/props",
   },
   {
     id: "rentals",
@@ -208,10 +267,22 @@ export const services = [
     href: "/services/rentals",
   },
   {
-    id: "brand-activations",
-    name: "Brand Activations",
-    image: "/gallery/brand-activation/51.jpg",
-    href: "/events/brand-activations",
+    id: "musical-entertainment",
+    name: "Musical Entertainment",
+    image: "/gallery/galas/9.jpg",
+    href: "/services/musical-entertainment",
+  },
+  {
+    id: "entertainment",
+    name: "Entertainment",
+    image: "/gallery/brand-activation/17.jpg",
+    href: "/services/entertainment",
+  },
+  {
+    id: "logistics",
+    name: "Logistics",
+    image: "/services/logistics/1.jpg",
+    href: "/services/logistics",
   },
 ];
 
@@ -263,7 +334,7 @@ export const team = [
   {
     id: 2,
     name: "Lauren Leuci",
-    role: "Director of Sales",
+    role: "Director of Events",
     bio: "Award-winning designer specializing in immersive event experiences and brand activations.",
     avatar: "/avatar/Lauren.png",
     linkedin: "https://www.linkedin.com/in/lauren-leuci-a47075242/",
@@ -281,7 +352,7 @@ export const team = [
   {
     id: 4,
     name: "Juan Fuentes",
-    role: "Warehouse Manager",
+    role: "Director of Events & Production",
     bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
     avatar: "/avatar/2.png",
     linkedin: "#",
@@ -292,14 +363,14 @@ export const team = [
     name: "Desmond Hyatt",
     role: "Director of Events & Production",
     bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
-    avatar: "/avatar/3.png",
+    avatar: null,
     linkedin: "#",
     email: "dhyatt@mmeink.com",
   },
   {
     id: 6,
     name: "Herberto Deleon",
-    role: "AV Technician",
+    role: "Director of Creative Fabrication",
     bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
     avatar: "/avatar/1.png",
     linkedin: "#",
@@ -1146,11 +1217,6 @@ export const ExhibitsTradeShowsImageGallery: GalleryImage[] = [
   {
     id: "35",
     src: "/gallery/trade-shows/35.jpg",
-    alt: "Trade show exhibit combining design, lighting, and AV",
-  },
-  {
-    id: "36",
-    src: "/gallery/trade-shows/36.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
 ];
@@ -3656,3 +3722,723 @@ export const VISIBILITY_CONFIG = {
 
   gradientOpacity: 0.2,
 };
+
+
+// ─────────────────────────────────────────────────────────────
+// NEW SERVICE PAGES — see COPY_AUDIT.md (copy pending client review)
+// ─────────────────────────────────────────────────────────────
+
+export const PrintingData = {
+  title: "What We Offer",
+  subtitle: "Large-Format & Custom Event Printing",
+  topRow: [
+    { id: "1", title: "Large-Format Graphics", image: "/services/cf/1.jpg", width: "lg" as const },
+    { id: "2", title: "Vinyl & Wall Wraps", image: "/services/cf/2.JPG", width: "md" as const },
+    { id: "3", title: "Step & Repeat Backdrops", image: "/services/cf/3.jpg", width: "xl" as const },
+    { id: "4", title: "Banners & Signage", image: "/services/cf/4.jpg", width: "sm" as const },
+    { id: "5", title: "Floor & Window Graphics", image: "/services/cf/5.jpg", width: "lg" as const },
+    { id: "6", title: "Fabric & Tension Prints", image: "/services/cf/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Foam Board & Rigid Signage", image: "/services/cf/7.jpg", width: "lg" as const },
+    { id: "8", title: "Directional & Wayfinding", image: "/services/cf/8.jpeg", width: "md" as const },
+    { id: "9", title: "Branded Environments", image: "/services/cf/9.jpg", width: "xl" as const },
+    { id: "10", title: "Trade Show Graphics", image: "/services/cf/10.jpg", width: "sm" as const },
+    { id: "11", title: "Menu & Table Print", image: "/services/cf/11.jpg", width: "lg" as const },
+    { id: "12", title: "On-Demand Reprints", image: "/services/cf/12.jpg", width: "md" as const },
+  ],
+};
+
+export const PrintingCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Printing Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/services/cf/13.jpg",
+      "/services/cf/14.JPG",
+      "/services/cf/15.jpeg",
+      "/services/cf/16.jpg",
+      "/services/cf/17.jpg",
+    ],
+  },
+];
+
+export const PrintingImageGallery: GalleryImage[] = [
+  { id: "1", src: "/services/cf/1.jpg", alt: "Printing work by MMEink" },
+  { id: "2", src: "/services/cf/2.JPG", alt: "Printing work by MMEink" },
+  { id: "3", src: "/services/cf/3.jpg", alt: "Printing work by MMEink" },
+  { id: "4", src: "/services/cf/4.jpg", alt: "Printing work by MMEink" },
+  { id: "5", src: "/services/cf/5.jpg", alt: "Printing work by MMEink" },
+  { id: "6", src: "/services/cf/6.jpg", alt: "Printing work by MMEink" },
+  { id: "7", src: "/services/cf/7.jpg", alt: "Printing work by MMEink" },
+  { id: "8", src: "/services/cf/8.jpeg", alt: "Printing work by MMEink" },
+  { id: "9", src: "/services/cf/9.jpg", alt: "Printing work by MMEink" },
+  { id: "10", src: "/services/cf/10.jpg", alt: "Printing work by MMEink" },
+  { id: "11", src: "/services/cf/11.jpg", alt: "Printing work by MMEink" },
+  { id: "12", src: "/services/cf/12.jpg", alt: "Printing work by MMEink" },
+];
+
+export const PrintingFAQ = [
+  { question: "What printing services do you offer in-house?", answer: "We produce large-format graphics, vinyl wraps, step-and-repeat backdrops, banners, rigid signage, fabric prints, and floor and window graphics — all printed and finished in our own facility." },
+  { question: "What file formats do you need for print?", answer: "We prefer vector files (AI, EPS, PDF) or high-resolution raster files at 150 DPI at final output size. Our team reviews every file and will flag anything that needs adjusting before production." },
+  { question: "How quickly can you turn around a print job?", answer: "Standard jobs ship within 3–5 business days. Rush production is available for time-sensitive activations — contact us with your deadline and we will confirm feasibility." },
+  { question: "Can you install the graphics on site?", answer: "Yes. Our installation crews handle on-site application for wraps, wall graphics, and rigging, coordinated with your overall production schedule." },
+];
+
+export const LightingData = {
+  title: "What We Offer",
+  subtitle: "Architectural & Production Lighting Design",
+  topRow: [
+    { id: "1", title: "Stage & Key Lighting", image: "/services/av/1.jpg", width: "lg" as const },
+    { id: "2", title: "Intelligent & Moving Head", image: "/services/av/2.jpg", width: "md" as const },
+    { id: "3", title: "Architectural Uplighting", image: "/services/av/3.jpg", width: "xl" as const },
+    { id: "4", title: "Custom Gobo Projection", image: "/services/av/4.jpg", width: "sm" as const },
+    { id: "5", title: "Pin Spotting", image: "/services/av/5.jpg", width: "lg" as const },
+    { id: "6", title: "Ambient & Mood Washes", image: "/services/av/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Dance Floor Lighting", image: "/services/av/7.jpg", width: "lg" as const },
+    { id: "8", title: "LED Colour Systems", image: "/services/av/8.jpg", width: "md" as const },
+    { id: "9", title: "Truss & Rigging", image: "/services/av/9.jpg", width: "xl" as const },
+    { id: "10", title: "Lighting Console Programming", image: "/services/av/10.jpg", width: "sm" as const },
+    { id: "11", title: "Power Distribution", image: "/services/av/11.jpg", width: "lg" as const },
+    { id: "12", title: "On-Site Lighting Crew", image: "/services/av/12.jpg", width: "md" as const },
+  ],
+};
+
+export const LightingCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Lighting Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/services/av/13.jpg",
+      "/services/av/14.jpg",
+      "/services/av/15.jpg",
+      "/services/av/16.jpg",
+      "/services/av/17.jpg",
+    ],
+  },
+];
+
+export const LightingImageGallery: GalleryImage[] = [
+  { id: "1", src: "/services/av/1.jpg", alt: "Lighting work by MMEink" },
+  { id: "2", src: "/services/av/2.jpg", alt: "Lighting work by MMEink" },
+  { id: "3", src: "/services/av/3.jpg", alt: "Lighting work by MMEink" },
+  { id: "4", src: "/services/av/4.jpg", alt: "Lighting work by MMEink" },
+  { id: "5", src: "/services/av/5.jpg", alt: "Lighting work by MMEink" },
+  { id: "6", src: "/services/av/6.jpg", alt: "Lighting work by MMEink" },
+  { id: "7", src: "/services/av/7.jpg", alt: "Lighting work by MMEink" },
+  { id: "8", src: "/services/av/8.jpg", alt: "Lighting work by MMEink" },
+  { id: "9", src: "/services/av/9.jpg", alt: "Lighting work by MMEink" },
+  { id: "10", src: "/services/av/10.jpg", alt: "Lighting work by MMEink" },
+  { id: "11", src: "/services/av/11.jpg", alt: "Lighting work by MMEink" },
+  { id: "12", src: "/services/av/12.jpg", alt: "Lighting work by MMEink" },
+];
+
+export const LightingFAQ = [
+  { question: "Do you provide lighting design or just equipment?", answer: "Both. Our designers develop a full lighting plot and cue list tailored to your venue and programme, then our crew installs, programmes, and operates it on site." },
+  { question: "Can you work with a venue’s existing lighting?", answer: "Yes. We routinely integrate with house rigs, supplementing them with our own fixtures where the design calls for more coverage, colour, or control." },
+  { question: "Do you offer custom gobos?", answer: "We do. Custom gobos are produced from your logo or artwork and are a cost-effective way to brand a space with light." },
+  { question: "Is a lighting technician included on event day?", answer: "For any programmed or dynamic design, yes — a technician remains on site to run cues and handle adjustments throughout the event." },
+];
+
+export const StagingData = {
+  title: "What We Offer",
+  subtitle: "Custom Staging & Scenic Structures",
+  topRow: [
+    { id: "1", title: "Custom Stage Builds", image: "/services/cf/1.jpg", width: "lg" as const },
+    { id: "2", title: "Modular Decking & Risers", image: "/services/cf/2.JPG", width: "md" as const },
+    { id: "3", title: "Runways & Catwalks", image: "/services/cf/3.jpg", width: "xl" as const },
+    { id: "4", title: "ADA Ramps & Access", image: "/services/cf/4.jpg", width: "sm" as const },
+    { id: "5", title: "Pipe & Drape", image: "/services/cf/5.jpg", width: "lg" as const },
+    { id: "6", title: "Scenic Backdrops", image: "/services/cf/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Truss Structures", image: "/services/cf/7.jpg", width: "lg" as const },
+    { id: "8", title: "Stage Skirting & Finishes", image: "/services/cf/8.jpeg", width: "md" as const },
+    { id: "9", title: "Podiums & Lecterns", image: "/services/cf/9.jpg", width: "xl" as const },
+    { id: "10", title: "Backline Platforms", image: "/services/cf/10.jpg", width: "sm" as const },
+    { id: "11", title: "Load-Bearing Engineering", image: "/services/cf/11.jpg", width: "lg" as const },
+    { id: "12", title: "On-Site Build Crew", image: "/services/cf/12.jpg", width: "md" as const },
+  ],
+};
+
+export const StagingCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Staging Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/services/cf/13.jpg",
+      "/services/cf/14.JPG",
+      "/services/cf/15.jpeg",
+      "/services/cf/16.jpg",
+      "/services/cf/17.jpg",
+    ],
+  },
+];
+
+export const StagingImageGallery: GalleryImage[] = [
+  { id: "1", src: "/services/cf/1.jpg", alt: "Staging work by MMEink" },
+  { id: "2", src: "/services/cf/2.JPG", alt: "Staging work by MMEink" },
+  { id: "3", src: "/services/cf/3.jpg", alt: "Staging work by MMEink" },
+  { id: "4", src: "/services/cf/4.jpg", alt: "Staging work by MMEink" },
+  { id: "5", src: "/services/cf/5.jpg", alt: "Staging work by MMEink" },
+  { id: "6", src: "/services/cf/6.jpg", alt: "Staging work by MMEink" },
+  { id: "7", src: "/services/cf/7.jpg", alt: "Staging work by MMEink" },
+  { id: "8", src: "/services/cf/8.jpeg", alt: "Staging work by MMEink" },
+  { id: "9", src: "/services/cf/9.jpg", alt: "Staging work by MMEink" },
+  { id: "10", src: "/services/cf/10.jpg", alt: "Staging work by MMEink" },
+  { id: "11", src: "/services/cf/11.jpg", alt: "Staging work by MMEink" },
+  { id: "12", src: "/services/cf/12.jpg", alt: "Staging work by MMEink" },
+];
+
+export const StagingFAQ = [
+  { question: "What size stages can you build?", answer: "Anything from a single 8-foot riser to multi-level stages and runways spanning a full ballroom. Our team engineers each build for the specific room and load requirements." },
+  { question: "Are your stages ADA accessible?", answer: "Yes. We supply compliant ramps and handrails, and we plan accessible access routes into every stage design as standard." },
+  { question: "Do you handle the engineering sign-off?", answer: "For builds that require it, we provide load calculations and engineering documentation to satisfy venue and municipal requirements." },
+  { question: "How long does stage installation take?", answer: "Most standard builds install in a single load-in day. Complex multi-level or scenic builds may require additional time, which we confirm during planning." },
+];
+
+export const ThemesData = {
+  title: "What We Offer",
+  subtitle: "Concept Development & Themed Environments",
+  topRow: [
+    { id: "1", title: "Concept Development", image: "/services/dd/1.jpg", width: "lg" as const },
+    { id: "2", title: "Mood Boards & Renderings", image: "/services/dd/2.jpg", width: "md" as const },
+    { id: "3", title: "Themed Environments", image: "/services/dd/3.jpg", width: "xl" as const },
+    { id: "4", title: "Immersive Installations", image: "/services/dd/4.jpg", width: "sm" as const },
+    { id: "5", title: "Custom Scenic Design", image: "/services/dd/5.jpg", width: "lg" as const },
+    { id: "6", title: "Colour & Material Palettes", image: "/services/dd/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Themed Entrances", image: "/services/dd/7.jpg", width: "lg" as const },
+    { id: "8", title: "Photo Moments", image: "/services/dd/8.jpg", width: "md" as const },
+    { id: "9", title: "Seasonal Concepts", image: "/services/dd/9.jpg", width: "xl" as const },
+    { id: "10", title: "Cultural & Heritage Themes", image: "/services/dd/10.jpg", width: "sm" as const },
+    { id: "11", title: "Brand-Led Concepts", image: "/services/dd/11.jpg", width: "lg" as const },
+    { id: "12", title: "Full Theme Execution", image: "/services/dd/12.jpg", width: "md" as const },
+  ],
+};
+
+export const ThemesCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Themes Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/services/dd/13.jpg",
+      "/services/dd/14.jpg",
+      "/services/dd/15.jpg",
+      "/services/dd/16.jpg",
+      "/services/dd/17.jpg",
+    ],
+  },
+];
+
+export const ThemesImageGallery: GalleryImage[] = [
+  { id: "1", src: "/services/dd/1.jpg", alt: "Themes work by MMEink" },
+  { id: "2", src: "/services/dd/2.jpg", alt: "Themes work by MMEink" },
+  { id: "3", src: "/services/dd/3.jpg", alt: "Themes work by MMEink" },
+  { id: "4", src: "/services/dd/4.jpg", alt: "Themes work by MMEink" },
+  { id: "5", src: "/services/dd/5.jpg", alt: "Themes work by MMEink" },
+  { id: "6", src: "/services/dd/6.jpg", alt: "Themes work by MMEink" },
+  { id: "7", src: "/services/dd/7.jpg", alt: "Themes work by MMEink" },
+  { id: "8", src: "/services/dd/8.jpg", alt: "Themes work by MMEink" },
+  { id: "9", src: "/services/dd/9.jpg", alt: "Themes work by MMEink" },
+  { id: "10", src: "/services/dd/10.jpg", alt: "Themes work by MMEink" },
+  { id: "11", src: "/services/dd/11.jpg", alt: "Themes work by MMEink" },
+  { id: "12", src: "/services/dd/12.jpg", alt: "Themes work by MMEink" },
+];
+
+export const ThemesFAQ = [
+  { question: "Do you develop the theme or do we bring one?", answer: "Either works. Many clients arrive with a direction and we develop it into a full design; others hand us a brief and objectives, and our team originates the concept." },
+  { question: "What do you deliver before we commit?", answer: "We provide mood boards, renderings, and a material and colour palette so you can see the concept before anything is built." },
+  { question: "Can a theme carry across multiple rooms?", answer: "Yes. We design theming that scales across entrances, main rooms, breakouts, and photo moments so the experience stays consistent throughout the venue." },
+  { question: "How far in advance should theming be planned?", answer: "We recommend 6–8 weeks for fully custom themed builds, which allows time for design approval, fabrication, and installation." },
+];
+
+export const PropsData = {
+  title: "What We Offer",
+  subtitle: "Custom Fabricated & Curated Event Props",
+  topRow: [
+    { id: "1", title: "Custom Prop Fabrication", image: "/services/dd/1.jpg", width: "lg" as const },
+    { id: "2", title: "Oversized Statement Pieces", image: "/services/dd/2.jpg", width: "md" as const },
+    { id: "3", title: "Themed Prop Packages", image: "/services/dd/3.jpg", width: "xl" as const },
+    { id: "4", title: "Photo Moment Props", image: "/services/dd/4.jpg", width: "sm" as const },
+    { id: "5", title: "Branded Prop Builds", image: "/services/dd/5.jpg", width: "lg" as const },
+    { id: "6", title: "Sculptural Elements", image: "/services/dd/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Period & Era Props", image: "/services/dd/7.jpg", width: "lg" as const },
+    { id: "8", title: "Seasonal Prop Inventory", image: "/services/dd/8.jpg", width: "md" as const },
+    { id: "9", title: "Prop Refinishing", image: "/services/dd/9.jpg", width: "xl" as const },
+    { id: "10", title: "Prop Sourcing", image: "/services/dd/10.jpg", width: "sm" as const },
+    { id: "11", title: "Storage & Warehousing", image: "/services/dd/11.jpg", width: "lg" as const },
+    { id: "12", title: "Delivery & Placement", image: "/services/dd/12.jpg", width: "md" as const },
+  ],
+};
+
+export const PropsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Props Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/services/dd/13.jpg",
+      "/services/dd/14.jpg",
+      "/services/dd/15.jpg",
+      "/services/dd/16.jpg",
+      "/services/dd/17.jpg",
+    ],
+  },
+];
+
+export const PropsImageGallery: GalleryImage[] = [
+  { id: "1", src: "/services/dd/1.jpg", alt: "Props work by MMEink" },
+  { id: "2", src: "/services/dd/2.jpg", alt: "Props work by MMEink" },
+  { id: "3", src: "/services/dd/3.jpg", alt: "Props work by MMEink" },
+  { id: "4", src: "/services/dd/4.jpg", alt: "Props work by MMEink" },
+  { id: "5", src: "/services/dd/5.jpg", alt: "Props work by MMEink" },
+  { id: "6", src: "/services/dd/6.jpg", alt: "Props work by MMEink" },
+  { id: "7", src: "/services/dd/7.jpg", alt: "Props work by MMEink" },
+  { id: "8", src: "/services/dd/8.jpg", alt: "Props work by MMEink" },
+  { id: "9", src: "/services/dd/9.jpg", alt: "Props work by MMEink" },
+  { id: "10", src: "/services/dd/10.jpg", alt: "Props work by MMEink" },
+  { id: "11", src: "/services/dd/11.jpg", alt: "Props work by MMEink" },
+  { id: "12", src: "/services/dd/12.jpg", alt: "Props work by MMEink" },
+];
+
+export const PropsFAQ = [
+  { question: "Do you build props or rent them?", answer: "Both. We maintain a large in-house prop inventory and fabricate custom pieces in our own shop when a concept calls for something specific." },
+  { question: "Can props be branded?", answer: "Yes. Our fabrication and print teams work together to produce props carrying your logo, colours, and artwork." },
+  { question: "What happens to custom props after the event?", answer: "You can purchase and keep them, or we can store them in our warehouse for reuse at future events — many clients build a recurring prop library with us." },
+  { question: "Do you deliver and place the props on site?", answer: "Yes. Delivery, placement, and post-event strike are handled by our crew as part of the production schedule." },
+];
+
+export const MusicalEntertainmentData = {
+  title: "What We Offer",
+  subtitle: "Live Music & Musical Programming",
+  topRow: [
+    { id: "1", title: "Live Bands", image: "/gallery/galas/1.jpg", width: "lg" as const },
+    { id: "2", title: "DJs & Open-Format Sets", image: "/gallery/galas/2.jpg", width: "md" as const },
+    { id: "3", title: "Jazz Ensembles", image: "/gallery/galas/3.jpg", width: "xl" as const },
+    { id: "4", title: "String Quartets", image: "/gallery/galas/4.jpg", width: "sm" as const },
+    { id: "5", title: "Solo Vocalists", image: "/gallery/galas/5.jpg", width: "lg" as const },
+    { id: "6", title: "Pianists & Keyboardists", image: "/gallery/galas/6.jpg", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Cultural & World Music", image: "/gallery/galas/7.jpg", width: "lg" as const },
+    { id: "8", title: "Ceremony Musicians", image: "/gallery/galas/8.jpg", width: "md" as const },
+    { id: "9", title: "Cocktail Hour Sets", image: "/gallery/galas/9.jpg", width: "xl" as const },
+    { id: "10", title: "Headline Acts", image: "/gallery/galas/10.jpg", width: "sm" as const },
+    { id: "11", title: "Backline & Sound Support", image: "/gallery/galas/11.jpg", width: "lg" as const },
+    { id: "12", title: "Musical Direction", image: "/gallery/galas/12.jpg", width: "md" as const },
+  ],
+};
+
+export const MusicalEntertainmentCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Musical Entertainment Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/gallery/galas/13.jpg",
+      "/gallery/galas/14.jpg",
+      "/gallery/galas/15.jpg",
+      "/gallery/galas/16.jpg",
+      "/gallery/galas/17.jpg",
+    ],
+  },
+];
+
+export const MusicalEntertainmentImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/galas/1.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "2", src: "/gallery/galas/2.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "3", src: "/gallery/galas/3.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "4", src: "/gallery/galas/4.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "5", src: "/gallery/galas/5.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "6", src: "/gallery/galas/6.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "7", src: "/gallery/galas/7.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "8", src: "/gallery/galas/8.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "9", src: "/gallery/galas/9.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "10", src: "/gallery/galas/10.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "11", src: "/gallery/galas/11.jpg", alt: "Musical Entertainment work by MMEink" },
+  { id: "12", src: "/gallery/galas/12.jpg", alt: "Musical Entertainment work by MMEink" },
+];
+
+export const MusicalEntertainmentFAQ = [
+  { question: "Do you book the talent or do we?", answer: "We handle booking end to end — sourcing, contracting, and coordinating the artists — though we are equally happy to produce around talent you have already engaged." },
+  { question: "Is sound equipment included?", answer: "Backline and sound reinforcement are quoted alongside the talent so the performance is fully supported. Our AV team handles setup and mixing." },
+  { question: "Can we hear the acts before booking?", answer: "Yes. We provide recordings and, where scheduling allows, arrange live showcases before you commit." },
+  { question: "Can musicians learn a specific song?", answer: "Most of our acts will learn a first-dance or milestone song with adequate notice. We confirm this with the artist during booking." },
+];
+
+export const EntertainmentData = {
+  title: "What We Offer",
+  subtitle: "Performers, Hosts & Interactive Experiences",
+  topRow: [
+    { id: "1", title: "Emcees & Hosts", image: "/gallery/brand-activation/1.jpg", width: "lg" as const },
+    { id: "2", title: "Interactive Performers", image: "/gallery/brand-activation/2.jpg", width: "md" as const },
+    { id: "3", title: "Aerialists & Circus Acts", image: "/gallery/brand-activation/3.jpg", width: "xl" as const },
+    { id: "4", title: "Dancers & Choreography", image: "/gallery/brand-activation/4.jpg", width: "sm" as const },
+    { id: "5", title: "Magicians & Close-Up", image: "/gallery/brand-activation/5.jpg", width: "lg" as const },
+    { id: "6", title: "Comedians", image: "/gallery/brand-activation/5.png", width: "md" as const },
+  ],
+  bottomRow: [
+    { id: "7", title: "Celebrity Talent", image: "/gallery/brand-activation/6.jpg", width: "lg" as const },
+    { id: "8", title: "Photo & 360 Booths", image: "/gallery/brand-activation/7.jpg", width: "md" as const },
+    { id: "9", title: "Casino & Game Tables", image: "/gallery/brand-activation/8.jpg", width: "xl" as const },
+    { id: "10", title: "Brand Ambassadors", image: "/gallery/brand-activation/9.jpg", width: "sm" as const },
+    { id: "11", title: "Character Performers", image: "/gallery/brand-activation/10.jpg", width: "lg" as const },
+    { id: "12", title: "Guest Experience Design", image: "/gallery/brand-activation/11.jpg", width: "md" as const },
+  ],
+};
+
+export const EntertainmentCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Entertainment Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    gallery: [
+      "/gallery/brand-activation/12.jpg",
+      "/gallery/brand-activation/13.jpg",
+      "/gallery/brand-activation/14.jpg",
+      "/gallery/brand-activation/15.jpg",
+      "/gallery/brand-activation/16.jpg",
+    ],
+  },
+];
+
+export const EntertainmentImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/brand-activation/1.jpg", alt: "Entertainment work by MMEink" },
+  { id: "2", src: "/gallery/brand-activation/2.jpg", alt: "Entertainment work by MMEink" },
+  { id: "3", src: "/gallery/brand-activation/3.jpg", alt: "Entertainment work by MMEink" },
+  { id: "4", src: "/gallery/brand-activation/4.jpg", alt: "Entertainment work by MMEink" },
+  { id: "5", src: "/gallery/brand-activation/5.jpg", alt: "Entertainment work by MMEink" },
+  { id: "6", src: "/gallery/brand-activation/5.png", alt: "Entertainment work by MMEink" },
+  { id: "7", src: "/gallery/brand-activation/6.jpg", alt: "Entertainment work by MMEink" },
+  { id: "8", src: "/gallery/brand-activation/7.jpg", alt: "Entertainment work by MMEink" },
+  { id: "9", src: "/gallery/brand-activation/8.jpg", alt: "Entertainment work by MMEink" },
+  { id: "10", src: "/gallery/brand-activation/9.jpg", alt: "Entertainment work by MMEink" },
+  { id: "11", src: "/gallery/brand-activation/10.jpg", alt: "Entertainment work by MMEink" },
+  { id: "12", src: "/gallery/brand-activation/11.jpg", alt: "Entertainment work by MMEink" },
+];
+
+export const EntertainmentFAQ = [
+  { question: "What kinds of entertainment do you provide?", answer: "Emcees, interactive performers, aerialists, dancers, magicians, comedians, celebrity talent, photo and 360 booths, and game tables — matched to your audience and format." },
+  { question: "Do you handle contracting and riders?", answer: "Yes. We manage contracts, technical riders, hospitality requirements, and on-site coordination for every performer we book." },
+  { question: "Can entertainment be branded?", answer: "Absolutely. Photo booths, brand ambassadors, and character performers can all be customised with your branding and messaging." },
+  { question: "How far in advance should we book talent?", answer: "Six to eight weeks is comfortable for most acts. High-demand and celebrity talent should be secured considerably earlier." },
+];
+
+// ─────────────────────────────────────────────────────────────
+// NEW EVENT TYPE PAGES — see COPY_AUDIT.md (copy pending client review)
+// ─────────────────────────────────────────────────────────────
+
+export const AwardDinnersEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Sparkles,
+    headline: "Awards Ceremonies",
+    description: "We produce award ceremonies where the programme runs to the second — staging, lighting, cue-to-cue rehearsal, and presentation graphics all aligned so every honouree gets their moment.",
+    image: "/gallery/galas/2.jpg",
+  },
+  {
+    id: "2",
+    icon: Presentation,
+    headline: "Show Production & Run-of-Show",
+    description: "Our team builds and manages the full run-of-show, coordinating presenters, video packages, music stings, and transitions into one seamless broadcast-quality programme.",
+    image: "/gallery/galas/3.jpg",
+  },
+  {
+    id: "3",
+    icon: Users,
+    headline: "Honouree & VIP Experience",
+    description: "From arrival and greenroom hospitality to seating and press, we manage the honouree journey so recipients and their guests are looked after throughout the evening.",
+    image: "/gallery/galas/4.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Sponsor & Brand Visibility",
+    description: "We integrate sponsor recognition across signage, stage graphics, printed programmes, and digital content in a way that feels considered rather than commercial.",
+    image: "/gallery/galas/5.jpg",
+  },
+];
+
+export const AwardDinnersCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Award Dinners Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    gallery: [
+      "/gallery/galas/13.jpg",
+      "/gallery/galas/14.jpg",
+      "/gallery/galas/15.jpg",
+      "/gallery/galas/16.jpg",
+      "/gallery/galas/17.jpg",
+    ],
+  },
+];
+
+export const AwardDinnersImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/galas/1.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "2", src: "/gallery/galas/2.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "3", src: "/gallery/galas/3.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "4", src: "/gallery/galas/4.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "5", src: "/gallery/galas/5.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "6", src: "/gallery/galas/6.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "7", src: "/gallery/galas/7.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "8", src: "/gallery/galas/8.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "9", src: "/gallery/galas/9.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "10", src: "/gallery/galas/10.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "11", src: "/gallery/galas/11.jpg", alt: "Award Dinners produced by MMEink" },
+  { id: "12", src: "/gallery/galas/12.jpg", alt: "Award Dinners produced by MMEink" },
+];
+
+export const AwardDinnersFAQ = [
+  { question: "Do you manage the run-of-show?", answer: "Yes. We build the full run-of-show, rehearse presenters, and call the show live on event day so the programme stays on schedule." },
+  { question: "Can you produce award video packages?", answer: "We produce honouree videos, sizzle reels, and presentation graphics in-house, and integrate them into the show playback system." },
+  { question: "How do you handle presenter rehearsals?", answer: "We schedule a cue-to-cue rehearsal ahead of doors, walking each presenter through their entrance, microphone, and timing." },
+  { question: "Can the ceremony be live streamed?", answer: "Yes. We offer multi-camera capture and live streaming for remote honourees and wider audiences." },
+];
+
+export const CorporateEventsEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Presentation,
+    headline: "Town Halls & All-Hands",
+    description: "We produce all-hands and town hall meetings with clean staging, reliable audio, and hybrid streaming so every employee — in the room or remote — sees and hears the same thing.",
+    image: "/gallery/conferences/2.jpg",
+  },
+  {
+    id: "2",
+    icon: Users,
+    headline: "Client & Partner Events",
+    description: "From hospitality evenings to partner summits, we design corporate events that strengthen relationships while reflecting your brand with the right level of polish.",
+    image: "/gallery/conferences/3.jpg",
+  },
+  {
+    id: "3",
+    icon: Sparkles,
+    headline: "Holiday & Milestone Celebrations",
+    description: "Company celebrations, anniversaries, and holiday parties designed around your culture — with décor, entertainment, and catering coordination handled throughout.",
+    image: "/gallery/conferences/4.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Sales Kickoffs & Incentives",
+    description: "High-energy kickoffs and incentive events built to motivate teams, with general sessions, breakouts, and awards produced under one production plan.",
+    image: "/gallery/conferences/5.jpg",
+  },
+];
+
+export const CorporateEventsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Corporate Events Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    gallery: [
+      "/gallery/conferences/13.jpg",
+      "/gallery/conferences/14.jpg",
+      "/gallery/conferences/15.jpg",
+      "/gallery/conferences/16.jpg",
+      "/gallery/conferences/17.jpg",
+    ],
+  },
+];
+
+export const CorporateEventsImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/conferences/1.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "2", src: "/gallery/conferences/2.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "3", src: "/gallery/conferences/3.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "4", src: "/gallery/conferences/4.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "5", src: "/gallery/conferences/5.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "6", src: "/gallery/conferences/6.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "7", src: "/gallery/conferences/7.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "8", src: "/gallery/conferences/8.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "9", src: "/gallery/conferences/9.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "10", src: "/gallery/conferences/10.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "11", src: "/gallery/conferences/11.jpg", alt: "Corporate Events produced by MMEink" },
+  { id: "12", src: "/gallery/conferences/12.jpg", alt: "Corporate Events produced by MMEink" },
+];
+
+export const CorporateEventsFAQ = [
+  { question: "What size corporate events do you handle?", answer: "Everything from a 30-person executive dinner to all-hands meetings and kickoffs for several thousand attendees." },
+  { question: "Can you support hybrid and remote attendees?", answer: "Yes. We produce hybrid events with multi-camera capture, streaming, and moderated Q&A so remote employees participate fully." },
+  { question: "Do you handle catering and venue sourcing?", answer: "We source venues and coordinate catering as part of our full-service production, managing vendors on your behalf." },
+  { question: "Can you work within our brand guidelines?", answer: "Yes. We work directly from your brand standards across staging, graphics, print, and environmental design." },
+];
+
+export const ThemedEventsEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Sparkles,
+    headline: "Concept Development",
+    description: "We originate and develop themes from a brief, delivering mood boards, renderings, and material palettes so you can see the world before we build it.",
+    image: "/gallery/brand-activation/2.jpg",
+  },
+  {
+    id: "2",
+    icon: Presentation,
+    headline: "Immersive Environments",
+    description: "Our fabrication and décor teams transform venues into fully realised environments, with custom scenic, props, and lighting working to a single concept.",
+    image: "/gallery/brand-activation/3.jpg",
+  },
+  {
+    id: "3",
+    icon: Users,
+    headline: "Guest Journey Design",
+    description: "We choreograph the guest experience from arrival through departure — entrances, reveal moments, photo opportunities, and transitions all designed as part of the theme.",
+    image: "/gallery/brand-activation/4.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Brand-Led Theming",
+    description: "For brand-driven events, we translate visual identity into a physical world that stays recognisably on-brand while still feeling like an experience rather than an advert.",
+    image: "/gallery/brand-activation/5.jpg",
+  },
+];
+
+export const ThemedEventsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Themed Events Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    gallery: [
+      "/gallery/brand-activation/12.jpg",
+      "/gallery/brand-activation/13.jpg",
+      "/gallery/brand-activation/14.jpg",
+      "/gallery/brand-activation/15.jpg",
+      "/gallery/brand-activation/16.jpg",
+    ],
+  },
+];
+
+export const ThemedEventsImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/brand-activation/1.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "2", src: "/gallery/brand-activation/2.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "3", src: "/gallery/brand-activation/3.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "4", src: "/gallery/brand-activation/4.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "5", src: "/gallery/brand-activation/5.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "6", src: "/gallery/brand-activation/5.png", alt: "Themed Events produced by MMEink" },
+  { id: "7", src: "/gallery/brand-activation/6.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "8", src: "/gallery/brand-activation/7.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "9", src: "/gallery/brand-activation/8.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "10", src: "/gallery/brand-activation/9.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "11", src: "/gallery/brand-activation/10.jpg", alt: "Themed Events produced by MMEink" },
+  { id: "12", src: "/gallery/brand-activation/11.jpg", alt: "Themed Events produced by MMEink" },
+];
+
+export const ThemedEventsFAQ = [
+  { question: "Do you design the theme from scratch?", answer: "We can. Many clients give us objectives and an audience, and our design team originates the concept and presents it through renderings." },
+  { question: "How much lead time do themed events need?", answer: "Six to eight weeks is typical for fully custom themed builds, allowing for design approval, fabrication, and installation." },
+  { question: "Is everything custom-built?", answer: "It is a mix. We fabricate custom scenic and props where the concept requires it, and draw on our existing inventory where it fits — which keeps budgets sensible." },
+  { question: "Can a theme work in any venue?", answer: "Nearly always. We survey the venue first and design within its constraints, including rigging points, load-in access, and any landmark restrictions." },
+];
+
+export const SeasonalEventsEventTypeOfferings = [
+  {
+    id: "1",
+    icon: Sparkles,
+    headline: "Holiday Parties",
+    description: "We design and produce holiday celebrations with seasonal décor, entertainment, and catering coordination — memorable enough that guests look forward to next year.",
+    image: "/gallery/galas/2.jpg",
+  },
+  {
+    id: "2",
+    icon: Presentation,
+    headline: "Winter Installations",
+    description: "Custom winter environments, from photo-ready installations to full venue transformations, fabricated in our shop and installed on site.",
+    image: "/gallery/galas/3.jpg",
+  },
+  {
+    id: "3",
+    icon: Users,
+    headline: "Seasonal Brand Activations",
+    description: "Seasonal activations that put your brand into the moment, with themed builds, interactive elements, and content capture designed for the season.",
+    image: "/gallery/galas/4.jpg",
+  },
+  {
+    id: "4",
+    icon: TrendingUp,
+    headline: "Recurring Annual Programmes",
+    description: "For clients who run the same seasonal event each year, we build reusable assets and refine the concept annually — improving the experience while controlling cost.",
+    image: "/gallery/galas/5.jpg",
+  },
+];
+
+export const SeasonalEventsCaseStudiesData = [
+  {
+    id: "1",
+    clientName: "Client Name Pending",
+    projectTitle: "Seasonal Events Project",
+    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    gallery: [
+      "/gallery/galas/13.jpg",
+      "/gallery/galas/14.jpg",
+      "/gallery/galas/15.jpg",
+      "/gallery/galas/16.jpg",
+      "/gallery/galas/17.jpg",
+    ],
+  },
+];
+
+export const SeasonalEventsImageGallery: GalleryImage[] = [
+  { id: "1", src: "/gallery/galas/1.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "2", src: "/gallery/galas/2.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "3", src: "/gallery/galas/3.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "4", src: "/gallery/galas/4.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "5", src: "/gallery/galas/5.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "6", src: "/gallery/galas/6.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "7", src: "/gallery/galas/7.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "8", src: "/gallery/galas/8.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "9", src: "/gallery/galas/9.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "10", src: "/gallery/galas/10.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "11", src: "/gallery/galas/11.jpg", alt: "Seasonal Events produced by MMEink" },
+  { id: "12", src: "/gallery/galas/12.jpg", alt: "Seasonal Events produced by MMEink" },
+];
+
+export const SeasonalEventsFAQ = [
+  { question: "When should we start planning a holiday event?", answer: "We recommend starting in late summer for December events. Venues and talent book out early, and early planning secures better options and pricing." },
+  { question: "Can seasonal décor be reused next year?", answer: "Yes. Many clients store custom builds in our warehouse and reuse them annually, which materially reduces cost in later years." },
+  { question: "Do you handle seasonal installations for public spaces?", answer: "We do. We produce installations for lobbies, retail environments, and public spaces, including permitting and compliance where required." },
+  { question: "Can you refresh a concept we already run each year?", answer: "Yes. We frequently take an existing annual event and evolve it — keeping what works while introducing new elements each season." },
+];

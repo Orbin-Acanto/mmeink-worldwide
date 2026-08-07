@@ -3,8 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Upload, X } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
+import EventRFPForm from "@/components/contact/EventRFPForm";
 
 interface FormDataType {
   fullName: string;
@@ -258,12 +259,29 @@ export default function ContactPage() {
                 Ready to bring your vision to life? We're here to help make your
                 event unforgettable.
               </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#rfp"
+                  className="inline-flex items-center px-8 py-3 bg-purple text-white font-medium text-sm tracking-wider uppercase transition-all duration-300 shadow-lg hover:bg-purple/70 hover:shadow-2xl"
+                >
+                  Build an RFP
+                </a>
+                <a
+                  href="#contact-form"
+                  className="inline-flex items-center px-8 py-3 border-2 border-white bg-transparent text-white font-medium text-sm tracking-wider uppercase transition-all duration-300 shadow-lg hover:bg-white hover:text-black"
+                >
+                  Send a Message
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-20 lg:py-24">
+      <section
+        id="contact-form"
+        className="relative scroll-mt-32 py-16 sm:py-20 lg:py-24"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {submitStatus && (
             <motion.div
@@ -489,36 +507,58 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <input
-                    type="file"
-                    ref={fileInputRef}
-                    multiple
-                    onChange={handleFileChange}
-                    className="w-full text-sm text-gray-900 file:mr-4 file:py-2 file:px-4 file:border-0 file:bg-purple file:text-white file:font-semibold file:uppercase file:text-xs file:tracking-wider hover:file:bg-purple-dark file:transition-all file:duration-300"
-                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.gif"
-                  />
+                  <h3 className="mb-2 text-xs font-semibold tracking-[0.2em] text-purple uppercase">
+                    Floor Plans, Drawings & Design Concepts
+                  </h3>
+                  <p className="mb-4 text-sm text-gray-500">
+                    Share floor plans, CAD drawings, renderings, or design
+                    concepts so we can review them ahead of our conversation.
+                    Up to 20MB per file.
+                  </p>
+
+                  <label
+                    htmlFor="contact-attachments"
+                    className="flex cursor-pointer flex-col items-center justify-center border-2 border-dashed border-gray-300 bg-gray-50/50 px-6 py-8 text-center transition-colors duration-200 hover:border-purple hover:bg-purple/5"
+                  >
+                    <Upload className="mb-3 h-7 w-7 text-purple" />
+                    <span className="text-sm font-semibold text-black">
+                      Click to upload files
+                    </span>
+                    <span className="mt-1 text-xs text-gray-500">
+                      PDF, DWG, DXF, JPG, PNG, AI, EPS, PSD, DOC, XLS, ZIP
+                    </span>
+                    <input
+                      id="contact-attachments"
+                      type="file"
+                      ref={fileInputRef}
+                      multiple
+                      onChange={handleFileChange}
+                      className="hidden"
+                      accept=".pdf,.dwg,.dxf,.jpg,.jpeg,.png,.gif,.webp,.ai,.eps,.psd,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip"
+                    />
+                  </label>
 
                   {formData.attachments.length > 0 && (
-                    <div className="mt-4 space-y-2">
+                    <ul className="mt-4 space-y-2">
                       {formData.attachments.map((file, index) => (
-                        <div
-                          key={index}
-                          className="flex items-center justify-between bg-gray-50 px-3 py-2 border border-gray-200"
+                        <li
+                          key={`${file.name}-${index}`}
+                          className="flex items-center justify-between border border-gray-200 bg-gray-50 px-3 py-2"
                         >
-                          <span className="text-sm text-gray-700">
+                          <span className="truncate text-sm text-gray-700">
                             {file.name} ({(file.size / 1024).toFixed(1)} KB)
                           </span>
                           <button
                             type="button"
                             onClick={() => removeFile(index)}
-                            className="text-red-600 hover:text-red-800"
-                            aria-label="Remove file"
+                            className="ml-3 shrink-0 text-red-600 transition-colors hover:text-red-800"
+                            aria-label={`Remove ${file.name}`}
                           >
-                            ✕
+                            <X className="h-4 w-4" />
                           </button>
-                        </div>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   )}
                 </div>
 
@@ -552,6 +592,10 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <div className="border-t border-gray-200 bg-gray-50/50">
+        <EventRFPForm />
+      </div>
     </div>
   );
 }

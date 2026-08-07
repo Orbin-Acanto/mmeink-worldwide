@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Events | Exhibitions | MME Ink Worldwide",
+  title: "Themes | Our Service | MME Ink Worldwide",
   description: "One Stop Event Solution",
 };
 
-export default function ExhibitsTradeShowsLayout({
+export default function ThemesServicePageLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
