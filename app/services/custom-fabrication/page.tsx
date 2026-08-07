@@ -18,7 +18,7 @@ export default function EventBrandActivationPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/cf/cf_hero.jpg"
+        image="/services/custom-fabrication/gallery/cf_hero.jpg"
         title="Custom Fabrication"
         subtitle="MMEink's fabrication and event management team has the ability to deliver custom designs and fabrications as well as providing creative event solutions"
       />

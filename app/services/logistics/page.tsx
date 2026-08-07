@@ -18,7 +18,7 @@ export default function LogisticsServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/logistics/1.jpg"
+        image="/services/logistics/gallery/1.jpg"
         title="Logistics"
         subtitle="Seamless coordination from first call to final breakdown"
       />

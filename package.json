@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "find:orphans": "node scripts/find-orphans.mjs",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@upstash/ratelimit": "^2.0.7",

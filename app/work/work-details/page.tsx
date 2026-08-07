@@ -9,7 +9,7 @@ export default function WorkDetails() {
   return (
     <>
       <WorkHero
-        videoSrc="/videos/MME_Worldwide_Our_Work.mp4"
+        videoSrc="/shared/videos/MME_Worldwide_Our_Work.mp4"
         title="Client"
         highlightedWord="Name"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"

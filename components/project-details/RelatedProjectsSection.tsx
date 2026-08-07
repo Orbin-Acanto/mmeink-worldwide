@@ -23,7 +23,7 @@ export default function RelatedProjectsSection({
     <section className="relative w-full overflow-hidden py-16 sm:py-20 lg:py-24 px-4">
       <div className="absolute inset-0 z-0">
         <img
-          src="/abstract-bg.jpg"
+          src="/shared/backgrounds/abstract-bg.jpg"
           alt=""
           className="h-full w-full object-cover"
         />

@@ -18,7 +18,7 @@ export default function EventCorporateEventsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/conferences/12.jpg"
+        image="/events/conferences-meetings/gallery/12.jpg"
         title="Corporate Events"
         subtitle="Company-wide moments, produced end to end"
       />

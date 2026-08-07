@@ -18,7 +18,7 @@ export default function EventBrandActivationPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/rentals/32.jpg"
+        image="/services/rentals/gallery/32.jpg"
         title="Rentals"
         subtitle="Premium event rentals for seamless production"
       />

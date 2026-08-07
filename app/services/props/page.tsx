@@ -18,7 +18,7 @@ export default function PropsServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/dd/14.jpg"
+        image="/services/design-decor/gallery/14.jpg"
         title="Props"
         subtitle="Custom-built and curated props from our own inventory"
       />

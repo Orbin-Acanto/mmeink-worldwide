@@ -18,7 +18,7 @@ export default function DesignDecorServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/dd/5.jpg"
+        image="/services/design-decor/gallery/5.jpg"
         title="Design Decor"
         subtitle="Immersive experiences that bring your brand to life"
       />

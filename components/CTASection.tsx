@@ -17,7 +17,7 @@ export default function CTASection({
     <section className="relative w-full h-[40vh] min-h-80 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
-        style={{ backgroundImage: "url('/abstract-bg.jpg')" }}
+        style={{ backgroundImage: "url('/shared/backgrounds/abstract-bg.jpg')" }}
       />
       <div className="absolute inset-0 bg-black/50" />
 

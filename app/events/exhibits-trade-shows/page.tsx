@@ -18,7 +18,7 @@ export default function EventExhibitsTradeShowsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/trade-shows/3.jpg"
+        image="/events/exhibitions/gallery/3.jpg"
         title="Exhibitions"
         subtitle="Create standout booths that attract, engage, and convert"
       />

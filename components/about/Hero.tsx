@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/about/hero_top.png"
+          src="/about/process/hero_top.png"
           alt="MMEink Team"
           fill
           className="object-cover"

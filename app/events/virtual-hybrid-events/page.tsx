@@ -18,7 +18,7 @@ export default function EventVirtualHybridPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/virtual-hybrid/7.jpg"
+        image="/events/virtual-hybrid-events/gallery/7.jpg"
         title="Virtual & Hybrid Event"
         subtitle="Create lasting connections through memorable virtual experiences"
       />

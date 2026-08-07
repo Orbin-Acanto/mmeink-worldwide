@@ -13,7 +13,7 @@ export default function EventPage() {
   return (
     <div className="min-h-screen bg-white">
       <WorkHero
-        videoSrc="/videos/MME_Worldwide_Events.mp4"
+        videoSrc="/shared/videos/MME_Worldwide_Events.mp4"
         title="Every Event"
         highlightedWord="An Experience"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"

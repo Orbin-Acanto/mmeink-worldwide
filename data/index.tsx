@@ -30,7 +30,10 @@ export const navItems = [
       { name: "Themes", href: "/services/themes" },
       { name: "Props", href: "/services/props" },
       { name: "Rentals", href: "/services/rentals" },
-      { name: "Musical Entertainment", href: "/services/musical-entertainment" },
+      {
+        name: "Musical Entertainment",
+        href: "/services/musical-entertainment",
+      },
       { name: "Entertainment", href: "/services/entertainment" },
       { name: "Logistics", href: "/services/logistics" },
     ],
@@ -62,29 +65,29 @@ export const workItems: WorkItem[] = [
     id: 1,
     title: "Newspaper & Magazines",
     category: "Corporate Event",
-    image: "/work/Untitled-1.png",
-    href: "/work/newspaper-event",
+    image: "/work/projects/Untitled-1.png",
+    href: "/work/work-details",
   },
   {
     id: 2,
     title: "Holiday Celebration",
     category: "Festive Experience",
-    image: "/work/Untitled-2.png",
-    href: "/work/holiday-celebration",
+    image: "/work/projects/Untitled-2.png",
+    href: "/work/work-details",
   },
   {
     id: 3,
     title: "Winter Wonderland",
     category: "Seasonal Installation",
-    image: "/work/Untitled-3.png",
-    href: "/work/winter-wonderland",
+    image: "/work/projects/Untitled-3.png",
+    href: "/work/work-details",
   },
   {
     id: 4,
     title: "Michelob Ultra",
     category: "Brand Activation",
-    image: "/work/Untitled-4.png",
-    href: "/work/michelob-ultra",
+    image: "/work/projects/Untitled-4.png",
+    href: "/work/work-details",
   },
 ];
 
@@ -113,37 +116,37 @@ export const servicesEventsHome = [
   {
     id: "brand-activations",
     name: "Brand Activations",
-    image: "/gallery/brand-activation/51.jpg",
+    image: "/events/brand-activations/gallery/51.jpg",
     href: "/events/brand-activations",
   },
   {
     id: "exhibits-trade-shows",
     name: "Exhibits & Trade Shows",
-    image: "/gallery/trade-shows/3.jpg",
+    image: "/events/exhibitions/gallery/3.jpg",
     href: "/events/exhibits-trade-shows",
   },
   {
     id: "conferences-meetings",
     name: "Conferences & Meetings",
-    image: "/gallery/conferences/30.jpg",
+    image: "/events/conferences-meetings/gallery/30.jpg",
     href: "/events/conferences-meetings",
   },
   {
     id: "custom-fabrication",
     name: "Custom Fabrication",
-    image: "/services/cf/26.jpeg",
+    image: "/services/custom-fabrication/gallery/26.jpeg",
     href: "/services/custom-fabrication",
   },
   {
     id: "audio-visual",
     name: "Audio Visual",
-    image: "/services/av/4.jpg",
+    image: "/services/audio-visual/gallery/4.jpg",
     href: "/services/audio-visual",
   },
   {
     id: "design-decor",
     name: "Design & Decor",
-    image: "/services/dd/18.jpg",
+    image: "/services/design-decor/gallery/18.jpg",
     href: "/services/design-decor",
   },
 ];
@@ -152,61 +155,61 @@ export const events = [
   {
     id: "brand-activations",
     name: "Brand Activations",
-    image: "/gallery/brand-activation/51.jpg",
+    image: "/events/brand-activations/gallery/51.jpg",
     href: "/events/brand-activations",
   },
   {
     id: "product-launches",
     name: "Product Launches",
-    image: "/gallery/product-launches/23.jpg",
+    image: "/events/product-launches/gallery/23.jpg",
     href: "/events/product-launches",
   },
   {
     id: "exhibitions",
     name: "Exhibitions",
-    image: "/gallery/trade-shows/3.jpg",
+    image: "/events/exhibitions/gallery/3.jpg",
     href: "/events/exhibits-trade-shows",
   },
   {
     id: "conferences-meetings",
     name: "Conferences & Meetings",
-    image: "/gallery/conferences/30.jpg",
+    image: "/events/conferences-meetings/gallery/30.jpg",
     href: "/events/conferences-meetings",
   },
   {
     id: "award-dinners",
     name: "Award Dinners",
-    image: "/gallery/galas/21.jpg",
+    image: "/events/galas/gallery/21.jpg",
     href: "/events/award-dinners",
   },
   {
     id: "galas",
     name: "Galas",
-    image: "/gallery/galas/13.jpg",
+    image: "/events/galas/gallery/13.jpg",
     href: "/events/galas",
   },
   {
     id: "corporate-events",
     name: "Corporate Events",
-    image: "/gallery/conferences/12.jpg",
+    image: "/events/conferences-meetings/gallery/12.jpg",
     href: "/events/corporate-events",
   },
   {
     id: "themed-events",
     name: "Themed Events",
-    image: "/gallery/brand-activation/22.jpg",
+    image: "/events/brand-activations/gallery/22.jpg",
     href: "/events/themed-events",
   },
   {
     id: "seasonal-events",
     name: "Seasonal Events",
-    image: "/gallery/galas/27.jpg",
+    image: "/events/galas/gallery/27.jpg",
     href: "/events/seasonal-events",
   },
   {
     id: "virtual-hybrid-events",
     name: "Virtual & Hybrid Events",
-    image: "/gallery/virtual-hybrid/13.jpg",
+    image: "/events/virtual-hybrid-events/gallery/13.jpg",
     href: "/events/virtual-hybrid-events",
   },
 ];
@@ -215,49 +218,49 @@ export const services = [
   {
     id: "custom-fabrication",
     name: "Custom Fabrication",
-    image: "/services/cf/26.jpeg",
+    image: "/services/custom-fabrication/gallery/26.jpeg",
     href: "/services/custom-fabrication",
   },
   {
     id: "printing",
     name: "Printing",
-    image: "/services/cf/12.jpg",
+    image: "/services/custom-fabrication/gallery/12.jpg",
     href: "/services/printing",
   },
   {
     id: "audio-visual",
     name: "Audio Visual",
-    image: "/services/av/4.jpg",
+    image: "/services/audio-visual/gallery/4.jpg",
     href: "/services/audio-visual",
   },
   {
     id: "lighting",
     name: "Lighting",
-    image: "/services/av/9.jpg",
+    image: "/services/audio-visual/gallery/9.jpg",
     href: "/services/lighting",
   },
   {
     id: "staging",
     name: "Staging",
-    image: "/services/av/13.jpg",
+    image: "/services/audio-visual/gallery/13.jpg",
     href: "/services/staging",
   },
   {
     id: "design-decor",
     name: "Design & Decor",
-    image: "/services/dd/18.jpg",
+    image: "/services/design-decor/gallery/18.jpg",
     href: "/services/design-decor",
   },
   {
     id: "themes",
     name: "Themes",
-    image: "/services/dd/7.jpg",
+    image: "/services/design-decor/gallery/7.jpg",
     href: "/services/themes",
   },
   {
     id: "props",
     name: "Props",
-    image: "/services/dd/14.jpg",
+    image: "/services/design-decor/gallery/14.jpg",
     href: "/services/props",
   },
   {
@@ -269,56 +272,128 @@ export const services = [
   {
     id: "musical-entertainment",
     name: "Musical Entertainment",
-    image: "/gallery/galas/9.jpg",
+    image: "/events/galas/gallery/9.jpg",
     href: "/services/musical-entertainment",
   },
   {
     id: "entertainment",
     name: "Entertainment",
-    image: "/gallery/brand-activation/17.jpg",
+    image: "/events/brand-activations/gallery/17.jpg",
     href: "/services/entertainment",
   },
   {
     id: "logistics",
     name: "Logistics",
-    image: "/services/logistics/1.jpg",
+    image: "/services/logistics/gallery/1.jpg",
     href: "/services/logistics",
   },
 ];
 
 export const clientLogos = [
-  { id: "brand-1", name: "Brand One", src: "/client_logo/ (1).webp" },
-  { id: "brand-2", name: "Brand Two", src: "/client_logo/ (2).png" },
-  { id: "brand-3", name: "Brand Three", src: "/client_logo/ (3).png" },
-  { id: "brand-4", name: "Brand Four", src: "/client_logo/ (4).png" },
-  { id: "brand-5", name: "Brand Five", src: "/client_logo/ (5).png" },
-  { id: "brand-6", name: "Brand Six", src: "/client_logo/ (6).png" },
-  { id: "brand-7", name: "Brand Seven", src: "/client_logo/ (7).png" },
-  { id: "brand-8", name: "Brand Eight", src: "/client_logo/ (8).png" },
-  { id: "brand-9", name: "Brand Nine", src: "/client_logo/ (9).png" },
-  { id: "brand-10", name: "Brand Ten", src: "/client_logo/ (10).png" },
-  { id: "brand-11", name: "Brand Eleven", src: "/client_logo/ (11).png" },
-  { id: "brand-12", name: "Brand Twelve", src: "/client_logo/ (12).png" },
-  { id: "brand-13", name: "Brand Thirteen", src: "/client_logo/ (13).png" },
-  { id: "brand-14", name: "Brand Fourteen", src: "/client_logo/ (14).png" },
-  { id: "brand-15", name: "Brand Fifteen", src: "/client_logo/ (15).png" },
-  { id: "brand-16", name: "Brand Sixteen", src: "/client_logo/ (16).png" },
-  { id: "brand-17", name: "Brand Seventeen", src: "/client_logo/ (17).png" },
-  { id: "brand-18", name: "Brand Eighteen", src: "/client_logo/ (18).png" },
-  { id: "brand-19", name: "Brand Nineteen", src: "/client_logo/ (19).png" },
-  { id: "brand-20", name: "Brand Twenty", src: "/client_logo/ (20).png" },
-  { id: "brand-21", name: "Brand Twenty-One", src: "/client_logo/ (21).png" },
-  { id: "brand-22", name: "Brand Twenty-Two", src: "/client_logo/ (22).png" },
-  { id: "brand-23", name: "Brand Twenty-Three", src: "/client_logo/ (23).png" },
-  { id: "brand-24", name: "Brand Twenty-Four", src: "/client_logo/ (24).png" },
-  { id: "brand-25", name: "Brand Twenty-Five", src: "/client_logo/ (25).png" },
-  { id: "brand-26", name: "Brand Twenty-Six", src: "/client_logo/ (26).png" },
-  { id: "brand-27", name: "Brand Twenty-Seven", src: "/client_logo/ (27).png" },
-  { id: "brand-28", name: "Brand Twenty-Eight", src: "/client_logo/ (28).png" },
-  { id: "brand-29", name: "Brand Twenty-Nine", src: "/client_logo/ (29).png" },
-  { id: "brand-30", name: "Brand Thirty", src: "/client_logo/ (30).png" },
-  { id: "brand-31", name: "Brand Thirty-One", src: "/client_logo/ (31).png" },
-  { id: "brand-32", name: "Brand Thirty-Two", src: "/client_logo/ (1).png" },
+  { id: "brand-1", name: "Brand One", src: "/work/client-logos/ (1).webp" },
+  { id: "brand-2", name: "Brand Two", src: "/work/client-logos/ (2).png" },
+  { id: "brand-3", name: "Brand Three", src: "/work/client-logos/ (3).png" },
+  { id: "brand-4", name: "Brand Four", src: "/work/client-logos/ (4).png" },
+  { id: "brand-5", name: "Brand Five", src: "/work/client-logos/ (5).png" },
+  { id: "brand-6", name: "Brand Six", src: "/work/client-logos/ (6).png" },
+  { id: "brand-7", name: "Brand Seven", src: "/work/client-logos/ (7).png" },
+  { id: "brand-8", name: "Brand Eight", src: "/work/client-logos/ (8).png" },
+  { id: "brand-9", name: "Brand Nine", src: "/work/client-logos/ (9).png" },
+  { id: "brand-10", name: "Brand Ten", src: "/work/client-logos/ (10).png" },
+  { id: "brand-11", name: "Brand Eleven", src: "/work/client-logos/ (11).png" },
+  { id: "brand-12", name: "Brand Twelve", src: "/work/client-logos/ (12).png" },
+  {
+    id: "brand-13",
+    name: "Brand Thirteen",
+    src: "/work/client-logos/ (13).png",
+  },
+  {
+    id: "brand-14",
+    name: "Brand Fourteen",
+    src: "/work/client-logos/ (14).png",
+  },
+  {
+    id: "brand-15",
+    name: "Brand Fifteen",
+    src: "/work/client-logos/ (15).png",
+  },
+  {
+    id: "brand-16",
+    name: "Brand Sixteen",
+    src: "/work/client-logos/ (16).png",
+  },
+  {
+    id: "brand-17",
+    name: "Brand Seventeen",
+    src: "/work/client-logos/ (17).png",
+  },
+  {
+    id: "brand-18",
+    name: "Brand Eighteen",
+    src: "/work/client-logos/ (18).png",
+  },
+  {
+    id: "brand-19",
+    name: "Brand Nineteen",
+    src: "/work/client-logos/ (19).png",
+  },
+  { id: "brand-20", name: "Brand Twenty", src: "/work/client-logos/ (20).png" },
+  {
+    id: "brand-21",
+    name: "Brand Twenty-One",
+    src: "/work/client-logos/ (21).png",
+  },
+  {
+    id: "brand-22",
+    name: "Brand Twenty-Two",
+    src: "/work/client-logos/ (22).png",
+  },
+  {
+    id: "brand-23",
+    name: "Brand Twenty-Three",
+    src: "/work/client-logos/ (23).png",
+  },
+  {
+    id: "brand-24",
+    name: "Brand Twenty-Four",
+    src: "/work/client-logos/ (24).png",
+  },
+  {
+    id: "brand-25",
+    name: "Brand Twenty-Five",
+    src: "/work/client-logos/ (25).png",
+  },
+  {
+    id: "brand-26",
+    name: "Brand Twenty-Six",
+    src: "/work/client-logos/ (26).png",
+  },
+  {
+    id: "brand-27",
+    name: "Brand Twenty-Seven",
+    src: "/work/client-logos/ (27).png",
+  },
+  {
+    id: "brand-28",
+    name: "Brand Twenty-Eight",
+    src: "/work/client-logos/ (28).png",
+  },
+  {
+    id: "brand-29",
+    name: "Brand Twenty-Nine",
+    src: "/work/client-logos/ (29).png",
+  },
+  { id: "brand-30", name: "Brand Thirty", src: "/work/client-logos/ (30).png" },
+  {
+    id: "brand-31",
+    name: "Brand Thirty-One",
+    src: "/work/client-logos/ (31).png",
+  },
+  {
+    id: "brand-32",
+    name: "Brand Thirty-Two",
+    src: "/work/client-logos/ (1).png",
+  },
 ];
 
 export const team = [
@@ -327,7 +402,7 @@ export const team = [
     name: "Michael Tardi",
     role: "Owner",
     bio: "Visionary leader with 30 years of experience transforming events into unforgettable experiences.",
-    avatar: "/avatar/michael.jpg",
+    avatar: "/about/team/michael.jpg",
     linkedin: "https://www.linkedin.com/in/michael-tardi-1788672a/",
     email: "mtardi@mmeink.com",
   },
@@ -336,7 +411,7 @@ export const team = [
     name: "Lauren Leuci",
     role: "Director of Events",
     bio: "Award-winning designer specializing in immersive event experiences and brand activations.",
-    avatar: "/avatar/Lauren.png",
+    avatar: "/about/team/Lauren.png",
     linkedin: "https://www.linkedin.com/in/lauren-leuci-a47075242/",
     email: "lleuci@mmeink.com",
   },
@@ -345,7 +420,7 @@ export const team = [
     name: "Andrew Heaton",
     role: "Director of Operations",
     bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
-    avatar: "/avatar/Andy.png",
+    avatar: "/about/team/Andy.png",
     linkedin: "#",
     email: "aheaton@mmeink.com",
   },
@@ -354,14 +429,14 @@ export const team = [
     name: "Juan Fuentes",
     role: "Director of Events & Production",
     bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
-    avatar: "/avatar/2.png",
+    avatar: "/about/team/2.png",
     linkedin: "#",
-    email: "jfuentes@mmeink.com",
+    email: "apalacio@mmeink.com",
   },
   {
     id: 5,
-    name: "Desmond Hyatt",
-    role: "Director of Events & Production",
+    name: "Andrea Palacio",
+    role: "Manager of Events & Production",
     bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
     avatar: null,
     linkedin: "#",
@@ -372,7 +447,7 @@ export const team = [
     name: "Herberto Deleon",
     role: "Director of Creative Fabrication",
     bio: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions.",
-    avatar: "/avatar/1.png",
+    avatar: "/about/team/1.png",
     linkedin: "#",
     email: "herberto@mmeink.com",
   },
@@ -419,7 +494,7 @@ export const locations = [
   {
     city: "Long Island",
     address: "Premium Event Venue",
-    image: "/montauk-point.jpg",
+    image: "/about/process/montauk-point.jpg",
   },
   {
     city: "Miami",
@@ -436,7 +511,7 @@ export const projects: Project[] = [
     venue: "48 Wall St, NYC",
     eventType: "Conference",
     category: "conference",
-    image: "/client/5050 Women on Boards/2.jpg",
+    image: "/work/clients/5050 Women on Boards/2.jpg",
     href: "/work/work-details",
   },
   {
@@ -445,7 +520,7 @@ export const projects: Project[] = [
     venue: "The Artistry Museum",
     eventType: "Non-profit Events",
     category: "non-profit-events",
-    image: "/client/Buckley School/1.jpg",
+    image: "/work/clients/Buckley School/1.jpg",
     href: "/work/work-details",
   },
   {
@@ -454,7 +529,7 @@ export const projects: Project[] = [
     venue: "48 Wall St, NYC",
     eventType: "Corporate",
     category: "Corporate Event",
-    image: "/client/Builders Risk and Constrution/8.jpg",
+    image: "/work/clients/Builders Risk and Constrution/8.jpg",
     href: "/work/work-details",
   },
   {
@@ -463,7 +538,7 @@ export const projects: Project[] = [
     venue: "48 Wall St, NYC",
     eventType: "conference",
     category: "conference",
-    image: "/client/Carnegie Melon/1.JPG",
+    image: "/work/clients/Carnegie Melon/1.JPG",
     href: "/work/work-details",
   },
   {
@@ -472,7 +547,7 @@ export const projects: Project[] = [
     venue: "60 Pine",
     eventType: "Corporate",
     category: "corporate",
-    image: "/client/DTA/1.jpg",
+    image: "/work/clients/DTA/1.jpg",
     href: "/work/work-details",
   },
   {
@@ -481,7 +556,7 @@ export const projects: Project[] = [
     venue: "Hybrid Platform",
     eventType: "conference",
     category: "conference",
-    image: "/client/F Suite/1.jpg",
+    image: "/work/clients/F Suite/1.jpg",
     href: "/work/work-details",
   },
   {
@@ -490,7 +565,7 @@ export const projects: Project[] = [
     venue: "Friedman and Kaplan Office",
     eventType: "Holiday Event",
     category: "holiday-event",
-    image: "/client/Friedman and Kaplan/1.jpg",
+    image: "/work/clients/Friedman and Kaplan/1.jpg",
     href: "/work/work-details",
   },
   {
@@ -499,7 +574,7 @@ export const projects: Project[] = [
     venue: "60 Pine",
     eventType: "Conference",
     category: "conference",
-    image: "/client/Ikebana/2.jpg",
+    image: "/work/clients/Ikebana/2.jpg",
     href: "/work/work-details",
   },
   {
@@ -508,7 +583,7 @@ export const projects: Project[] = [
     venue: "60 Pine",
     eventType: "Reunion Party",
     category: "reunion-party",
-    image: "/client/International College Reunion/8.jpg",
+    image: "/work/clients/International College Reunion/8.jpg",
     href: "/work/work-details",
   },
   {
@@ -517,7 +592,7 @@ export const projects: Project[] = [
     venue: "The Venue",
     eventType: "Corporate",
     category: "corporate",
-    image: "/client/Maxim Group/5.jpg",
+    image: "/work/clients/Maxim Group/5.jpg",
     href: "/work/work-details",
   },
   {
@@ -526,7 +601,7 @@ export const projects: Project[] = [
     venue: "The Artistry Museum",
     eventType: "Galas",
     category: "galas",
-    image: "/client/Morgan Stanley/1.jpg",
+    image: "/work/clients/Morgan Stanley/1.jpg",
     href: "/work/work-details",
   },
   {
@@ -535,7 +610,7 @@ export const projects: Project[] = [
     venue: "Fidi Banking Hall",
     eventType: "Galas",
     category: "galas",
-    image: "/client/Nest_m/9.jpg",
+    image: "/work/clients/Nest_m/9.jpg",
     href: "/work/work-details",
   },
 ];
@@ -545,25 +620,25 @@ export const steps: Step[] = [
     id: "discover",
     title: "Discover",
     subtitle: "We listen and strategize",
-    image: "/about/discover.png",
+    image: "/about/process/discover.png",
   },
   {
     id: "design",
     title: "Design",
     subtitle: "Creative concepts that wow",
-    image: "/about/design.png",
+    image: "/about/process/design.png",
   },
   {
     id: "produce",
     title: "Produce",
     subtitle: "Flawless execution",
-    image: "/about/produce.png",
+    image: "/about/process/produce.png",
   },
   {
     id: "deliver",
     title: "Deliver",
     subtitle: "Memorable experiences",
-    image: "/about/deliver.png",
+    image: "/about/process/deliver.png",
   },
 ];
 
@@ -681,7 +756,7 @@ export const RelatedProject = [
     category: "Brand Activation",
     image:
       "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
-    href: "/work/spotify-experience",
+    href: "/work/work-details",
   },
   {
     id: "2",
@@ -689,7 +764,7 @@ export const RelatedProject = [
     category: "Corporate | Conferences",
     image:
       "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-    href: "/work/tech-summit",
+    href: "/work/work-details",
   },
   {
     id: "3",
@@ -697,7 +772,7 @@ export const RelatedProject = [
     category: "Private Events",
     image:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
-    href: "/work/fashion-gala",
+    href: "/work/work-details",
   },
 ];
 
@@ -769,7 +844,7 @@ export const ProductLaunchesEventTypeOfferings = [
     headline: "Product Reveal Events",
     description:
       "Create anticipation and excitement with impactful product reveal experiences. We design immersive environments, stage moments, and visual storytelling that highlight your product’s features and value.",
-    image: "/gallery/product-launches/4.jpg",
+    image: "/events/product-launches/gallery/4.jpg",
   },
   {
     id: "2",
@@ -777,7 +852,7 @@ export const ProductLaunchesEventTypeOfferings = [
     headline: "Media & Influencer Launches",
     description:
       "Engage media and influencers with visually compelling launch events designed for coverage, content creation, and social sharing. Every detail is crafted to maximize exposure and brand reach.",
-    image: "/gallery/product-launches/8.jpg",
+    image: "/events/product-launches/gallery/8.jpg",
   },
   {
     id: "3",
@@ -785,7 +860,7 @@ export const ProductLaunchesEventTypeOfferings = [
     headline: "Corporate Product Announcements",
     description:
       "Deliver polished, professional product announcements for internal teams, partners, or clients. We manage staging, AV, and production to ensure your message is clear, confident, and impactful.",
-    image: "/gallery/product-launches/17.jpg",
+    image: "/events/product-launches/gallery/17.jpg",
   },
   {
     id: "4",
@@ -793,7 +868,7 @@ export const ProductLaunchesEventTypeOfferings = [
     headline: "Experiential Launch Activations",
     description:
       "Transform your launch into an interactive experience. From hands-on demos to immersive brand environments, we create activations that drive engagement and lasting impressions.",
-    image: "/gallery/product-launches/10.jpg",
+    image: "/events/product-launches/gallery/10.jpg",
   },
 ];
 
@@ -809,12 +884,12 @@ export const ProductLaunchesCaseStudiesData = [
     impact:
       "The activation delivered strong guest engagement, increased product interaction, and elevated brand visibility. Attendees spent extended time exploring the space, creating social content and leaving with a memorable hands-on brand experience.",
     gallery: [
-      "/gallery/product-launches/case-study/1.jpg",
-      "/gallery/product-launches/case-study/2.jpg",
-      "/gallery/product-launches/case-study/3.jpg",
-      "/gallery/product-launches/case-study/4.jpg",
-      "/gallery/product-launches/case-study/5.jpg",
-      "/gallery/product-launches/case-study/6.jpg",
+      "/events/product-launches/case-study/1.jpg",
+      "/events/product-launches/case-study/2.jpg",
+      "/events/product-launches/case-study/3.jpg",
+      "/events/product-launches/case-study/4.jpg",
+      "/events/product-launches/case-study/5.jpg",
+      "/events/product-launches/case-study/6.jpg",
     ],
   },
 ];
@@ -822,137 +897,137 @@ export const ProductLaunchesCaseStudiesData = [
 export const ProductLaunchesImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/product-launches/1.jpg",
+    src: "/events/product-launches/gallery/1.jpg",
     alt: "Immersive product launch event experience",
   },
   {
     id: "2",
-    src: "/gallery/product-launches/2.jpg",
+    src: "/events/product-launches/gallery/2.jpg",
     alt: "Branded product reveal with stage lighting",
   },
   {
     id: "3",
-    src: "/gallery/product-launches/3.jpg",
+    src: "/events/product-launches/gallery/3.jpg",
     alt: "Corporate product launch presentation stage",
   },
   {
     id: "4",
-    src: "/gallery/product-launches/4.jpg",
+    src: "/events/product-launches/gallery/4.jpg",
     alt: "Luxury product unveiling event setup",
   },
   {
     id: "5",
-    src: "/gallery/product-launches/5.jpg",
+    src: "/events/product-launches/gallery/5.jpg",
     alt: "Interactive product demonstration area",
   },
   {
     id: "6",
-    src: "/gallery/product-launches/6.jpg",
+    src: "/events/product-launches/gallery/6.jpg",
     alt: "Large-scale product launch with LED screens",
   },
   {
     id: "7",
-    src: "/gallery/product-launches/7.jpg",
+    src: "/events/product-launches/gallery/7.jpg",
     alt: "Modern product launch stage design",
   },
   {
     id: "8",
-    src: "/gallery/product-launches/8.jpg",
+    src: "/events/product-launches/gallery/8.jpg",
     alt: "Product launch event with audience engagement",
   },
   {
     id: "9",
-    src: "/gallery/product-launches/9.jpg",
+    src: "/events/product-launches/gallery/9.jpg",
     alt: "High-impact brand reveal at product launch",
   },
   {
     id: "10",
-    src: "/gallery/product-launches/10.jpg",
+    src: "/events/product-launches/gallery/10.jpg",
     alt: "Product launch lighting and scenic design",
   },
   {
     id: "11",
-    src: "/gallery/product-launches/11.jpg",
+    src: "/events/product-launches/gallery/11.jpg",
     alt: "Executive product announcement event",
   },
   {
     id: "12",
-    src: "/gallery/product-launches/12.jpg",
+    src: "/events/product-launches/gallery/12.jpg",
     alt: "Product launch event with custom branding",
   },
   {
     id: "13",
-    src: "/gallery/product-launches/13.jpg",
+    src: "/events/product-launches/gallery/13.jpg",
     alt: "Immersive brand storytelling at product launch",
   },
   {
     id: "14",
-    src: "/gallery/product-launches/14.jpg",
+    src: "/events/product-launches/gallery/14.jpg",
     alt: "Product launch experience with multimedia displays",
   },
   {
     id: "15",
-    src: "/gallery/product-launches/15.jpg",
+    src: "/events/product-launches/gallery/15.jpg",
     alt: "Premium product launch environment design",
   },
   {
     id: "16",
-    src: "/gallery/product-launches/16.jpg",
+    src: "/events/product-launches/gallery/16.jpg",
     alt: "Technology-focused product launch presentation",
   },
   {
     id: "17",
-    src: "/gallery/product-launches/17.jpg",
+    src: "/events/product-launches/gallery/17.jpg",
     alt: "Product launch event with keynote speaker",
   },
   {
     id: "18",
-    src: "/gallery/product-launches/18.jpg",
+    src: "/events/product-launches/gallery/18.jpg",
     alt: "Branded product showcase installation",
   },
   {
     id: "19",
-    src: "/gallery/product-launches/19.jpg",
+    src: "/events/product-launches/gallery/19.jpg",
     alt: "Product launch stage with dramatic lighting",
   },
   {
     id: "20",
-    src: "/gallery/product-launches/20.jpg",
+    src: "/events/product-launches/gallery/20.jpg",
     alt: "Corporate product launch audience experience",
   },
   {
     id: "21",
-    src: "/gallery/product-launches/21.jpg",
+    src: "/events/product-launches/gallery/21.jpg",
     alt: "Product launch activation with custom visuals",
   },
   {
     id: "22",
-    src: "/gallery/product-launches/22.jpg",
+    src: "/events/product-launches/gallery/22.jpg",
     alt: "High-end product reveal event production",
   },
   {
     id: "23",
-    src: "/gallery/product-launches/23.jpg",
+    src: "/events/product-launches/gallery/23.jpg",
     alt: "Product launch environment with branded elements",
   },
   {
     id: "24",
-    src: "/gallery/product-launches/24.jpg",
+    src: "/events/product-launches/gallery/24.jpg",
     alt: "Immersive launch event with experiential design",
   },
   {
     id: "25",
-    src: "/gallery/product-launches/25.jpg",
+    src: "/events/product-launches/gallery/25.jpg",
     alt: "Product launch experience with lighting and staging",
   },
   {
     id: "26",
-    src: "/gallery/product-launches/26.jpg",
+    src: "/events/product-launches/gallery/26.jpg",
     alt: "Corporate brand product launch event setup",
   },
   {
     id: "27",
-    src: "/gallery/product-launches/27.jpg",
+    src: "/events/product-launches/gallery/27.jpg",
     alt: "Large-scale product launch production and staging",
   },
 ];
@@ -999,7 +1074,7 @@ export const ExhibitsTradeShowsEventTypeOfferings = [
     headline: "Custom Exhibit Design",
     description:
       "We design and build custom trade show exhibits that reflect your brand and attract attention on the show floor. From modular booths to large-scale custom builds, our designs balance visual impact with functionality.",
-    image: "/gallery/trade-shows/3.jpg",
+    image: "/events/exhibitions/gallery/3.jpg",
   },
   {
     id: "2",
@@ -1007,7 +1082,7 @@ export const ExhibitsTradeShowsEventTypeOfferings = [
     headline: "Trade Show Engagement",
     description:
       "Our exhibits are designed to drive interaction and conversation. We create layouts and experiences that encourage attendee flow, product demonstrations, and meaningful brand engagement.",
-    image: "/gallery/trade-shows/5.jpg",
+    image: "/events/exhibitions/gallery/5.jpg",
   },
   {
     id: "3",
@@ -1015,7 +1090,7 @@ export const ExhibitsTradeShowsEventTypeOfferings = [
     headline: "Product & Brand Showcases",
     description:
       "We help brands showcase products effectively through lighting, displays, and integrated AV. Our team ensures your products remain the focal point while reinforcing your brand identity.",
-    image: "/gallery/trade-shows/10.jpg",
+    image: "/events/exhibitions/gallery/10.jpg",
   },
   {
     id: "4",
@@ -1023,7 +1098,7 @@ export const ExhibitsTradeShowsEventTypeOfferings = [
     headline: "End-to-End Show Execution",
     description:
       "From logistics and installation to on-site support and breakdown, we manage every aspect of your trade show presence. Our experienced team ensures a smooth, stress-free execution from load-in to load-out.",
-    image: "/gallery/trade-shows/18.jpg",
+    image: "/events/exhibitions/gallery/18.jpg",
   },
 ];
 
@@ -1039,15 +1114,15 @@ export const ExhibitsTradeShowsCaseStudiesData = [
     impact:
       "The event successfully engaged thousands of attendees while providing strong brand exposure for sponsors and partners. The environment enhanced the overall race experience, supported smooth event operations, and reinforced Formula E’s presence as a premier global motorsport brand in New York City.",
     gallery: [
-      "/gallery/trade-shows/case-study/1.jpg",
-      "/gallery/trade-shows/case-study/2.jpg",
-      "/gallery/trade-shows/case-study/3.jpg",
-      "/gallery/trade-shows/case-study/4.jpg",
-      "/gallery/trade-shows/case-study/5.jpg",
-      "/gallery/trade-shows/case-study/6.jpg",
-      "/gallery/trade-shows/case-study/7.jpg",
-      "/gallery/trade-shows/case-study/8.jpg",
-      "/gallery/trade-shows/case-study/9.jpg",
+      "/events/exhibitions/case-study/1.jpg",
+      "/events/exhibitions/case-study/2.jpg",
+      "/events/exhibitions/case-study/3.jpg",
+      "/events/exhibitions/case-study/4.jpg",
+      "/events/exhibitions/case-study/5.jpg",
+      "/events/exhibitions/case-study/6.jpg",
+      "/events/exhibitions/case-study/7.jpg",
+      "/events/exhibitions/case-study/8.jpg",
+      "/events/exhibitions/case-study/9.jpg",
     ],
   },
 ];
@@ -1055,168 +1130,168 @@ export const ExhibitsTradeShowsCaseStudiesData = [
 export const ExhibitsTradeShowsImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/trade-shows/1.jpg",
+    src: "/events/exhibitions/gallery/1.jpg",
     alt: "Custom trade show exhibit with branded booth design",
   },
   {
     id: "2",
-    src: "/gallery/trade-shows/2.jpg",
+    src: "/events/exhibitions/gallery/2.jpg",
     alt: "Modern exhibition booth with integrated lighting and graphics",
   },
   {
     id: "3",
-    src: "/gallery/trade-shows/3.jpg",
+    src: "/events/exhibitions/gallery/3.jpg",
     alt: "Trade show floor with large-scale branded exhibits",
   },
   {
     id: "4",
-    src: "/gallery/trade-shows/4.jpg",
+    src: "/events/exhibitions/gallery/4.jpg",
     alt: "Custom exhibit fabrication for corporate trade show",
   },
   {
     id: "5",
-    src: "/gallery/trade-shows/5.jpg",
+    src: "/events/exhibitions/gallery/5.jpg",
     alt: "Interactive trade show booth attracting attendees",
   },
   {
     id: "7",
-    src: "/gallery/trade-shows/7.jpg",
+    src: "/events/exhibitions/gallery/7.jpg",
     alt: "Branded trade show display with clean architectural design",
   },
   {
     id: "8",
-    src: "/gallery/trade-shows/8.jpg",
+    src: "/events/exhibitions/gallery/8.jpg",
     alt: "Trade show exhibit showcasing product demonstrations",
   },
   {
     id: "9",
-    src: "/gallery/trade-shows/9.jpg",
+    src: "/events/exhibitions/gallery/9.jpg",
     alt: "Exhibition hall with multiple custom-built booths",
   },
   {
     id: "10",
-    src: "/gallery/trade-shows/10.jpg",
+    src: "/events/exhibitions/gallery/10.jpg",
     alt: "High-impact trade show booth with bold brand graphics",
   },
   {
     id: "11",
-    src: "/gallery/trade-shows/11.jpg",
+    src: "/events/exhibitions/gallery/11.jpg",
     alt: "Corporate exhibit featuring interactive brand elements",
   },
   {
     id: "12",
-    src: "/gallery/trade-shows/12.jpg",
+    src: "/events/exhibitions/gallery/12.jpg",
     alt: "Trade show booth with custom counters and signage",
   },
   {
     id: "13",
-    src: "/gallery/trade-shows/13.jpg",
+    src: "/events/exhibitions/gallery/13.jpg",
     alt: "Exhibit space designed for attendee engagement",
   },
   {
     id: "14",
-    src: "/gallery/trade-shows/14.jpg",
+    src: "/events/exhibitions/gallery/14.jpg",
     alt: "Large-scale trade show installation with lighting design",
   },
   {
     id: "15",
-    src: "/gallery/trade-shows/15.jpg",
+    src: "/events/exhibitions/gallery/15.jpg",
     alt: "Minimalist exhibition booth with premium finishes",
   },
   {
     id: "16",
-    src: "/gallery/trade-shows/16.jpg",
+    src: "/events/exhibitions/gallery/16.jpg",
     alt: "Trade show display highlighting product branding",
   },
   {
     id: "17",
-    src: "/gallery/trade-shows/17.jpg",
+    src: "/events/exhibitions/gallery/17.jpg",
     alt: "Custom trade show booth designed for networking",
   },
   {
     id: "18",
-    src: "/gallery/trade-shows/18.jpg",
+    src: "/events/exhibitions/gallery/18.jpg",
     alt: "Exhibit booth with immersive brand experience elements",
   },
   {
     id: "19",
-    src: "/gallery/trade-shows/19.jpg",
+    src: "/events/exhibitions/gallery/19.jpg",
     alt: "Trade show environment with coordinated booth layout",
   },
   {
     id: "20",
-    src: "/gallery/trade-shows/20.jpg",
+    src: "/events/exhibitions/gallery/20.jpg",
     alt: "Exhibition booth featuring branded lighting and displays",
   },
   {
     id: "21",
-    src: "/gallery/trade-shows/21.jpg",
+    src: "/events/exhibitions/gallery/21.jpg",
     alt: "Corporate trade show exhibit with custom fabrication",
   },
   {
     id: "22",
-    src: "/gallery/trade-shows/22.jpg",
+    src: "/events/exhibitions/gallery/22.jpg",
     alt: "Trade show booth setup prior to event opening",
   },
   {
     id: "23",
-    src: "/gallery/trade-shows/23.jpg",
+    src: "/events/exhibitions/gallery/23.jpg",
     alt: "Exhibit hall showcasing premium brand activations",
   },
   {
     id: "25",
-    src: "/gallery/trade-shows/25.jpg",
+    src: "/events/exhibitions/gallery/25.jpg",
     alt: "Custom-built exhibition booth with strong brand presence",
   },
   {
     id: "26",
-    src: "/gallery/trade-shows/26.jpg",
+    src: "/events/exhibitions/gallery/26.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
 
   {
     id: "27",
-    src: "/gallery/trade-shows/28.jpg",
+    src: "/events/exhibitions/gallery/28.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "28",
-    src: "/gallery/trade-shows/29.jpg",
+    src: "/events/exhibitions/gallery/29.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "29",
-    src: "/gallery/trade-shows/27.jpg",
+    src: "/events/exhibitions/gallery/27.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "30",
-    src: "/gallery/trade-shows/30.jpg",
+    src: "/events/exhibitions/gallery/30.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "31",
-    src: "/gallery/trade-shows/31.jpg",
+    src: "/events/exhibitions/gallery/31.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "32",
-    src: "/gallery/trade-shows/32.jpg",
+    src: "/events/exhibitions/gallery/32.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "33",
-    src: "/gallery/trade-shows/33.jpg",
+    src: "/events/exhibitions/gallery/33.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "34",
-    src: "/gallery/trade-shows/34.jpg",
+    src: "/events/exhibitions/gallery/34.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
   {
     id: "35",
-    src: "/gallery/trade-shows/35.jpg",
+    src: "/events/exhibitions/gallery/35.jpg",
     alt: "Trade show exhibit combining design, lighting, and AV",
   },
 ];
@@ -1263,7 +1338,7 @@ export const BrandActivationEventTypeOfferings = [
     headline: "Experiential Brand Activations",
     description:
       "We design immersive brand activations that transform messaging into real-world experiences. From pop-ups to interactive installations, our team brings your brand story to life through thoughtful design, strategic production, and flawless execution.",
-    image: "/gallery/brand-activation/7.jpg",
+    image: "/events/brand-activations/gallery/7.jpg",
   },
   {
     id: "2",
@@ -1271,7 +1346,7 @@ export const BrandActivationEventTypeOfferings = [
     headline: "Consumer Engagement Experiences",
     description:
       "Create meaningful connections with your audience through interactive, share-worthy experiences. We craft activations that invite participation, encourage social engagement, and leave a lasting impression long after the event ends.",
-    image: "/gallery/brand-activation/12.jpg",
+    image: "/events/brand-activations/gallery/12.jpg",
   },
   {
     id: "3",
@@ -1279,7 +1354,7 @@ export const BrandActivationEventTypeOfferings = [
     headline: "Product Launch Activations",
     description:
       "Launch your product with impact. We produce visually compelling activations that generate buzz, attract media attention, and showcase your product through immersive environments and curated brand moments.",
-    image: "/gallery/brand-activation/44.jpg",
+    image: "/events/brand-activations/gallery/44.jpg",
   },
   {
     id: "4",
@@ -1287,7 +1362,7 @@ export const BrandActivationEventTypeOfferings = [
     headline: "Corporate Brand Experiences",
     description:
       "Elevate your brand presence with polished, high-impact experiences designed for corporate audiences. From internal brand moments to large-scale activations, we deliver experiences that align with your brand values and business goals.",
-    image: "/gallery/brand-activation/36.jpg",
+    image: "/events/brand-activations/gallery/36.jpg",
   },
 ];
 
@@ -1303,15 +1378,15 @@ export const BrandActivationCaseStudiesData = [
     impact:
       "The activation delivered a polished, immersive experience that elevated brand presence, enhanced audience engagement, and reinforced OpenText’s leadership position through consistent messaging and high-quality production.",
     gallery: [
-      "/gallery/brand-activation/case-study/1.jpg",
-      "/gallery/brand-activation/case-study/2.jpg",
-      "/gallery/brand-activation/case-study/3.jpg",
-      "/gallery/brand-activation/case-study/4.jpg",
-      "/gallery/brand-activation/case-study/5.jpg",
-      "/gallery/brand-activation/case-study/6.jpg",
-      "/gallery/brand-activation/case-study/7.jpg",
-      "/gallery/brand-activation/case-study/8.jpg",
-      "/gallery/brand-activation/case-study/9.jpg",
+      "/events/brand-activations/case-study/1.jpg",
+      "/events/brand-activations/case-study/2.jpg",
+      "/events/brand-activations/case-study/3.jpg",
+      "/events/brand-activations/case-study/4.jpg",
+      "/events/brand-activations/case-study/5.jpg",
+      "/events/brand-activations/case-study/6.jpg",
+      "/events/brand-activations/case-study/7.jpg",
+      "/events/brand-activations/case-study/8.jpg",
+      "/events/brand-activations/case-study/9.jpg",
     ],
   },
 ];
@@ -1319,256 +1394,256 @@ export const BrandActivationCaseStudiesData = [
 export const BrandActivationImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/brand-activation/1.jpg",
+    src: "/events/brand-activations/gallery/1.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "2",
-    src: "/gallery/brand-activation/2.jpg",
+    src: "/events/brand-activations/gallery/2.jpg",
     alt: "Custom branded event environment",
   },
   {
     id: "3",
-    src: "/gallery/brand-activation/3.jpg",
+    src: "/events/brand-activations/gallery/3.jpg",
     alt: "Interactive brand showcase installation",
   },
   {
     id: "4",
-    src: "/gallery/brand-activation/4.jpg",
+    src: "/events/brand-activations/gallery/4.jpg",
     alt: "Live brand engagement experience",
   },
   {
     id: "5",
-    src: "/gallery/brand-activation/5.jpg",
+    src: "/events/brand-activations/gallery/5.jpg",
     alt: "Experiential marketing event setup",
   },
   {
     id: "6",
-    src: "/gallery/brand-activation/6.jpg",
+    src: "/events/brand-activations/gallery/6.jpg",
     alt: "Audience interaction at brand activation",
   },
   {
     id: "7",
-    src: "/gallery/brand-activation/7.jpg",
+    src: "/events/brand-activations/gallery/7.jpg",
     alt: "Creative branded pop-up environment",
   },
   {
     id: "8",
-    src: "/gallery/brand-activation/8.jpg",
+    src: "/events/brand-activations/gallery/8.jpg",
     alt: "Product-focused brand activation design",
   },
   {
     id: "9",
-    src: "/gallery/brand-activation/9.jpg",
+    src: "/events/brand-activations/gallery/9.jpg",
     alt: "High-impact experiential brand moment",
   },
   {
     id: "10",
-    src: "/gallery/brand-activation/10.jpg",
+    src: "/events/brand-activations/gallery/10.jpg",
     alt: "Custom event branding and lighting",
   },
 
   {
     id: "11",
-    src: "/gallery/brand-activation/11.jpg",
+    src: "/events/brand-activations/gallery/11.jpg",
     alt: "Interactive brand storytelling experience",
   },
   {
     id: "12",
-    src: "/gallery/brand-activation/12.jpg",
+    src: "/events/brand-activations/gallery/12.jpg",
     alt: "Corporate brand activation setup",
   },
   {
     id: "13",
-    src: "/gallery/brand-activation/13.jpg",
+    src: "/events/brand-activations/gallery/13.jpg",
     alt: "Branded experiential marketing space",
   },
   {
     id: "14",
-    src: "/gallery/brand-activation/14.jpg",
+    src: "/events/brand-activations/gallery/14.jpg",
     alt: "Modern brand engagement event",
   },
   {
     id: "15",
-    src: "/gallery/brand-activation/15.jpg",
+    src: "/events/brand-activations/gallery/15.jpg",
     alt: "Immersive product launch activation",
   },
   {
     id: "16",
-    src: "/gallery/brand-activation/16.jpg",
+    src: "/events/brand-activations/gallery/16.jpg",
     alt: "Branded installation with custom decor",
   },
   {
     id: "17",
-    src: "/gallery/brand-activation/17.jpg",
+    src: "/events/brand-activations/gallery/17.jpg",
     alt: "Consumer-focused brand experience",
   },
   {
     id: "18",
-    src: "/gallery/brand-activation/18.jpg",
+    src: "/events/brand-activations/gallery/18.jpg",
     alt: "Creative brand activation environment",
   },
   {
     id: "19",
-    src: "/gallery/brand-activation/19.jpg",
+    src: "/events/brand-activations/gallery/19.jpg",
     alt: "Engaging brand pop-up activation",
   },
   {
     id: "20",
-    src: "/gallery/brand-activation/20.jpg",
+    src: "/events/brand-activations/gallery/20.jpg",
     alt: "Experiential brand marketing display",
   },
 
   {
     id: "21",
-    src: "/gallery/brand-activation/21.jpg",
+    src: "/events/brand-activations/gallery/21.jpg",
     alt: "Branded event space design",
   },
   {
     id: "22",
-    src: "/gallery/brand-activation/22.jpg",
+    src: "/events/brand-activations/gallery/22.jpg",
     alt: "Interactive brand activation booth",
   },
   {
     id: "23",
-    src: "/gallery/brand-activation/23.jpg",
+    src: "/events/brand-activations/gallery/23.jpg",
     alt: "Live audience engagement experience",
   },
   {
     id: "24",
-    src: "/gallery/brand-activation/24.jpg",
+    src: "/events/brand-activations/gallery/24.jpg",
     alt: "Custom experiential brand setup",
   },
   {
     id: "25",
-    src: "/gallery/brand-activation/25.jpg",
+    src: "/events/brand-activations/gallery/25.jpg",
     alt: "Brand-driven event activation moment",
   },
   {
     id: "26",
-    src: "/gallery/brand-activation/26.jpg",
+    src: "/events/brand-activations/gallery/26.jpg",
     alt: "Immersive branded event environment",
   },
   {
     id: "27",
-    src: "/gallery/brand-activation/27.jpg",
+    src: "/events/brand-activations/gallery/27.jpg",
     alt: "High-energy brand activation experience",
   },
   {
     id: "28",
-    src: "/gallery/brand-activation/28.jpg",
+    src: "/events/brand-activations/gallery/28.jpg",
     alt: "Creative experiential marketing design",
   },
   {
     id: "29",
-    src: "/gallery/brand-activation/29.jpg",
+    src: "/events/brand-activations/gallery/29.jpg",
     alt: "Custom brand engagement installation",
   },
   {
     id: "30",
-    src: "/gallery/brand-activation/30.jpg",
+    src: "/events/brand-activations/gallery/30.jpg",
     alt: "Branded interactive event experience",
   },
   {
     id: "32",
-    src: "/gallery/brand-activation/32.jpg",
+    src: "/events/brand-activations/gallery/32.jpg",
     alt: "Audience-centered brand experience",
   },
   {
     id: "33",
-    src: "/gallery/brand-activation/33.jpg",
+    src: "/events/brand-activations/gallery/33.jpg",
     alt: "Branded environment with custom lighting",
   },
   {
     id: "34",
-    src: "/gallery/brand-activation/34.jpg",
+    src: "/events/brand-activations/gallery/34.jpg",
     alt: "Engaging experiential brand moment",
   },
   {
     id: "35",
-    src: "/gallery/brand-activation/35.jpg",
+    src: "/events/brand-activations/gallery/35.jpg",
     alt: "Brand activation with immersive design",
   },
   {
     id: "36",
-    src: "/gallery/brand-activation/36.jpg",
+    src: "/events/brand-activations/gallery/36.jpg",
     alt: "Creative branded pop-up experience",
   },
   {
     id: "37",
-    src: "/gallery/brand-activation/37.jpg",
+    src: "/events/brand-activations/gallery/37.jpg",
     alt: "Experiential event branding execution",
   },
   {
     id: "38",
-    src: "/gallery/brand-activation/38.jpg",
+    src: "/events/brand-activations/gallery/38.jpg",
     alt: "Live brand engagement activation",
   },
   {
     id: "40",
-    src: "/gallery/brand-activation/40.jpg",
+    src: "/events/brand-activations/gallery/40.jpg",
     alt: "Branded marketing activation space",
   },
 
   {
     id: "41",
-    src: "/gallery/brand-activation/41.jpg",
+    src: "/events/brand-activations/gallery/41.jpg",
     alt: "Immersive brand storytelling environment",
   },
   {
     id: "42",
-    src: "/gallery/brand-activation/42.jpg",
+    src: "/events/brand-activations/gallery/42.jpg",
     alt: "Creative brand activation concept",
   },
   {
     id: "44",
-    src: "/gallery/brand-activation/44.jpg",
+    src: "/events/brand-activations/gallery/44.jpg",
     alt: "High-impact brand engagement design",
   },
   {
     id: "45",
-    src: "/gallery/brand-activation/45.jpg",
+    src: "/events/brand-activations/gallery/45.jpg",
     alt: "Branded experiential event moment",
   },
   {
     id: "46",
-    src: "/gallery/brand-activation/46.jpg",
+    src: "/events/brand-activations/gallery/46.jpg",
     alt: "Interactive consumer brand activation",
   },
   {
     id: "48",
-    src: "/gallery/brand-activation/48.jpg",
+    src: "/events/brand-activations/gallery/48.jpg",
     alt: "Creative branded environment design",
   },
   {
     id: "49",
-    src: "/gallery/brand-activation/49.jpg",
+    src: "/events/brand-activations/gallery/49.jpg",
     alt: "Live experiential brand interaction",
   },
   {
     id: "50",
-    src: "/gallery/brand-activation/50.jpg",
+    src: "/events/brand-activations/gallery/50.jpg",
     alt: "Custom brand activation experience",
   },
 
   {
     id: "51",
-    src: "/gallery/brand-activation/51.jpg",
+    src: "/events/brand-activations/gallery/51.jpg",
     alt: "Immersive experiential brand display",
   },
   {
     id: "52",
-    src: "/gallery/brand-activation/52.jpg",
+    src: "/events/brand-activations/gallery/52.jpg",
     alt: "Branded event activation execution",
   },
   {
     id: "53",
-    src: "/gallery/brand-activation/53.jpg",
+    src: "/events/brand-activations/gallery/53.jpg",
     alt: "Audience-driven brand engagement experience",
   },
   {
     id: "54",
-    src: "/gallery/brand-activation/54.jpg",
+    src: "/events/brand-activations/gallery/54.jpg",
     alt: "Signature experiential brand activation",
   },
 ];
@@ -1615,7 +1690,7 @@ export const GalasEventTypeOfferings = [
     headline: "Black-Tie Galas",
     description:
       "We produce sophisticated black-tie galas with thoughtful design, elevated décor, and seamless production. From lighting and staging to guest flow and ambiance, every detail is crafted to reflect elegance and prestige.",
-    image: "/gallery/galas/22.jpg",
+    image: "/events/galas/gallery/22.jpg",
   },
   {
     id: "2",
@@ -1623,7 +1698,7 @@ export const GalasEventTypeOfferings = [
     headline: "Fundraising & Benefit Events",
     description:
       "Our team designs and executes fundraising galas that inspire generosity while maintaining a refined guest experience. We balance storytelling, donor engagement, and production excellence to support your cause.",
-    image: "/gallery/galas/21.jpg",
+    image: "/events/galas/gallery/21.jpg",
   },
   {
     id: "3",
@@ -1631,7 +1706,7 @@ export const GalasEventTypeOfferings = [
     headline: "Awards & Recognition Nights",
     description:
       "Celebrate achievements with polished award ceremonies and recognition events. We manage staging, lighting, audio-visuals, and run-of-show to ensure a smooth, memorable evening.",
-    image: "/gallery/galas/8.jpg",
+    image: "/events/galas/gallery/8.jpg",
   },
   {
     id: "4",
@@ -1639,7 +1714,7 @@ export const GalasEventTypeOfferings = [
     headline: "Private Celebrations",
     description:
       "From milestone celebrations to invitation-only evenings, we create intimate yet impactful gala experiences. Our approach blends custom design with flawless execution for truly unforgettable events.",
-    image: "/gallery/galas/17.jpg",
+    image: "/events/galas/gallery/17.jpg",
   },
 ];
 
@@ -1655,17 +1730,17 @@ export const GalasCaseStudiesData = [
     impact:
       "The gala achieved a polished, immersive atmosphere that elevated brand presence, enhanced guest engagement, and reinforced FPM’s institutional identity, resulting in a memorable evening that balanced sophistication, storytelling, and flawless execution.",
     gallery: [
-      "/gallery/galas/case-study/1.jpg",
-      "/gallery/galas/case-study/2.jpg",
-      "/gallery/galas/case-study/3.jpg",
-      "/gallery/galas/case-study/4.jpg",
-      "/gallery/galas/case-study/5.jpg",
-      "/gallery/galas/case-study/6.jpg",
-      "/gallery/galas/case-study/7.jpg",
-      "/gallery/galas/case-study/8.jpg",
-      "/gallery/galas/case-study/9.jpg",
-      "/gallery/galas/case-study/10.jpg",
-      "/gallery/galas/case-study/11.jpg",
+      "/events/galas/case-study/1.jpg",
+      "/events/galas/case-study/2.jpg",
+      "/events/galas/case-study/3.jpg",
+      "/events/galas/case-study/4.jpg",
+      "/events/galas/case-study/5.jpg",
+      "/events/galas/case-study/6.jpg",
+      "/events/galas/case-study/7.jpg",
+      "/events/galas/case-study/8.jpg",
+      "/events/galas/case-study/9.jpg",
+      "/events/galas/case-study/10.jpg",
+      "/events/galas/case-study/11.jpg",
     ],
   },
 ];
@@ -1673,152 +1748,152 @@ export const GalasCaseStudiesData = [
 export const GalasImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/galas/1.jpg",
+    src: "/events/galas/gallery/1.jpg",
     alt: "Elegant private gala with formal table settings and ambient lighting",
   },
   {
     id: "2",
-    src: "/gallery/galas/2.jpg",
+    src: "/events/galas/gallery/2.jpg",
     alt: "Black-tie gala event with dramatic lighting and décor",
   },
   {
     id: "3",
-    src: "/gallery/galas/3.jpg",
+    src: "/events/galas/gallery/3.jpg",
     alt: "Luxury gala dinner setup with candlelit tables",
   },
   {
     id: "4",
-    src: "/gallery/galas/4.jpg",
+    src: "/events/galas/gallery/4.jpg",
     alt: "Formal gala reception with sophisticated floral arrangements",
   },
   {
     id: "5",
-    src: "/gallery/galas/5.jpg",
+    src: "/events/galas/gallery/5.jpg",
     alt: "Upscale gala event featuring elegant stage and lighting design",
   },
   {
     id: "6",
-    src: "/gallery/galas/6.jpg",
+    src: "/events/galas/gallery/6.jpg",
     alt: "Grand ballroom gala with chandeliers and refined décor",
   },
   {
     id: "7",
-    src: "/gallery/galas/7.jpg",
+    src: "/events/galas/gallery/7.jpg",
     alt: "Private gala celebration with immersive lighting ambiance",
   },
   {
     id: "8",
-    src: "/gallery/galas/8.jpg",
+    src: "/events/galas/gallery/8.jpg",
     alt: "Luxury gala event with custom tablescapes and linens",
   },
   {
     id: "9",
-    src: "/gallery/galas/9.jpg",
+    src: "/events/galas/gallery/9.jpg",
     alt: "Formal gala dinner with stage presentation and seating",
   },
   {
     id: "10",
-    src: "/gallery/galas/10.jpg",
+    src: "/events/galas/gallery/10.jpg",
     alt: "Evening gala event with elegant uplighting and décor accents",
   },
   {
     id: "11",
-    src: "/gallery/galas/11.jpg",
+    src: "/events/galas/gallery/11.jpg",
     alt: "High-end gala reception with refined event styling",
   },
   {
     id: "12",
-    src: "/gallery/galas/12.jpg",
+    src: "/events/galas/gallery/12.jpg",
     alt: "Black-tie gala featuring luxurious event design",
   },
   {
     id: "13",
-    src: "/gallery/galas/13.jpg",
+    src: "/events/galas/gallery/13.jpg",
     alt: "Formal gala environment with dramatic lighting effects",
   },
   {
     id: "14",
-    src: "/gallery/galas/14.jpg",
+    src: "/events/galas/gallery/14.jpg",
     alt: "Elegant gala dinner showcasing premium event décor",
   },
   {
     id: "15",
-    src: "/gallery/galas/15.jpg",
+    src: "/events/galas/gallery/15.jpg",
     alt: "Private gala event with polished table décor and lighting",
   },
   {
     id: "16",
-    src: "/gallery/galas/16.jpg",
+    src: "/events/galas/gallery/16.jpg",
     alt: "Sophisticated gala setting designed for formal celebrations",
   },
   {
     id: "17",
-    src: "/gallery/galas/17.jpg",
+    src: "/events/galas/gallery/17.jpg",
     alt: "Luxury gala night with ambient lighting and elegant finishes",
   },
   {
     id: "18",
-    src: "/gallery/galas/18.jpg",
+    src: "/events/galas/gallery/18.jpg",
     alt: "Grand gala event featuring elevated décor and staging",
   },
   {
     id: "19",
-    src: "/gallery/galas/19.jpg",
+    src: "/events/galas/gallery/19.jpg",
     alt: "Formal gala reception with refined lighting design",
   },
   {
     id: "20",
-    src: "/gallery/galas/20.jpg",
+    src: "/events/galas/gallery/20.jpg",
     alt: "Elegant gala celebration with custom event styling",
   },
   {
     id: "21",
-    src: "/gallery/galas/21.jpg",
+    src: "/events/galas/gallery/21.jpg",
     alt: "Black-tie gala environment with immersive atmosphere",
   },
   {
     id: "22",
-    src: "/gallery/galas/22.jpg",
+    src: "/events/galas/gallery/22.jpg",
     alt: "Luxury gala event featuring premium décor elements",
   },
   {
     id: "23",
-    src: "/gallery/galas/23.jpg",
+    src: "/events/galas/gallery/23.jpg",
     alt: "Sophisticated gala setup with coordinated lighting and décor",
   },
   {
     id: "24",
-    src: "/gallery/galas/24.jpg",
+    src: "/events/galas/gallery/24.jpg",
     alt: "Formal gala evening with elegant event production",
   },
   {
     id: "25",
-    src: "/gallery/galas/25.jpg",
+    src: "/events/galas/gallery/25.jpg",
     alt: "Private gala celebration showcasing refined design details",
   },
   {
     id: "26",
-    src: "/gallery/galas/26.jpg",
+    src: "/events/galas/gallery/26.jpg",
     alt: "Upscale gala event with dramatic ambiance lighting",
   },
   {
     id: "27",
-    src: "/gallery/galas/27.jpg",
+    src: "/events/galas/gallery/27.jpg",
     alt: "Luxury gala dinner experience with polished presentation",
   },
   {
     id: "28",
-    src: "/gallery/galas/28.jpg",
+    src: "/events/galas/gallery/28.jpg",
     alt: "Formal gala environment designed for high-profile guests",
   },
   {
     id: "29",
-    src: "/gallery/galas/29.jpg",
+    src: "/events/galas/gallery/29.jpg",
     alt: "Elegant gala reception highlighting premium décor and lighting",
   },
   {
     id: "30",
-    src: "/gallery/galas/30.jpg",
+    src: "/events/galas/gallery/30.jpg",
     alt: "Sophisticated private gala with refined event styling",
   },
 ];
@@ -1865,7 +1940,7 @@ export const VirtualHyrbidEventTypeOfferings = [
     headline: "Virtual Conferences",
     description:
       "We produce fully virtual conferences that deliver clear messaging, seamless streaming, and engaging digital experiences. From keynote sessions to breakout rooms, our team manages production, platforms, and live execution.",
-    image: "/gallery/virtual-hybrid/13.jpg",
+    image: "/events/virtual-hybrid-events/gallery/13.jpg",
   },
   {
     id: "2",
@@ -1873,7 +1948,7 @@ export const VirtualHyrbidEventTypeOfferings = [
     headline: "Hybrid Events",
     description:
       "Connect in-person and remote audiences through thoughtfully designed hybrid events. We integrate live production, streaming technology, and audience engagement tools to ensure a cohesive experience for all attendees.",
-    image: "/gallery/virtual-hybrid/4.jpg",
+    image: "/events/virtual-hybrid-events/gallery/4.jpg",
   },
   {
     id: "3",
@@ -1881,7 +1956,7 @@ export const VirtualHyrbidEventTypeOfferings = [
     headline: "Live Streaming & Broadcasts",
     description:
       "Deliver professional live streams with broadcast-quality video, sound, and lighting. We support product announcements, panels, town halls, and special events with reliable streaming solutions.",
-    image: "/gallery/virtual-hybrid/15.jpg",
+    image: "/events/virtual-hybrid-events/gallery/15.jpg",
   },
   {
     id: "4",
@@ -1889,7 +1964,7 @@ export const VirtualHyrbidEventTypeOfferings = [
     headline: "Digital Engagement Experiences",
     description:
       "Enhance virtual participation with interactive features such as live Q&A, polls, moderated chat, and branded digital environments designed to keep audiences engaged throughout the event.",
-    image: "/gallery/virtual-hybrid/24.jpg",
+    image: "/events/virtual-hybrid-events/gallery/24.jpg",
   },
 ];
 
@@ -1905,15 +1980,15 @@ export const VirtualHyrbidCaseStudiesData = [
     impact:
       "The event successfully engaged both in-person and remote audiences with consistent messaging and high production quality. Smooth session transitions and reliable streaming reinforced OpenText’s leadership and delivered a polished global experience.",
     gallery: [
-      "/gallery/virtual-hybrid/case-study/1.jpg",
-      "/gallery/virtual-hybrid/case-study/2.jpg",
-      "/gallery/virtual-hybrid/case-study/3.jpg",
-      "/gallery/virtual-hybrid/case-study/4.jpg",
-      "/gallery/virtual-hybrid/case-study/5.jpg",
-      "/gallery/virtual-hybrid/case-study/6.jpg",
-      "/gallery/virtual-hybrid/case-study/7.jpg",
-      "/gallery/virtual-hybrid/case-study/8.jpg",
-      "/gallery/virtual-hybrid/case-study/9.jpg",
+      "/events/virtual-hybrid-events/case-study/1.jpg",
+      "/events/virtual-hybrid-events/case-study/2.jpg",
+      "/events/virtual-hybrid-events/case-study/3.jpg",
+      "/events/virtual-hybrid-events/case-study/4.jpg",
+      "/events/virtual-hybrid-events/case-study/5.jpg",
+      "/events/virtual-hybrid-events/case-study/6.jpg",
+      "/events/virtual-hybrid-events/case-study/7.jpg",
+      "/events/virtual-hybrid-events/case-study/8.jpg",
+      "/events/virtual-hybrid-events/case-study/9.jpg",
     ],
   },
 ];
@@ -1921,172 +1996,172 @@ export const VirtualHyrbidCaseStudiesData = [
 export const VirtualHyrbidImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/virtual-hybrid/1.jpg",
+    src: "/events/virtual-hybrid-events/gallery/1.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "2",
-    src: "/gallery/virtual-hybrid/2.jpg",
+    src: "/events/virtual-hybrid-events/gallery/2.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "3",
-    src: "/gallery/virtual-hybrid/3.jpg",
+    src: "/events/virtual-hybrid-events/gallery/3.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "4",
-    src: "/gallery/virtual-hybrid/4.jpg",
+    src: "/events/virtual-hybrid-events/gallery/4.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "5",
-    src: "/gallery/virtual-hybrid/5.jpg",
+    src: "/events/virtual-hybrid-events/gallery/5.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "6",
-    src: "/gallery/virtual-hybrid/6.jpg",
+    src: "/events/virtual-hybrid-events/gallery/6.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "7",
-    src: "/gallery/virtual-hybrid/7.jpg",
+    src: "/events/virtual-hybrid-events/gallery/7.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "8",
-    src: "/gallery/virtual-hybrid/8.jpg",
+    src: "/events/virtual-hybrid-events/gallery/8.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "9",
-    src: "/gallery/virtual-hybrid/9.jpg",
+    src: "/events/virtual-hybrid-events/gallery/9.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "10",
-    src: "/gallery/virtual-hybrid/10.jpg",
+    src: "/events/virtual-hybrid-events/gallery/10.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "11",
-    src: "/gallery/virtual-hybrid/11.jpg",
+    src: "/events/virtual-hybrid-events/gallery/11.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "12",
-    src: "/gallery/virtual-hybrid/12.jpg",
+    src: "/events/virtual-hybrid-events/gallery/12.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "13",
-    src: "/gallery/virtual-hybrid/13.jpg",
+    src: "/events/virtual-hybrid-events/gallery/13.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "14",
-    src: "/gallery/virtual-hybrid/14.jpg",
+    src: "/events/virtual-hybrid-events/gallery/14.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "15",
-    src: "/gallery/virtual-hybrid/15.jpg",
+    src: "/events/virtual-hybrid-events/gallery/15.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "16",
-    src: "/gallery/virtual-hybrid/16.jpg",
+    src: "/events/virtual-hybrid-events/gallery/16.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "17",
-    src: "/gallery/virtual-hybrid/17.jpg",
+    src: "/events/virtual-hybrid-events/gallery/17.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "18",
-    src: "/gallery/virtual-hybrid/18.jpg",
+    src: "/events/virtual-hybrid-events/gallery/18.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "19",
-    src: "/gallery/virtual-hybrid/19.jpg",
+    src: "/events/virtual-hybrid-events/gallery/19.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "20",
-    src: "/gallery/virtual-hybrid/20.jpg",
+    src: "/events/virtual-hybrid-events/gallery/20.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "21",
-    src: "/gallery/virtual-hybrid/21.jpg",
+    src: "/events/virtual-hybrid-events/gallery/21.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "22",
-    src: "/gallery/virtual-hybrid/22.jpg",
+    src: "/events/virtual-hybrid-events/gallery/22.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "23",
-    src: "/gallery/virtual-hybrid/23.jpg",
+    src: "/events/virtual-hybrid-events/gallery/23.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "24",
-    src: "/gallery/virtual-hybrid/24.jpg",
+    src: "/events/virtual-hybrid-events/gallery/24.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "25",
-    src: "/gallery/virtual-hybrid/25.jpg",
+    src: "/events/virtual-hybrid-events/gallery/25.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "26",
-    src: "/gallery/virtual-hybrid/26.jpg",
+    src: "/events/virtual-hybrid-events/gallery/26.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "27",
-    src: "/gallery/virtual-hybrid/27.jpg",
+    src: "/events/virtual-hybrid-events/gallery/27.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "28",
-    src: "/gallery/virtual-hybrid/28.jpg",
+    src: "/events/virtual-hybrid-events/gallery/28.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "29",
-    src: "/gallery/virtual-hybrid/29.jpg",
+    src: "/events/virtual-hybrid-events/gallery/29.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "30",
-    src: "/gallery/virtual-hybrid/30.jpg",
+    src: "/events/virtual-hybrid-events/gallery/30.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "31",
-    src: "/gallery/virtual-hybrid/31.jpg",
+    src: "/events/virtual-hybrid-events/gallery/31.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "32",
-    src: "/gallery/virtual-hybrid/32.jpg",
+    src: "/events/virtual-hybrid-events/gallery/32.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "33",
-    src: "/gallery/virtual-hybrid/33.jpg",
+    src: "/events/virtual-hybrid-events/gallery/33.jpg",
     alt: "Immersive brand activation event experience",
   },
   {
     id: "34",
-    src: "/gallery/virtual-hybrid/34.jpg",
+    src: "/events/virtual-hybrid-events/gallery/34.jpg",
     alt: "Immersive brand activation event experience",
   },
 ];
@@ -2133,7 +2208,7 @@ export const ConferenceEventTypeOfferings = [
     headline: "Conference Production",
     description:
       "As New York City’s number one choice for event production, our full-service event and production team is able to assist you with all of your event needs. Our capabilities are extensive; we offer the very best in: lighting, AV & staging, musical entertainment, custom fabrication, design, and event planning services. Our in-house resources make us your most valued partner when planning your next company holiday party, gala, marketing event, or milestone celebration.",
-    image: "/gallery/conferences/6.jpg",
+    image: "/events/conferences-meetings/gallery/6.jpg",
   },
   {
     id: "2",
@@ -2141,7 +2216,7 @@ export const ConferenceEventTypeOfferings = [
     headline: "Meetings & Conferences",
     description:
       "When planning your next company meeting, summit, fundraiser, or trade show, partner with a team you can trust. With over 20 years of experience, MMEink specializes in corporate meetings and events across New York City, bringing your vision to life while staying mindful of your budget. From venue selection to event design and on-site management, we create programs tailored to your needs. We look forward to collaborating on your next event.",
-    image: "/gallery/conferences/18.jpg",
+    image: "/events/conferences-meetings/gallery/18.jpg",
   },
   {
     id: "3",
@@ -2149,7 +2224,7 @@ export const ConferenceEventTypeOfferings = [
     headline: "Event Planning",
     description:
       "The MMEink event production and management team is a group of experienced and dedicated individuals who dedicate themselves to making the planning and execution of your special event an exciting process. Our team will seamlessly orchestrate your corporate event or meeting from start to finish, allowing you to be involved in the exciting aspects while remaining isolated from the stresses associated with putting on an elaborate affair. From event design to development and on-site coordination, we are devoted to producing an event that will exceed your every expectation.",
-    image: "/gallery/conferences/30.jpg",
+    image: "/events/conferences-meetings/gallery/30.jpg",
   },
   {
     id: "4",
@@ -2157,7 +2232,7 @@ export const ConferenceEventTypeOfferings = [
     headline: "Event Management",
     description:
       "MMEink provides event management services that are delivered with seamless integration and precision. With a full time team of experienced planners and on-site coordinators, we ensure that your event runs smoothly from start to finish. Our team will be with you every step of the way, from the initial event design and planning, to on-site registration, our team will provide you with the right choice in management to effectively plan and execute your next meeting or event.",
-    image: "/gallery/conferences/22.jpg",
+    image: "/events/conferences-meetings/gallery/22.jpg",
   },
 ];
 
@@ -2173,11 +2248,11 @@ export const ConferenceCaseStudiesData = [
     impact:
       "The conference was executed flawlessly, delivering a focused and engaging experience for speakers and attendees alike. Clear visuals, consistent audio, and smooth pacing elevated the event’s professionalism and reinforced NYCOMS’ reputation for high-quality programming.",
     gallery: [
-      "/gallery/conferences/case-study/1.jpg",
-      "/gallery/conferences/case-study/2.jpg",
-      "/gallery/conferences/case-study/3.jpg",
-      "/gallery/conferences/case-study/4.jpg",
-      "/gallery/conferences/case-study/5.jpg",
+      "/events/conferences-meetings/case-study/1.jpg",
+      "/events/conferences-meetings/case-study/2.jpg",
+      "/events/conferences-meetings/case-study/3.jpg",
+      "/events/conferences-meetings/case-study/4.jpg",
+      "/events/conferences-meetings/case-study/5.jpg",
     ],
   },
 ];
@@ -2185,152 +2260,152 @@ export const ConferenceCaseStudiesData = [
 export const ConferenceImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/gallery/conferences/1.jpg",
+    src: "/events/conferences-meetings/gallery/1.jpg",
     alt: "Elegant table setup with floral centerpieces at a conference event",
   },
   {
     id: "2",
-    src: "/gallery/conferences/2.jpg",
+    src: "/events/conferences-meetings/gallery/2.jpg",
     alt: "Large conference crowd seated at round tables in an ornate ballroom",
   },
   {
     id: "3",
-    src: "/gallery/conferences/3.jpg",
+    src: "/events/conferences-meetings/gallery/3.jpg",
     alt: "Conference stage setup with a giant 'C' logo display and rows of chairs",
   },
   {
     id: "4",
-    src: "/gallery/conferences/4.jpg",
+    src: "/events/conferences-meetings/gallery/4.jpg",
     alt: "Conference stage with 'eMarketer attention' display screen and chairs",
   },
   {
     id: "5",
-    src: "/gallery/conferences/5.jpg",
+    src: "/events/conferences-meetings/gallery/5.jpg",
     alt: "Drive banner displays in an arched conference venue space",
   },
   {
     id: "6",
-    src: "/gallery/conferences/6.jpg",
+    src: "/events/conferences-meetings/gallery/6.jpg",
     alt: "Conference hall with bright lighting and rows of chairs facing a stage",
   },
   {
     id: "7",
-    src: "/gallery/conferences/7.jpg",
+    src: "/events/conferences-meetings/gallery/7.jpg",
     alt: "Large conference crowd watching presentations on stage with a heart logo display",
   },
   {
     id: "8",
-    src: "/gallery/conferences/8.jpg",
+    src: "/events/conferences-meetings/gallery/8.jpg",
     alt: "Elegant banquet table setup for a conference event dinner",
   },
   {
     id: "9",
-    src: "/gallery/conferences/9.jpg",
+    src: "/events/conferences-meetings/gallery/9.jpg",
     alt: "Conference stage with red carpet and 'engagement' logo display",
   },
   {
     id: "10",
-    src: "/gallery/conferences/10.jpg",
+    src: "/events/conferences-meetings/gallery/10.jpg",
     alt: "Conference setup with tables, chairs, and colorful lighting under arched ceilings",
   },
   {
     id: "11",
-    src: "/gallery/conferences/11.jpg",
+    src: "/events/conferences-meetings/gallery/11.jpg",
     alt: "Welcome sign and tables at a conference check-in area",
   },
   {
     id: "12",
-    src: "/gallery/conferences/12.jpg",
+    src: "/events/conferences-meetings/gallery/12.jpg",
     alt: "Overhead view of a conference hall with round tables and a lit up stage",
   },
   {
     id: "13",
-    src: "/gallery/conferences/13.jpg",
+    src: "/events/conferences-meetings/gallery/13.jpg",
     alt: "Conference hall with arched ceilings lit up in purple and a large chandelier",
   },
   {
     id: "14",
-    src: "/gallery/conferences/14.jpg",
+    src: "/events/conferences-meetings/gallery/14.jpg",
     alt: "Close-up of a 'We Are VML' display at a conference",
   },
   {
     id: "15",
-    src: "/gallery/conferences/15.jpg",
+    src: "/events/conferences-meetings/gallery/15.jpg",
     alt: "Banquet tables with candles and a stage with a ParentChild+ logo display",
   },
   {
     id: "16",
-    src: "/gallery/conferences/16.jpg",
+    src: "/events/conferences-meetings/gallery/16.jpg",
     alt: "Conference hall setup with round tables and colorful ParentChild+ branding",
   },
   {
     id: "17",
-    src: "/gallery/conferences/17.jpg",
+    src: "/events/conferences-meetings/gallery/17.jpg",
     alt: "Conference hall entryway with Success Academy branding",
   },
   {
     id: "18",
-    src: "/gallery/conferences/18.jpg",
+    src: "/events/conferences-meetings/gallery/18.jpg",
     alt: "Close-up of a Success Academy logo display on stage at a conference",
   },
   {
     id: "19",
-    src: "/gallery/conferences/19.jpg",
+    src: "/events/conferences-meetings/gallery/19.jpg",
     alt: "Wide view of a large conference crowd and stage in an ornate hall",
   },
   {
     id: "20",
-    src: "/gallery/conferences/20.jpg",
+    src: "/events/conferences-meetings/gallery/20.jpg",
     alt: "Close-up of an elegant table setting at a conference event",
   },
   {
     id: "21",
-    src: "/gallery/conferences/21.jpg",
+    src: "/events/conferences-meetings/gallery/21.jpg",
     alt: "Conference audience seated at round tables in a modern event space",
   },
   {
     id: "22",
-    src: "/gallery/conferences/22.jpg",
+    src: "/events/conferences-meetings/gallery/22.jpg",
     alt: "Speaker panel on stage with a giant '50' logo display in the background",
   },
   {
     id: "23",
-    src: "/gallery/conferences/23.jpg",
+    src: "/events/conferences-meetings/gallery/23.jpg",
     alt: "Conference stage setup with 'Empowering the Financial World' branding",
   },
   {
     id: "24",
-    src: "/gallery/conferences/24.jpg",
+    src: "/events/conferences-meetings/gallery/24.jpg",
     alt: "Wide view of a grand ballroom set up for a conference with rows of chairs",
   },
   {
     id: "25",
-    src: "/gallery/conferences/25.jpg",
+    src: "/events/conferences-meetings/gallery/25.jpg",
     alt: "Close-up of a 'nest' branded display on stage at a conference",
   },
   {
     id: "26",
-    src: "/gallery/conferences/26.jpg",
+    src: "/events/conferences-meetings/gallery/26.jpg",
     alt: "Conference stage setup with 'Digital Disruption' text and city graphics",
   },
   {
     id: "27",
-    src: "/gallery/conferences/27.jpg",
+    src: "/events/conferences-meetings/gallery/27.jpg",
     alt: "Rows of chairs set up facing a stage in a dimly lit conference hall",
   },
   {
     id: "28",
-    src: "/gallery/conferences/28.jpg",
+    src: "/events/conferences-meetings/gallery/28.jpg",
     alt: "Conference hall with purple lighting and a stage setup for a panel discussion",
   },
   {
     id: "29",
-    src: "/gallery/conferences/29.jpg",
+    src: "/events/conferences-meetings/gallery/29.jpg",
     alt: "Crowded conference audience watching presentations on multiple screens",
   },
   {
     id: "30",
-    src: "/gallery/conferences/30.jpg",
+    src: "/events/conferences-meetings/gallery/30.jpg",
     alt: "Rows of black chairs set up in a conference space with a podium on stage",
   },
 ];
@@ -2377,37 +2452,37 @@ export const AudioVisualData = {
     {
       id: "1",
       title: "Professional Sound Systems",
-      image: "/services/cf/gif/1.gif",
+      image: "/services/custom-fabrication/motion/1.gif",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Stage Lighting",
-      image: "/services/av/20.jpg",
+      image: "/services/audio-visual/gallery/20.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "/services/av/7.jpg",
+      image: "/services/audio-visual/gallery/7.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Projection Mapping",
-      image: "/services/cf/gif/2.gif",
+      image: "/services/custom-fabrication/motion/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Live Event Production",
-      image: "/services/av/5.jpg",
+      image: "/services/audio-visual/gallery/5.jpg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Concert Sound",
-      image: "/services/cf/gif/3.gif",
+      image: "/services/custom-fabrication/motion/3.gif",
       width: "md" as const,
     },
   ],
@@ -2415,37 +2490,37 @@ export const AudioVisualData = {
     {
       id: "7",
       title: "Live Streaming",
-      image: "/services/cf/gif/4.gif",
+      image: "/services/custom-fabrication/motion/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "/services/av/2.jpg",
+      image: "/services/audio-visual/gallery/2.jpg",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "DJ Equipment",
-      image: "/services/cf/gif/5.gif",
+      image: "/services/custom-fabrication/motion/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Video Production",
-      image: "/services/av/18.jpg",
+      image: "/services/audio-visual/gallery/18.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Moving Head Lights",
-      image: "/services/cf/gif/6.gif",
+      image: "/services/custom-fabrication/motion/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "/services/av/12.jpg",
+      image: "/services/audio-visual/gallery/12.jpg",
       width: "lg" as const,
     },
   ],
@@ -2463,11 +2538,11 @@ export const AudioVisualCaseStudiesData = [
     impact:
       "The event ran smoothly with clear audio, strong visuals, and consistent production quality, allowing speakers to present confidently and attendees to stay fully engaged.",
     gallery: [
-      "/services/av/1.jpg",
-      "/services/av/5.jpg",
-      "/services/av/9.jpg",
-      "/services/av/14.jpg",
-      "/services/av/20.jpg",
+      "/services/audio-visual/gallery/1.jpg",
+      "/services/audio-visual/gallery/5.jpg",
+      "/services/audio-visual/gallery/9.jpg",
+      "/services/audio-visual/gallery/14.jpg",
+      "/services/audio-visual/gallery/20.jpg",
     ],
   },
 ];
@@ -2475,102 +2550,102 @@ export const AudioVisualCaseStudiesData = [
 export const AudioVisualImageGallery = [
   {
     id: "1",
-    src: "/services/av/1.jpg",
+    src: "/services/audio-visual/gallery/1.jpg",
     alt: "Professional audio visual setup with stage lighting and sound system for corporate event",
   },
   {
     id: "2",
-    src: "/services/av/2.jpg",
+    src: "/services/audio-visual/gallery/2.jpg",
     alt: "Live event production featuring LED screens, stage lighting, and AV control systems",
   },
   {
     id: "3",
-    src: "/services/av/3.jpg",
+    src: "/services/audio-visual/gallery/3.jpg",
     alt: "Conference audio visual setup with large projection screens and professional sound",
   },
   {
     id: "4",
-    src: "/services/av/4.jpg",
+    src: "/services/audio-visual/gallery/4.jpg",
     alt: "Stage lighting design with truss structures and color-changing LED fixtures",
   },
   {
     id: "5",
-    src: "/services/av/5.jpg",
+    src: "/services/audio-visual/gallery/5.jpg",
     alt: "Audio visual control booth managing sound, lighting, and video for live event",
   },
   {
     id: "6",
-    src: "/services/av/6.jpg",
+    src: "/services/audio-visual/gallery/6.jpg",
     alt: "Corporate presentation setup with microphones, screens, and professional lighting",
   },
   {
     id: "7",
-    src: "/services/av/7.jpg",
+    src: "/services/audio-visual/gallery/7.jpg",
     alt: "Event stage with dynamic lighting effects and integrated video displays",
   },
   {
     id: "8",
-    src: "/services/av/8.jpg",
+    src: "/services/audio-visual/gallery/8.jpg",
     alt: "Live panel discussion supported by professional audio and video equipment",
   },
   {
     id: "9",
-    src: "/services/av/9.jpg",
+    src: "/services/audio-visual/gallery/9.jpg",
     alt: "Hybrid event production with cameras, lighting, and live streaming setup",
   },
   {
     id: "10",
-    src: "/services/av/10.jpg",
+    src: "/services/audio-visual/gallery/10.jpg",
     alt: "LED wall installation with synchronized lighting for branded event experience",
   },
   {
     id: "11",
-    src: "/services/av/11.jpg",
+    src: "/services/audio-visual/gallery/11.jpg",
     alt: "Sound system setup with speakers and mixing console for indoor event",
   },
   {
     id: "12",
-    src: "/services/av/12.jpg",
+    src: "/services/audio-visual/gallery/12.jpg",
     alt: "Event lighting design highlighting stage and audience areas",
   },
   {
     id: "13",
-    src: "/services/av/13.jpg",
+    src: "/services/audio-visual/gallery/13.jpg",
     alt: "Professional camera setup for live event recording and streaming",
   },
   {
     id: "14",
-    src: "/services/av/14.jpg",
+    src: "/services/audio-visual/gallery/14.jpg",
     alt: "Corporate keynote stage with projection screens and theatrical lighting",
   },
   {
     id: "15",
-    src: "/services/av/15.jpg",
+    src: "/services/audio-visual/gallery/15.jpg",
     alt: "Audio visual equipment setup during event rehearsal and sound check",
   },
   {
     id: "16",
-    src: "/services/av/16.jpg",
+    src: "/services/audio-visual/gallery/16.jpg",
     alt: "Lighting truss and rigging installation for large-scale event production",
   },
   {
     id: "17",
-    src: "/services/av/17.jpg",
+    src: "/services/audio-visual/gallery/17.jpg",
     alt: "Event production team managing live audio and video during presentation",
   },
   {
     id: "18",
-    src: "/services/av/18.jpg",
+    src: "/services/audio-visual/gallery/18.jpg",
     alt: "Stage wash lighting and accent lights creating immersive event atmosphere",
   },
   {
     id: "19",
-    src: "/services/av/19.jpg",
+    src: "/services/audio-visual/gallery/19.jpg",
     alt: "Multi-camera setup capturing speakers and audience at corporate event",
   },
   {
     id: "20",
-    src: "/services/av/20.jpg",
+    src: "/services/audio-visual/gallery/20.jpg",
     alt: "Complete audio visual production with lighting, sound, and video integration",
   },
 ];
@@ -2617,37 +2692,37 @@ export const CustomFabricationData = {
     {
       id: "1",
       title: "Professional Sound Systems",
-      image: "/services/cf/gif/1.gif",
+      image: "/services/custom-fabrication/motion/1.gif",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Stage Lighting",
-      image: "/services/cf/20.jpg",
+      image: "/services/custom-fabrication/gallery/20.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "/services/cf/27.jpg",
+      image: "/services/custom-fabrication/gallery/27.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Projection Mapping",
-      image: "/services/cf/gif/2.gif",
+      image: "/services/custom-fabrication/motion/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Live Event Production",
-      image: "/services/cf/26.jpeg",
+      image: "/services/custom-fabrication/gallery/26.jpeg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Concert Sound",
-      image: "/services/cf/gif/3.gif",
+      image: "/services/custom-fabrication/motion/3.gif",
       width: "md" as const,
     },
   ],
@@ -2655,37 +2730,37 @@ export const CustomFabricationData = {
     {
       id: "7",
       title: "Live Streaming",
-      image: "/services/cf/gif/4.gif",
+      image: "/services/custom-fabrication/motion/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "/services/cf/2.jpg",
+      image: "/services/custom-fabrication/gallery/2.JPG",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "DJ Equipment",
-      image: "/services/cf/gif/5.gif",
+      image: "/services/custom-fabrication/motion/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Video Production",
-      image: "/services/cf/18.jpg",
+      image: "/services/custom-fabrication/gallery/18.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Moving Head Lights",
-      image: "/services/cf/gif/6.gif",
+      image: "/services/custom-fabrication/motion/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "/services/cf/12.jpg",
+      image: "/services/custom-fabrication/gallery/12.jpg",
       width: "lg" as const,
     },
   ],
@@ -2703,12 +2778,12 @@ export const CustomFabricationCaseStudiesData = [
     impact:
       "The activation increased guest engagement, encouraged product interaction, and delivered a premium brand experience that supported live demos and strong social sharing.",
     gallery: [
-      "/services/cf/case-study/1.JPG",
-      "/services/cf/case-study/2.JPG",
-      "/services/cf/case-study/3.JPG",
-      "/services/cf/case-study/4.JPG",
-      "/services/cf/case-study/5.JPG",
-      "/services/cf/case-study/6.JPG",
+      "/services/custom-fabrication/case-study/1.JPG",
+      "/services/custom-fabrication/case-study/2.JPG",
+      "/services/custom-fabrication/case-study/3.JPG",
+      "/services/custom-fabrication/case-study/4.JPG",
+      "/services/custom-fabrication/case-study/5.JPG",
+      "/services/custom-fabrication/case-study/6.JPG",
     ],
   },
 ];
@@ -2716,152 +2791,152 @@ export const CustomFabricationCaseStudiesData = [
 export const CustomFabricationImageGallery: GalleryImage[] = [
   {
     id: "1",
-    src: "/services/cf/1.jpg",
+    src: "/services/custom-fabrication/gallery/1.jpg",
     alt: "Custom fabricated vinyl record wall with dimensional logo for branded event installation",
   },
   {
     id: "2",
-    src: "/services/cf/2.jpg",
+    src: "/services/custom-fabrication/gallery/2.JPG",
     alt: "Immersive music-themed brand booth with custom guitars and experiential display design",
   },
   {
     id: "3",
-    src: "/services/cf/3.jpg",
+    src: "/services/custom-fabrication/gallery/3.jpg",
     alt: "Custom branded cocktail bar installation with signage and premium mixology setup",
   },
   {
     id: "4",
-    src: "/services/cf/4.jpg",
+    src: "/services/custom-fabrication/gallery/4.jpg",
     alt: "Luxury outdoor brand activation featuring sculptural mannequin display and greenery",
   },
   {
     id: "5",
-    src: "/services/cf/5.jpg",
+    src: "/services/custom-fabrication/gallery/5.jpg",
     alt: "Custom stage backdrop panels with LED uplighting for corporate conference seating",
   },
   {
     id: "6",
-    src: "/services/cf/6.jpg",
+    src: "/services/custom-fabrication/gallery/6.jpg",
     alt: "Champagne service wall with custom shelving and greenery for upscale event experience",
   },
   {
     id: "7",
-    src: "/services/cf/7.jpg",
+    src: "/services/custom-fabrication/gallery/7.jpg",
     alt: "Custom fabricated bar facade with illuminated marquee lettering for themed event bar",
   },
   {
     id: "8",
-    src: "/services/cf/8.jpeg",
+    src: "/services/custom-fabrication/gallery/8.jpeg",
     alt: "Branded retail fitting room activation with illuminated mirrors and custom structures",
   },
   {
     id: "9",
-    src: "/services/cf/9.jpg",
+    src: "/services/custom-fabrication/gallery/9.jpg",
     alt: "Large-scale custom art wall installation with graphic panels for brand storytelling",
   },
   {
     id: "10",
-    src: "/services/cf/10.jpg",
+    src: "/services/custom-fabrication/gallery/10.jpg",
     alt: "Custom event stage design with LED sculptures, banquet seating, and immersive lighting",
   },
   {
     id: "11",
-    src: "/services/cf/11.jpg",
+    src: "/services/custom-fabrication/gallery/11.jpg",
     alt: "Luxury tented anniversary event with custom cocktail tables, lighting, and floral backdrop",
   },
   {
     id: "12",
-    src: "/services/cf/12.jpg",
+    src: "/services/custom-fabrication/gallery/12.jpg",
     alt: "Banana Republic custom pop-up dessert kiosk with branded signage and display shelving",
   },
   {
     id: "13",
-    src: "/services/cf/13.jpg",
+    src: "/services/custom-fabrication/gallery/13.jpg",
     alt: "Tropical Havana Nights themed backdrop with custom lettering and oversized foliage",
   },
   {
     id: "14",
-    src: "/services/cf/14.jpg",
+    src: "/services/custom-fabrication/gallery/14.JPG",
     alt: "Custom sports-themed photo backdrop with large-scale graphics and event lighting",
   },
   {
     id: "15",
-    src: "/services/cf/15.jpeg",
+    src: "/services/custom-fabrication/gallery/15.jpeg",
     alt: "Outdoor immersive brand installation with palm trees, lighting, and ribbon art structure",
   },
   {
     id: "16",
-    src: "/services/cf/16.jpg",
+    src: "/services/custom-fabrication/gallery/16.jpg",
     alt: "The Estée Edit beauty brand activation booth with product displays and illuminated signage",
   },
   {
     id: "17",
-    src: "/services/cf/17.jpg",
+    src: "/services/custom-fabrication/gallery/17.jpg",
     alt: "Trade show booth fabrication with shelving, seating, and branded wall graphics",
   },
   {
     id: "18",
-    src: "/services/cf/18.jpg",
+    src: "/services/custom-fabrication/gallery/18.jpg",
     alt: "Custom branded ice cream cart activation for outdoor corporate event experience",
   },
   {
     id: "19",
-    src: "/services/cf/19.jpg",
+    src: "/services/custom-fabrication/gallery/19.jpg",
     alt: "Street-level automotive brand activation with custom kiosk and display platform",
   },
   {
     id: "20",
-    src: "/services/cf/20.jpg",
+    src: "/services/custom-fabrication/gallery/20.jpg",
     alt: "Rustic custom wood sign installation for outdoor brand event and experiential marketing",
   },
   {
     id: "21",
-    src: "/services/cf/21.jpg",
+    src: "/services/custom-fabrication/gallery/21.jpg",
     alt: "Whimsical indoor set design with custom cabin facades, greenery, and campfire installation",
   },
   {
     id: "22",
-    src: "/services/cf/22.jpg",
+    src: "/services/custom-fabrication/gallery/22.jpg",
     alt: "Premium Camus cognac bar setup with custom signage and luxury barware display",
   },
   {
     id: "23",
-    src: "/services/cf/23.jpg",
+    src: "/services/custom-fabrication/gallery/23.jpg",
     alt: "Marie Claire MC30 custom kiosk fabrication in workshop prior to brand activation",
   },
   {
     id: "24",
-    src: "/services/cf/24.jpg",
+    src: "/services/custom-fabrication/gallery/24.jpg",
     alt: "Womenterprise Summit stage design with custom arches, seating, and branded lighting",
   },
   {
     id: "25",
-    src: "/services/cf/25.jpg",
+    src: "/services/custom-fabrication/gallery/25.jpg",
     alt: "Elegant wedding table signage with custom street sign centerpiece and ambient lighting",
   },
   {
     id: "26",
-    src: "/services/cf/26.jpeg",
+    src: "/services/custom-fabrication/gallery/26.jpeg",
     alt: "Colorful custom candy wall installation with cylindrical containers for guest interaction",
   },
   {
     id: "27",
-    src: "/services/cf/27.jpg",
+    src: "/services/custom-fabrication/gallery/27.jpg",
     alt: "Suspended sneaker display installation for immersive retail brand experience",
   },
   {
     id: "28",
-    src: "/services/cf/28.jpg",
+    src: "/services/custom-fabrication/gallery/28.jpg",
     alt: "Custom stage platform and truss structure for ASICS brand product launch event",
   },
   {
     id: "29",
-    src: "/services/cf/29.JPG",
+    src: "/services/custom-fabrication/gallery/29.JPG",
     alt: "Retail pop-up fitting room installations for Macy’s Tommy Girl brand activation",
   },
   {
     id: "30",
-    src: "/services/cf/30.jpg",
+    src: "/services/custom-fabrication/gallery/30.jpg",
     alt: "Interactive tech-driven brand installation with illuminated tunnel and digital interface",
   },
 ];
@@ -2908,37 +2983,37 @@ export const RentalData = {
     {
       id: "1",
       title: "Professional Sound Systems",
-      image: "/services/cf/gif/1.gif",
+      image: "/services/custom-fabrication/motion/1.gif",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Stage Lighting",
-      image: "/services/rentals/7.jpg",
+      image: "/services/rentals/gallery/7.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "/services/rentals/3.jpg",
+      image: "/services/rentals/gallery/3.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Projection Mapping",
-      image: "/services/cf/gif/2.gif",
+      image: "/services/custom-fabrication/motion/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Live Event Production",
-      image: "/services/rentals/16.jpg",
+      image: "/services/rentals/gallery/16.jpg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Concert Sound",
-      image: "/services/cf/gif/3.gif",
+      image: "/services/custom-fabrication/motion/3.gif",
       width: "md" as const,
     },
   ],
@@ -2946,37 +3021,37 @@ export const RentalData = {
     {
       id: "7",
       title: "Live Streaming",
-      image: "/services/cf/gif/4.gif",
+      image: "/services/custom-fabrication/motion/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "/services/rentals/21.jpg",
+      image: "/services/rentals/gallery/21.jpg",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "DJ Equipment",
-      image: "/services/cf/gif/5.gif",
+      image: "/services/custom-fabrication/motion/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Video Production",
-      image: "/services/rentals/22.jpg",
+      image: "/services/rentals/gallery/22.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Moving Head Lights",
-      image: "/services/cf/gif/6.gif",
+      image: "/services/custom-fabrication/motion/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "/services/rentals/33.jpg",
+      image: "/services/rentals/gallery/33.jpg",
       width: "lg" as const,
     },
   ],
@@ -3008,172 +3083,172 @@ export const RentalCaseStudiesData = [
 export const RentalImageGallery = [
   {
     id: "1",
-    src: "/services/rentals/1.jpg",
+    src: "/services/rentals/gallery/1.jpg",
     alt: "Professional event audio equipment rental setup",
   },
   {
     id: "2",
-    src: "/services/rentals/2.jpg",
+    src: "/services/rentals/gallery/2.jpg",
     alt: "Stage lighting rental with truss and uplighting",
   },
   {
     id: "3",
-    src: "/services/rentals/3.jpg",
+    src: "/services/rentals/gallery/3.jpg",
     alt: "LED video wall rental for corporate events",
   },
   {
     id: "4",
-    src: "/services/rentals/4.jpg",
+    src: "/services/rentals/gallery/4.jpg",
     alt: "Projection equipment rental for live presentations",
   },
   {
     id: "5",
-    src: "/services/rentals/5.jpg",
+    src: "/services/rentals/gallery/5.jpg",
     alt: "Live event production equipment rental setup",
   },
   {
     id: "6",
-    src: "/services/rentals/6.jpg",
+    src: "/services/rentals/gallery/6.jpg",
     alt: "Concert sound system rental with speakers and mixing console",
   },
   {
     id: "7",
-    src: "/services/rentals/7.jpg",
+    src: "/services/rentals/gallery/7.jpg",
     alt: "Live streaming equipment rental for hybrid events",
   },
   {
     id: "8",
-    src: "/services/rentals/8.jpg",
+    src: "/services/rentals/gallery/8.jpg",
     alt: "Wireless microphone rental for conferences and panels",
   },
   {
     id: "9",
-    src: "/services/rentals/9.jpg",
+    src: "/services/rentals/gallery/9.jpg",
     alt: "DJ equipment rental including mixers and turntables",
   },
   {
     id: "10",
-    src: "/services/rentals/10.jpg",
+    src: "/services/rentals/gallery/10.jpg",
     alt: "Professional video production equipment rental",
   },
   {
     id: "11",
-    src: "/services/rentals/11.jpg",
+    src: "/services/rentals/gallery/11.jpg",
     alt: "Moving head light rental for dynamic stage lighting",
   },
   {
     id: "12",
-    src: "/services/rentals/12.jpg",
+    src: "/services/rentals/gallery/12.jpg",
     alt: "Truss and rigging rental for event production",
   },
   {
     id: "13",
-    src: "/services/rentals/13.jpg",
+    src: "/services/rentals/gallery/13.jpg",
     alt: "Event lighting rental with color-changing LED fixtures",
   },
   {
     id: "14",
-    src: "/services/rentals/14.jpg",
+    src: "/services/rentals/gallery/14.jpg",
     alt: "Audio speaker rental for indoor and outdoor events",
   },
   {
     id: "15",
-    src: "/services/rentals/15.jpg",
+    src: "/services/rentals/gallery/15.jpg",
     alt: "Stage platform rental for live performances",
   },
   {
     id: "16",
-    src: "/services/rentals/16.jpg",
+    src: "/services/rentals/gallery/16.jpg",
     alt: "Large-scale LED screen rental for event backdrops",
   },
   {
     id: "17",
-    src: "/services/rentals/17.jpg",
+    src: "/services/rentals/gallery/17.jpg",
     alt: "Lighting control console rental for event production",
   },
   {
     id: "18",
-    src: "/services/rentals/18.jpg",
+    src: "/services/rentals/gallery/18.jpg",
     alt: "Camera and broadcast equipment rental for live events",
   },
   {
     id: "19",
-    src: "/services/rentals/19.jpg",
+    src: "/services/rentals/gallery/19.jpg",
     alt: "Event power distribution and cabling rental",
   },
   {
     id: "20",
-    src: "/services/rentals/20.jpg",
+    src: "/services/rentals/gallery/20.jpg",
     alt: "Professional microphone and audio accessory rental",
   },
   {
     id: "21",
-    src: "/services/rentals/21.jpg",
+    src: "/services/rentals/gallery/21.jpg",
     alt: "Event staging and riser rental setup",
   },
   {
     id: "22",
-    src: "/services/rentals/22.jpg",
+    src: "/services/rentals/gallery/22.jpg",
     alt: "Lighting truss rental with suspended fixtures",
   },
   {
     id: "23",
-    src: "/services/rentals/23.jpg",
+    src: "/services/rentals/gallery/23.jpg",
     alt: "Portable sound system rental for small events",
   },
   {
     id: "24",
-    src: "/services/rentals/24.jpg",
+    src: "/services/rentals/gallery/24.jpg",
     alt: "Video switcher and control equipment rental",
   },
   {
     id: "25",
-    src: "/services/rentals/25.jpg",
+    src: "/services/rentals/gallery/25.jpg",
     alt: "Event lighting package rental for corporate functions",
   },
   {
     id: "26",
-    src: "/services/rentals/26.jpg",
+    src: "/services/rentals/gallery/26.jpg",
     alt: "Professional speaker stack rental for concerts",
   },
   {
     id: "27",
-    src: "/services/rentals/27.jpg",
+    src: "/services/rentals/gallery/27.jpg",
     alt: "Stage backdrop and scenic rental for events",
   },
   {
     id: "28",
-    src: "/services/rentals/28.jpg",
+    src: "/services/rentals/gallery/28.jpg",
     alt: "AV equipment rental for conferences and meetings",
   },
   {
     id: "29",
-    src: "/services/rentals/29.jpg",
+    src: "/services/rentals/gallery/29.jpg",
     alt: "Lighting and audio rental setup during event load-in",
   },
   {
     id: "30",
-    src: "/services/rentals/30.jpg",
+    src: "/services/rentals/gallery/30.jpg",
     alt: "Event production rental equipment in use on-site",
   },
   {
     id: "31",
-    src: "/services/rentals/31.jpg",
+    src: "/services/rentals/gallery/31.jpg",
     alt: "High-quality event rental equipment prepared for setup",
   },
   {
     id: "32",
-    src: "/services/rentals/32.jpg",
+    src: "/services/rentals/gallery/32.jpg",
     alt: "Complete AV rental solution for large-scale events",
   },
   {
     id: "33",
-    src: "/services/rentals/33.jpg",
+    src: "/services/rentals/gallery/33.jpg",
     alt: "Professional lighting and staging rental configuration",
   },
   {
     id: "34",
-    src: "/services/rentals/34.jpg",
+    src: "/services/rentals/gallery/34.jpg",
     alt: "Reliable event rental equipment supporting live production",
   },
 ];
@@ -3221,37 +3296,37 @@ export const DesignDecorData = {
     {
       id: "1",
       title: "Professional Sound Systems",
-      image: "/services/cf/gif/1.gif",
+      image: "/services/custom-fabrication/motion/1.gif",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Stage Lighting",
-      image: "/services/dd/20.jpg",
+      image: "/services/design-decor/gallery/20.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "LED Video Walls",
-      image: "/services/dd/27.jpg",
+      image: "/services/design-decor/gallery/27.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Projection Mapping",
-      image: "/services/cf/gif/2.gif",
+      image: "/services/custom-fabrication/motion/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Live Event Production",
-      image: "/services/dd/26.jpg",
+      image: "/services/design-decor/gallery/26.jpg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Concert Sound",
-      image: "/services/cf/gif/3.gif",
+      image: "/services/custom-fabrication/motion/3.gif",
       width: "md" as const,
     },
   ],
@@ -3259,37 +3334,37 @@ export const DesignDecorData = {
     {
       id: "7",
       title: "Live Streaming",
-      image: "/services/cf/gif/4.gif",
+      image: "/services/custom-fabrication/motion/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Wireless Microphones",
-      image: "/services/dd/2.jpg",
+      image: "/services/design-decor/gallery/2.jpg",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "DJ Equipment",
-      image: "/services/cf/gif/5.gif",
+      image: "/services/custom-fabrication/motion/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Video Production",
-      image: "/services/dd/18.jpg",
+      image: "/services/design-decor/gallery/18.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Moving Head Lights",
-      image: "/services/cf/gif/6.gif",
+      image: "/services/custom-fabrication/motion/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Truss & Rigging",
-      image: "/services/dd/12.jpg",
+      image: "/services/design-decor/gallery/12.jpg",
       width: "lg" as const,
     },
   ],
@@ -3307,12 +3382,12 @@ export const DesignDecorCaseStudiesData = [
     impact:
       "The event delivered a memorable guest experience that encouraged engagement and interaction, reinforcing company culture while maintaining the firm’s polished brand identity.",
     gallery: [
-      "/services/dd/case-study/1.jpg",
-      "/services/dd/case-study/2.jpg",
-      "/services/dd/case-study/3.jpg",
-      "/services/dd/case-study/4.jpg",
-      "/services/dd/case-study/5.jpg",
-      "/services/dd/case-study/6.jpg",
+      "/services/design-decor/case-study/1.jpg",
+      "/services/design-decor/case-study/2.jpg",
+      "/services/design-decor/case-study/3.jpg",
+      "/services/design-decor/case-study/4.jpg",
+      "/services/design-decor/case-study/5.jpg",
+      "/services/design-decor/case-study/6.jpg",
     ],
   },
 ];
@@ -3320,172 +3395,172 @@ export const DesignDecorCaseStudiesData = [
 export const DesignDecorImageGallery = [
   {
     id: "1",
-    src: "/services/dd/1.jpg",
+    src: "/services/design-decor/gallery/1.jpg",
     alt: "Elegant crystal candle centerpieces on modern event dining tables",
   },
   {
     id: "2",
-    src: "/services/dd/2.jpg",
+    src: "/services/design-decor/gallery/2.jpg",
     alt: "Modern lounge furniture setup with illuminated cocktail tables",
   },
   {
     id: "3",
-    src: "/services/dd/3.jpg",
+    src: "/services/design-decor/gallery/3.jpg",
     alt: "Themed event tablescape with custom signage and warm ambient lighting",
   },
   {
     id: "4",
-    src: "/services/dd/4.jpg",
+    src: "/services/design-decor/gallery/4.jpg",
     alt: "Cathedral-style event space with dramatic blue uplighting and banquet seating",
   },
   {
     id: "5",
-    src: "/services/dd/5.jpg",
+    src: "/services/design-decor/gallery/5.jpg",
     alt: "Romantic wedding reception decor with floral centerpieces and soft draping",
   },
   {
     id: "6",
-    src: "/services/dd/6.jpg",
+    src: "/services/design-decor/gallery/6.jpg",
     alt: "Winter-themed lounge decor with illuminated tables and seasonal accents",
   },
   {
     id: "7",
-    src: "/services/dd/7.jpg",
+    src: "/services/design-decor/gallery/7.jpg",
     alt: "Green hedge wall backdrop with event branding and styled seating",
   },
   {
     id: "8",
-    src: "/services/dd/8.jpg",
+    src: "/services/design-decor/gallery/8.jpg",
     alt: "Indoor garden-inspired event decor with floral installations and lighting",
   },
   {
     id: "9",
-    src: "/services/dd/9.jpg",
+    src: "/services/design-decor/gallery/9.jpg",
     alt: "Upscale indoor café-style seating with umbrellas and bistro tables",
   },
   {
     id: "10",
-    src: "/services/dd/10.jpg",
+    src: "/services/design-decor/gallery/10.jpg",
     alt: "Luxury banquet setup with tall floral arrangements and chandeliers",
   },
   {
     id: "11",
-    src: "/services/dd/11.jpg",
+    src: "/services/design-decor/gallery/11.jpg",
     alt: "Modern lounge vignette with white seating and ambient accent lighting",
   },
   {
     id: "12",
-    src: "/services/dd/12.jpg",
+    src: "/services/design-decor/gallery/12.jpg",
     alt: "Contemporary event space with magenta lighting and modular lounge seating",
   },
   {
     id: "13",
-    src: "/services/dd/13.jpg",
+    src: "/services/design-decor/gallery/13.jpg",
     alt: "Floral garden entrance installation with greenery and decorative archways",
   },
   {
     id: "14",
-    src: "/services/dd/14.jpg",
+    src: "/services/design-decor/gallery/14.jpg",
     alt: "Grand ballroom reception with warm uplighting and elegant table settings",
   },
   {
     id: "15",
-    src: "/services/dd/15.jpg",
+    src: "/services/design-decor/gallery/15.jpg",
     alt: "Modern mirrored wall installation with ambient purple event lighting",
   },
   {
     id: "16",
-    src: "/services/dd/16.jpg",
+    src: "/services/design-decor/gallery/16.jpg",
     alt: "Stylish bar and lounge setup with hanging decor and mood lighting",
   },
   {
     id: "17",
-    src: "/services/dd/17.jpg",
+    src: "/services/design-decor/gallery/17.jpg",
     alt: "Branded dessert display with floral accents and curated table styling",
   },
   {
     id: "18",
-    src: "/services/dd/18.jpg",
+    src: "/services/design-decor/gallery/18.jpg",
     alt: "Tent-style event decor with chandeliers, cocktail tables, and greenery",
   },
   {
     id: "19",
-    src: "/services/dd/19.jpg",
+    src: "/services/design-decor/gallery/19.jpg",
     alt: "Long banquet table with floral runner and gold-accented place settings",
   },
   {
     id: "20",
-    src: "/services/dd/20.jpg",
+    src: "/services/design-decor/gallery/20.jpg",
     alt: "Colorful candy wall display as part of playful event decor installation",
   },
   {
     id: "21",
-    src: "/services/dd/21.jpg",
+    src: "/services/design-decor/gallery/21.jpg",
     alt: "Custom-designed event lounge with soft seating and accent lighting",
   },
   {
     id: "22",
-    src: "/services/dd/22.jpg",
+    src: "/services/design-decor/gallery/22.jpg",
     alt: "Luxury event decor featuring layered lighting and modern furniture",
   },
   {
     id: "23",
-    src: "/services/dd/23.jpg",
+    src: "/services/design-decor/gallery/23.jpg",
     alt: "Elegant corporate event setup with neutral tones and floral accents",
   },
   {
     id: "24",
-    src: "/services/dd/24.jpg",
+    src: "/services/design-decor/gallery/24.jpg",
     alt: "Chic cocktail reception decor with illuminated furniture and bar styling",
   },
   {
     id: "25",
-    src: "/services/dd/25.jpg",
+    src: "/services/design-decor/gallery/25.jpg",
     alt: "Romantic event tablescape with candles, florals, and refined linens",
   },
   {
     id: "26",
-    src: "/services/dd/26.jpg",
+    src: "/services/design-decor/gallery/26.jpg",
     alt: "Modern event design with clean lines, ambient lighting, and lounge seating",
   },
   {
     id: "27",
-    src: "/services/dd/27.jpg",
+    src: "/services/design-decor/gallery/27.jpg",
     alt: "Upscale indoor event decor with custom lighting and contemporary furnishings",
   },
   {
     id: "28",
-    src: "/services/dd/28.jpg",
+    src: "/services/design-decor/gallery/28.jpg",
     alt: "Stylish social event environment with coordinated decor and lighting design",
   },
   {
     id: "29",
-    src: "/services/dd/29.jpg",
+    src: "/services/design-decor/gallery/29.jpg",
     alt: "Premium event space styling with dramatic lighting and curated furniture",
   },
   {
     id: "30",
-    src: "/services/dd/30.jpg",
+    src: "/services/design-decor/gallery/30.jpg",
     alt: "Sophisticated event lounge area designed for guest comfort and flow",
   },
   {
     id: "31",
-    src: "/services/dd/31.jpg",
+    src: "/services/design-decor/gallery/31.jpg",
     alt: "Elegant evening event decor with warm lighting and refined finishes",
   },
   {
     id: "32",
-    src: "/services/dd/32.jpg",
+    src: "/services/design-decor/gallery/32.jpg",
     alt: "Contemporary event atmosphere created through lighting and decor styling",
   },
   {
     id: "33",
-    src: "/services/dd/33.jpg",
+    src: "/services/design-decor/gallery/33.jpg",
     alt: "High-end event design featuring layered textures and ambient illumination",
   },
   {
     id: "34",
-    src: "/services/dd/34.jpg",
+    src: "/services/design-decor/gallery/34.jpg",
     alt: "Timeless event decor setup blending modern elements with classic elegance",
   },
 ];
@@ -3532,37 +3607,37 @@ export const LogisticsData = {
     {
       id: "1",
       title: "Venue Sourcing & Coordination",
-      image: "/services/rentals/5.jpg",
+      image: "/services/rentals/gallery/5.jpg",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "Load-In & Load-Out Management",
-      image: "/services/rentals/29.jpg",
+      image: "/services/rentals/gallery/29.jpg",
       width: "md" as const,
     },
     {
       id: "3",
       title: "Event Staffing & Crew",
-      image: "/services/rentals/16.jpg",
+      image: "/services/rentals/gallery/16.jpg",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Transportation & Freight",
-      image: "/services/cf/gif/2.gif",
+      image: "/services/custom-fabrication/motion/2.gif",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Permitting & Compliance",
-      image: "/services/rentals/28.jpg",
+      image: "/services/rentals/gallery/28.jpg",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Vendor Management",
-      image: "/services/cf/gif/3.gif",
+      image: "/services/custom-fabrication/motion/3.gif",
       width: "md" as const,
     },
   ],
@@ -3570,37 +3645,37 @@ export const LogisticsData = {
     {
       id: "7",
       title: "On-Site Production Management",
-      image: "/services/cf/gif/4.gif",
+      image: "/services/custom-fabrication/motion/4.gif",
       width: "md" as const,
     },
     {
       id: "8",
       title: "Timeline & Run-of-Show",
-      image: "/services/rentals/30.jpg",
+      image: "/services/rentals/gallery/30.jpg",
       width: "sm" as const,
     },
     {
       id: "9",
       title: "Warehouse & Storage",
-      image: "/services/cf/gif/5.gif",
+      image: "/services/custom-fabrication/motion/5.gif",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Budget & Cost Management",
-      image: "/services/rentals/31.jpg",
+      image: "/services/rentals/gallery/31.jpg",
       width: "xl" as const,
     },
     {
       id: "11",
       title: "Safety & Risk Planning",
-      image: "/services/cf/gif/6.gif",
+      image: "/services/custom-fabrication/motion/6.gif",
       width: "md" as const,
     },
     {
       id: "12",
       title: "Post-Event Reporting",
-      image: "/services/rentals/32.jpg",
+      image: "/services/rentals/gallery/32.jpg",
       width: "lg" as const,
     },
   ],
@@ -3628,18 +3703,66 @@ export const LogisticsCaseStudiesData = [
 ];
 
 export const LogisticsImageGallery = [
-  { id: "1", src: "/services/rentals/1.jpg", alt: "Event logistics setup with equipment staging and crew coordination" },
-  { id: "2", src: "/services/rentals/2.jpg", alt: "Production load-in with freight and staging equipment" },
-  { id: "3", src: "/services/rentals/3.jpg", alt: "On-site logistics management at large-scale event venue" },
-  { id: "4", src: "/services/rentals/4.jpg", alt: "Venue coordination and floor plan logistics for corporate event" },
-  { id: "5", src: "/services/rentals/5.jpg", alt: "Event staffing and crew management during production setup" },
-  { id: "6", src: "/services/rentals/6.jpg", alt: "Transportation and freight logistics for event equipment" },
-  { id: "7", src: "/services/rentals/7.jpg", alt: "Production timeline coordination during event load-in" },
-  { id: "8", src: "/services/rentals/8.jpg", alt: "Vendor management and logistics coordination on-site" },
-  { id: "9", src: "/services/rentals/9.jpg", alt: "Warehouse staging and inventory management for event production" },
-  { id: "10", src: "/services/rentals/10.jpg", alt: "Event safety briefing and risk planning before production" },
-  { id: "11", src: "/services/rentals/11.jpg", alt: "Run-of-show coordination with event production team" },
-  { id: "12", src: "/services/rentals/12.jpg", alt: "Budget management and logistics reporting post-event" },
+  {
+    id: "1",
+    src: "/services/rentals/gallery/1.jpg",
+    alt: "Event logistics setup with equipment staging and crew coordination",
+  },
+  {
+    id: "2",
+    src: "/services/rentals/gallery/2.jpg",
+    alt: "Production load-in with freight and staging equipment",
+  },
+  {
+    id: "3",
+    src: "/services/rentals/gallery/3.jpg",
+    alt: "On-site logistics management at large-scale event venue",
+  },
+  {
+    id: "4",
+    src: "/services/rentals/gallery/4.jpg",
+    alt: "Venue coordination and floor plan logistics for corporate event",
+  },
+  {
+    id: "5",
+    src: "/services/rentals/gallery/5.jpg",
+    alt: "Event staffing and crew management during production setup",
+  },
+  {
+    id: "6",
+    src: "/services/rentals/gallery/6.jpg",
+    alt: "Transportation and freight logistics for event equipment",
+  },
+  {
+    id: "7",
+    src: "/services/rentals/gallery/7.jpg",
+    alt: "Production timeline coordination during event load-in",
+  },
+  {
+    id: "8",
+    src: "/services/rentals/gallery/8.jpg",
+    alt: "Vendor management and logistics coordination on-site",
+  },
+  {
+    id: "9",
+    src: "/services/rentals/gallery/9.jpg",
+    alt: "Warehouse staging and inventory management for event production",
+  },
+  {
+    id: "10",
+    src: "/services/rentals/gallery/10.jpg",
+    alt: "Event safety briefing and risk planning before production",
+  },
+  {
+    id: "11",
+    src: "/services/rentals/gallery/11.jpg",
+    alt: "Run-of-show coordination with event production team",
+  },
+  {
+    id: "12",
+    src: "/services/rentals/gallery/12.jpg",
+    alt: "Budget management and logistics reporting post-event",
+  },
 ];
 
 export const LogisticsFAQ = [
@@ -3723,7 +3846,6 @@ export const VISIBILITY_CONFIG = {
   gradientOpacity: 0.2,
 };
 
-
 // ─────────────────────────────────────────────────────────────
 // NEW SERVICE PAGES — see COPY_AUDIT.md (copy pending client review)
 // ─────────────────────────────────────────────────────────────
@@ -3732,20 +3854,80 @@ export const PrintingData = {
   title: "What We Offer",
   subtitle: "Large-Format & Custom Event Printing",
   topRow: [
-    { id: "1", title: "Large-Format Graphics", image: "/services/cf/1.jpg", width: "lg" as const },
-    { id: "2", title: "Vinyl & Wall Wraps", image: "/services/cf/2.JPG", width: "md" as const },
-    { id: "3", title: "Step & Repeat Backdrops", image: "/services/cf/3.jpg", width: "xl" as const },
-    { id: "4", title: "Banners & Signage", image: "/services/cf/4.jpg", width: "sm" as const },
-    { id: "5", title: "Floor & Window Graphics", image: "/services/cf/5.jpg", width: "lg" as const },
-    { id: "6", title: "Fabric & Tension Prints", image: "/services/cf/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Large-Format Graphics",
+      image: "/services/custom-fabrication/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Vinyl & Wall Wraps",
+      image: "/services/custom-fabrication/gallery/2.JPG",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Step & Repeat Backdrops",
+      image: "/services/custom-fabrication/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Banners & Signage",
+      image: "/services/custom-fabrication/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Floor & Window Graphics",
+      image: "/services/custom-fabrication/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Fabric & Tension Prints",
+      image: "/services/custom-fabrication/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Foam Board & Rigid Signage", image: "/services/cf/7.jpg", width: "lg" as const },
-    { id: "8", title: "Directional & Wayfinding", image: "/services/cf/8.jpeg", width: "md" as const },
-    { id: "9", title: "Branded Environments", image: "/services/cf/9.jpg", width: "xl" as const },
-    { id: "10", title: "Trade Show Graphics", image: "/services/cf/10.jpg", width: "sm" as const },
-    { id: "11", title: "Menu & Table Print", image: "/services/cf/11.jpg", width: "lg" as const },
-    { id: "12", title: "On-Demand Reprints", image: "/services/cf/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Foam Board & Rigid Signage",
+      image: "/services/custom-fabrication/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Directional & Wayfinding",
+      image: "/services/custom-fabrication/gallery/8.jpeg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Branded Environments",
+      image: "/services/custom-fabrication/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Trade Show Graphics",
+      image: "/services/custom-fabrication/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Menu & Table Print",
+      image: "/services/custom-fabrication/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "On-Demand Reprints",
+      image: "/services/custom-fabrication/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -3754,59 +3936,186 @@ export const PrintingCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Printing Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/services/cf/13.jpg",
-      "/services/cf/14.JPG",
-      "/services/cf/15.jpeg",
-      "/services/cf/16.jpg",
-      "/services/cf/17.jpg",
+      "/services/custom-fabrication/gallery/13.jpg",
+      "/services/custom-fabrication/gallery/14.JPG",
+      "/services/custom-fabrication/gallery/15.jpeg",
+      "/services/custom-fabrication/gallery/16.jpg",
+      "/services/custom-fabrication/gallery/17.jpg",
     ],
   },
 ];
 
 export const PrintingImageGallery: GalleryImage[] = [
-  { id: "1", src: "/services/cf/1.jpg", alt: "Printing work by MMEink" },
-  { id: "2", src: "/services/cf/2.JPG", alt: "Printing work by MMEink" },
-  { id: "3", src: "/services/cf/3.jpg", alt: "Printing work by MMEink" },
-  { id: "4", src: "/services/cf/4.jpg", alt: "Printing work by MMEink" },
-  { id: "5", src: "/services/cf/5.jpg", alt: "Printing work by MMEink" },
-  { id: "6", src: "/services/cf/6.jpg", alt: "Printing work by MMEink" },
-  { id: "7", src: "/services/cf/7.jpg", alt: "Printing work by MMEink" },
-  { id: "8", src: "/services/cf/8.jpeg", alt: "Printing work by MMEink" },
-  { id: "9", src: "/services/cf/9.jpg", alt: "Printing work by MMEink" },
-  { id: "10", src: "/services/cf/10.jpg", alt: "Printing work by MMEink" },
-  { id: "11", src: "/services/cf/11.jpg", alt: "Printing work by MMEink" },
-  { id: "12", src: "/services/cf/12.jpg", alt: "Printing work by MMEink" },
+  {
+    id: "1",
+    src: "/services/custom-fabrication/gallery/1.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/services/custom-fabrication/gallery/2.JPG",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/services/custom-fabrication/gallery/3.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/services/custom-fabrication/gallery/4.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/services/custom-fabrication/gallery/5.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/services/custom-fabrication/gallery/6.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/services/custom-fabrication/gallery/7.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/services/custom-fabrication/gallery/8.jpeg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/services/custom-fabrication/gallery/9.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/services/custom-fabrication/gallery/10.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/services/custom-fabrication/gallery/11.jpg",
+    alt: "Printing work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/services/custom-fabrication/gallery/12.jpg",
+    alt: "Printing work by MMEink",
+  },
 ];
 
 export const PrintingFAQ = [
-  { question: "What printing services do you offer in-house?", answer: "We produce large-format graphics, vinyl wraps, step-and-repeat backdrops, banners, rigid signage, fabric prints, and floor and window graphics — all printed and finished in our own facility." },
-  { question: "What file formats do you need for print?", answer: "We prefer vector files (AI, EPS, PDF) or high-resolution raster files at 150 DPI at final output size. Our team reviews every file and will flag anything that needs adjusting before production." },
-  { question: "How quickly can you turn around a print job?", answer: "Standard jobs ship within 3–5 business days. Rush production is available for time-sensitive activations — contact us with your deadline and we will confirm feasibility." },
-  { question: "Can you install the graphics on site?", answer: "Yes. Our installation crews handle on-site application for wraps, wall graphics, and rigging, coordinated with your overall production schedule." },
+  {
+    question: "What printing services do you offer in-house?",
+    answer:
+      "We produce large-format graphics, vinyl wraps, step-and-repeat backdrops, banners, rigid signage, fabric prints, and floor and window graphics — all printed and finished in our own facility.",
+  },
+  {
+    question: "What file formats do you need for print?",
+    answer:
+      "We prefer vector files (AI, EPS, PDF) or high-resolution raster files at 150 DPI at final output size. Our team reviews every file and will flag anything that needs adjusting before production.",
+  },
+  {
+    question: "How quickly can you turn around a print job?",
+    answer:
+      "Standard jobs ship within 3–5 business days. Rush production is available for time-sensitive activations — contact us with your deadline and we will confirm feasibility.",
+  },
+  {
+    question: "Can you install the graphics on site?",
+    answer:
+      "Yes. Our installation crews handle on-site application for wraps, wall graphics, and rigging, coordinated with your overall production schedule.",
+  },
 ];
 
 export const LightingData = {
   title: "What We Offer",
   subtitle: "Architectural & Production Lighting Design",
   topRow: [
-    { id: "1", title: "Stage & Key Lighting", image: "/services/av/1.jpg", width: "lg" as const },
-    { id: "2", title: "Intelligent & Moving Head", image: "/services/av/2.jpg", width: "md" as const },
-    { id: "3", title: "Architectural Uplighting", image: "/services/av/3.jpg", width: "xl" as const },
-    { id: "4", title: "Custom Gobo Projection", image: "/services/av/4.jpg", width: "sm" as const },
-    { id: "5", title: "Pin Spotting", image: "/services/av/5.jpg", width: "lg" as const },
-    { id: "6", title: "Ambient & Mood Washes", image: "/services/av/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Stage & Key Lighting",
+      image: "/services/audio-visual/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Intelligent & Moving Head",
+      image: "/services/audio-visual/gallery/2.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Architectural Uplighting",
+      image: "/services/audio-visual/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Custom Gobo Projection",
+      image: "/services/audio-visual/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Pin Spotting",
+      image: "/services/audio-visual/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Ambient & Mood Washes",
+      image: "/services/audio-visual/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Dance Floor Lighting", image: "/services/av/7.jpg", width: "lg" as const },
-    { id: "8", title: "LED Colour Systems", image: "/services/av/8.jpg", width: "md" as const },
-    { id: "9", title: "Truss & Rigging", image: "/services/av/9.jpg", width: "xl" as const },
-    { id: "10", title: "Lighting Console Programming", image: "/services/av/10.jpg", width: "sm" as const },
-    { id: "11", title: "Power Distribution", image: "/services/av/11.jpg", width: "lg" as const },
-    { id: "12", title: "On-Site Lighting Crew", image: "/services/av/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Dance Floor Lighting",
+      image: "/services/audio-visual/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "LED Colour Systems",
+      image: "/services/audio-visual/gallery/8.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Truss & Rigging",
+      image: "/services/audio-visual/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Lighting Console Programming",
+      image: "/services/audio-visual/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Power Distribution",
+      image: "/services/audio-visual/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "On-Site Lighting Crew",
+      image: "/services/audio-visual/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -3815,59 +4124,186 @@ export const LightingCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Lighting Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/services/av/13.jpg",
-      "/services/av/14.jpg",
-      "/services/av/15.jpg",
-      "/services/av/16.jpg",
-      "/services/av/17.jpg",
+      "/services/audio-visual/gallery/13.jpg",
+      "/services/audio-visual/gallery/14.jpg",
+      "/services/audio-visual/gallery/15.jpg",
+      "/services/audio-visual/gallery/16.jpg",
+      "/services/audio-visual/gallery/17.jpg",
     ],
   },
 ];
 
 export const LightingImageGallery: GalleryImage[] = [
-  { id: "1", src: "/services/av/1.jpg", alt: "Lighting work by MMEink" },
-  { id: "2", src: "/services/av/2.jpg", alt: "Lighting work by MMEink" },
-  { id: "3", src: "/services/av/3.jpg", alt: "Lighting work by MMEink" },
-  { id: "4", src: "/services/av/4.jpg", alt: "Lighting work by MMEink" },
-  { id: "5", src: "/services/av/5.jpg", alt: "Lighting work by MMEink" },
-  { id: "6", src: "/services/av/6.jpg", alt: "Lighting work by MMEink" },
-  { id: "7", src: "/services/av/7.jpg", alt: "Lighting work by MMEink" },
-  { id: "8", src: "/services/av/8.jpg", alt: "Lighting work by MMEink" },
-  { id: "9", src: "/services/av/9.jpg", alt: "Lighting work by MMEink" },
-  { id: "10", src: "/services/av/10.jpg", alt: "Lighting work by MMEink" },
-  { id: "11", src: "/services/av/11.jpg", alt: "Lighting work by MMEink" },
-  { id: "12", src: "/services/av/12.jpg", alt: "Lighting work by MMEink" },
+  {
+    id: "1",
+    src: "/services/audio-visual/gallery/1.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/services/audio-visual/gallery/2.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/services/audio-visual/gallery/3.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/services/audio-visual/gallery/4.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/services/audio-visual/gallery/5.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/services/audio-visual/gallery/6.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/services/audio-visual/gallery/7.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/services/audio-visual/gallery/8.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/services/audio-visual/gallery/9.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/services/audio-visual/gallery/10.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/services/audio-visual/gallery/11.jpg",
+    alt: "Lighting work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/services/audio-visual/gallery/12.jpg",
+    alt: "Lighting work by MMEink",
+  },
 ];
 
 export const LightingFAQ = [
-  { question: "Do you provide lighting design or just equipment?", answer: "Both. Our designers develop a full lighting plot and cue list tailored to your venue and programme, then our crew installs, programmes, and operates it on site." },
-  { question: "Can you work with a venue’s existing lighting?", answer: "Yes. We routinely integrate with house rigs, supplementing them with our own fixtures where the design calls for more coverage, colour, or control." },
-  { question: "Do you offer custom gobos?", answer: "We do. Custom gobos are produced from your logo or artwork and are a cost-effective way to brand a space with light." },
-  { question: "Is a lighting technician included on event day?", answer: "For any programmed or dynamic design, yes — a technician remains on site to run cues and handle adjustments throughout the event." },
+  {
+    question: "Do you provide lighting design or just equipment?",
+    answer:
+      "Both. Our designers develop a full lighting plot and cue list tailored to your venue and programme, then our crew installs, programmes, and operates it on site.",
+  },
+  {
+    question: "Can you work with a venue’s existing lighting?",
+    answer:
+      "Yes. We routinely integrate with house rigs, supplementing them with our own fixtures where the design calls for more coverage, colour, or control.",
+  },
+  {
+    question: "Do you offer custom gobos?",
+    answer:
+      "We do. Custom gobos are produced from your logo or artwork and are a cost-effective way to brand a space with light.",
+  },
+  {
+    question: "Is a lighting technician included on event day?",
+    answer:
+      "For any programmed or dynamic design, yes — a technician remains on site to run cues and handle adjustments throughout the event.",
+  },
 ];
 
 export const StagingData = {
   title: "What We Offer",
   subtitle: "Custom Staging & Scenic Structures",
   topRow: [
-    { id: "1", title: "Custom Stage Builds", image: "/services/cf/1.jpg", width: "lg" as const },
-    { id: "2", title: "Modular Decking & Risers", image: "/services/cf/2.JPG", width: "md" as const },
-    { id: "3", title: "Runways & Catwalks", image: "/services/cf/3.jpg", width: "xl" as const },
-    { id: "4", title: "ADA Ramps & Access", image: "/services/cf/4.jpg", width: "sm" as const },
-    { id: "5", title: "Pipe & Drape", image: "/services/cf/5.jpg", width: "lg" as const },
-    { id: "6", title: "Scenic Backdrops", image: "/services/cf/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Custom Stage Builds",
+      image: "/services/custom-fabrication/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Modular Decking & Risers",
+      image: "/services/custom-fabrication/gallery/2.JPG",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Runways & Catwalks",
+      image: "/services/custom-fabrication/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "ADA Ramps & Access",
+      image: "/services/custom-fabrication/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Pipe & Drape",
+      image: "/services/custom-fabrication/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Scenic Backdrops",
+      image: "/services/custom-fabrication/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Truss Structures", image: "/services/cf/7.jpg", width: "lg" as const },
-    { id: "8", title: "Stage Skirting & Finishes", image: "/services/cf/8.jpeg", width: "md" as const },
-    { id: "9", title: "Podiums & Lecterns", image: "/services/cf/9.jpg", width: "xl" as const },
-    { id: "10", title: "Backline Platforms", image: "/services/cf/10.jpg", width: "sm" as const },
-    { id: "11", title: "Load-Bearing Engineering", image: "/services/cf/11.jpg", width: "lg" as const },
-    { id: "12", title: "On-Site Build Crew", image: "/services/cf/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Truss Structures",
+      image: "/services/custom-fabrication/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Stage Skirting & Finishes",
+      image: "/services/custom-fabrication/gallery/8.jpeg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Podiums & Lecterns",
+      image: "/services/custom-fabrication/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Backline Platforms",
+      image: "/services/custom-fabrication/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Load-Bearing Engineering",
+      image: "/services/custom-fabrication/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "On-Site Build Crew",
+      image: "/services/custom-fabrication/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -3876,59 +4312,186 @@ export const StagingCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Staging Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/services/cf/13.jpg",
-      "/services/cf/14.JPG",
-      "/services/cf/15.jpeg",
-      "/services/cf/16.jpg",
-      "/services/cf/17.jpg",
+      "/services/custom-fabrication/gallery/13.jpg",
+      "/services/custom-fabrication/gallery/14.JPG",
+      "/services/custom-fabrication/gallery/15.jpeg",
+      "/services/custom-fabrication/gallery/16.jpg",
+      "/services/custom-fabrication/gallery/17.jpg",
     ],
   },
 ];
 
 export const StagingImageGallery: GalleryImage[] = [
-  { id: "1", src: "/services/cf/1.jpg", alt: "Staging work by MMEink" },
-  { id: "2", src: "/services/cf/2.JPG", alt: "Staging work by MMEink" },
-  { id: "3", src: "/services/cf/3.jpg", alt: "Staging work by MMEink" },
-  { id: "4", src: "/services/cf/4.jpg", alt: "Staging work by MMEink" },
-  { id: "5", src: "/services/cf/5.jpg", alt: "Staging work by MMEink" },
-  { id: "6", src: "/services/cf/6.jpg", alt: "Staging work by MMEink" },
-  { id: "7", src: "/services/cf/7.jpg", alt: "Staging work by MMEink" },
-  { id: "8", src: "/services/cf/8.jpeg", alt: "Staging work by MMEink" },
-  { id: "9", src: "/services/cf/9.jpg", alt: "Staging work by MMEink" },
-  { id: "10", src: "/services/cf/10.jpg", alt: "Staging work by MMEink" },
-  { id: "11", src: "/services/cf/11.jpg", alt: "Staging work by MMEink" },
-  { id: "12", src: "/services/cf/12.jpg", alt: "Staging work by MMEink" },
+  {
+    id: "1",
+    src: "/services/custom-fabrication/gallery/1.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/services/custom-fabrication/gallery/2.JPG",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/services/custom-fabrication/gallery/3.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/services/custom-fabrication/gallery/4.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/services/custom-fabrication/gallery/5.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/services/custom-fabrication/gallery/6.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/services/custom-fabrication/gallery/7.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/services/custom-fabrication/gallery/8.jpeg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/services/custom-fabrication/gallery/9.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/services/custom-fabrication/gallery/10.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/services/custom-fabrication/gallery/11.jpg",
+    alt: "Staging work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/services/custom-fabrication/gallery/12.jpg",
+    alt: "Staging work by MMEink",
+  },
 ];
 
 export const StagingFAQ = [
-  { question: "What size stages can you build?", answer: "Anything from a single 8-foot riser to multi-level stages and runways spanning a full ballroom. Our team engineers each build for the specific room and load requirements." },
-  { question: "Are your stages ADA accessible?", answer: "Yes. We supply compliant ramps and handrails, and we plan accessible access routes into every stage design as standard." },
-  { question: "Do you handle the engineering sign-off?", answer: "For builds that require it, we provide load calculations and engineering documentation to satisfy venue and municipal requirements." },
-  { question: "How long does stage installation take?", answer: "Most standard builds install in a single load-in day. Complex multi-level or scenic builds may require additional time, which we confirm during planning." },
+  {
+    question: "What size stages can you build?",
+    answer:
+      "Anything from a single 8-foot riser to multi-level stages and runways spanning a full ballroom. Our team engineers each build for the specific room and load requirements.",
+  },
+  {
+    question: "Are your stages ADA accessible?",
+    answer:
+      "Yes. We supply compliant ramps and handrails, and we plan accessible access routes into every stage design as standard.",
+  },
+  {
+    question: "Do you handle the engineering sign-off?",
+    answer:
+      "For builds that require it, we provide load calculations and engineering documentation to satisfy venue and municipal requirements.",
+  },
+  {
+    question: "How long does stage installation take?",
+    answer:
+      "Most standard builds install in a single load-in day. Complex multi-level or scenic builds may require additional time, which we confirm during planning.",
+  },
 ];
 
 export const ThemesData = {
   title: "What We Offer",
   subtitle: "Concept Development & Themed Environments",
   topRow: [
-    { id: "1", title: "Concept Development", image: "/services/dd/1.jpg", width: "lg" as const },
-    { id: "2", title: "Mood Boards & Renderings", image: "/services/dd/2.jpg", width: "md" as const },
-    { id: "3", title: "Themed Environments", image: "/services/dd/3.jpg", width: "xl" as const },
-    { id: "4", title: "Immersive Installations", image: "/services/dd/4.jpg", width: "sm" as const },
-    { id: "5", title: "Custom Scenic Design", image: "/services/dd/5.jpg", width: "lg" as const },
-    { id: "6", title: "Colour & Material Palettes", image: "/services/dd/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Concept Development",
+      image: "/services/design-decor/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Mood Boards & Renderings",
+      image: "/services/design-decor/gallery/2.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Themed Environments",
+      image: "/services/design-decor/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Immersive Installations",
+      image: "/services/design-decor/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Custom Scenic Design",
+      image: "/services/design-decor/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Colour & Material Palettes",
+      image: "/services/design-decor/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Themed Entrances", image: "/services/dd/7.jpg", width: "lg" as const },
-    { id: "8", title: "Photo Moments", image: "/services/dd/8.jpg", width: "md" as const },
-    { id: "9", title: "Seasonal Concepts", image: "/services/dd/9.jpg", width: "xl" as const },
-    { id: "10", title: "Cultural & Heritage Themes", image: "/services/dd/10.jpg", width: "sm" as const },
-    { id: "11", title: "Brand-Led Concepts", image: "/services/dd/11.jpg", width: "lg" as const },
-    { id: "12", title: "Full Theme Execution", image: "/services/dd/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Themed Entrances",
+      image: "/services/design-decor/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Photo Moments",
+      image: "/services/design-decor/gallery/8.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Seasonal Concepts",
+      image: "/services/design-decor/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Cultural & Heritage Themes",
+      image: "/services/design-decor/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Brand-Led Concepts",
+      image: "/services/design-decor/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "Full Theme Execution",
+      image: "/services/design-decor/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -3937,59 +4500,186 @@ export const ThemesCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Themes Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/services/dd/13.jpg",
-      "/services/dd/14.jpg",
-      "/services/dd/15.jpg",
-      "/services/dd/16.jpg",
-      "/services/dd/17.jpg",
+      "/services/design-decor/gallery/13.jpg",
+      "/services/design-decor/gallery/14.jpg",
+      "/services/design-decor/gallery/15.jpg",
+      "/services/design-decor/gallery/16.jpg",
+      "/services/design-decor/gallery/17.jpg",
     ],
   },
 ];
 
 export const ThemesImageGallery: GalleryImage[] = [
-  { id: "1", src: "/services/dd/1.jpg", alt: "Themes work by MMEink" },
-  { id: "2", src: "/services/dd/2.jpg", alt: "Themes work by MMEink" },
-  { id: "3", src: "/services/dd/3.jpg", alt: "Themes work by MMEink" },
-  { id: "4", src: "/services/dd/4.jpg", alt: "Themes work by MMEink" },
-  { id: "5", src: "/services/dd/5.jpg", alt: "Themes work by MMEink" },
-  { id: "6", src: "/services/dd/6.jpg", alt: "Themes work by MMEink" },
-  { id: "7", src: "/services/dd/7.jpg", alt: "Themes work by MMEink" },
-  { id: "8", src: "/services/dd/8.jpg", alt: "Themes work by MMEink" },
-  { id: "9", src: "/services/dd/9.jpg", alt: "Themes work by MMEink" },
-  { id: "10", src: "/services/dd/10.jpg", alt: "Themes work by MMEink" },
-  { id: "11", src: "/services/dd/11.jpg", alt: "Themes work by MMEink" },
-  { id: "12", src: "/services/dd/12.jpg", alt: "Themes work by MMEink" },
+  {
+    id: "1",
+    src: "/services/design-decor/gallery/1.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/services/design-decor/gallery/2.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/services/design-decor/gallery/3.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/services/design-decor/gallery/4.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/services/design-decor/gallery/5.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/services/design-decor/gallery/6.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/services/design-decor/gallery/7.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/services/design-decor/gallery/8.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/services/design-decor/gallery/9.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/services/design-decor/gallery/10.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/services/design-decor/gallery/11.jpg",
+    alt: "Themes work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/services/design-decor/gallery/12.jpg",
+    alt: "Themes work by MMEink",
+  },
 ];
 
 export const ThemesFAQ = [
-  { question: "Do you develop the theme or do we bring one?", answer: "Either works. Many clients arrive with a direction and we develop it into a full design; others hand us a brief and objectives, and our team originates the concept." },
-  { question: "What do you deliver before we commit?", answer: "We provide mood boards, renderings, and a material and colour palette so you can see the concept before anything is built." },
-  { question: "Can a theme carry across multiple rooms?", answer: "Yes. We design theming that scales across entrances, main rooms, breakouts, and photo moments so the experience stays consistent throughout the venue." },
-  { question: "How far in advance should theming be planned?", answer: "We recommend 6–8 weeks for fully custom themed builds, which allows time for design approval, fabrication, and installation." },
+  {
+    question: "Do you develop the theme or do we bring one?",
+    answer:
+      "Either works. Many clients arrive with a direction and we develop it into a full design; others hand us a brief and objectives, and our team originates the concept.",
+  },
+  {
+    question: "What do you deliver before we commit?",
+    answer:
+      "We provide mood boards, renderings, and a material and colour palette so you can see the concept before anything is built.",
+  },
+  {
+    question: "Can a theme carry across multiple rooms?",
+    answer:
+      "Yes. We design theming that scales across entrances, main rooms, breakouts, and photo moments so the experience stays consistent throughout the venue.",
+  },
+  {
+    question: "How far in advance should theming be planned?",
+    answer:
+      "We recommend 6–8 weeks for fully custom themed builds, which allows time for design approval, fabrication, and installation.",
+  },
 ];
 
 export const PropsData = {
   title: "What We Offer",
   subtitle: "Custom Fabricated & Curated Event Props",
   topRow: [
-    { id: "1", title: "Custom Prop Fabrication", image: "/services/dd/1.jpg", width: "lg" as const },
-    { id: "2", title: "Oversized Statement Pieces", image: "/services/dd/2.jpg", width: "md" as const },
-    { id: "3", title: "Themed Prop Packages", image: "/services/dd/3.jpg", width: "xl" as const },
-    { id: "4", title: "Photo Moment Props", image: "/services/dd/4.jpg", width: "sm" as const },
-    { id: "5", title: "Branded Prop Builds", image: "/services/dd/5.jpg", width: "lg" as const },
-    { id: "6", title: "Sculptural Elements", image: "/services/dd/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Custom Prop Fabrication",
+      image: "/services/design-decor/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Oversized Statement Pieces",
+      image: "/services/design-decor/gallery/2.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Themed Prop Packages",
+      image: "/services/design-decor/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Photo Moment Props",
+      image: "/services/design-decor/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Branded Prop Builds",
+      image: "/services/design-decor/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Sculptural Elements",
+      image: "/services/design-decor/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Period & Era Props", image: "/services/dd/7.jpg", width: "lg" as const },
-    { id: "8", title: "Seasonal Prop Inventory", image: "/services/dd/8.jpg", width: "md" as const },
-    { id: "9", title: "Prop Refinishing", image: "/services/dd/9.jpg", width: "xl" as const },
-    { id: "10", title: "Prop Sourcing", image: "/services/dd/10.jpg", width: "sm" as const },
-    { id: "11", title: "Storage & Warehousing", image: "/services/dd/11.jpg", width: "lg" as const },
-    { id: "12", title: "Delivery & Placement", image: "/services/dd/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Period & Era Props",
+      image: "/services/design-decor/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Seasonal Prop Inventory",
+      image: "/services/design-decor/gallery/8.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Prop Refinishing",
+      image: "/services/design-decor/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Prop Sourcing",
+      image: "/services/design-decor/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Storage & Warehousing",
+      image: "/services/design-decor/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "Delivery & Placement",
+      image: "/services/design-decor/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -3998,59 +4688,186 @@ export const PropsCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Props Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/services/dd/13.jpg",
-      "/services/dd/14.jpg",
-      "/services/dd/15.jpg",
-      "/services/dd/16.jpg",
-      "/services/dd/17.jpg",
+      "/services/design-decor/gallery/13.jpg",
+      "/services/design-decor/gallery/14.jpg",
+      "/services/design-decor/gallery/15.jpg",
+      "/services/design-decor/gallery/16.jpg",
+      "/services/design-decor/gallery/17.jpg",
     ],
   },
 ];
 
 export const PropsImageGallery: GalleryImage[] = [
-  { id: "1", src: "/services/dd/1.jpg", alt: "Props work by MMEink" },
-  { id: "2", src: "/services/dd/2.jpg", alt: "Props work by MMEink" },
-  { id: "3", src: "/services/dd/3.jpg", alt: "Props work by MMEink" },
-  { id: "4", src: "/services/dd/4.jpg", alt: "Props work by MMEink" },
-  { id: "5", src: "/services/dd/5.jpg", alt: "Props work by MMEink" },
-  { id: "6", src: "/services/dd/6.jpg", alt: "Props work by MMEink" },
-  { id: "7", src: "/services/dd/7.jpg", alt: "Props work by MMEink" },
-  { id: "8", src: "/services/dd/8.jpg", alt: "Props work by MMEink" },
-  { id: "9", src: "/services/dd/9.jpg", alt: "Props work by MMEink" },
-  { id: "10", src: "/services/dd/10.jpg", alt: "Props work by MMEink" },
-  { id: "11", src: "/services/dd/11.jpg", alt: "Props work by MMEink" },
-  { id: "12", src: "/services/dd/12.jpg", alt: "Props work by MMEink" },
+  {
+    id: "1",
+    src: "/services/design-decor/gallery/1.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/services/design-decor/gallery/2.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/services/design-decor/gallery/3.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/services/design-decor/gallery/4.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/services/design-decor/gallery/5.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/services/design-decor/gallery/6.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/services/design-decor/gallery/7.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/services/design-decor/gallery/8.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/services/design-decor/gallery/9.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/services/design-decor/gallery/10.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/services/design-decor/gallery/11.jpg",
+    alt: "Props work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/services/design-decor/gallery/12.jpg",
+    alt: "Props work by MMEink",
+  },
 ];
 
 export const PropsFAQ = [
-  { question: "Do you build props or rent them?", answer: "Both. We maintain a large in-house prop inventory and fabricate custom pieces in our own shop when a concept calls for something specific." },
-  { question: "Can props be branded?", answer: "Yes. Our fabrication and print teams work together to produce props carrying your logo, colours, and artwork." },
-  { question: "What happens to custom props after the event?", answer: "You can purchase and keep them, or we can store them in our warehouse for reuse at future events — many clients build a recurring prop library with us." },
-  { question: "Do you deliver and place the props on site?", answer: "Yes. Delivery, placement, and post-event strike are handled by our crew as part of the production schedule." },
+  {
+    question: "Do you build props or rent them?",
+    answer:
+      "Both. We maintain a large in-house prop inventory and fabricate custom pieces in our own shop when a concept calls for something specific.",
+  },
+  {
+    question: "Can props be branded?",
+    answer:
+      "Yes. Our fabrication and print teams work together to produce props carrying your logo, colours, and artwork.",
+  },
+  {
+    question: "What happens to custom props after the event?",
+    answer:
+      "You can purchase and keep them, or we can store them in our warehouse for reuse at future events — many clients build a recurring prop library with us.",
+  },
+  {
+    question: "Do you deliver and place the props on site?",
+    answer:
+      "Yes. Delivery, placement, and post-event strike are handled by our crew as part of the production schedule.",
+  },
 ];
 
 export const MusicalEntertainmentData = {
   title: "What We Offer",
   subtitle: "Live Music & Musical Programming",
   topRow: [
-    { id: "1", title: "Live Bands", image: "/gallery/galas/1.jpg", width: "lg" as const },
-    { id: "2", title: "DJs & Open-Format Sets", image: "/gallery/galas/2.jpg", width: "md" as const },
-    { id: "3", title: "Jazz Ensembles", image: "/gallery/galas/3.jpg", width: "xl" as const },
-    { id: "4", title: "String Quartets", image: "/gallery/galas/4.jpg", width: "sm" as const },
-    { id: "5", title: "Solo Vocalists", image: "/gallery/galas/5.jpg", width: "lg" as const },
-    { id: "6", title: "Pianists & Keyboardists", image: "/gallery/galas/6.jpg", width: "md" as const },
+    {
+      id: "1",
+      title: "Live Bands",
+      image: "/events/galas/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "DJs & Open-Format Sets",
+      image: "/events/galas/gallery/2.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Jazz Ensembles",
+      image: "/events/galas/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "String Quartets",
+      image: "/events/galas/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Solo Vocalists",
+      image: "/events/galas/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Pianists & Keyboardists",
+      image: "/events/galas/gallery/6.jpg",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Cultural & World Music", image: "/gallery/galas/7.jpg", width: "lg" as const },
-    { id: "8", title: "Ceremony Musicians", image: "/gallery/galas/8.jpg", width: "md" as const },
-    { id: "9", title: "Cocktail Hour Sets", image: "/gallery/galas/9.jpg", width: "xl" as const },
-    { id: "10", title: "Headline Acts", image: "/gallery/galas/10.jpg", width: "sm" as const },
-    { id: "11", title: "Backline & Sound Support", image: "/gallery/galas/11.jpg", width: "lg" as const },
-    { id: "12", title: "Musical Direction", image: "/gallery/galas/12.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Cultural & World Music",
+      image: "/events/galas/gallery/7.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Ceremony Musicians",
+      image: "/events/galas/gallery/8.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Cocktail Hour Sets",
+      image: "/events/galas/gallery/9.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Headline Acts",
+      image: "/events/galas/gallery/10.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Backline & Sound Support",
+      image: "/events/galas/gallery/11.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "Musical Direction",
+      image: "/events/galas/gallery/12.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -4059,59 +4876,186 @@ export const MusicalEntertainmentCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Musical Entertainment Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/gallery/galas/13.jpg",
-      "/gallery/galas/14.jpg",
-      "/gallery/galas/15.jpg",
-      "/gallery/galas/16.jpg",
-      "/gallery/galas/17.jpg",
+      "/events/galas/gallery/13.jpg",
+      "/events/galas/gallery/14.jpg",
+      "/events/galas/gallery/15.jpg",
+      "/events/galas/gallery/16.jpg",
+      "/events/galas/gallery/17.jpg",
     ],
   },
 ];
 
 export const MusicalEntertainmentImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/galas/1.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "2", src: "/gallery/galas/2.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "3", src: "/gallery/galas/3.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "4", src: "/gallery/galas/4.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "5", src: "/gallery/galas/5.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "6", src: "/gallery/galas/6.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "7", src: "/gallery/galas/7.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "8", src: "/gallery/galas/8.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "9", src: "/gallery/galas/9.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "10", src: "/gallery/galas/10.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "11", src: "/gallery/galas/11.jpg", alt: "Musical Entertainment work by MMEink" },
-  { id: "12", src: "/gallery/galas/12.jpg", alt: "Musical Entertainment work by MMEink" },
+  {
+    id: "1",
+    src: "/events/galas/gallery/1.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/galas/gallery/2.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/galas/gallery/3.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/galas/gallery/4.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/galas/gallery/5.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/galas/gallery/6.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/galas/gallery/7.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/galas/gallery/8.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/galas/gallery/9.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/galas/gallery/10.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/galas/gallery/11.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/galas/gallery/12.jpg",
+    alt: "Musical Entertainment work by MMEink",
+  },
 ];
 
 export const MusicalEntertainmentFAQ = [
-  { question: "Do you book the talent or do we?", answer: "We handle booking end to end — sourcing, contracting, and coordinating the artists — though we are equally happy to produce around talent you have already engaged." },
-  { question: "Is sound equipment included?", answer: "Backline and sound reinforcement are quoted alongside the talent so the performance is fully supported. Our AV team handles setup and mixing." },
-  { question: "Can we hear the acts before booking?", answer: "Yes. We provide recordings and, where scheduling allows, arrange live showcases before you commit." },
-  { question: "Can musicians learn a specific song?", answer: "Most of our acts will learn a first-dance or milestone song with adequate notice. We confirm this with the artist during booking." },
+  {
+    question: "Do you book the talent or do we?",
+    answer:
+      "We handle booking end to end — sourcing, contracting, and coordinating the artists — though we are equally happy to produce around talent you have already engaged.",
+  },
+  {
+    question: "Is sound equipment included?",
+    answer:
+      "Backline and sound reinforcement are quoted alongside the talent so the performance is fully supported. Our AV team handles setup and mixing.",
+  },
+  {
+    question: "Can we hear the acts before booking?",
+    answer:
+      "Yes. We provide recordings and, where scheduling allows, arrange live showcases before you commit.",
+  },
+  {
+    question: "Can musicians learn a specific song?",
+    answer:
+      "Most of our acts will learn a first-dance or milestone song with adequate notice. We confirm this with the artist during booking.",
+  },
 ];
 
 export const EntertainmentData = {
   title: "What We Offer",
   subtitle: "Performers, Hosts & Interactive Experiences",
   topRow: [
-    { id: "1", title: "Emcees & Hosts", image: "/gallery/brand-activation/1.jpg", width: "lg" as const },
-    { id: "2", title: "Interactive Performers", image: "/gallery/brand-activation/2.jpg", width: "md" as const },
-    { id: "3", title: "Aerialists & Circus Acts", image: "/gallery/brand-activation/3.jpg", width: "xl" as const },
-    { id: "4", title: "Dancers & Choreography", image: "/gallery/brand-activation/4.jpg", width: "sm" as const },
-    { id: "5", title: "Magicians & Close-Up", image: "/gallery/brand-activation/5.jpg", width: "lg" as const },
-    { id: "6", title: "Comedians", image: "/gallery/brand-activation/5.png", width: "md" as const },
+    {
+      id: "1",
+      title: "Emcees & Hosts",
+      image: "/events/brand-activations/gallery/1.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "2",
+      title: "Interactive Performers",
+      image: "/events/brand-activations/gallery/2.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "3",
+      title: "Aerialists & Circus Acts",
+      image: "/events/brand-activations/gallery/3.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "4",
+      title: "Dancers & Choreography",
+      image: "/events/brand-activations/gallery/4.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "5",
+      title: "Magicians & Close-Up",
+      image: "/events/brand-activations/gallery/5.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "6",
+      title: "Comedians",
+      image: "/events/brand-activations/gallery/5.png",
+      width: "md" as const,
+    },
   ],
   bottomRow: [
-    { id: "7", title: "Celebrity Talent", image: "/gallery/brand-activation/6.jpg", width: "lg" as const },
-    { id: "8", title: "Photo & 360 Booths", image: "/gallery/brand-activation/7.jpg", width: "md" as const },
-    { id: "9", title: "Casino & Game Tables", image: "/gallery/brand-activation/8.jpg", width: "xl" as const },
-    { id: "10", title: "Brand Ambassadors", image: "/gallery/brand-activation/9.jpg", width: "sm" as const },
-    { id: "11", title: "Character Performers", image: "/gallery/brand-activation/10.jpg", width: "lg" as const },
-    { id: "12", title: "Guest Experience Design", image: "/gallery/brand-activation/11.jpg", width: "md" as const },
+    {
+      id: "7",
+      title: "Celebrity Talent",
+      image: "/events/brand-activations/gallery/6.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "8",
+      title: "Photo & 360 Booths",
+      image: "/events/brand-activations/gallery/7.jpg",
+      width: "md" as const,
+    },
+    {
+      id: "9",
+      title: "Casino & Game Tables",
+      image: "/events/brand-activations/gallery/8.jpg",
+      width: "xl" as const,
+    },
+    {
+      id: "10",
+      title: "Brand Ambassadors",
+      image: "/events/brand-activations/gallery/9.jpg",
+      width: "sm" as const,
+    },
+    {
+      id: "11",
+      title: "Character Performers",
+      image: "/events/brand-activations/gallery/10.jpg",
+      width: "lg" as const,
+    },
+    {
+      id: "12",
+      title: "Guest Experience Design",
+      image: "/events/brand-activations/gallery/11.jpg",
+      width: "md" as const,
+    },
   ],
 };
 
@@ -4120,39 +5064,106 @@ export const EntertainmentCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Entertainment Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
     gallery: [
-      "/gallery/brand-activation/12.jpg",
-      "/gallery/brand-activation/13.jpg",
-      "/gallery/brand-activation/14.jpg",
-      "/gallery/brand-activation/15.jpg",
-      "/gallery/brand-activation/16.jpg",
+      "/events/brand-activations/gallery/12.jpg",
+      "/events/brand-activations/gallery/13.jpg",
+      "/events/brand-activations/gallery/14.jpg",
+      "/events/brand-activations/gallery/15.jpg",
+      "/events/brand-activations/gallery/16.jpg",
     ],
   },
 ];
 
 export const EntertainmentImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/brand-activation/1.jpg", alt: "Entertainment work by MMEink" },
-  { id: "2", src: "/gallery/brand-activation/2.jpg", alt: "Entertainment work by MMEink" },
-  { id: "3", src: "/gallery/brand-activation/3.jpg", alt: "Entertainment work by MMEink" },
-  { id: "4", src: "/gallery/brand-activation/4.jpg", alt: "Entertainment work by MMEink" },
-  { id: "5", src: "/gallery/brand-activation/5.jpg", alt: "Entertainment work by MMEink" },
-  { id: "6", src: "/gallery/brand-activation/5.png", alt: "Entertainment work by MMEink" },
-  { id: "7", src: "/gallery/brand-activation/6.jpg", alt: "Entertainment work by MMEink" },
-  { id: "8", src: "/gallery/brand-activation/7.jpg", alt: "Entertainment work by MMEink" },
-  { id: "9", src: "/gallery/brand-activation/8.jpg", alt: "Entertainment work by MMEink" },
-  { id: "10", src: "/gallery/brand-activation/9.jpg", alt: "Entertainment work by MMEink" },
-  { id: "11", src: "/gallery/brand-activation/10.jpg", alt: "Entertainment work by MMEink" },
-  { id: "12", src: "/gallery/brand-activation/11.jpg", alt: "Entertainment work by MMEink" },
+  {
+    id: "1",
+    src: "/events/brand-activations/gallery/1.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/brand-activations/gallery/2.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/brand-activations/gallery/3.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/brand-activations/gallery/4.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/brand-activations/gallery/5.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/brand-activations/gallery/5.png",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/brand-activations/gallery/6.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/brand-activations/gallery/7.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/brand-activations/gallery/8.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/brand-activations/gallery/9.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/brand-activations/gallery/10.jpg",
+    alt: "Entertainment work by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/brand-activations/gallery/11.jpg",
+    alt: "Entertainment work by MMEink",
+  },
 ];
 
 export const EntertainmentFAQ = [
-  { question: "What kinds of entertainment do you provide?", answer: "Emcees, interactive performers, aerialists, dancers, magicians, comedians, celebrity talent, photo and 360 booths, and game tables — matched to your audience and format." },
-  { question: "Do you handle contracting and riders?", answer: "Yes. We manage contracts, technical riders, hospitality requirements, and on-site coordination for every performer we book." },
-  { question: "Can entertainment be branded?", answer: "Absolutely. Photo booths, brand ambassadors, and character performers can all be customised with your branding and messaging." },
-  { question: "How far in advance should we book talent?", answer: "Six to eight weeks is comfortable for most acts. High-demand and celebrity talent should be secured considerably earlier." },
+  {
+    question: "What kinds of entertainment do you provide?",
+    answer:
+      "Emcees, interactive performers, aerialists, dancers, magicians, comedians, celebrity talent, photo and 360 booths, and game tables — matched to your audience and format.",
+  },
+  {
+    question: "Do you handle contracting and riders?",
+    answer:
+      "Yes. We manage contracts, technical riders, hospitality requirements, and on-site coordination for every performer we book.",
+  },
+  {
+    question: "Can entertainment be branded?",
+    answer:
+      "Absolutely. Photo booths, brand ambassadors, and character performers can all be customised with your branding and messaging.",
+  },
+  {
+    question: "How far in advance should we book talent?",
+    answer:
+      "Six to eight weeks is comfortable for most acts. High-demand and celebrity talent should be secured considerably earlier.",
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────
@@ -4164,29 +5175,33 @@ export const AwardDinnersEventTypeOfferings = [
     id: "1",
     icon: Sparkles,
     headline: "Awards Ceremonies",
-    description: "We produce award ceremonies where the programme runs to the second — staging, lighting, cue-to-cue rehearsal, and presentation graphics all aligned so every honouree gets their moment.",
-    image: "/gallery/galas/2.jpg",
+    description:
+      "We produce award ceremonies where the programme runs to the second — staging, lighting, cue-to-cue rehearsal, and presentation graphics all aligned so every honouree gets their moment.",
+    image: "/events/galas/gallery/2.jpg",
   },
   {
     id: "2",
     icon: Presentation,
     headline: "Show Production & Run-of-Show",
-    description: "Our team builds and manages the full run-of-show, coordinating presenters, video packages, music stings, and transitions into one seamless broadcast-quality programme.",
-    image: "/gallery/galas/3.jpg",
+    description:
+      "Our team builds and manages the full run-of-show, coordinating presenters, video packages, music stings, and transitions into one seamless broadcast-quality programme.",
+    image: "/events/galas/gallery/3.jpg",
   },
   {
     id: "3",
     icon: Users,
     headline: "Honouree & VIP Experience",
-    description: "From arrival and greenroom hospitality to seating and press, we manage the honouree journey so recipients and their guests are looked after throughout the evening.",
-    image: "/gallery/galas/4.jpg",
+    description:
+      "From arrival and greenroom hospitality to seating and press, we manage the honouree journey so recipients and their guests are looked after throughout the evening.",
+    image: "/events/galas/gallery/4.jpg",
   },
   {
     id: "4",
     icon: TrendingUp,
     headline: "Sponsor & Brand Visibility",
-    description: "We integrate sponsor recognition across signage, stage graphics, printed programmes, and digital content in a way that feels considered rather than commercial.",
-    image: "/gallery/galas/5.jpg",
+    description:
+      "We integrate sponsor recognition across signage, stage graphics, printed programmes, and digital content in a way that feels considered rather than commercial.",
+    image: "/events/galas/gallery/5.jpg",
   },
 ];
 
@@ -4195,39 +5210,106 @@ export const AwardDinnersCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Award Dinners Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
     gallery: [
-      "/gallery/galas/13.jpg",
-      "/gallery/galas/14.jpg",
-      "/gallery/galas/15.jpg",
-      "/gallery/galas/16.jpg",
-      "/gallery/galas/17.jpg",
+      "/events/galas/gallery/13.jpg",
+      "/events/galas/gallery/14.jpg",
+      "/events/galas/gallery/15.jpg",
+      "/events/galas/gallery/16.jpg",
+      "/events/galas/gallery/17.jpg",
     ],
   },
 ];
 
 export const AwardDinnersImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/galas/1.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "2", src: "/gallery/galas/2.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "3", src: "/gallery/galas/3.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "4", src: "/gallery/galas/4.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "5", src: "/gallery/galas/5.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "6", src: "/gallery/galas/6.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "7", src: "/gallery/galas/7.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "8", src: "/gallery/galas/8.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "9", src: "/gallery/galas/9.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "10", src: "/gallery/galas/10.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "11", src: "/gallery/galas/11.jpg", alt: "Award Dinners produced by MMEink" },
-  { id: "12", src: "/gallery/galas/12.jpg", alt: "Award Dinners produced by MMEink" },
+  {
+    id: "1",
+    src: "/events/galas/gallery/1.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/galas/gallery/2.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/galas/gallery/3.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/galas/gallery/4.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/galas/gallery/5.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/galas/gallery/6.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/galas/gallery/7.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/galas/gallery/8.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/galas/gallery/9.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/galas/gallery/10.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/galas/gallery/11.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/galas/gallery/12.jpg",
+    alt: "Award Dinners produced by MMEink",
+  },
 ];
 
 export const AwardDinnersFAQ = [
-  { question: "Do you manage the run-of-show?", answer: "Yes. We build the full run-of-show, rehearse presenters, and call the show live on event day so the programme stays on schedule." },
-  { question: "Can you produce award video packages?", answer: "We produce honouree videos, sizzle reels, and presentation graphics in-house, and integrate them into the show playback system." },
-  { question: "How do you handle presenter rehearsals?", answer: "We schedule a cue-to-cue rehearsal ahead of doors, walking each presenter through their entrance, microphone, and timing." },
-  { question: "Can the ceremony be live streamed?", answer: "Yes. We offer multi-camera capture and live streaming for remote honourees and wider audiences." },
+  {
+    question: "Do you manage the run-of-show?",
+    answer:
+      "Yes. We build the full run-of-show, rehearse presenters, and call the show live on event day so the programme stays on schedule.",
+  },
+  {
+    question: "Can you produce award video packages?",
+    answer:
+      "We produce honouree videos, sizzle reels, and presentation graphics in-house, and integrate them into the show playback system.",
+  },
+  {
+    question: "How do you handle presenter rehearsals?",
+    answer:
+      "We schedule a cue-to-cue rehearsal ahead of doors, walking each presenter through their entrance, microphone, and timing.",
+  },
+  {
+    question: "Can the ceremony be live streamed?",
+    answer:
+      "Yes. We offer multi-camera capture and live streaming for remote honourees and wider audiences.",
+  },
 ];
 
 export const CorporateEventsEventTypeOfferings = [
@@ -4235,29 +5317,33 @@ export const CorporateEventsEventTypeOfferings = [
     id: "1",
     icon: Presentation,
     headline: "Town Halls & All-Hands",
-    description: "We produce all-hands and town hall meetings with clean staging, reliable audio, and hybrid streaming so every employee — in the room or remote — sees and hears the same thing.",
-    image: "/gallery/conferences/2.jpg",
+    description:
+      "We produce all-hands and town hall meetings with clean staging, reliable audio, and hybrid streaming so every employee — in the room or remote — sees and hears the same thing.",
+    image: "/events/conferences-meetings/gallery/2.jpg",
   },
   {
     id: "2",
     icon: Users,
     headline: "Client & Partner Events",
-    description: "From hospitality evenings to partner summits, we design corporate events that strengthen relationships while reflecting your brand with the right level of polish.",
-    image: "/gallery/conferences/3.jpg",
+    description:
+      "From hospitality evenings to partner summits, we design corporate events that strengthen relationships while reflecting your brand with the right level of polish.",
+    image: "/events/conferences-meetings/gallery/3.jpg",
   },
   {
     id: "3",
     icon: Sparkles,
     headline: "Holiday & Milestone Celebrations",
-    description: "Company celebrations, anniversaries, and holiday parties designed around your culture — with décor, entertainment, and catering coordination handled throughout.",
-    image: "/gallery/conferences/4.jpg",
+    description:
+      "Company celebrations, anniversaries, and holiday parties designed around your culture — with décor, entertainment, and catering coordination handled throughout.",
+    image: "/events/conferences-meetings/gallery/4.jpg",
   },
   {
     id: "4",
     icon: TrendingUp,
     headline: "Sales Kickoffs & Incentives",
-    description: "High-energy kickoffs and incentive events built to motivate teams, with general sessions, breakouts, and awards produced under one production plan.",
-    image: "/gallery/conferences/5.jpg",
+    description:
+      "High-energy kickoffs and incentive events built to motivate teams, with general sessions, breakouts, and awards produced under one production plan.",
+    image: "/events/conferences-meetings/gallery/5.jpg",
   },
 ];
 
@@ -4266,39 +5352,106 @@ export const CorporateEventsCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Corporate Events Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
     gallery: [
-      "/gallery/conferences/13.jpg",
-      "/gallery/conferences/14.jpg",
-      "/gallery/conferences/15.jpg",
-      "/gallery/conferences/16.jpg",
-      "/gallery/conferences/17.jpg",
+      "/events/conferences-meetings/gallery/13.jpg",
+      "/events/conferences-meetings/gallery/14.jpg",
+      "/events/conferences-meetings/gallery/15.jpg",
+      "/events/conferences-meetings/gallery/16.jpg",
+      "/events/conferences-meetings/gallery/17.jpg",
     ],
   },
 ];
 
 export const CorporateEventsImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/conferences/1.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "2", src: "/gallery/conferences/2.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "3", src: "/gallery/conferences/3.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "4", src: "/gallery/conferences/4.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "5", src: "/gallery/conferences/5.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "6", src: "/gallery/conferences/6.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "7", src: "/gallery/conferences/7.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "8", src: "/gallery/conferences/8.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "9", src: "/gallery/conferences/9.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "10", src: "/gallery/conferences/10.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "11", src: "/gallery/conferences/11.jpg", alt: "Corporate Events produced by MMEink" },
-  { id: "12", src: "/gallery/conferences/12.jpg", alt: "Corporate Events produced by MMEink" },
+  {
+    id: "1",
+    src: "/events/conferences-meetings/gallery/1.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/conferences-meetings/gallery/2.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/conferences-meetings/gallery/3.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/conferences-meetings/gallery/4.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/conferences-meetings/gallery/5.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/conferences-meetings/gallery/6.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/conferences-meetings/gallery/7.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/conferences-meetings/gallery/8.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/conferences-meetings/gallery/9.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/conferences-meetings/gallery/10.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/conferences-meetings/gallery/11.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/conferences-meetings/gallery/12.jpg",
+    alt: "Corporate Events produced by MMEink",
+  },
 ];
 
 export const CorporateEventsFAQ = [
-  { question: "What size corporate events do you handle?", answer: "Everything from a 30-person executive dinner to all-hands meetings and kickoffs for several thousand attendees." },
-  { question: "Can you support hybrid and remote attendees?", answer: "Yes. We produce hybrid events with multi-camera capture, streaming, and moderated Q&A so remote employees participate fully." },
-  { question: "Do you handle catering and venue sourcing?", answer: "We source venues and coordinate catering as part of our full-service production, managing vendors on your behalf." },
-  { question: "Can you work within our brand guidelines?", answer: "Yes. We work directly from your brand standards across staging, graphics, print, and environmental design." },
+  {
+    question: "What size corporate events do you handle?",
+    answer:
+      "Everything from a 30-person executive dinner to all-hands meetings and kickoffs for several thousand attendees.",
+  },
+  {
+    question: "Can you support hybrid and remote attendees?",
+    answer:
+      "Yes. We produce hybrid events with multi-camera capture, streaming, and moderated Q&A so remote employees participate fully.",
+  },
+  {
+    question: "Do you handle catering and venue sourcing?",
+    answer:
+      "We source venues and coordinate catering as part of our full-service production, managing vendors on your behalf.",
+  },
+  {
+    question: "Can you work within our brand guidelines?",
+    answer:
+      "Yes. We work directly from your brand standards across staging, graphics, print, and environmental design.",
+  },
 ];
 
 export const ThemedEventsEventTypeOfferings = [
@@ -4306,29 +5459,33 @@ export const ThemedEventsEventTypeOfferings = [
     id: "1",
     icon: Sparkles,
     headline: "Concept Development",
-    description: "We originate and develop themes from a brief, delivering mood boards, renderings, and material palettes so you can see the world before we build it.",
-    image: "/gallery/brand-activation/2.jpg",
+    description:
+      "We originate and develop themes from a brief, delivering mood boards, renderings, and material palettes so you can see the world before we build it.",
+    image: "/events/brand-activations/gallery/2.jpg",
   },
   {
     id: "2",
     icon: Presentation,
     headline: "Immersive Environments",
-    description: "Our fabrication and décor teams transform venues into fully realised environments, with custom scenic, props, and lighting working to a single concept.",
-    image: "/gallery/brand-activation/3.jpg",
+    description:
+      "Our fabrication and décor teams transform venues into fully realised environments, with custom scenic, props, and lighting working to a single concept.",
+    image: "/events/brand-activations/gallery/3.jpg",
   },
   {
     id: "3",
     icon: Users,
     headline: "Guest Journey Design",
-    description: "We choreograph the guest experience from arrival through departure — entrances, reveal moments, photo opportunities, and transitions all designed as part of the theme.",
-    image: "/gallery/brand-activation/4.jpg",
+    description:
+      "We choreograph the guest experience from arrival through departure — entrances, reveal moments, photo opportunities, and transitions all designed as part of the theme.",
+    image: "/events/brand-activations/gallery/4.jpg",
   },
   {
     id: "4",
     icon: TrendingUp,
     headline: "Brand-Led Theming",
-    description: "For brand-driven events, we translate visual identity into a physical world that stays recognisably on-brand while still feeling like an experience rather than an advert.",
-    image: "/gallery/brand-activation/5.jpg",
+    description:
+      "For brand-driven events, we translate visual identity into a physical world that stays recognisably on-brand while still feeling like an experience rather than an advert.",
+    image: "/events/brand-activations/gallery/5.jpg",
   },
 ];
 
@@ -4337,39 +5494,106 @@ export const ThemedEventsCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Themed Events Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
     gallery: [
-      "/gallery/brand-activation/12.jpg",
-      "/gallery/brand-activation/13.jpg",
-      "/gallery/brand-activation/14.jpg",
-      "/gallery/brand-activation/15.jpg",
-      "/gallery/brand-activation/16.jpg",
+      "/events/brand-activations/gallery/12.jpg",
+      "/events/brand-activations/gallery/13.jpg",
+      "/events/brand-activations/gallery/14.jpg",
+      "/events/brand-activations/gallery/15.jpg",
+      "/events/brand-activations/gallery/16.jpg",
     ],
   },
 ];
 
 export const ThemedEventsImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/brand-activation/1.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "2", src: "/gallery/brand-activation/2.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "3", src: "/gallery/brand-activation/3.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "4", src: "/gallery/brand-activation/4.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "5", src: "/gallery/brand-activation/5.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "6", src: "/gallery/brand-activation/5.png", alt: "Themed Events produced by MMEink" },
-  { id: "7", src: "/gallery/brand-activation/6.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "8", src: "/gallery/brand-activation/7.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "9", src: "/gallery/brand-activation/8.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "10", src: "/gallery/brand-activation/9.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "11", src: "/gallery/brand-activation/10.jpg", alt: "Themed Events produced by MMEink" },
-  { id: "12", src: "/gallery/brand-activation/11.jpg", alt: "Themed Events produced by MMEink" },
+  {
+    id: "1",
+    src: "/events/brand-activations/gallery/1.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/brand-activations/gallery/2.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/brand-activations/gallery/3.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/brand-activations/gallery/4.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/brand-activations/gallery/5.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/brand-activations/gallery/5.png",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/brand-activations/gallery/6.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/brand-activations/gallery/7.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/brand-activations/gallery/8.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/brand-activations/gallery/9.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/brand-activations/gallery/10.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/brand-activations/gallery/11.jpg",
+    alt: "Themed Events produced by MMEink",
+  },
 ];
 
 export const ThemedEventsFAQ = [
-  { question: "Do you design the theme from scratch?", answer: "We can. Many clients give us objectives and an audience, and our design team originates the concept and presents it through renderings." },
-  { question: "How much lead time do themed events need?", answer: "Six to eight weeks is typical for fully custom themed builds, allowing for design approval, fabrication, and installation." },
-  { question: "Is everything custom-built?", answer: "It is a mix. We fabricate custom scenic and props where the concept requires it, and draw on our existing inventory where it fits — which keeps budgets sensible." },
-  { question: "Can a theme work in any venue?", answer: "Nearly always. We survey the venue first and design within its constraints, including rigging points, load-in access, and any landmark restrictions." },
+  {
+    question: "Do you design the theme from scratch?",
+    answer:
+      "We can. Many clients give us objectives and an audience, and our design team originates the concept and presents it through renderings.",
+  },
+  {
+    question: "How much lead time do themed events need?",
+    answer:
+      "Six to eight weeks is typical for fully custom themed builds, allowing for design approval, fabrication, and installation.",
+  },
+  {
+    question: "Is everything custom-built?",
+    answer:
+      "It is a mix. We fabricate custom scenic and props where the concept requires it, and draw on our existing inventory where it fits — which keeps budgets sensible.",
+  },
+  {
+    question: "Can a theme work in any venue?",
+    answer:
+      "Nearly always. We survey the venue first and design within its constraints, including rigging points, load-in access, and any landmark restrictions.",
+  },
 ];
 
 export const SeasonalEventsEventTypeOfferings = [
@@ -4377,29 +5601,33 @@ export const SeasonalEventsEventTypeOfferings = [
     id: "1",
     icon: Sparkles,
     headline: "Holiday Parties",
-    description: "We design and produce holiday celebrations with seasonal décor, entertainment, and catering coordination — memorable enough that guests look forward to next year.",
-    image: "/gallery/galas/2.jpg",
+    description:
+      "We design and produce holiday celebrations with seasonal décor, entertainment, and catering coordination — memorable enough that guests look forward to next year.",
+    image: "/events/galas/gallery/2.jpg",
   },
   {
     id: "2",
     icon: Presentation,
     headline: "Winter Installations",
-    description: "Custom winter environments, from photo-ready installations to full venue transformations, fabricated in our shop and installed on site.",
-    image: "/gallery/galas/3.jpg",
+    description:
+      "Custom winter environments, from photo-ready installations to full venue transformations, fabricated in our shop and installed on site.",
+    image: "/events/galas/gallery/3.jpg",
   },
   {
     id: "3",
     icon: Users,
     headline: "Seasonal Brand Activations",
-    description: "Seasonal activations that put your brand into the moment, with themed builds, interactive elements, and content capture designed for the season.",
-    image: "/gallery/galas/4.jpg",
+    description:
+      "Seasonal activations that put your brand into the moment, with themed builds, interactive elements, and content capture designed for the season.",
+    image: "/events/galas/gallery/4.jpg",
   },
   {
     id: "4",
     icon: TrendingUp,
     headline: "Recurring Annual Programmes",
-    description: "For clients who run the same seasonal event each year, we build reusable assets and refine the concept annually — improving the experience while controlling cost.",
-    image: "/gallery/galas/5.jpg",
+    description:
+      "For clients who run the same seasonal event each year, we build reusable assets and refine the concept annually — improving the experience while controlling cost.",
+    image: "/events/galas/gallery/5.jpg",
   },
 ];
 
@@ -4408,37 +5636,104 @@ export const SeasonalEventsCaseStudiesData = [
     id: "1",
     clientName: "Client Name Pending",
     projectTitle: "Seasonal Events Project",
-    challenge: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    solution: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
-    impact: "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    challenge:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    solution:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+    impact:
+      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
     gallery: [
-      "/gallery/galas/13.jpg",
-      "/gallery/galas/14.jpg",
-      "/gallery/galas/15.jpg",
-      "/gallery/galas/16.jpg",
-      "/gallery/galas/17.jpg",
+      "/events/galas/gallery/13.jpg",
+      "/events/galas/gallery/14.jpg",
+      "/events/galas/gallery/15.jpg",
+      "/events/galas/gallery/16.jpg",
+      "/events/galas/gallery/17.jpg",
     ],
   },
 ];
 
 export const SeasonalEventsImageGallery: GalleryImage[] = [
-  { id: "1", src: "/gallery/galas/1.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "2", src: "/gallery/galas/2.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "3", src: "/gallery/galas/3.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "4", src: "/gallery/galas/4.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "5", src: "/gallery/galas/5.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "6", src: "/gallery/galas/6.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "7", src: "/gallery/galas/7.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "8", src: "/gallery/galas/8.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "9", src: "/gallery/galas/9.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "10", src: "/gallery/galas/10.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "11", src: "/gallery/galas/11.jpg", alt: "Seasonal Events produced by MMEink" },
-  { id: "12", src: "/gallery/galas/12.jpg", alt: "Seasonal Events produced by MMEink" },
+  {
+    id: "1",
+    src: "/events/galas/gallery/1.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "2",
+    src: "/events/galas/gallery/2.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "3",
+    src: "/events/galas/gallery/3.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "4",
+    src: "/events/galas/gallery/4.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "5",
+    src: "/events/galas/gallery/5.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "6",
+    src: "/events/galas/gallery/6.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "7",
+    src: "/events/galas/gallery/7.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "8",
+    src: "/events/galas/gallery/8.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "9",
+    src: "/events/galas/gallery/9.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "10",
+    src: "/events/galas/gallery/10.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "11",
+    src: "/events/galas/gallery/11.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
+  {
+    id: "12",
+    src: "/events/galas/gallery/12.jpg",
+    alt: "Seasonal Events produced by MMEink",
+  },
 ];
 
 export const SeasonalEventsFAQ = [
-  { question: "When should we start planning a holiday event?", answer: "We recommend starting in late summer for December events. Venues and talent book out early, and early planning secures better options and pricing." },
-  { question: "Can seasonal décor be reused next year?", answer: "Yes. Many clients store custom builds in our warehouse and reuse them annually, which materially reduces cost in later years." },
-  { question: "Do you handle seasonal installations for public spaces?", answer: "We do. We produce installations for lobbies, retail environments, and public spaces, including permitting and compliance where required." },
-  { question: "Can you refresh a concept we already run each year?", answer: "Yes. We frequently take an existing annual event and evolve it — keeping what works while introducing new elements each season." },
+  {
+    question: "When should we start planning a holiday event?",
+    answer:
+      "We recommend starting in late summer for December events. Venues and talent book out early, and early planning secures better options and pricing.",
+  },
+  {
+    question: "Can seasonal décor be reused next year?",
+    answer:
+      "Yes. Many clients store custom builds in our warehouse and reuse them annually, which materially reduces cost in later years.",
+  },
+  {
+    question: "Do you handle seasonal installations for public spaces?",
+    answer:
+      "We do. We produce installations for lobbies, retail environments, and public spaces, including permitting and compliance where required.",
+  },
+  {
+    question: "Can you refresh a concept we already run each year?",
+    answer:
+      "Yes. We frequently take an existing annual event and evolve it — keeping what works while introducing new elements each season.",
+  },
 ];

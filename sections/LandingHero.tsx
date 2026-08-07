@@ -63,7 +63,7 @@ export default function LandingHero({
           className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/70 hover:bg-white/30 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
         >
           <Image
-            src="/icons/facebook.svg"
+            src="/shared/icons/facebook.svg"
             alt="Facebook"
             width={20}
             height={20}
@@ -77,7 +77,7 @@ export default function LandingHero({
           className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/70 hover:bg-white/30 cursor-pointer backdrop-blur-sm transition-all duration-300 group"
         >
           <Image
-            src="/icons/instagram.svg"
+            src="/shared/icons/instagram.svg"
             alt="Instagram"
             width={20}
             height={20}

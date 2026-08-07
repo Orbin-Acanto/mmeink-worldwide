@@ -18,7 +18,7 @@ export default function MusicalEntertainmentServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/galas/9.jpg"
+        image="/events/galas/gallery/9.jpg"
         title="Musical Entertainment"
         subtitle="Live music matched to the room and the moment"
       />

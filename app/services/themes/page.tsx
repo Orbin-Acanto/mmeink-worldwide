@@ -18,7 +18,7 @@ export default function ThemesServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/dd/7.jpg"
+        image="/services/design-decor/gallery/7.jpg"
         title="Themes"
         subtitle="Fully realised concepts, from mood board to load-out"
       />

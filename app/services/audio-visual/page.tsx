@@ -18,7 +18,7 @@ export default function AudioVisualServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/av/4.jpg"
+        image="/services/audio-visual/gallery/4.jpg"
         title="Audio Visual"
         subtitle="Immersive experiences that bring your brand to life"
       />

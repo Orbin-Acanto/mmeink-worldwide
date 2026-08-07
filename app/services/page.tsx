@@ -12,7 +12,7 @@ export default function ServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <WorkHero
-        videoSrc="/videos/MME_Worldwide_Services.mp4"
+        videoSrc="/shared/videos/MME_Worldwide_Services.mp4"
         title="Exceptional"
         highlightedWord="Services"
         subtitle="Crafted with precision, delivered with passion"

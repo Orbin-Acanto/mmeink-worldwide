@@ -1,8 +1,8 @@
 "use client";
 
 import CaseStudiesSection from "@/components/events/CaseStudiesSection";
-import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
+import WorkHero from "@/components/work/WorkHero";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
@@ -17,9 +17,10 @@ import HomeCTA from "@/sections/HomeCTA";
 export default function EntertainmentServicePage() {
   return (
     <div className="min-h-screen bg-white">
-      <EventTypeHero
-        image="/gallery/brand-activation/17.jpg"
+      <WorkHero
+        videoSrc="/shared/videos/MME_Worldwide_Entertainment.mp4"
         title="Entertainment"
+        highlightedWord="& Experiences"
         subtitle="Performers, hosts, and interactive experiences"
       />
 

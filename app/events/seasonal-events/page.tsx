@@ -18,7 +18,7 @@ export default function EventSeasonalEventsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/galas/27.jpg"
+        image="/events/galas/gallery/27.jpg"
         title="Seasonal Events"
         subtitle="Holiday and seasonal experiences, designed to return"
       />

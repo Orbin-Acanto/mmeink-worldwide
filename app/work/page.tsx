@@ -22,7 +22,7 @@ export default function WorkPage() {
   return (
     <div className="min-h-screen bg-white">
       <WorkHero
-        videoSrc="/videos/MME_Worldwide_Our_Work.mp4"
+        videoSrc="/shared/videos/MME_Worldwide_Our_Work.mp4"
         title="Our"
         highlightedWord="Work"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"

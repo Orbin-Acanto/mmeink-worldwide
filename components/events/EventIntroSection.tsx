@@ -93,7 +93,7 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="/services/dd/4.jpg"
+                  src="/services/design-decor/gallery/4.jpg"
                   alt="Event Design"
                   fill
                   className="object-cover"
@@ -109,7 +109,7 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="/services/cf/10.jpg"
+                  src="/services/custom-fabrication/gallery/10.jpg"
                   alt="Event Setup"
                   fill
                   className="object-cover"

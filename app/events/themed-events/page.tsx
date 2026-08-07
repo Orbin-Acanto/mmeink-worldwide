@@ -18,7 +18,7 @@ export default function EventThemedEventsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/brand-activation/22.jpg"
+        image="/events/brand-activations/gallery/22.jpg"
         title="Themed Events"
         subtitle="One concept, carried through every detail"
       />

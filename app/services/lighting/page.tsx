@@ -18,7 +18,7 @@ export default function LightingServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/av/9.jpg"
+        image="/services/audio-visual/gallery/9.jpg"
         title="Lighting"
         subtitle="Lighting design that shapes mood, focus, and atmosphere"
       />

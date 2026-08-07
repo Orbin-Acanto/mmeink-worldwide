@@ -61,7 +61,7 @@ export default function AboutSection({
             className="relative w-full h-[260px] sm:h-[360px] md:h-[480px] lg:h-[540px] mt-8 md:mt-0"
           >
             <Image
-              src="/MME-30th.png"
+              src="/shared/brand/mme-30th.png"
               alt="Event production lighting and stage"
               fill
               className="object-cover"

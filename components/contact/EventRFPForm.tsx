@@ -77,7 +77,7 @@ function StepIndicator({
               )}
             </div>
             <span
-              className={`mt-2 hidden text-center text-[10px] tracking-[0.1em] uppercase sm:block ${
+              className={`mt-2 hidden text-center text-[10px] tracking-widest uppercase sm:block ${
                 idx <= current ? "font-semibold text-purple" : "text-gray-400"
               }`}
             >
@@ -404,10 +404,10 @@ export default function EventRFPForm() {
   const toggleList = (
     item: string,
     list: string[],
-    setter: (v: string[]) => void
+    setter: (v: string[]) => void,
   ) => {
     setter(
-      list.includes(item) ? list.filter((i) => i !== item) : [...list, item]
+      list.includes(item) ? list.filter((i) => i !== item) : [...list, item],
     );
   };
 
@@ -415,7 +415,7 @@ export default function EventRFPForm() {
     key: string,
     item: string,
     state: Record<string, string[]>,
-    setter: (v: Record<string, string[]>) => void
+    setter: (v: Record<string, string[]>) => void,
   ) => {
     const current = state[key] || [];
     setter({
@@ -506,7 +506,7 @@ export default function EventRFPForm() {
 
     if (!fields.contactName || !fields.emailAddress) {
       setError(
-        "Contact Name and Email Address are required. Please return to Event Info."
+        "Contact Name and Email Address are required. Please return to Event Info.",
       );
       return;
     }
@@ -600,7 +600,7 @@ export default function EventRFPForm() {
         resetForm();
       } else {
         setError(
-          result.message || "Failed to submit your RFP. Please try again."
+          result.message || "Failed to submit your RFP. Please try again.",
         );
         recaptchaRef.current?.reset();
         setRecaptchaToken(null);
@@ -617,7 +617,10 @@ export default function EventRFPForm() {
 
   return (
     <>
-      <section id="rfp" className="scroll-mt-32 bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <section
+        id="rfp"
+        className="scroll-mt-32  px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24"
+      >
         <div className="mx-auto max-w-7xl">
           <p className="section-label text-center">Plan Every Detail</p>
           <h2 className="section-heading text-center">
@@ -1014,7 +1017,7 @@ export default function EventRFPForm() {
                           "breakfast",
                           i,
                           foodDetailed,
-                          setFoodDetailed
+                          setFoodDetailed,
                         )
                       }
                     />
@@ -1032,7 +1035,7 @@ export default function EventRFPForm() {
                           "lunch",
                           i,
                           foodDetailed,
-                          setFoodDetailed
+                          setFoodDetailed,
                         )
                       }
                     />
@@ -1050,7 +1053,7 @@ export default function EventRFPForm() {
                           "dinner",
                           i,
                           foodDetailed,
-                          setFoodDetailed
+                          setFoodDetailed,
                         )
                       }
                     />
@@ -1069,7 +1072,7 @@ export default function EventRFPForm() {
                           "reception",
                           i,
                           foodDetailed,
-                          setFoodDetailed
+                          setFoodDetailed,
                         )
                       }
                     />
@@ -1092,7 +1095,7 @@ export default function EventRFPForm() {
                           "beverage",
                           i,
                           foodDetailed,
-                          setFoodDetailed
+                          setFoodDetailed,
                         )
                       }
                     />
@@ -1104,7 +1107,7 @@ export default function EventRFPForm() {
                   isOpen={openAccordion === "culinary"}
                   onToggle={() =>
                     setOpenAccordion(
-                      openAccordion === "culinary" ? null : "culinary"
+                      openAccordion === "culinary" ? null : "culinary",
                     )
                   }
                 >
@@ -1154,7 +1157,7 @@ export default function EventRFPForm() {
                           "audio",
                           i,
                           avProduction,
-                          setAvProduction
+                          setAvProduction,
                         )
                       }
                     />
@@ -1176,7 +1179,7 @@ export default function EventRFPForm() {
                           "video",
                           i,
                           avProduction,
-                          setAvProduction
+                          setAvProduction,
                         )
                       }
                     />
@@ -1197,7 +1200,7 @@ export default function EventRFPForm() {
                           "lighting",
                           i,
                           avProduction,
-                          setAvProduction
+                          setAvProduction,
                         )
                       }
                     />
@@ -1218,7 +1221,7 @@ export default function EventRFPForm() {
                           "streaming",
                           i,
                           avProduction,
-                          setAvProduction
+                          setAvProduction,
                         )
                       }
                     />
@@ -1239,7 +1242,7 @@ export default function EventRFPForm() {
                           "staging",
                           i,
                           avProduction,
-                          setAvProduction
+                          setAvProduction,
                         )
                       }
                     />

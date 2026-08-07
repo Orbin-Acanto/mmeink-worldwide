@@ -18,7 +18,7 @@ export default function EventGalasPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/galas/13.jpg"
+        image="/events/galas/gallery/13.jpg"
         title="Private Galas"
         subtitle="Elegant, immersive galas designed to inspire and impress"
       />

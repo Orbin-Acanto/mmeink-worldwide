@@ -18,7 +18,7 @@ export default function EventAwardDinnersPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/galas/21.jpg"
+        image="/events/galas/gallery/21.jpg"
         title="Award Dinners"
         subtitle="Recognition evenings produced with precision and polish"
       />

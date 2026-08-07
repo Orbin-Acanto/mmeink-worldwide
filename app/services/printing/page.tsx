@@ -18,7 +18,7 @@ export default function PrintingServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/cf/12.jpg"
+        image="/services/custom-fabrication/gallery/12.jpg"
         title="Printing"
         subtitle="Large-format graphics and branded print, produced in-house"
       />

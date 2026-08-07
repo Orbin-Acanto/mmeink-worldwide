@@ -18,7 +18,7 @@ export default function EventProductLaunchesPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/gallery/product-launches/20.jpg"
+        image="/events/product-launches/gallery/20.jpg"
         title="Product Launches"
         subtitle="Create powerful first impressions that drive excitement, engagement, and impact"
       />

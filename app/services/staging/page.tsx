@@ -18,7 +18,7 @@ export default function StagingServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/av/13.jpg"
+        image="/services/audio-visual/gallery/13.jpg"
         title="Staging"
         subtitle="Stages, risers, and scenic structures built to spec"
       />

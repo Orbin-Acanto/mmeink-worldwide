@@ -55,7 +55,7 @@ export default function Navbar() {
             <div className="shrink-0">
               <Link href="/" className="flex items-center">
                 <Image
-                  src="/logo_4.png"
+                  src="/shared/brand/logo.png"
                   alt="MMEINK Logo"
                   width={180}
                   height={60}
@@ -277,7 +277,7 @@ export default function Navbar() {
           </div>
 
           <div className="px-6 py-4 ">
-            <Button href="/contact-us" className="w-full mb-4">
+            <Button href="/contact" className="w-full mb-4">
               Let&apos;s Connect
             </Button>
           </div>

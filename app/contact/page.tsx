@@ -57,7 +57,7 @@ export default function ContactPage() {
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     setFormData({
       ...formData,
@@ -143,7 +143,7 @@ export default function ContactPage() {
         if (key !== "attachments") {
           formDataToSend.append(
             key,
-            formData[key as keyof FormDataType] as string
+            formData[key as keyof FormDataType] as string,
           );
         }
       });
@@ -227,7 +227,7 @@ export default function ContactPage() {
       <section className="relative w-full h-[90vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/gallery/trade-shows/2.jpg"
+            src="/events/exhibitions/gallery/2.jpg"
             alt="Contact Us"
             fill
             className="object-cover"
@@ -280,7 +280,7 @@ export default function ContactPage() {
 
       <section
         id="contact-form"
-        className="relative scroll-mt-32 py-16 sm:py-20 lg:py-24"
+        className="relative scroll-mt-32 py-16 sm:py-20 lg:py-24 bg-white"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {submitStatus && (
@@ -512,8 +512,8 @@ export default function ContactPage() {
                   </h3>
                   <p className="mb-4 text-sm text-gray-500">
                     Share floor plans, CAD drawings, renderings, or design
-                    concepts so we can review them ahead of our conversation.
-                    Up to 20MB per file.
+                    concepts so we can review them ahead of our conversation. Up
+                    to 20MB per file.
                   </p>
 
                   <label
@@ -593,7 +593,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <div className="border-t border-gray-200 bg-gray-50/50">
+      <div className="bg-gray-50">
         <EventRFPForm />
       </div>
     </div>

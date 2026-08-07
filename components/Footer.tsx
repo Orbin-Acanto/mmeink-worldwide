@@ -209,7 +209,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-32 h-18">
                 <Image
-                  src="/logo_4.png"
+                  src="/shared/brand/logo.png"
                   alt="MMEink"
                   fill
                   className="object-contain"
