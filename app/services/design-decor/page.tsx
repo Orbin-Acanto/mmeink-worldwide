@@ -5,6 +5,7 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   DesignAndDecorFAQ,
@@ -13,6 +14,7 @@ import {
   DesignDecorImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import { serviceIntros } from "@/data/serviceIntros";
 
 export default function DesignDecorServicePage() {
   return (
@@ -20,8 +22,10 @@ export default function DesignDecorServicePage() {
       <EventTypeHero
         image="/services/design-decor/gallery/5.jpg"
         title="Design Decor"
-        subtitle="Immersive experiences that bring your brand to life"
+        subtitle="Creative design and décor that transforms spaces into immersive environments"
       />
+
+      <ServiceIntro content={serviceIntros["design-decor"]} />
       <WhatWeOffer
         title={DesignDecorData.title}
         subtitle={DesignDecorData.subtitle}
@@ -37,9 +41,9 @@ export default function DesignDecorServicePage() {
       />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Design That Sets the Tone"
-        subtitle="Custom Event Décor & Styling"
-        description="From concept to execution, our design team creates thoughtfully styled environments that elevate every event."
+        title="Imagine the Vision. Transform the Space."
+        subtitle="Creative Design & Décor"
+        description="From the first mood board through final styling, we create spaces that do not simply look extraordinary. They make your audience feel something extraordinary."
         primaryButton={{
           text: "Start Planning",
           href: "/contact",

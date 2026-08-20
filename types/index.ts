@@ -41,3 +41,13 @@ export interface ProcessStep {
   title: string;
   description: string;
 }
+
+export interface ClientLogo {
+  id: string;
+  /** Brand name, shown as the visible caption and used in structured data. */
+  name: string;
+  /** Descriptive alt text naming the brand and what it does. */
+  alt: string;
+  src: string;
+  href?: string;
+}

@@ -5,6 +5,7 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   PropsCaseStudiesData,
@@ -13,6 +14,7 @@ import {
   PropsImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import { serviceIntros } from "@/data/serviceIntros";
 
 export default function PropsServicePage() {
   return (
@@ -20,8 +22,10 @@ export default function PropsServicePage() {
       <EventTypeHero
         image="/services/design-decor/gallery/14.jpg"
         title="Props"
-        subtitle="Custom-built and curated props from our own inventory"
+        subtitle="Event props and scenic elements that transform a space into an experience"
       />
+
+      <ServiceIntro content={serviceIntros["props"]} />
 
       <WhatWeOffer
         title={PropsData.title}
@@ -39,9 +43,9 @@ export default function PropsServicePage() {
 
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="The Details People Remember."
-        subtitle="Custom & Curated Props"
-        description="From oversized statement pieces to the small props that finish a room, we build and source what your concept calls for."
+        title="Imagine It. Create It. Experience It."
+        subtitle="Event Props & Immersive Environments"
+        description="From a single statement piece to an entire immersive environment, we combine an extensive rental inventory with custom fabrication."
         primaryButton={{
           text: "Plan Your Event",
           href: "/contact",

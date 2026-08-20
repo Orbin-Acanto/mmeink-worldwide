@@ -5,6 +5,7 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   PrintingCaseStudiesData,
@@ -13,6 +14,7 @@ import {
   PrintingImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import { serviceIntros } from "@/data/serviceIntros";
 
 export default function PrintingServicePage() {
   return (
@@ -20,8 +22,10 @@ export default function PrintingServicePage() {
       <EventTypeHero
         image="/services/custom-fabrication/gallery/12.jpg"
         title="Printing"
-        subtitle="Large-format graphics and branded print, produced in-house"
+        subtitle="Large format printing, custom signage, and branded graphics produced in house"
       />
+
+      <ServiceIntro content={serviceIntros["printing"]} />
 
       <WhatWeOffer
         title={PrintingData.title}
@@ -39,9 +43,9 @@ export default function PrintingServicePage() {
 
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Print That Performs."
-        subtitle="In-House Large-Format Printing"
-        description="From step-and-repeats to full environmental wraps, our in-house print shop delivers colour-accurate graphics on deadline."
+        title="Print. Brand. Transform."
+        subtitle="Large Format Printing & Branded Graphics"
+        description="From step and repeats to full environmental branding, we turn every surface into an opportunity to tell your brand story."
         primaryButton={{
           text: "Plan Your Event",
           href: "/contact",

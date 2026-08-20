@@ -5,6 +5,7 @@ import {
   Project,
   Step,
   WorkItem,
+  ClientLogo,
 } from "@/types";
 import {
   MapPin,
@@ -289,109 +290,197 @@ export const services = [
   },
 ];
 
-export const clientLogos = [
-  { id: "brand-1", name: "Brand One", src: "/work/client-logos/ (1).webp" },
-  { id: "brand-2", name: "Brand Two", src: "/work/client-logos/ (2).png" },
-  { id: "brand-3", name: "Brand Three", src: "/work/client-logos/ (3).png" },
-  { id: "brand-4", name: "Brand Four", src: "/work/client-logos/ (4).png" },
-  { id: "brand-5", name: "Brand Five", src: "/work/client-logos/ (5).png" },
-  { id: "brand-6", name: "Brand Six", src: "/work/client-logos/ (6).png" },
-  { id: "brand-7", name: "Brand Seven", src: "/work/client-logos/ (7).png" },
-  { id: "brand-8", name: "Brand Eight", src: "/work/client-logos/ (8).png" },
-  { id: "brand-9", name: "Brand Nine", src: "/work/client-logos/ (9).png" },
-  { id: "brand-10", name: "Brand Ten", src: "/work/client-logos/ (10).png" },
-  { id: "brand-11", name: "Brand Eleven", src: "/work/client-logos/ (11).png" },
-  { id: "brand-12", name: "Brand Twelve", src: "/work/client-logos/ (12).png" },
+export const clientLogos: ClientLogo[] = [
   {
-    id: "brand-13",
-    name: "Brand Thirteen",
+    id: "50-50-women-on-boards",
+    name: "50/50 Women on Boards",
+    alt: "50/50 Women on Boards logo, nonprofit advocacy organization and MME Worldwide client",
+    src: "/work/client-logos/ (1).webp",
+  },
+  {
+    id: "asics",
+    name: "ASICS",
+    alt: "ASICS logo, athletic footwear and apparel brand and MME Worldwide client",
+    src: "/work/client-logos/ (2).png",
+  },
+  {
+    id: "atandt",
+    name: "AT&T",
+    alt: "AT&T logo, telecommunications company and MME Worldwide client",
+    src: "/work/client-logos/ (3).png",
+  },
+  {
+    id: "aande",
+    name: "A&E",
+    alt: "A&E logo, television network and MME Worldwide client",
+    src: "/work/client-logos/ (4).png",
+  },
+  {
+    id: "the-webby-awards",
+    name: "The Webby Awards",
+    alt: "The Webby Awards logo, internet awards program and MME Worldwide client",
+    src: "/work/client-logos/ (5).png",
+  },
+  {
+    id: "samsung",
+    name: "Samsung",
+    alt: "Samsung logo, consumer electronics company and MME Worldwide client",
+    src: "/work/client-logos/ (6).png",
+  },
+  {
+    id: "antwerp-world-diamond-centre",
+    name: "Antwerp World Diamond Centre",
+    alt: "Antwerp World Diamond Centre logo, diamond industry organization and MME Worldwide client",
+    src: "/work/client-logos/ (7).png",
+  },
+  {
+    id: "emarketer",
+    name: "EMARKETER",
+    alt: "EMARKETER logo, market research and business intelligence firm and MME Worldwide client",
+    src: "/work/client-logos/ (8).png",
+  },
+  {
+    id: "adidas",
+    name: "adidas",
+    alt: "adidas logo, sportswear brand and MME Worldwide client",
+    src: "/work/client-logos/ (9).png",
+  },
+  {
+    id: "gazprom",
+    name: "Gazprom",
+    alt: "Gazprom logo, energy company and MME Worldwide client",
+    src: "/work/client-logos/ (10).png",
+  },
+  {
+    id: "northwell-huntington-hospital",
+    name: "Northwell Huntington Hospital",
+    alt: "Northwell Huntington Hospital logo, healthcare provider and MME Worldwide client",
+    src: "/work/client-logos/ (11).png",
+  },
+  {
+    id: "james-beard-foundation",
+    name: "James Beard Foundation",
+    alt: "James Beard Foundation logo, culinary nonprofit organization and MME Worldwide client",
+    src: "/work/client-logos/ (12).png",
+  },
+  {
+    id: "standard-chartered",
+    name: "Standard Chartered",
+    alt: "Standard Chartered logo, international bank and MME Worldwide client",
     src: "/work/client-logos/ (13).png",
   },
   {
-    id: "brand-14",
-    name: "Brand Fourteen",
+    id: "ibm",
+    name: "IBM",
+    alt: "IBM logo, technology company and MME Worldwide client",
     src: "/work/client-logos/ (14).png",
   },
   {
-    id: "brand-15",
-    name: "Brand Fifteen",
+    id: "ocean-drive",
+    name: "Ocean Drive",
+    alt: "Ocean Drive logo, lifestyle magazine and MME Worldwide client",
     src: "/work/client-logos/ (15).png",
   },
   {
-    id: "brand-16",
-    name: "Brand Sixteen",
+    id: "cond-nast",
+    name: "Condé Nast",
+    alt: "Condé Nast logo, media and publishing company and MME Worldwide client",
     src: "/work/client-logos/ (16).png",
   },
   {
-    id: "brand-17",
-    name: "Brand Seventeen",
+    id: "google",
+    name: "Google",
+    alt: "Google logo, technology company and MME Worldwide client",
     src: "/work/client-logos/ (17).png",
   },
   {
-    id: "brand-18",
-    name: "Brand Eighteen",
+    id: "visit-m-xico",
+    name: "Visit México",
+    alt: "Visit México logo, national tourism board and MME Worldwide client",
     src: "/work/client-logos/ (18).png",
   },
   {
-    id: "brand-19",
-    name: "Brand Nineteen",
+    id: "salesforce",
+    name: "Salesforce",
+    alt: "Salesforce logo, enterprise software company and MME Worldwide client",
     src: "/work/client-logos/ (19).png",
   },
-  { id: "brand-20", name: "Brand Twenty", src: "/work/client-logos/ (20).png" },
   {
-    id: "brand-21",
-    name: "Brand Twenty-One",
+    id: "ropes-and-gray",
+    name: "Ropes & Gray",
+    alt: "Ropes & Gray logo, international law firm and MME Worldwide client",
+    src: "/work/client-logos/ (20).png",
+  },
+  {
+    id: "clase-azul-m-xico",
+    name: "Clase Azul México",
+    alt: "Clase Azul México logo, luxury tequila brand and MME Worldwide client",
     src: "/work/client-logos/ (21).png",
   },
   {
-    id: "brand-22",
-    name: "Brand Twenty-Two",
+    id: "simpson-thacher",
+    name: "Simpson Thacher",
+    alt: "Simpson Thacher logo, international law firm and MME Worldwide client",
     src: "/work/client-logos/ (22).png",
   },
   {
-    id: "brand-23",
-    name: "Brand Twenty-Three",
+    id: "the-est-e-lauder-companies",
+    name: "The Estée Lauder Companies",
+    alt: "The Estée Lauder Companies logo, beauty and cosmetics company and MME Worldwide client",
     src: "/work/client-logos/ (23).png",
   },
   {
-    id: "brand-24",
-    name: "Brand Twenty-Four",
+    id: "michelob-ultra",
+    name: "Michelob Ultra",
+    alt: "Michelob Ultra logo, beer brand and MME Worldwide client",
     src: "/work/client-logos/ (24).png",
   },
   {
-    id: "brand-25",
-    name: "Brand Twenty-Five",
+    id: "rolling-rock",
+    name: "Rolling Rock",
+    alt: "Rolling Rock logo, beer brand and MME Worldwide client",
     src: "/work/client-logos/ (25).png",
   },
   {
-    id: "brand-26",
-    name: "Brand Twenty-Six",
+    id: "us-foods",
+    name: "US Foods",
+    alt: "US Foods logo, foodservice distributor and MME Worldwide client",
     src: "/work/client-logos/ (26).png",
   },
   {
-    id: "brand-27",
-    name: "Brand Twenty-Seven",
+    id: "sweet-n-low",
+    name: "Sweet'N Low",
+    alt: "Sweet'N Low logo, consumer food brand and MME Worldwide client",
     src: "/work/client-logos/ (27).png",
   },
   {
-    id: "brand-28",
-    name: "Brand Twenty-Eight",
+    id: "opentext",
+    name: "OpenText",
+    alt: "OpenText logo, enterprise software company and MME Worldwide client",
     src: "/work/client-logos/ (28).png",
   },
   {
-    id: "brand-29",
-    name: "Brand Twenty-Nine",
+    id: "skullcandy",
+    name: "Skullcandy",
+    alt: "Skullcandy logo, audio products brand and MME Worldwide client",
     src: "/work/client-logos/ (29).png",
   },
-  { id: "brand-30", name: "Brand Thirty", src: "/work/client-logos/ (30).png" },
   {
-    id: "brand-31",
-    name: "Brand Thirty-One",
+    id: "tommy-hilfiger",
+    name: "Tommy Hilfiger",
+    alt: "Tommy Hilfiger logo, fashion brand and MME Worldwide client",
+    src: "/work/client-logos/ (30).png",
+  },
+  {
+    id: "swiss-re",
+    name: "Swiss Re",
+    alt: "Swiss Re logo, reinsurance company and MME Worldwide client",
     src: "/work/client-logos/ (31).png",
   },
   {
-    id: "brand-32",
-    name: "Brand Thirty-Two",
+    id: "havas-media",
+    name: "Havas Media",
+    alt: "Havas Media logo, global media agency and MME Worldwide client",
     src: "/work/client-logos/ (1).png",
   },
 ];
@@ -1325,7 +1414,7 @@ export const ExhibitsTradeShowsFaqs = [
   {
     question: "How far in advance should we start planning?",
     answer:
-      "We recommend starting 3–6 months in advance, but we can accommodate shorter timelines based on scope and availability.",
+      "We recommend starting 3 to 6 months in advance, but we can accommodate shorter timelines based on scope and availability.",
   },
 ];
 // Exhibits & Trade Shows Event Data End
@@ -1922,7 +2011,7 @@ export const Galasfaqs = [
   {
     question: "How far in advance should a gala be planned?",
     answer:
-      "We recommend beginning planning 3–6 months in advance to allow time for creative development, vendor coordination, and flawless execution.",
+      "We recommend beginning planning 3 to 6 months in advance to allow time for creative development, vendor coordination, and flawless execution.",
   },
   {
     question: "Do you produce galas outside of New York City?",
@@ -2195,7 +2284,7 @@ export const VirtualHyrbidfaqs = [
   {
     question: "How far in advance should we plan a virtual or hybrid event?",
     answer:
-      "We recommend planning at least 4–6 weeks in advance for complex events. However, we can accommodate shorter timelines depending on scope and technical requirements.",
+      "We recommend planning at least 4 to 6 weeks in advance for complex events. However, we can accommodate shorter timelines depending on scope and technical requirements.",
   },
 ];
 // Virtual and Hybrid Data End
@@ -2679,7 +2768,7 @@ export const AudioVisualFAQ = [
   {
     question: "How far in advance should AV services be booked?",
     answer:
-      "We recommend booking audio visual services 3–6 weeks in advance, especially for complex or large-scale events.",
+      "We recommend booking audio visual services 3 to 6 weeks in advance, especially for complex or large-scale events.",
   },
 ];
 // Audio Visual Service Data End
@@ -3277,7 +3366,7 @@ export const RentalFAQ = [
   {
     question: "How far in advance should rental equipment be booked?",
     answer:
-      "We recommend booking rental equipment 2–4 weeks in advance, especially for larger events or high-demand items.",
+      "We recommend booking rental equipment 2 to 4 weeks in advance, especially for larger events or high-demand items.",
   },
   {
     question: "Do you offer rentals for events outside of New York?",
@@ -3589,7 +3678,7 @@ export const DesignAndDecorFAQ = [
   {
     question: "How early should we start planning event décor?",
     answer:
-      "We recommend beginning décor planning 4–6 weeks in advance to allow time for concept development, customization, and seamless execution.",
+      "We recommend beginning décor planning 4 to 6 weeks in advance to allow time for concept development, customization, and seamless execution.",
   },
   {
     question: "Can your team work within an existing venue or theme?",
@@ -3687,7 +3776,7 @@ export const LogisticsCaseStudiesData = [
     clientName: "Fortune 500 Corporation",
     projectTitle: "Multi-City National Conference Tour",
     challenge:
-      "A Fortune 500 client needed seamless coordination of a six-city national conference tour — managing freight logistics, crew deployment, venue coordination, and production timelines across multiple states within a compressed 10-day window.",
+      "A Fortune 500 client needed seamless coordination of a six-city national conference tour, managing freight logistics, crew deployment, venue coordination, and production timelines across multiple states within a compressed 10-day window.",
     solution:
       "MMEink deployed a dedicated logistics team to manage all production freight, local vendor sourcing, permitting, and on-site crew across all six markets. A centralized run-of-show and real-time coordination protocol kept every city on schedule.",
     impact:
@@ -3784,7 +3873,7 @@ export const LogisticsFAQ = [
   {
     question: "Do you provide on-site production management?",
     answer:
-      "Yes. Our logistics managers are on-site throughout your event — overseeing crew, managing timelines, coordinating vendors, and resolving any production challenges in real time.",
+      "Yes. Our logistics managers are on-site throughout your event, overseeing crew, managing timelines, coordinating vendors, and resolving any production challenges in real time.",
   },
   {
     question: "How do you manage event budgets and costs?",
@@ -3794,7 +3883,7 @@ export const LogisticsFAQ = [
   {
     question: "How far in advance should logistics be planned?",
     answer:
-      "For large-scale or multi-city events, we recommend engaging our logistics team 6–8 weeks in advance. Smaller events can typically be coordinated with 2–4 weeks of lead time.",
+      "For large-scale or multi-city events, we recommend engaging our logistics team 6 to 8 weeks in advance. Smaller events can typically be coordinated with 2 to 4 weeks of lead time.",
   },
 ];
 // Logistics Service Data End
@@ -3847,7 +3936,7 @@ export const VISIBILITY_CONFIG = {
 };
 
 // ─────────────────────────────────────────────────────────────
-// NEW SERVICE PAGES — see COPY_AUDIT.md (copy pending client review)
+// NEW SERVICE PAGES: see COPY_AUDIT.md (copy pending client review)
 // ─────────────────────────────────────────────────────────────
 
 export const PrintingData = {
@@ -3937,11 +4026,11 @@ export const PrintingCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Printing Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/services/custom-fabrication/gallery/13.jpg",
       "/services/custom-fabrication/gallery/14.JPG",
@@ -4019,7 +4108,7 @@ export const PrintingFAQ = [
   {
     question: "What printing services do you offer in-house?",
     answer:
-      "We produce large-format graphics, vinyl wraps, step-and-repeat backdrops, banners, rigid signage, fabric prints, and floor and window graphics — all printed and finished in our own facility.",
+      "We produce large-format graphics, vinyl wraps, step-and-repeat backdrops, banners, rigid signage, fabric prints, and floor and window graphics, all printed and finished in our own facility.",
   },
   {
     question: "What file formats do you need for print?",
@@ -4029,7 +4118,7 @@ export const PrintingFAQ = [
   {
     question: "How quickly can you turn around a print job?",
     answer:
-      "Standard jobs ship within 3–5 business days. Rush production is available for time-sensitive activations — contact us with your deadline and we will confirm feasibility.",
+      "Standard jobs ship within 3 to 5 business days. Rush production is available for time-sensitive activations. Contact us with your deadline and we will confirm feasibility.",
   },
   {
     question: "Can you install the graphics on site?",
@@ -4125,11 +4214,11 @@ export const LightingCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Lighting Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/services/audio-visual/gallery/13.jpg",
       "/services/audio-visual/gallery/14.jpg",
@@ -4222,7 +4311,7 @@ export const LightingFAQ = [
   {
     question: "Is a lighting technician included on event day?",
     answer:
-      "For any programmed or dynamic design, yes — a technician remains on site to run cues and handle adjustments throughout the event.",
+      "For any programmed or dynamic design, yes. A technician remains on site to run cues and handle adjustments throughout the event.",
   },
 ];
 
@@ -4313,11 +4402,11 @@ export const StagingCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Staging Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/services/custom-fabrication/gallery/13.jpg",
       "/services/custom-fabrication/gallery/14.JPG",
@@ -4501,11 +4590,11 @@ export const ThemesCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Themes Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/services/design-decor/gallery/13.jpg",
       "/services/design-decor/gallery/14.jpg",
@@ -4598,7 +4687,7 @@ export const ThemesFAQ = [
   {
     question: "How far in advance should theming be planned?",
     answer:
-      "We recommend 6–8 weeks for fully custom themed builds, which allows time for design approval, fabrication, and installation.",
+      "We recommend 6 to 8 weeks for fully custom themed builds, which allows time for design approval, fabrication, and installation.",
   },
 ];
 
@@ -4689,11 +4778,11 @@ export const PropsCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Props Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/services/design-decor/gallery/13.jpg",
       "/services/design-decor/gallery/14.jpg",
@@ -4781,7 +4870,7 @@ export const PropsFAQ = [
   {
     question: "What happens to custom props after the event?",
     answer:
-      "You can purchase and keep them, or we can store them in our warehouse for reuse at future events — many clients build a recurring prop library with us.",
+      "You can purchase and keep them, or we can store them in our warehouse for reuse at future events, and many clients build a recurring prop library with us.",
   },
   {
     question: "Do you deliver and place the props on site?",
@@ -4877,11 +4966,11 @@ export const MusicalEntertainmentCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Musical Entertainment Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/events/galas/gallery/13.jpg",
       "/events/galas/gallery/14.jpg",
@@ -4959,7 +5048,7 @@ export const MusicalEntertainmentFAQ = [
   {
     question: "Do you book the talent or do we?",
     answer:
-      "We handle booking end to end — sourcing, contracting, and coordinating the artists — though we are equally happy to produce around talent you have already engaged.",
+      "We handle booking end to end, sourcing, contracting, and coordinating the artists, though we are equally happy to produce around talent you have already engaged.",
   },
   {
     question: "Is sound equipment included?",
@@ -5065,11 +5154,11 @@ export const EntertainmentCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Entertainment Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this service.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this service.",
     gallery: [
       "/events/brand-activations/gallery/12.jpg",
       "/events/brand-activations/gallery/13.jpg",
@@ -5147,7 +5236,7 @@ export const EntertainmentFAQ = [
   {
     question: "What kinds of entertainment do you provide?",
     answer:
-      "Emcees, interactive performers, aerialists, dancers, magicians, comedians, celebrity talent, photo and 360 booths, and game tables — matched to your audience and format.",
+      "Emcees, interactive performers, aerialists, dancers, magicians, comedians, celebrity talent, photo and 360 booths, and game tables, matched to your audience and format.",
   },
   {
     question: "Do you handle contracting and riders?",
@@ -5167,7 +5256,7 @@ export const EntertainmentFAQ = [
 ];
 
 // ─────────────────────────────────────────────────────────────
-// NEW EVENT TYPE PAGES — see COPY_AUDIT.md (copy pending client review)
+// NEW EVENT TYPE PAGES: see COPY_AUDIT.md (copy pending client review)
 // ─────────────────────────────────────────────────────────────
 
 export const AwardDinnersEventTypeOfferings = [
@@ -5176,7 +5265,7 @@ export const AwardDinnersEventTypeOfferings = [
     icon: Sparkles,
     headline: "Awards Ceremonies",
     description:
-      "We produce award ceremonies where the programme runs to the second — staging, lighting, cue-to-cue rehearsal, and presentation graphics all aligned so every honouree gets their moment.",
+      "We produce award ceremonies where the programme runs to the second, with staging, lighting, cue-to-cue rehearsal, and presentation graphics all aligned so every honouree gets their moment.",
     image: "/events/galas/gallery/2.jpg",
   },
   {
@@ -5211,11 +5300,11 @@ export const AwardDinnersCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Award Dinners Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     gallery: [
       "/events/galas/gallery/13.jpg",
       "/events/galas/gallery/14.jpg",
@@ -5318,7 +5407,7 @@ export const CorporateEventsEventTypeOfferings = [
     icon: Presentation,
     headline: "Town Halls & All-Hands",
     description:
-      "We produce all-hands and town hall meetings with clean staging, reliable audio, and hybrid streaming so every employee — in the room or remote — sees and hears the same thing.",
+      "We produce all-hands and town hall meetings with clean staging, reliable audio, and hybrid streaming so every employee, in the room or remote, sees and hears the same thing.",
     image: "/events/conferences-meetings/gallery/2.jpg",
   },
   {
@@ -5334,7 +5423,7 @@ export const CorporateEventsEventTypeOfferings = [
     icon: Sparkles,
     headline: "Holiday & Milestone Celebrations",
     description:
-      "Company celebrations, anniversaries, and holiday parties designed around your culture — with décor, entertainment, and catering coordination handled throughout.",
+      "Company celebrations, anniversaries, and holiday parties designed around your culture, with décor, entertainment, and catering coordination handled throughout.",
     image: "/events/conferences-meetings/gallery/4.jpg",
   },
   {
@@ -5353,11 +5442,11 @@ export const CorporateEventsCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Corporate Events Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     gallery: [
       "/events/conferences-meetings/gallery/13.jpg",
       "/events/conferences-meetings/gallery/14.jpg",
@@ -5476,7 +5565,7 @@ export const ThemedEventsEventTypeOfferings = [
     icon: Users,
     headline: "Guest Journey Design",
     description:
-      "We choreograph the guest experience from arrival through departure — entrances, reveal moments, photo opportunities, and transitions all designed as part of the theme.",
+      "We choreograph the guest experience from arrival through departure. Entrances, reveal moments, photo opportunities, and transitions all designed as part of the theme.",
     image: "/events/brand-activations/gallery/4.jpg",
   },
   {
@@ -5495,11 +5584,11 @@ export const ThemedEventsCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Themed Events Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     gallery: [
       "/events/brand-activations/gallery/12.jpg",
       "/events/brand-activations/gallery/13.jpg",
@@ -5587,7 +5676,7 @@ export const ThemedEventsFAQ = [
   {
     question: "Is everything custom-built?",
     answer:
-      "It is a mix. We fabricate custom scenic and props where the concept requires it, and draw on our existing inventory where it fits — which keeps budgets sensible.",
+      "It is a mix. We fabricate custom scenic and props where the concept requires it, and draw on our existing inventory where it fits, which keeps budgets sensible.",
   },
   {
     question: "Can a theme work in any venue?",
@@ -5602,7 +5691,7 @@ export const SeasonalEventsEventTypeOfferings = [
     icon: Sparkles,
     headline: "Holiday Parties",
     description:
-      "We design and produce holiday celebrations with seasonal décor, entertainment, and catering coordination — memorable enough that guests look forward to next year.",
+      "We design and produce holiday celebrations with seasonal décor, entertainment, and catering coordination, memorable enough that guests look forward to next year.",
     image: "/events/galas/gallery/2.jpg",
   },
   {
@@ -5626,7 +5715,7 @@ export const SeasonalEventsEventTypeOfferings = [
     icon: TrendingUp,
     headline: "Recurring Annual Programmes",
     description:
-      "For clients who run the same seasonal event each year, we build reusable assets and refine the concept annually — improving the experience while controlling cost.",
+      "For clients who run the same seasonal event each year, we build reusable assets and refine the concept annually, improving the experience while controlling cost.",
     image: "/events/galas/gallery/5.jpg",
   },
 ];
@@ -5637,11 +5726,11 @@ export const SeasonalEventsCaseStudiesData = [
     clientName: "Client Name Pending",
     projectTitle: "Seasonal Events Project",
     challenge:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     solution:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     impact:
-      "PLACEHOLDER — awaiting client-approved case study copy for this event type.",
+      "PLACEHOLDER: awaiting client-approved case study copy for this event type.",
     gallery: [
       "/events/galas/gallery/13.jpg",
       "/events/galas/gallery/14.jpg",
@@ -5734,6 +5823,6 @@ export const SeasonalEventsFAQ = [
   {
     question: "Can you refresh a concept we already run each year?",
     answer:
-      "Yes. We frequently take an existing annual event and evolve it — keeping what works while introducing new elements each season.",
+      "Yes. We frequently take an existing annual event and evolve it, keeping what works while introducing new elements each season.",
   },
 ];

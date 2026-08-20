@@ -88,7 +88,7 @@ function StepIndicator({
       </div>
 
       <p className="mt-4 text-center text-xs font-semibold tracking-[0.15em] text-purple uppercase sm:hidden">
-        Step {current + 1} of {steps.length} — {steps[current]}
+        Step {current + 1} of {steps.length}: {steps[current]}
       </p>
     </div>
   );

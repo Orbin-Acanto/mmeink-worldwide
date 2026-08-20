@@ -2,13 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
-interface ClientLogo {
-  id: string;
-  name: string;
-  src: string;
-  href?: string;
-}
+import { ClientLogo } from "@/types";
 
 interface ClientLogosSectionProps {
   logos: ClientLogo[];
@@ -52,7 +46,8 @@ export default function ClientLogosSection({
         <div className="relative w-34 sm:w-38 md:w-32 xl:w-38 h-10 sm:h-12 md:h-14 lg:h-16 xl:h-16 px-4">
           <Image
             src={logo.src}
-            alt={logo.name}
+            alt={logo.alt}
+            title={logo.name}
             fill
             className="object-contain"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 20vw, 12vw"
@@ -91,6 +86,17 @@ export default function ClientLogosSection({
             clients who care about impactful, well-executed experiences.
           </p>
         </div>
+
+        {/*
+          The logos themselves are images, so the brand names would otherwise
+          exist only in alt attributes. Repeating them as real text gives search
+          engines and AI assistants something to read when answering questions
+          about who MME Worldwide has worked with.
+        */}
+        <p className="sr-only">
+          MME Worldwide clients include{" "}
+          {logos.map((logo) => logo.name).join(", ")}.
+        </p>
 
         <div className="sm:hidden">
           <div className="grid grid-cols-2 gap-4 min-h-[400px]">

@@ -5,6 +5,7 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   LightingCaseStudiesData,
@@ -13,6 +14,7 @@ import {
   LightingImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import { serviceIntros } from "@/data/serviceIntros";
 
 export default function LightingServicePage() {
   return (
@@ -20,8 +22,10 @@ export default function LightingServicePage() {
       <EventTypeHero
         image="/services/audio-visual/gallery/9.jpg"
         title="Lighting"
-        subtitle="Lighting design that shapes mood, focus, and atmosphere"
+        subtitle="Lighting design that creates emotion, defines atmosphere, and transforms the space"
       />
+
+      <ServiceIntro content={serviceIntros["lighting"]} />
 
       <WhatWeOffer
         title={LightingData.title}
@@ -39,9 +43,9 @@ export default function LightingServicePage() {
 
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Set the Tone."
+        title="Illuminate. Transform. Experience."
         subtitle="Lighting Design & Production"
-        description="Lighting is the fastest way to transform a room. Our designers build looks that carry your event from load-in through the final toast."
+        description="Lighting is more than illumination. We use light to shape atmosphere, highlight key moments, and transform how your audience experiences the room."
         primaryButton={{
           text: "Plan Your Event",
           href: "/contact",

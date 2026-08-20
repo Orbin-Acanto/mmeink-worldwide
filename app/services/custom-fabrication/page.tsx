@@ -5,6 +5,7 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   CustomFabricationData,
@@ -13,6 +14,7 @@ import {
   CustomFabricationImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
+import { serviceIntros } from "@/data/serviceIntros";
 
 export default function EventBrandActivationPage() {
   return (
@@ -20,8 +22,10 @@ export default function EventBrandActivationPage() {
       <EventTypeHero
         image="/services/custom-fabrication/gallery/cf_hero.jpg"
         title="Custom Fabrication"
-        subtitle="MMEink's fabrication and event management team has the ability to deliver custom designs and fabrications as well as providing creative event solutions"
+        subtitle="Custom fabrication for experiential activations, product launches, trade shows, and branded environments"
       />
+
+      <ServiceIntro content={serviceIntros["custom-fabrication"]} />
       <WhatWeOffer
         title={CustomFabricationData.title}
         subtitle={CustomFabricationData.subtitle}
@@ -37,9 +41,9 @@ export default function EventBrandActivationPage() {
       />
       <HomeCTA
         backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Built to Impress"
-        subtitle="Custom Fabrication by MMEink"
-        description="We design and fabricate custom environments that bring brands and events to life."
+        title="Your Vision. Our Craft."
+        subtitle="Custom Fabrication by MME Worldwide"
+        description="We design, engineer, and fabricate custom environments that turn brand vision into a real world experience."
         primaryButton={{
           text: "Get Started",
           href: "/contact",

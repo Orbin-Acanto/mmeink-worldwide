@@ -370,7 +370,7 @@ export default function ContactPage() {
                   day was just magical."
                 </p>
                 <p className="text-purple font-semibold mt-4">
-                  — Valerie Goldstein
+                  Valerie Goldstein
                 </p>
               </div>
             </motion.div>
