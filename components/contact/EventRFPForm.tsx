@@ -20,10 +20,11 @@ import {
   CheckCircle2,
   X,
   ArrowLeft,
-  Upload,
+  Paperclip,
 } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Button from "@/components/Button";
+import FileDropzone from "@/components/contact/FileDropzone";
 
 // ── Shared sub-components ──────────────────────────────────────────
 
@@ -323,7 +324,7 @@ const FOOD_BEVERAGE = [
   { label: "Lunch", icon: Sandwich },
   { label: "AM / PM Snacks", icon: IceCreamCone },
   { label: "Cocktail Reception", icon: Wine },
-  { label: "Sit-Down Dinner", icon: UtensilsCrossed },
+  { label: "Sit Down Dinner", icon: UtensilsCrossed },
   { label: "Food Stations", icon: Salad },
   { label: "Bar Service", icon: GlassWater },
   { label: "Custom Menu Design", icon: ChefHat },
@@ -338,6 +339,7 @@ const STEP_LABELS = [
 ];
 
 const MAX_FILE_SIZE = 20 * 1024 * 1024;
+const MAX_TOTAL_SIZE = 60 * 1024 * 1024;
 const MAX_FILES = 10;
 
 export default function EventRFPForm() {
@@ -347,7 +349,7 @@ export default function EventRFPForm() {
   const [showModal, setShowModal] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const sectionRef = useRef<HTMLElement>(null);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
   const formStartTimeRef = useRef<number | null>(null);
   const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
@@ -426,44 +428,33 @@ export default function EventRFPForm() {
     });
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files;
-    if (!files) return;
+  // FileDropzone owns the drag, drop, paste and browse interactions and hands
+  // back the whole list, so validation lives there and the form only stores
+  // the result and surfaces any message in its single error region.
+  const handleAttachmentsChange = (files: File[]) => setAttachments(files);
 
-    const incoming = Array.from(files);
-    const valid = incoming.filter((f) => f.size <= MAX_FILE_SIZE);
-
-    if (valid.length !== incoming.length) {
-      setError("Each file must be 20MB or smaller. Larger files were skipped.");
-    }
-
-    setAttachments((prev) => {
-      const combined = [...prev, ...valid];
-      if (combined.length > MAX_FILES) {
-        setError(`You can attach up to ${MAX_FILES} files.`);
-        return combined.slice(0, MAX_FILES);
-      }
-      return combined;
-    });
-
-    if (fileInputRef.current) fileInputRef.current.value = "";
+  /**
+   * Moving between steps scrolls to the top of the form, not the top of the
+   * page. The step indicator and the first field of the new step come into
+   * view together, and the visitor stays where they were working. The section
+   * carries scroll-mt-32 so the fixed header does not cover the heading.
+   */
+  const scrollToForm = () => {
+    sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
-
-  const removeFile = (index: number) =>
-    setAttachments((prev) => prev.filter((_, i) => i !== index));
 
   const nextStep = () => {
     setError(null);
     setStep((s) => Math.min(s + 1, STEP_LABELS.length - 1));
     setOpenAccordion(null);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    scrollToForm();
   };
 
   const prevStep = () => {
     setError(null);
     setStep((s) => Math.max(s - 1, 0));
     setOpenAccordion(null);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    scrollToForm();
   };
 
   const resetForm = () => {
@@ -618,8 +609,9 @@ export default function EventRFPForm() {
   return (
     <>
       <section
+        ref={sectionRef}
         id="rfp"
-        className="scroll-mt-32  px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24"
+        className="scroll-mt-32 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24"
       >
         <div className="mx-auto max-w-7xl">
           <p className="section-label text-center">Plan Every Detail</p>
@@ -842,19 +834,19 @@ export default function EventRFPForm() {
                       onChange={updateField}
                     />
                     <FieldCard
-                      label="Load-In Date & Time"
+                      label="Load In Date & Time"
                       name="loadInDateTime"
                       value={fields.loadInDateTime || ""}
                       onChange={updateField}
                     />
                     <FieldCard
-                      label="Vendor Load-In"
+                      label="Vendor Load In"
                       name="vendorLoadIn"
                       value={fields.vendorLoadIn || ""}
                       onChange={updateField}
                     />
                     <FieldCard
-                      label="Load-Out Date & Time"
+                      label="Load Out Date & Time"
                       name="loadOutDateTime"
                       value={fields.loadOutDateTime || ""}
                       onChange={updateField}
@@ -886,7 +878,7 @@ export default function EventRFPForm() {
                       "Fashion Show",
                       "Press Conference",
                       "Private Celebration",
-                      "Pop-Up Experience",
+                      "Pop Up Experience",
                       "Other",
                     ]}
                     selected={eventType}
@@ -953,15 +945,15 @@ export default function EventRFPForm() {
                       "Registration Area",
                       "VIP Lounge",
                       "Speaker Ready Room",
-                      "Back-of-House Production Office",
+                      "Back of House Production Office",
                       "Catering Prep Kitchen",
                       "Freight Elevator",
                       "Loading Dock",
                       "Coat Check",
                       "ADA Accessibility",
                       "Secure Storage",
-                      "Wi-Fi",
-                      "High-Speed Internet",
+                      "WiFi",
+                      "High Speed Internet",
                       "Power Distribution",
                     ]}
                     selected={venueRequirements}
@@ -985,7 +977,7 @@ export default function EventRFPForm() {
                       "Banquet",
                       "Cabaret",
                       "Hollow Square",
-                      "U-Shape",
+                      "U Shape",
                       "Conference",
                       "Cocktail Style",
                       "Standing Reception",
@@ -1044,7 +1036,7 @@ export default function EventRFPForm() {
                       items={[
                         "Buffet",
                         "Plated Dinner",
-                        "Multi-Course Dinner",
+                        "Multi Course Dinner",
                         "Chef's Table Experience",
                       ]}
                       selected={foodDetailed.dinner}
@@ -1064,7 +1056,7 @@ export default function EventRFPForm() {
                         "Cocktail Reception",
                         "Grazing Tables",
                         "Dessert Display",
-                        "Late-Night Snacks",
+                        "Late Night Snacks",
                       ]}
                       selected={foodDetailed.reception}
                       onToggle={(i) =>
@@ -1117,9 +1109,9 @@ export default function EventRFPForm() {
                       "Halal",
                       "Vegan",
                       "Vegetarian",
-                      "Gluten-Free",
-                      "Dairy-Free",
-                      "Nut-Free",
+                      "Gluten Free",
+                      "Dairy Free",
+                      "Nut Free",
                       "Custom Dietary Requirements",
                     ]}
                     selected={culinary}
@@ -1212,7 +1204,7 @@ export default function EventRFPForm() {
                         "Zoom Integration",
                         "Microsoft Teams",
                         "Webinar Production",
-                        "Multi-Camera Broadcast",
+                        "Multi Camera Broadcast",
                         "Recording Services",
                       ]}
                       selected={avProduction.streaming}
@@ -1325,7 +1317,7 @@ export default function EventRFPForm() {
                       "Digital Invitations",
                       "Name Badges",
                       "Credential Printing",
-                      "Large-Format Printing",
+                      "Large Format Printing",
                       "Signage",
                       "Wayfinding",
                       "Sponsor Branding",
@@ -1425,7 +1417,7 @@ export default function EventRFPForm() {
                       "Security",
                       "EMT",
                       "Cleaning Crew",
-                      "Load-In Crew",
+                      "Load In Crew",
                       "Strike Crew",
                     ]}
                     selected={staffing}
@@ -1489,61 +1481,37 @@ export default function EventRFPForm() {
                   </div>
                 </div>
 
-                {/* File uploads */}
+                {/* Attachments */}
                 <div className="border-t border-gray-200 pt-12">
-                  <h4 className="mb-2 text-xs font-semibold tracking-[0.2em] text-purple uppercase">
-                    Floor Plans, Drawings & Design Concepts
-                  </h4>
-                  <p className="mb-6 text-sm text-gray-500">
-                    Upload floor plans, CAD drawings, renderings, brand
-                    guidelines, or any design concepts you would like us to work
-                    from. Up to {MAX_FILES} files, 20MB each.
-                  </p>
-
-                  <label
-                    htmlFor="rfp-attachments"
-                    className="flex cursor-pointer flex-col items-center justify-center border-2 border-dashed border-gray-300 bg-gray-50/50 px-6 py-10 text-center transition-colors duration-200 hover:border-purple hover:bg-purple/5"
-                  >
-                    <Upload className="mb-3 h-8 w-8 text-purple" />
-                    <span className="text-sm font-semibold text-black">
-                      Click to upload files
+                  <div className="mb-6 flex items-start gap-3">
+                    <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center bg-purple/10">
+                      <Paperclip className="h-4 w-4 text-purple" />
                     </span>
-                    <span className="mt-1 text-xs text-gray-500">
-                      PDF, DWG, DXF, JPG, PNG, AI, EPS, PSD, DOC, XLS, ZIP
-                    </span>
-                    <input
-                      id="rfp-attachments"
-                      type="file"
-                      ref={fileInputRef}
-                      multiple
-                      onChange={handleFileChange}
-                      className="hidden"
-                      accept=".pdf,.dwg,.dxf,.jpg,.jpeg,.png,.gif,.webp,.ai,.eps,.psd,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip"
-                    />
-                  </label>
+                    <div>
+                      <h4 className="text-xs font-semibold tracking-[0.2em] text-purple uppercase">
+                        Attachments
+                      </h4>
+                      <p className="mt-2 text-sm leading-relaxed text-gray-600">
+                        Add anything that helps us price and design accurately.
+                        Floor plans, CAD drawings, renderings, brand
+                        guidelines, mood boards, seating charts, a run of show,
+                        or a previous year deck. Attach as many as you need, up
+                        to {MAX_FILES} files at 20MB each and 60MB in total.
+                      </p>
+                    </div>
+                  </div>
 
-                  {attachments.length > 0 && (
-                    <ul className="mt-4 space-y-2">
-                      {attachments.map((file, index) => (
-                        <li
-                          key={`${file.name}-${index}`}
-                          className="flex items-center justify-between border border-gray-200 bg-gray-50 px-3 py-2"
-                        >
-                          <span className="truncate text-sm text-gray-700">
-                            {file.name} ({(file.size / 1024).toFixed(1)} KB)
-                          </span>
-                          <button
-                            type="button"
-                            onClick={() => removeFile(index)}
-                            className="ml-3 shrink-0 text-red-600 transition-colors hover:text-red-800"
-                            aria-label={`Remove ${file.name}`}
-                          >
-                            <X className="h-4 w-4" />
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+                  <FileDropzone
+                    id="rfp-attachments"
+                    files={attachments}
+                    onChange={handleAttachmentsChange}
+                    onError={setError}
+                    maxFiles={MAX_FILES}
+                    maxFileSize={MAX_FILE_SIZE}
+                    maxTotalSize={MAX_TOTAL_SIZE}
+                    label="Drag your files here"
+                    hint="Floor plans, CAD drawings, renderings, brand guidelines, mood boards, seating charts, run of show documents"
+                  />
                 </div>
 
                 <div className="border-t border-gray-200 pt-12">

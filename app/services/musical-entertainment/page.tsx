@@ -20,7 +20,7 @@ export default function MusicalEntertainmentServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/galas/gallery/9.jpg"
+        image="/services/musical-entertainment/hero/hero.png"
         title="Musical Entertainment"
         subtitle="Curated musical talent that sets the tone and defines the energy of your event"
       />
@@ -42,7 +42,7 @@ export default function MusicalEntertainmentServicePage() {
       />
 
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="The Sound. The Energy. The Experience."
         subtitle="Musical Entertainment"
         description="From a string quartet at cocktail hour to a full band closing the night, we curate entertainment that does not simply perform for your guests. It connects with them."

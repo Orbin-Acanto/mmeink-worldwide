@@ -18,7 +18,7 @@ execution, and strike. Clients can engage a single service or the full stack.
 
 ## Services
 
-- [Custom Fabrication](https://www.mmeink.com/services/custom-fabrication): Experiential activations, product launches, trade show exhibits, immersive environments, pop-ups, and branded installations, designed and built in house.
+- [Custom Fabrication](https://www.mmeink.com/services/custom-fabrication): Experiential activations, product launches, trade show exhibits, immersive environments, pop ups, and branded installations, designed and built in house.
 - [Large Format Printing and Branded Graphics](https://www.mmeink.com/services/printing): Large format printing, custom signage, dimensional graphics, step and repeats, backdrops, wall, window and floor graphics, banners, wayfinding, and exhibition graphics.
 - [Audio Visual and Event Technology](https://www.mmeink.com/services/audio-visual): Sound systems, LED video walls, projection, presentation technology, live streaming, video conferencing, show calling, technical direction, and on site engineering.
 - [Lighting Design and Production](https://www.mmeink.com/services/lighting): Architectural lighting, intelligent and moving lighting, LED systems, uplighting, stage and scenic lighting, pin spotting, gobo and logo projection, and atmospheric effects.
@@ -29,13 +29,14 @@ execution, and strike. Clients can engage a single service or the full stack.
 - [Event Rentals](https://www.mmeink.com/services/rentals): Lounge furniture, sofas, chairs, tables, bars, cocktail tables, specialty seating, staging, linens, décor, backdrops, red carpets, stanchions, and lighting.
 - [Musical Entertainment](https://www.mmeink.com/services/musical-entertainment): Live bands, DJs, vocalists, jazz ensembles, string quartets, pianists, orchestras, and custom musical productions, including booking and technical production.
 - [Entertainment and Interactive Experiences](https://www.mmeink.com/services/entertainment): Specialty performers, aerialists, magicians, 360 degree video booths, AI powered photo experiences, casino and carnival experiences, arcade games, simulators, virtual reality, and team building.
-- [Logistics, White Glove Services and Storage](https://www.mmeink.com/services/logistics): White glove delivery, dedicated trucking, freight coordination, receiving, inventory management, warehousing, packing and crating, installation, strike, and return logistics.
+- [Specialty Entertainment](https://www.mmeink.com/services/specialty-entertainment): Aerialists, lyra and silks artists, acrobats and contortionists, living statues, human tables, living champagne walls, body painted and mirror performers, specialty and LED dancers, fire, pixel and glow performers, strolling magicians and mentalists, celebrity impersonators, electric violinists and string ensembles, live and caricature artists, and custom theatrical productions, with casting, costume direction, choreography, show calling, and on site talent management.
+- [Logistics, White Glove Services and Storage](https://www.mmeink.com/services/logistics): White glove delivery, dedicated trucking, freight coordination, receiving, inventory management, warehousing, packing and crating, installation, strike, and return logistics. Also covers full event management: planning and budget control, venue and vendor coordination, run of show and show calling, and on site management through load out.
 
 ## Event types produced
 
 - [Brand Activations](https://www.mmeink.com/events/brand-activations)
 - [Product Launches](https://www.mmeink.com/events/product-launches)
-- [Exhibits and Trade Shows](https://www.mmeink.com/events/exhibits-trade-shows)
+- [Exhibitions & Trade Shows](https://www.mmeink.com/events/exhibits-trade-shows)
 - [Conferences and Meetings](https://www.mmeink.com/events/conferences-meetings)
 - [Award Dinners](https://www.mmeink.com/events/award-dinners)
 - [Galas](https://www.mmeink.com/events/galas)
@@ -60,4 +61,6 @@ Sweet'N Low, OpenText, Skullcandy, Tommy Hilfiger, Swiss Re, Havas Media.
 - [Event types](https://www.mmeink.com/events)
 - [Portfolio](https://www.mmeink.com/work)
 - [About](https://www.mmeink.com/about)
+- [Sizzle reel](https://www.mmeink.com/about/sizzle-reel)
+- [Digital brochure](https://www.mmeink.com/about/brochure)
 - [Contact and proposal request](https://www.mmeink.com/contact)

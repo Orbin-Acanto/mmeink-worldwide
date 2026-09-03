@@ -227,7 +227,7 @@ export default function ContactPage() {
       <section className="relative w-full h-[90vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/events/exhibitions/gallery/2.jpg"
+            src="/contact/testimonial/testimonial.png"
             alt="Contact Us"
             fill
             className="object-cover"

@@ -6,6 +6,28 @@
 
 ---
 
+> ## Superseded in part
+>
+> This report was written before the asset restructure. The findings about
+> **text** still stand: copy awaiting approval, the placeholder case studies,
+> the team biographies, the statistics, and the questions in section 11 are all
+> still open, and section 9 remains the photography brief.
+>
+> The findings about **where files live** no longer apply. Every borrowed and
+> stock image has been replaced by a placeholder that states the size it needs
+> to be delivered at, `public/` is now organised one folder per page, and
+> nothing is shared between two pages. Read
+> [ASSET_SPEC.md](ASSET_SPEC.md) for the current map, which is generated from
+> disk rather than written by hand.
+>
+> Also since this report: the two spelling errors on the Our Work page are
+> fixed, every gallery image has its own alt text, the 101 unused files have
+> moved to `asset-archive/` outside `public/`, and three pages have been added
+> (Specialty Entertainment, and the sizzle reel and brochure pages under About).
+> Exhibits and Trade Shows is now labelled Exhibitions and Trade Shows.
+
+---
+
 ## How to read this document
 
 The site has 31 live pages. This report walks through every one of them, section by section. For each section you will find what is on screen right now, where the pictures come from, and what we still need from you.

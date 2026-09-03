@@ -5,24 +5,29 @@ import {
   FaqJsonLd,
   ServiceJsonLd,
 } from "@/components/seo/JsonLd";
-import { LogisticsFAQ } from "@/data";
+import { EventManagementData, LogisticsFAQ } from "@/data";
 import { serviceIntros } from "@/data/serviceIntros";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Event Logistics, White Glove Services & Storage | MME Worldwide",
-  description: "Event logistics, white glove delivery, and storage. Dedicated trucking, freight coordination, receiving, inventory management, warehousing, crating, installation, and strike for multi city programs.",
+  title: "Event Logistics, Event Management & Storage | MME Worldwide",
+  description:
+    "Event management and logistics under one team. Planning and budget control, venue and vendor coordination, run of show and show calling, on site management, white glove delivery, dedicated trucking, warehousing, crating, installation, and strike.",
   path: "/services/logistics",
   keywords: [
-      "event logistics",
-      "white glove delivery",
-      "trade show logistics",
-      "event asset storage",
-      "exhibit warehousing",
-      "freight coordination events",
-      "inventory management events",
-      "packing and crating",
-      "roadshow logistics",
-      "multi city activation logistics"
+    "event management company",
+    "event manager NYC",
+    "event logistics",
+    "run of show and show calling",
+    "venue and vendor coordination",
+    "event budget management",
+    "on site event management",
+    "white glove delivery",
+    "trade show logistics",
+    "event asset storage",
+    "exhibit warehousing",
+    "freight coordination events",
+    "packing and crating",
+    "multi city activation logistics",
   ],
 });
 
@@ -34,17 +39,23 @@ export default function LogisticsServiceLayout({
   return (
     <>
       <ServiceJsonLd
-        name="Logistics, White Glove Services and Storage"
+        name="Logistics, Event Management and White Glove Storage"
         description={metadata.description as string}
         path="/services/logistics"
-        capabilities={serviceIntros["logistics"].capabilities}
+        capabilities={[
+          ...EventManagementData.pillars.flatMap((pillar) => pillar.points),
+          ...serviceIntros["logistics"].capabilities,
+        ]}
       />
       <FaqJsonLd faqs={LogisticsFAQ} />
       <BreadcrumbJsonLd
         items={[
           { name: "Home", path: "/" },
           { name: "Services", path: "/services" },
-          { name: "Logistics, White Glove Services and Storage", path: "/services/logistics" },
+          {
+            name: "Logistics, Event Management and White Glove Storage",
+            path: "/services/logistics",
+          },
         ]}
       />
       {children}

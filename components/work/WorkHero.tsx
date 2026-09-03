@@ -3,9 +3,17 @@
 import { motion } from "framer-motion";
 import { Play, Pause } from "lucide-react";
 import { useRef, useState } from "react";
+import Image from "next/image";
 
 interface WorkHeroProps {
-  videoSrc: string;
+  /** Path to an MP4 in `public/`. Omit while the film is still being cut. */
+  videoSrc?: string;
+  /**
+   * Still shown behind the headline when there is no film yet. It carries the
+   * aspect ratio and pixel size the edit should be delivered at, so the slot
+   * states its own requirement instead of borrowing another page's footage.
+   */
+  posterSrc?: string;
   title: string;
   highlightedWord: string;
   subtitle: string;
@@ -15,6 +23,7 @@ interface WorkHeroProps {
 
 export default function WorkHero({
   videoSrc,
+  posterSrc,
   title,
   highlightedWord,
   subtitle,
@@ -37,17 +46,29 @@ export default function WorkHero({
 
   return (
     <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
-      <video
-        ref={videoRef}
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src={videoSrc} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {videoSrc ? (
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster={posterSrc}
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <Image
+          src={posterSrc as string}
+          alt={`${title} ${highlightedWord}`}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      )}
 
       <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-black/70" />
 
@@ -72,20 +93,23 @@ export default function WorkHero({
         </div>
       </div>
 
-      <motion.button
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        onClick={toggleVideo}
-        className="absolute bottom-8 right-8 p-4 bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 group"
-        aria-label={isPlaying ? "Pause video" : "Play video"}
-      >
-        {isPlaying ? (
-          <Pause className="w-6 h-6 text-white" />
-        ) : (
-          <Play className="w-6 h-6 text-white" />
-        )}
-      </motion.button>
+      {/* Nothing to pause when the slot is still showing its placeholder. */}
+      {showVideoControls && videoSrc && (
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          onClick={toggleVideo}
+          className="absolute bottom-8 right-8 p-4 bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 group"
+          aria-label={isPlaying ? "Pause video" : "Play video"}
+        >
+          {isPlaying ? (
+            <Pause className="w-6 h-6 text-white" />
+          ) : (
+            <Play className="w-6 h-6 text-white" />
+          )}
+        </motion.button>
+      )}
 
       <motion.div
         initial={{ opacity: 0 }}

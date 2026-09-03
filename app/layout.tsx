@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SmoothAnchors from "@/components/SmoothAnchors";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { BRAND, SITE_URL, buildMetadata } from "@/lib/seo";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <OrganizationJsonLd />
+        <SmoothAnchors />
         <Navbar />
         {children}
         <Footer />

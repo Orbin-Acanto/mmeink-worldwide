@@ -15,6 +15,12 @@ interface AboutSectionProps {
   title: string;
   titleHighlight: string;
   description: string;
+  /**
+   * The artwork beside the copy. Passed in per page so each page owns its own
+   * copy of the file rather than three pages sharing one path.
+   */
+  graphic: string;
+  graphicAlt?: string;
 }
 
 export default function AboutSection({
@@ -22,6 +28,8 @@ export default function AboutSection({
   title,
   titleHighlight,
   description,
+  graphic,
+  graphicAlt = "MME Worldwide, thirty years of event production",
 }: AboutSectionProps) {
   return (
     <section
@@ -61,8 +69,8 @@ export default function AboutSection({
             className="relative w-full h-[260px] sm:h-[360px] md:h-[480px] lg:h-[540px] mt-8 md:mt-0"
           >
             <Image
-              src="/shared/brand/mme-30th.png"
-              alt="Event production lighting and stage"
+              src={graphic}
+              alt={graphicAlt}
               fill
               className="object-cover"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"

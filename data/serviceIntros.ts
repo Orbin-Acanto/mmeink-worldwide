@@ -35,7 +35,7 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
     eyebrow: "Custom Fabrication",
     headline: "From Brand Vision to Real World Experience",
     paragraphs: [
-      "At MME Worldwide, we partner with leading brands and agencies to transform ambitious ideas into powerful physical experiences. Our custom fabrication capabilities bring brand strategy to life through experiential activations, product launches, trade shows, immersive environments, pop-ups, branded installations, and high-profile corporate experiences designed to command attention and deepen audience engagement.",
+      "At MME Worldwide, we partner with leading brands and agencies to transform ambitious ideas into powerful physical experiences. Our custom fabrication capabilities bring brand strategy to life through experiential activations, product launches, trade shows, immersive environments, pop ups, branded installations, and high profile corporate experiences designed to command attention and deepen audience engagement.",
       "From initial creative development through engineering, fabrication, logistics, installation, and execution, MME provides an integrated approach under one experienced production partner. Every environment is thoughtfully designed to reflect your brand identity, support your marketing objectives, and create meaningful moments between your brand and its audience.",
       "Whether launching a global product, creating an immersive consumer activation, or developing a one of a kind brand environment, MME Worldwide turns creative vision into experiences that engage, inspire, and leave a lasting brand impression.",
     ],
@@ -46,7 +46,7 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
       "Product launches",
       "Trade show exhibits",
       "Immersive environments",
-      "Pop-ups and retail activations",
+      "Pop ups and retail activations",
       "Branded installations",
       "Corporate brand experiences",
       "Creative development and design",
@@ -59,7 +59,7 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
     eyebrow: "Large Format Printing & Branded Graphics",
     headline: "Make Your Brand Impossible to Miss",
     paragraphs: [
-      "At MME Worldwide, our professional printing and graphic production services transform creative concepts into bold, high impact brand experiences. From corporate events and product launches to experiential activations, trade shows, pop-ups, conferences, and retail environments, we produce premium visual solutions designed to command attention and reinforce your brand at every touchpoint.",
+      "At MME Worldwide, our professional printing and graphic production services transform creative concepts into bold, high impact brand experiences. From corporate events and product launches to experiential activations, trade shows, pop ups, conferences, and retail environments, we produce premium visual solutions designed to command attention and reinforce your brand at every touchpoint.",
       "Our capabilities include large format printing, custom signage, dimensional graphics, step and repeats, branded backdrops, wall and window graphics, floor graphics, banners, custom decals, event branding, exhibition graphics, wayfinding, scenic graphics, and specialty printed installations.",
       "From artwork preparation and production through fabrication, delivery, installation, and removal, MME Worldwide provides a seamless, end to end solution, ensuring exceptional quality, brand consistency, and flawless execution.",
       "Whether creating a single statement piece or branding an entire environment, MME Worldwide turns every surface into an opportunity to tell your brand story.",
@@ -286,9 +286,10 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
   },
 
   logistics: {
-    eyebrow: "Logistics, White Glove Services & Storage",
+    eyebrow: "Event Management, Logistics & White Glove Storage",
     headline: "Seamless Logistics. Exceptional Care. Flawless Execution",
     paragraphs: [
+      "MME Worldwide manages events as well as moving them. An MME event manager owns the plan from the first site visit to the final load out, holding the production schedule, the line item budget, the vendor contracts, the permits, the floor plan, the run of show, and the crew, so you brief one team and call one number.",
       "At MME Worldwide, exceptional events depend on what happens behind the scenes. Our comprehensive logistics and white glove services provide brands, agencies, exhibitors, and corporate clients with a seamless solution for the transportation, handling, storage, delivery, installation, and management of event assets.",
       "From high value décor and custom fabrication to trade show exhibits, branded installations, production equipment, furniture, and specialty materials, every item is handled with precision and care. Our capabilities include white glove delivery, dedicated trucking, freight coordination, receiving and inspection, inventory management, short and long term storage, warehousing, packing and crating, installation, on site handling, strike, and return logistics.",
       "For multi city activations, product launches, roadshows, and recurring corporate programs, MME Worldwide can manage your assets from one event to the next, providing secure storage, inventory tracking, scheduled deployment, and coordinated transportation to help streamline operations and protect your investment.",
@@ -296,8 +297,16 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
     ],
     closing:
       "Handled with Care. Delivered with Precision. Managed from Start to Finish.",
-    capabilitiesHeading: "Logistics & Storage Capabilities",
+    capabilitiesHeading: "Event Management & Logistics Capabilities",
     capabilities: [
+      "Production schedule and critical path",
+      "Line item budget and change control",
+      "Vendor sourcing and contracting",
+      "Permits, licences, and certificates of insurance",
+      "Site surveys and floor plans",
+      "Run of show and live show calling",
+      "On site management and load out supervision",
+      "Reconciliation and post event reporting",
       "White glove delivery",
       "Dedicated trucking",
       "Freight coordination",
@@ -376,6 +385,35 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
       "Virtual reality experiences",
       "Team building activities",
       "Custom branded experiences",
+    ],
+  },
+
+  "specialty-entertainment": {
+    eyebrow: "Specialty Entertainment",
+    headline: "Extraordinary Talent. Unexpected Moments.",
+    paragraphs: [
+      "At MME Worldwide, entertainment is more than a performance. It is part of the experience, and it is planned with the same care as the staging, the lighting, and the room itself.",
+      "Our Specialty Entertainment Division brings together an extraordinary collection of unique performers, immersive characters, specialty artists, musicians, dancers, and theatrical talent, all selected to transform an event and hold a room.",
+      "From the moment guests arrive to the final performance of the evening, our creative team curates entertainment around your brand, your theme, your audience, your venue, and your event vision.",
+      "Whether you are producing an intimate private celebration, a luxury wedding, a corporate gala, a product launch, a conference, an experiential activation, or a large scale celebration, MME creates entertainment moments designed to be remembered.",
+    ],
+    closing:
+      "Extraordinary Talent. Unexpected Moments. Unforgettable Experiences.",
+    capabilitiesHeading: "Specialty Entertainment Capabilities",
+    capabilities: [
+      "Aerialists, lyra artists, and silks",
+      "Acrobats, contortionists, and hand balancing",
+      "Living statues, human tables, and champagne walls",
+      "Body painted and mirror performers",
+      "Contemporary, ballroom, Latin, and LED dancers",
+      "Fire, pixel, glow, and laser performers",
+      "Strolling magicians and mentalists",
+      "Celebrity impersonators and themed characters",
+      "Electric violinists, saxophonists, and string ensembles",
+      "Live, digital, caricature, and fashion illustration artists",
+      "Custom theatrical productions and original show concepts",
+      "Casting, costume direction, and choreography",
+      "Show calling and on site talent management",
     ],
   },
 };

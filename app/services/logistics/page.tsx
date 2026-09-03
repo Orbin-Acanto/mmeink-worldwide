@@ -5,9 +5,11 @@ import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
+import EventManagementSection from "@/components/services/EventManagementSection";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
+  EventManagementData,
   LogisticsCaseStudiesData,
   LogisticsData,
   LogisticsFAQ,
@@ -20,12 +22,22 @@ export default function LogisticsServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/logistics/gallery/1.jpg"
+        image="/services/logistics/hero/hero.png"
         title="Logistics"
-        subtitle="White glove logistics, storage, and asset management from the warehouse to the event floor"
+        subtitle="Event management, white glove logistics, and storage, from the first site visit to the final load out"
       />
 
       <ServiceIntro content={serviceIntros["logistics"]} />
+
+      <EventManagementSection
+        eyebrow={EventManagementData.eyebrow}
+        title={EventManagementData.title}
+        intro={EventManagementData.intro}
+        pillars={EventManagementData.pillars}
+        metrics={EventManagementData.metrics}
+        image={EventManagementData.image}
+        supportImage={EventManagementData.supportImage}
+      />
 
       <WhatWeOffer
         title={LogisticsData.title}
@@ -42,7 +54,7 @@ export default function LogisticsServicePage() {
       />
 
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Handled with Care. Delivered with Precision."
         subtitle="Logistics, White Glove Services & Storage"
         description="From white glove delivery and dedicated trucking to warehousing and inventory management, your assets arrive at the right place, at the right time, in presentation ready condition."

@@ -20,7 +20,7 @@ export default function LightingServicePage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/services/audio-visual/gallery/9.jpg"
+        image="/services/lighting/hero/hero.png"
         title="Lighting"
         subtitle="Lighting design that creates emotion, defines atmosphere, and transforms the space"
       />
@@ -42,7 +42,7 @@ export default function LightingServicePage() {
       />
 
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Illuminate. Transform. Experience."
         subtitle="Lighting Design & Production"
         description="Lighting is more than illumination. We use light to shape atmosphere, highlight key moments, and transform how your audience experiences the room."

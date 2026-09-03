@@ -10,7 +10,7 @@ export default function OurTeamSection() {
     <section className="relative w-full py-20 bg-white overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <Image
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+          src="/about/team/team-background.png"
           alt="Team Background"
           fill
           className="object-cover"

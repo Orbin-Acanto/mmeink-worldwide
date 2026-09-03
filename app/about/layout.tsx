@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
-import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = buildMetadata({
   title: "About MME Worldwide | Event Production Since 1995",
@@ -23,15 +22,8 @@ export default function AboutLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "Home", path: "/" },
-          { name: "About", path: "/about" },
-        ]}
-      />
-      {children}
-    </>
-  );
+  // The breadcrumb for /about itself lives on the page rather than here,
+  // because this layout also wraps /about/sizzle-reel and /about/brochure,
+  // which each publish their own breadcrumb trail.
+  return <>{children}</>;
 }

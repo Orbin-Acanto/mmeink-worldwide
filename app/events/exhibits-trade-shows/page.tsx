@@ -18,22 +18,22 @@ export default function EventExhibitsTradeShowsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/exhibitions/gallery/3.jpg"
-        title="Exhibitions"
-        subtitle="Create standout booths that attract, engage, and convert"
+        image="/events/exhibits-trade-shows/hero/hero.jpg"
+        title="Exhibitions & Trade Shows"
+        subtitle="Custom booths, brand exhibitions, and showrooms engineered, shipped, and installed by one team"
       />
       <WhatWeDoSection offerings={ExhibitsTradeShowsEventTypeOfferings} />
       <CaseStudiesSection caseStudies={ExhibitsTradeShowsCaseStudiesData} />
       <ImageGallerySection
-        title="Exhibitions"
-        subtitle="Custom booths and show-floor experiences designed to stand out"
+        title="Exhibitions & Trade Shows"
+        subtitle="Island, peninsula, and inline booths, brand exhibitions, and showroom environments built in our own shop and installed on show floors across the country."
         images={ExhibitsTradeShowsImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Make Impact"
-        subtitle="At Your Next Show"
-        description="From booth design to execution, we help your brand get noticed and remembered."
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
+        title="Own the Show Floor."
+        subtitle="Trade Show Exhibits & Brand Exhibitions"
+        description="Send us the exhibitor kit and the deadline, or the story you want people to walk through. We handle the design, the build, the paperwork, the freight, and the crew on the floor."
         primaryButton={{
           text: "Get Started",
           href: "/contact",

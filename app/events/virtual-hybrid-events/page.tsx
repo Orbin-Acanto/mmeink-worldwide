@@ -18,7 +18,7 @@ export default function EventVirtualHybridPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/virtual-hybrid-events/gallery/7.jpg"
+        image="/events/virtual-hybrid-events/hero/hero.jpg"
         title="Virtual & Hybrid Event"
         subtitle="Create lasting connections through memorable virtual experiences"
       />
@@ -30,7 +30,7 @@ export default function EventVirtualHybridPage() {
         images={VirtualHyrbidImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Go Virtual Go Live"
         subtitle="Connect Anywhere"
         description="Seamless virtual and hybrid experiences designed to engage audiences wherever they are."

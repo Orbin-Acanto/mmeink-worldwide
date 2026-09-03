@@ -40,22 +40,37 @@ mmeink-worldwide/
 │   │   └── contact-form/
 │   │       └── route.ts        # POST handler for the contact form
 │   ├── about/
-│   ├── contact/
-│   ├── events/
 │   │   ├── page.tsx
+│   │   ├── sizzle-reel/         # Single showreel page
+│   │   └── brochure/            # Page turning digital brochure
+│   ├── contact/
+│   ├── events/                  # Overview plus 10 event type pages
+│   │   ├── page.tsx
+│   │   ├── award-dinners/
 │   │   ├── brand-activations/
 │   │   ├── conferences-meetings/
-│   │   ├── exhibits-trade-shows/
+│   │   ├── corporate-events/
+│   │   ├── exhibits-trade-shows/  # Labelled "Exhibitions & Trade Shows" on screen
 │   │   ├── galas/
 │   │   ├── product-launches/
+│   │   ├── seasonal-events/
+│   │   ├── themed-events/
 │   │   └── virtual-hybrid-events/
-│   ├── services/
+│   ├── services/                # Overview plus 13 service pages
 │   │   ├── page.tsx
 │   │   ├── audio-visual/
 │   │   ├── custom-fabrication/
 │   │   ├── design-decor/
+│   │   ├── entertainment/
+│   │   ├── lighting/
 │   │   ├── logistics/
-│   │   └── rentals/
+│   │   ├── musical-entertainment/
+│   │   ├── printing/
+│   │   ├── props/
+│   │   ├── rentals/
+│   │   ├── specialty-entertainment/
+│   │   ├── staging/
+│   │   └── themes/
 │   └── work/
 │       ├── page.tsx
 │       └── work-details/
@@ -63,11 +78,15 @@ mmeink-worldwide/
 │   ├── Navbar.tsx
 │   ├── Footer.tsx
 │   ├── Button.tsx
+│   ├── SmoothAnchors.tsx       # Smooth scrolling for in page anchors only
 │   ├── CTASection.tsx
 │   ├── TestimonialsSection.tsx
 │   ├── FAQ.tsx
 │   ├── about/
+│   ├── contact/                # EventRFPForm, FileDropzone
 │   ├── events/
+│   ├── media/                  # VideoFrame, BookReader
+│   ├── seo/                    # JSON-LD structured data helpers
 │   ├── services/
 │   ├── work/
 │   ├── project-details/
@@ -82,13 +101,34 @@ mmeink-worldwide/
 │   ├── ClientLogosSection.tsx
 │   └── ProcessSection.tsx
 ├── data/
-│   └── index.tsx               # All static content: nav, projects, team, FAQs, etc.
+│   ├── index.tsx               # All static content: nav, projects, team, FAQs, etc.
+│   └── serviceIntros.ts        # Long form, crawlable copy per service page
 ├── types/
 │   └── index.ts                # TypeScript interfaces
 ├── lib/
 │   ├── utils.ts                # cn() class merge utility
+│   ├── seo.ts                  # buildMetadata(), brand constants, keyword sets
 │   └── rate-limit.ts           # Upstash rate limiter config
-├── public/                     # Static assets (images, logos, icons)
+├── scripts/
+│   ├── lib/placeholder.mjs     # Placeholder artwork generator
+│   ├── generate-placeholders.mjs
+│   ├── asset-spec.mjs          # Writes ASSET_SPEC.md from what is on disk
+│   ├── design-brief.mjs        # Writes DESIGN_BRIEF.md for the design team
+│   ├── placeholder-manifest.json  # The asset spec, as data
+│   ├── optimize-images.mjs
+│   ├── find-orphans.mjs
+│   └── check-links.mjs
+├── public/                     # One folder per page. See ASSET_SPEC.md
+│   ├── home/
+│   ├── about/
+│   ├── work/
+│   ├── services/<service>/{hero,what-we-offer,case-study,gallery,cta}/
+│   ├── events/<event>/{hero,what-we-do,case-study,gallery,cta}/
+│   ├── contact/
+│   └── shared/                 # Logo and social icons only
+├── asset-archive/              # Real assets no page displays. Not served
+├── ASSET_SPEC.md               # Generated asset map, one row per folder
+├── DESIGN_BRIEF.md             # Generated photography and video request
 ├── next.config.ts
 ├── tailwind.config.*           # TailwindCSS config (v4 uses CSS-first config)
 ├── tsconfig.json
@@ -148,6 +188,8 @@ All routing follows Next.js App Router conventions. Each route directory contain
 |---|---|
 | `/` | `app/page.tsx` |
 | `/about` | `app/about/page.tsx` |
+| `/about/sizzle-reel` | `app/about/sizzle-reel/page.tsx` |
+| `/about/brochure` | `app/about/brochure/page.tsx` |
 | `/contact` | `app/contact/page.tsx` |
 | `/events` | `app/events/page.tsx` |
 | `/events/[type]` | `app/events/[type]/page.tsx` |
@@ -173,16 +215,29 @@ This is a deliberate architectural choice to keep content edits in one place rat
 | `navItems` | Navigation links and submenus for Navbar |
 | `workItems` | Portfolio items for the home marquee |
 | `stats` | Company statistics (projects, years, awards) |
-| `servicesEventsHome` | 6-item service grid shown on the home page |
-| `events` | 6 event type categories (galas, conferences, etc.) |
-| `services` | 5 service types (AV, fabrication, decor, etc.) |
+| `servicesEventsHome` | 6 item service grid shown on the home page |
+| `events` | 10 event type categories, in navigation order |
+| `services` | 13 service types, in navigation order |
+| `homeMarqueeProjects` | The 12 client projects with home page artwork |
+| `eventsMarqueeProjects` | The same projects with events page artwork |
+| `servicesFeaturedProjects` | The same projects with services page artwork |
 | `clientLogos` | 32 client brand logos |
 | `team` | 6 team members with bios, roles, and contacts |
 | `timeline` | 4 company milestones (1995 to 2025) |
 | `locations` | 3 office locations (NYC, Long Island, Miami) |
 | `projects` | 12 major projects with full detail data |
 | `steps` | 4-step process: Discover, Design, Produce, Deliver |
-| `faqs` | FAQ entries |
+| `faqs` | FAQ entries shared by the two overview pages |
+| `<Name>Data` | The twelve What We Offer cards for one service page |
+| `<Name>EventTypeOfferings` | The four What We Do tiles for one event page |
+| `<Name>CaseStudiesData` | Case study copy and gallery for one page |
+| `<Name>ImageGallery` | The masonry gallery for one page |
+| `<Name>FAQ` | The questions for one page |
+| `SpecialtyEntertainmentDivisions` | The eight talent bands |
+| `SpecialtyEntertainmentApproach` | Curation and one partner closing blocks |
+| `EventManagementData` | The Event Management band on the Logistics page |
+| `sizzleReel` | Copy and media for `/about/sizzle-reel` |
+| `brochure`, `brochurePages` | Copy and page spreads for `/about/brochure` |
 
 To add or edit content (team members, projects, services, etc.), edit this file. No database is involved; everything is hardcoded.
 
@@ -379,15 +434,62 @@ Uses `clsx` + `tailwind-merge` to safely merge class names without conflicts.
 
 Images are served via the Next.js `<Image>` component with optimization enabled.
 
-**Allowed remote domains** (configured in [next.config.ts](next.config.ts)):
-- `images.unsplash.com` - placeholder/demo images
-- `avatar.iran.liara.run` - team member avatars
+**No remote image hosts.** `remotePatterns` in [next.config.ts](next.config.ts) is
+deliberately empty: every image is served from `public/`. That also closes the
+image optimizer advisory GHSA-9g9p-9gw9-jx7f. Adding a remote host means
+reopening it, so prefer copying the asset into `public/`.
 
-**Supported formats:** AVIF, WebP (auto-negotiated)
+**Supported formats:** AVIF, WebP (auto negotiated).
 
-**Local assets** live in the `public/` directory. Client logos are in `public/client_logo/`.
+**`public/` is organised one folder per page**, and nothing is shared between
+two pages. If two pages show the same picture, each holds its own copy. The full
+map, and the delivery size for every slot, is in
+[ASSET_SPEC.md](ASSET_SPEC.md), which is generated from disk.
 
-To add a new remote image domain, update the `remotePatterns` array in `next.config.ts`.
+### Placeholders
+
+Assets the design team has not delivered yet are generated placeholders that
+carry their own requirement: the aspect ratio, the pixel size, the page and the
+slot are all baked into the artwork. Replace the file at the same path with the
+same filename and no code changes.
+
+```bash
+npm run assets:placeholders             # regenerate every placeholder
+npm run assets:placeholders -- --check  # report slots with no file on disk
+npm run assets:spec                     # rewrite ASSET_SPEC.md from disk
+npm run find:orphans                    # assets nothing references
+npm run check:links                     # broken routes and asset paths
+npm run optimize:images                 # shrink oversized photography in place
+```
+
+A real file over 400kB is never overwritten by the placeholder generator, so it
+is safe to run at any point in the handover.
+
+**Video slots.** `WorkHero` and `LandingHero` take `posterSrc` while a film is
+missing and `videoSrc` once it exists. `VideoFrame` on the sizzle reel page
+accepts a Vimeo or YouTube link or a path to an MP4.
+
+---
+
+## Scrolling
+
+**Do not add `scroll-behavior: smooth` to `html`.** It looks harmless and it
+breaks navigation. The App Router calls `window.scrollTo(0, 0)` on a route
+change; that CSS turns the jump into an animation the router then abandons, and
+the new page opens at the previous page's scroll offset.
+
+In page anchors are handled by [components/SmoothAnchors.tsx](components/SmoothAnchors.tsx)
+instead, mounted once in the root layout. It intercepts clicks on `a[href^="#"]`,
+calls `scrollIntoView({ behavior: "smooth" })` on the target, and pushes the
+hash so the section stays linkable. Route changes are left to the router, so a
+new page opens at the top and the Back button still restores position.
+
+Sections that are anchor targets carry `scroll-mt-28` or `scroll-mt-32` to
+clear the fixed header. `scrollIntoView` respects `scroll-margin-top`.
+
+The proposal builder scrolls to the top of its own section between steps rather
+than to the top of the page, so the step indicator and the first field of the
+new step arrive together.
 
 ---
 
@@ -457,9 +559,22 @@ The `LandingHero` uses CSS animations directly. The `StatItem` uses the custom `
 ### Add a New Event or Service Subpage
 
 1. Create a new folder under `app/events/` or `app/services/`
-2. Add `page.tsx` and optionally `layout.tsx` for metadata
-3. Compose the page using existing components from `components/events/` or `components/services/`
-4. Add the route to `navItems` in `data/index.tsx` so it appears in navigation
+2. Add `page.tsx`, and `layout.tsx` with `buildMetadata()` plus the JSON-LD
+   helpers from `components/seo/JsonLd`
+3. Compose the page using existing components from `components/events/` or
+   `components/services/`
+4. Add the route to `navItems` in `data/index.tsx` so it appears in navigation,
+   and to the `events` or `services` array so it appears in the overview grid
+   and the sitemap
+5. Add the page's data exports to `data/index.tsx`, and for a service page an
+   entry in `data/serviceIntros.ts`
+6. Add the page's asset slots to `scripts/placeholder-manifest.json`, then run
+   `npm run assets:placeholders` and `npm run assets:spec`
+
+**House style for copy.** No hyphens, en dashes or em dashes in anything a
+visitor reads. Write "on site", "end to end", "large format", "run of show".
+Every gallery image gets its own alt text describing that specific frame,
+because duplicated alt text helps neither a screen reader nor a crawler.
 
 ---
 
@@ -468,7 +583,7 @@ The `LandingHero` uses CSS animations directly. The `StatItem` uses the custom `
 - The project has no database. All content is hardcoded in `data/index.tsx`.
 - The only server-side integration is the contact form, which relies on three external services: Upstash Redis, Google reCAPTCHA, and N8N.
 - If any of those services are unavailable during development, the contact form will fail but the rest of the site works fine.
-- The Vimeo video in the hero requires an internet connection to load. On slow connections the fallback is the dark gradient overlay.
+- The home hero no longer embeds Vimeo. It renders a local poster until `videoSrc` is passed to `LandingHero`, so the page has no third party dependency above the fold.
 
 ---
 

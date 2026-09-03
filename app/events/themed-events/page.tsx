@@ -18,7 +18,7 @@ export default function EventThemedEventsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/brand-activations/gallery/22.jpg"
+        image="/events/themed-events/hero/hero.png"
         title="Themed Events"
         subtitle="One concept, carried through every detail"
       />
@@ -30,7 +30,7 @@ export default function EventThemedEventsPage() {
         images={ThemedEventsImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Build the World."
         subtitle="Fully Themed Event Production"
         description="From concept and renderings through fabrication and install, we deliver themed events that hold together in every direction guests look."

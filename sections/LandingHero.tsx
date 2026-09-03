@@ -8,46 +8,87 @@ interface LandingHeroProps {
   title?: string;
   subtitle?: string;
   showCTA?: boolean;
+  /**
+   * A Vimeo background player URL. Takes precedence over `videoSrc`, and is
+   * how the hero plays today. Needs `background=1&autoplay=1&loop=1&muted=1`
+   * on the query string or it will not play silently on its own.
+   */
+  embedUrl?: string;
+  /** Path to a self hosted MP4 in `public/`, used when there is no embed. */
+  videoSrc?: string;
+  /**
+   * Still behind both. It is the poster frame for a self hosted film, and the
+   * fallback when neither a film nor an embed is supplied, in which case it
+   * carries the aspect ratio and pixel size the hero edit needs.
+   */
+  posterSrc: string;
 }
 
 export default function LandingHero({
   title = "Creating Unforgettable Experiences",
   subtitle = "Premium event planning and production services that bring your vision to life",
   showCTA = true,
+  embedUrl,
+  videoSrc,
+  posterSrc,
 }: LandingHeroProps) {
   return (
     <div className="relative w-full h-screen overflow-hidden">
+      {/* Background film. An embed wins, then a self hosted file, and the
+          poster stands in on its own when neither has been supplied. */}
       <div className="absolute inset-0 w-full h-full">
-        <div
-          style={{
-            padding: "56.25% 0 0 0",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            width: "100vw",
-            height: "100vh",
-            minWidth: "100%",
-            minHeight: "100%",
-          }}
-        >
-          <iframe
-            src="https://player.vimeo.com/video/1041819066?h=07e5ac4551&background=1&autoplay=1&loop=1&muted=1&controls=0&title=0&byline=0&portrait=0"
+        {embedUrl ? (
+          <div
             style={{
+              padding: "56.25% 0 0 0",
               position: "absolute",
               top: "50%",
               left: "50%",
+              transform: "translate(-50%, -50%)",
               width: "100vw",
               height: "100vh",
-              minWidth: "177.78vh",
-              minHeight: "56.25vw",
-              transform: "translate(-50%, -50%)",
+              minWidth: "100%",
+              minHeight: "100%",
             }}
-            allow="autoplay; fullscreen; picture-in-picture"
-            className="pointer-events-none"
-            title="Background Video"
+          >
+            <iframe
+              src={embedUrl}
+              style={{
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                width: "100vw",
+                height: "100vh",
+                minWidth: "177.78vh",
+                minHeight: "56.25vw",
+                transform: "translate(-50%, -50%)",
+              }}
+              allow="autoplay; fullscreen; picture-in-picture"
+              className="pointer-events-none"
+              title={title}
+            />
+          </div>
+        ) : videoSrc ? (
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster={posterSrc}
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src={videoSrc} type="video/mp4" />
+          </video>
+        ) : (
+          <Image
+            src={posterSrc}
+            alt={title}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
           />
-        </div>
+        )}
       </div>
 
       <div className="absolute inset-0 bg-black/40 z-10" />

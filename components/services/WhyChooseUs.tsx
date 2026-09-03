@@ -12,18 +12,18 @@ const differentiators = [
   },
   {
     icon: Building2,
-    title: "In-House Capabilities",
+    title: "In House Capabilities",
     description: "Complete production services under one roof",
   },
   {
     icon: Package,
     title: "Turnkey Solutions",
-    description: "End-to-end event management",
+    description: "End to end event management",
   },
   {
     icon: Clock,
     title: "24/7 Support",
-    description: "Round-the-clock assistance",
+    description: "Round the clock assistance",
   },
 ];
 

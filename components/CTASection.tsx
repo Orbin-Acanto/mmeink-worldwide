@@ -8,16 +8,23 @@ export default function CTASection({
   primaryButton,
   title = "Ready to Create Something Amazing?",
   subtitle = "Let's bring your vision to life",
+  backgroundImage = "/shared/backgrounds/abstract-bg.jpg",
 }: {
   primaryButton: { href: string; text: string };
   title?: string;
   subtitle?: string;
+  /**
+   * Passed in per page. Every page owns its own copy of its closing artwork,
+   * so a second page using this section supplies its own path rather than
+   * borrowing the About page's file.
+   */
+  backgroundImage?: string;
 }) {
   return (
     <section className="relative w-full h-[40vh] min-h-80 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
-        style={{ backgroundImage: "url('/shared/backgrounds/abstract-bg.jpg')" }}
+        style={{ backgroundImage: `url('${backgroundImage}')` }}
       />
       <div className="absolute inset-0 bg-black/50" />
 

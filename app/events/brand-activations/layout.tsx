@@ -5,13 +5,13 @@ import { BrandActivationfaqs } from "@/data";
 
 export const metadata: Metadata = buildMetadata({
   title: "Brand Activation & Experiential Marketing | MME Worldwide",
-  description: "Brand activations and experiential marketing production. We design, fabricate, and produce immersive consumer activations, pop-ups, and branded environments that connect audiences to brands.",
+  description: "Brand activations and experiential marketing production. We design, fabricate, and produce immersive consumer activations, pop ups, and branded environments that connect audiences to brands.",
   path: "/events/brand-activations",
   keywords: [
     "brand activation agency",
     "experiential marketing agency",
     "consumer activation",
-    "pop-up activation",
+    "pop up activation",
     "immersive brand experience",
     "guerrilla marketing activation",
     "mobile tour activation",

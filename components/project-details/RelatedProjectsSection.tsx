@@ -14,16 +14,19 @@ interface RelatedProject {
 
 interface RelatedProjectsProps {
   projects: RelatedProject[];
+  /** Passed in per page so each page owns its own copy of the artwork. */
+  backgroundImage?: string;
 }
 
 export default function RelatedProjectsSection({
   projects,
+  backgroundImage = "/shared/backgrounds/abstract-bg.jpg",
 }: RelatedProjectsProps) {
   return (
     <section className="relative w-full overflow-hidden py-16 sm:py-20 lg:py-24 px-4">
       <div className="absolute inset-0 z-0">
         <img
-          src="/shared/backgrounds/abstract-bg.jpg"
+          src={backgroundImage}
           alt=""
           className="h-full w-full object-cover"
         />

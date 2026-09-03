@@ -18,7 +18,7 @@ export default function EventConferencesMeetingsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/conferences-meetings/gallery/conference_hero.jpg"
+        image="/events/conferences-meetings/hero/hero.jpg"
         title="Corporate Events"
         subtitle="From conferences to team building, we create impactful experiences"
       />
@@ -30,10 +30,10 @@ export default function EventConferencesMeetingsPage() {
         images={ConferenceImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Conferences Done Right"
         subtitle="Expert Planning & Production"
-        description="From executive meetings to large-scale conferences, we deliver seamless planning, production, and technical execution."
+        description="From executive meetings to large scale conferences, we deliver seamless planning, production, and technical execution."
         primaryButton={{
           text: "Plan Your Conference",
           href: "/contact",

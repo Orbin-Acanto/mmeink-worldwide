@@ -6,10 +6,22 @@ import { TextAnimate } from "@/components/ui/text-animate";
 
 interface EventIntroSectionProps {
   className?: string;
+  /**
+   * The three collage frames, wide first then two squares. Passed in so this
+   * section draws on the folder belonging to the page that renders it.
+   */
+  images: [string, string, string];
+  imageAlts?: [string, string, string];
 }
 
 export default function EventIntroSection({
   className = "",
+  images,
+  imageAlts = [
+    "Event production build by MME Worldwide",
+    "Event design and decor by MME Worldwide",
+    "Custom event fabrication by MME Worldwide",
+  ],
 }: EventIntroSectionProps) {
   return (
     <section
@@ -77,8 +89,8 @@ export default function EventIntroSection({
                 className="col-span-2 relative h-[250px] sm:h-[300px] lg:h-[350px] overflow-hidden"
               >
                 <Image
-                  src="/services/rentals/case-study/2.jpg"
-                  alt="Event Production"
+                  src={images[0]}
+                  alt={imageAlts[0]}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -93,8 +105,8 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="/services/design-decor/gallery/4.jpg"
-                  alt="Event Design"
+                  src={images[1]}
+                  alt={imageAlts[1]}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, 25vw"
@@ -109,8 +121,8 @@ export default function EventIntroSection({
                 className="relative h-[200px] sm:h-[250px] overflow-hidden"
               >
                 <Image
-                  src="/services/custom-fabrication/gallery/10.jpg"
-                  alt="Event Setup"
+                  src={images[2]}
+                  alt={imageAlts[2]}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, 25vw"

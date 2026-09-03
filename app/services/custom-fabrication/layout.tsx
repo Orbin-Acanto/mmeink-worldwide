@@ -10,7 +10,7 @@ import { serviceIntros } from "@/data/serviceIntros";
 
 export const metadata: Metadata = buildMetadata({
   title: "Custom Fabrication for Brand Experiences | MME Worldwide",
-  description: "Custom event fabrication for brands and agencies. MME Worldwide designs, engineers, and builds experiential activations, trade show exhibits, pop-ups, and branded environments from concept through installation.",
+  description: "Custom event fabrication for brands and agencies. MME Worldwide designs, engineers, and builds experiential activations, trade show exhibits, pop ups, and branded environments from concept through installation.",
   path: "/services/custom-fabrication",
   keywords: [
       "custom fabrication",
@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
       "experiential fabrication company",
       "brand activation fabrication",
       "trade show exhibit fabrication",
-      "pop-up shop fabrication",
+      "pop up shop fabrication",
       "scenic fabrication",
       "branded environments",
       "immersive environment builder",

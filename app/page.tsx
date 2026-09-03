@@ -1,7 +1,12 @@
 "use client";
 import ServicesOverviewSection from "@/components/services/ServicesOverviewSection";
 import StatsSection from "@/components/stats/StatsSection";
-import { clientLogos, projects, servicesEventsHome, stats } from "@/data";
+import {
+  clientLogos,
+  homeMarqueeProjects,
+  servicesEventsHome,
+  stats,
+} from "@/data";
 import AboutSection from "@/sections/AboutSection";
 import ClientLogosSection from "@/sections/ClientLogosSection";
 import HomeCTA from "@/sections/HomeCTA";
@@ -15,6 +20,8 @@ export default function Home() {
       <LandingHero
         title="Creating Unforgettable Experiences"
         subtitle="Premium event planning and production"
+        embedUrl="https://player.vimeo.com/video/1041819066?h=07e5ac4551&background=1&autoplay=1&loop=1&muted=1&controls=0&title=0&byline=0&portrait=0"
+        posterSrc="/home/hero/hero-video-poster.png"
       />
       <AboutSection
         label="About Us"
@@ -27,15 +34,16 @@ export default function Home() {
               your vision and exceed expectations."
         title="Crafting unforgettable"
         titleHighlight="event experiences"
+        graphic="/home/about/anniversary-30-years.png"
       />
-      <OurWorkMarqueSection items={projects} />
+      <OurWorkMarqueSection items={homeMarqueeProjects} />
       <ServicesOverviewSection
         services={servicesEventsHome}
         title="OUR"
         highlightedText="SERVICES"
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Ready to Create Magic?"
         subtitle="Let's Work Together"
         description="Transform your vision into an unforgettable experience. Our team is ready to bring your event to life."

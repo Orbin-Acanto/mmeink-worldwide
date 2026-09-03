@@ -17,7 +17,7 @@ export default function EventBrandActivationPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/brand-activations/gallery/49.jpg"
+        image="/events/brand-activations/hero/hero.jpg"
         title="Brand Activations"
         subtitle="Immersive experiences that bring your brand to life"
       />
@@ -29,7 +29,7 @@ export default function EventBrandActivationPage() {
         images={BrandActivationImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Activate Your Brand"
         subtitle="Experiential Marketing"
         description="We design immersive brand activations that engage audiences and create lasting impact."

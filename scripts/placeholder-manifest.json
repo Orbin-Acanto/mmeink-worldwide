@@ -1,0 +1,3922 @@
+[
+  {
+    "target": "/home/featured-work/work-01.png",
+    "page": "home",
+    "slot": "workCard",
+    "width": 900,
+    "height": 1200,
+    "kind": "image",
+    "label": "FEATURED WORK 01"
+  },
+  {
+    "target": "/home/featured-work/work-02.png",
+    "page": "home",
+    "slot": "workCard",
+    "width": 900,
+    "height": 1200,
+    "kind": "image",
+    "label": "FEATURED WORK 02"
+  },
+  {
+    "target": "/home/featured-work/work-03.png",
+    "page": "home",
+    "slot": "workCard",
+    "width": 900,
+    "height": 1200,
+    "kind": "image",
+    "label": "FEATURED WORK 03"
+  },
+  {
+    "target": "/home/featured-work/work-04.png",
+    "page": "home",
+    "slot": "workCard",
+    "width": 900,
+    "height": 1200,
+    "kind": "image",
+    "label": "FEATURED WORK 04"
+  },
+  {
+    "target": "/events/index/cards/card-05.png",
+    "page": "events",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 06"
+  },
+  {
+    "target": "/events/index/cards/card-07.png",
+    "page": "events",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 08"
+  },
+  {
+    "target": "/events/index/cards/card-08.png",
+    "page": "events",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 09"
+  },
+  {
+    "target": "/events/index/cards/card-09.png",
+    "page": "events",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 10"
+  },
+  {
+    "target": "/services/index/cards/card-02.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 02"
+  },
+  {
+    "target": "/services/index/cards/card-04.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 04"
+  },
+  {
+    "target": "/services/index/cards/card-05.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 05"
+  },
+  {
+    "target": "/services/index/cards/card-07.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 07"
+  },
+  {
+    "target": "/services/index/cards/card-08.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 08"
+  },
+  {
+    "target": "/services/index/cards/card-10.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 10"
+  },
+  {
+    "target": "/services/index/cards/card-11.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 11"
+  },
+  {
+    "target": "/services/index/cards/card-12.png",
+    "page": "services",
+    "slot": "cardSquare",
+    "width": 1200,
+    "height": 1200,
+    "kind": "image",
+    "label": "INDEX CARD 12"
+  },
+  {
+    "target": "/about/locations/new-york.png",
+    "page": "about",
+    "slot": "location",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "OFFICE LOCATION"
+  },
+  {
+    "target": "/about/locations/miami.png",
+    "page": "about",
+    "slot": "location",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "OFFICE LOCATION"
+  },
+  {
+    "target": "/work/project-details/slides/slide-01.png",
+    "page": "work/project-details",
+    "slot": "featuredSlide",
+    "width": 1200,
+    "height": 1500,
+    "kind": "image",
+    "label": "FEATURED SLIDE 01"
+  },
+  {
+    "target": "/work/project-details/slides/slide-02.png",
+    "page": "work/project-details",
+    "slot": "featuredSlide",
+    "width": 1200,
+    "height": 1500,
+    "kind": "image",
+    "label": "FEATURED SLIDE 02"
+  },
+  {
+    "target": "/work/project-details/slides/slide-03.png",
+    "page": "work/project-details",
+    "slot": "featuredSlide",
+    "width": 1200,
+    "height": 1500,
+    "kind": "image",
+    "label": "FEATURED SLIDE 03"
+  },
+  {
+    "target": "/work/project-details/slides/slide-04.png",
+    "page": "work/project-details",
+    "slot": "featuredSlide",
+    "width": 1200,
+    "height": 1500,
+    "kind": "image",
+    "label": "FEATURED SLIDE 04"
+  },
+  {
+    "target": "/work/project-details/slides/slide-05.png",
+    "page": "work/project-details",
+    "slot": "featuredSlide",
+    "width": 1200,
+    "height": 1500,
+    "kind": "image",
+    "label": "FEATURED SLIDE 05"
+  },
+  {
+    "target": "/work/project-details/related/project-01.png",
+    "page": "work/project-details",
+    "slot": "related",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "RELATED PROJECT 01"
+  },
+  {
+    "target": "/work/project-details/related/project-02.png",
+    "page": "work/project-details",
+    "slot": "related",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "RELATED PROJECT 02"
+  },
+  {
+    "target": "/work/project-details/related/project-03.png",
+    "page": "work/project-details",
+    "slot": "related",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "RELATED PROJECT 03"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-01.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 01",
+    "format": "gif"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-04.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 04",
+    "format": "gif"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-06.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 06",
+    "format": "gif"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-07.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 07",
+    "format": "gif"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-09.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 09",
+    "format": "gif"
+  },
+  {
+    "target": "/services/audio-visual/what-we-offer/offer-11.gif",
+    "page": "services/audio-visual",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 11",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-01.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 01",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-04.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 04",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-06.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 06",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-07.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 07",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-09.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 09",
+    "format": "gif"
+  },
+  {
+    "target": "/services/rentals/what-we-offer/offer-11.gif",
+    "page": "services/rentals",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 11",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-01.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 01",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-04.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 04",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-06.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 06",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-07.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 07",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-09.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 09",
+    "format": "gif"
+  },
+  {
+    "target": "/services/design-decor/what-we-offer/offer-11.gif",
+    "page": "services/design-decor",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 11",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-01.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-02.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-03.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-04.gif",
+    "page": "services/logistics",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 04",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-05.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-06.gif",
+    "page": "services/logistics",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 06",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-07.gif",
+    "page": "services/logistics",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 07",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-08.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-09.gif",
+    "page": "services/logistics",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 09",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-10.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-11.gif",
+    "page": "services/logistics",
+    "slot": "motionLoop",
+    "width": 1200,
+    "height": 800,
+    "kind": "video",
+    "label": "MOTION LOOP 11",
+    "format": "gif"
+  },
+  {
+    "target": "/services/logistics/what-we-offer/offer-12.png",
+    "page": "services/logistics",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/logistics/case-study/case-study-01.png",
+    "page": "services/logistics",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/logistics/case-study/case-study-02.png",
+    "page": "services/logistics",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/logistics/case-study/case-study-03.png",
+    "page": "services/logistics",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/logistics/case-study/case-study-04.png",
+    "page": "services/logistics",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/logistics/case-study/case-study-05.png",
+    "page": "services/logistics",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-01.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-02.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-03.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-04.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-05.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-06.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-07.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-08.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-09.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-10.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-11.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/logistics/gallery/gallery-12.png",
+    "page": "services/logistics",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-01.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-02.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-03.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-04.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-05.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-06.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-07.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-08.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-09.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-10.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-11.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/printing/what-we-offer/offer-12.png",
+    "page": "services/printing",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/printing/case-study/case-study-01.png",
+    "page": "services/printing",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/printing/case-study/case-study-02.png",
+    "page": "services/printing",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/printing/case-study/case-study-03.png",
+    "page": "services/printing",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/printing/case-study/case-study-04.png",
+    "page": "services/printing",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/printing/case-study/case-study-05.png",
+    "page": "services/printing",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-01.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-02.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-03.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-04.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-05.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-06.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-07.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-08.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-09.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-10.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-11.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/printing/gallery/gallery-12.png",
+    "page": "services/printing",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-01.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-02.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-03.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-04.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-05.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-06.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-07.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-08.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-09.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-10.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-11.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/lighting/what-we-offer/offer-12.png",
+    "page": "services/lighting",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/lighting/case-study/case-study-01.png",
+    "page": "services/lighting",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/lighting/case-study/case-study-02.png",
+    "page": "services/lighting",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/lighting/case-study/case-study-03.png",
+    "page": "services/lighting",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/lighting/case-study/case-study-04.png",
+    "page": "services/lighting",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/lighting/case-study/case-study-05.png",
+    "page": "services/lighting",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-01.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-02.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-03.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-04.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-05.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-06.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-07.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-08.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-09.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-10.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-11.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/lighting/gallery/gallery-12.png",
+    "page": "services/lighting",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-01.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-02.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-03.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-04.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-05.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-06.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-07.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-08.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-09.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-10.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-11.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/staging/what-we-offer/offer-12.png",
+    "page": "services/staging",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/staging/case-study/case-study-01.png",
+    "page": "services/staging",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/staging/case-study/case-study-02.png",
+    "page": "services/staging",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/staging/case-study/case-study-03.png",
+    "page": "services/staging",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/staging/case-study/case-study-04.png",
+    "page": "services/staging",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/staging/case-study/case-study-05.png",
+    "page": "services/staging",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-01.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-02.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-03.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-04.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-05.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-06.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-07.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-08.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-09.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-10.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-11.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/staging/gallery/gallery-12.png",
+    "page": "services/staging",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-01.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-02.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-03.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-04.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-05.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-06.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-07.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-08.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-09.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-10.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-11.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/themes/what-we-offer/offer-12.png",
+    "page": "services/themes",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/themes/case-study/case-study-01.png",
+    "page": "services/themes",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/themes/case-study/case-study-02.png",
+    "page": "services/themes",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/themes/case-study/case-study-03.png",
+    "page": "services/themes",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/themes/case-study/case-study-04.png",
+    "page": "services/themes",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/themes/case-study/case-study-05.png",
+    "page": "services/themes",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-01.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-02.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-03.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-04.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-05.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-06.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-07.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-08.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-09.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-10.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-11.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/themes/gallery/gallery-12.png",
+    "page": "services/themes",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-01.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-02.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-03.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-04.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-05.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-06.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-07.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-08.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-09.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-10.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-11.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/props/what-we-offer/offer-12.png",
+    "page": "services/props",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/props/case-study/case-study-01.png",
+    "page": "services/props",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/props/case-study/case-study-02.png",
+    "page": "services/props",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/props/case-study/case-study-03.png",
+    "page": "services/props",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/props/case-study/case-study-04.png",
+    "page": "services/props",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/props/case-study/case-study-05.png",
+    "page": "services/props",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/props/gallery/gallery-01.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/props/gallery/gallery-02.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/props/gallery/gallery-03.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/props/gallery/gallery-04.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/props/gallery/gallery-05.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/props/gallery/gallery-06.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/props/gallery/gallery-07.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/props/gallery/gallery-08.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/props/gallery/gallery-09.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/props/gallery/gallery-10.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/props/gallery/gallery-11.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/props/gallery/gallery-12.png",
+    "page": "services/props",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-04.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-05.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-06.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-07.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-08.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-09.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-10.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-11.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/musical-entertainment/what-we-offer/offer-12.png",
+    "page": "services/musical-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/musical-entertainment/case-study/case-study-01.png",
+    "page": "services/musical-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/musical-entertainment/case-study/case-study-02.png",
+    "page": "services/musical-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/musical-entertainment/case-study/case-study-03.png",
+    "page": "services/musical-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/musical-entertainment/case-study/case-study-04.png",
+    "page": "services/musical-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/musical-entertainment/case-study/case-study-05.png",
+    "page": "services/musical-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-01.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-02.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-03.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-04.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-05.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-06.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-07.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-08.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-09.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-10.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-11.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/musical-entertainment/gallery/gallery-12.png",
+    "page": "services/musical-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-01.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-02.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-03.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-04.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-05.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-06.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-07.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-08.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-09.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-10.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-11.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/entertainment/what-we-offer/offer-12.png",
+    "page": "services/entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/entertainment/case-study/case-study-01.png",
+    "page": "services/entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/entertainment/case-study/case-study-02.png",
+    "page": "services/entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/entertainment/case-study/case-study-03.png",
+    "page": "services/entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/entertainment/case-study/case-study-04.png",
+    "page": "services/entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/entertainment/case-study/case-study-05.png",
+    "page": "services/entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-01.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-02.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-03.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-04.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-05.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-06.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-07.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-08.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-09.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-10.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-11.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/entertainment/gallery/gallery-12.png",
+    "page": "services/entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/events/award-dinners/what-we-do/offering-01.png",
+    "page": "events/award-dinners",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 01"
+  },
+  {
+    "target": "/events/award-dinners/what-we-do/offering-02.png",
+    "page": "events/award-dinners",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 02"
+  },
+  {
+    "target": "/events/award-dinners/what-we-do/offering-03.png",
+    "page": "events/award-dinners",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 03"
+  },
+  {
+    "target": "/events/award-dinners/what-we-do/offering-04.png",
+    "page": "events/award-dinners",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 04"
+  },
+  {
+    "target": "/events/award-dinners/case-study/case-study-01.png",
+    "page": "events/award-dinners",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/events/award-dinners/case-study/case-study-02.png",
+    "page": "events/award-dinners",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/events/award-dinners/case-study/case-study-03.png",
+    "page": "events/award-dinners",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/events/award-dinners/case-study/case-study-04.png",
+    "page": "events/award-dinners",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/events/award-dinners/case-study/case-study-05.png",
+    "page": "events/award-dinners",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-01.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-02.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-03.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-04.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-05.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-06.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-07.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-08.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-09.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-10.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-11.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/events/award-dinners/gallery/gallery-12.png",
+    "page": "events/award-dinners",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/events/corporate-events/what-we-do/offering-01.png",
+    "page": "events/corporate-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 01"
+  },
+  {
+    "target": "/events/corporate-events/what-we-do/offering-02.png",
+    "page": "events/corporate-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 02"
+  },
+  {
+    "target": "/events/corporate-events/what-we-do/offering-03.png",
+    "page": "events/corporate-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 03"
+  },
+  {
+    "target": "/events/corporate-events/what-we-do/offering-04.png",
+    "page": "events/corporate-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 04"
+  },
+  {
+    "target": "/events/corporate-events/case-study/case-study-01.png",
+    "page": "events/corporate-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/events/corporate-events/case-study/case-study-02.png",
+    "page": "events/corporate-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/events/corporate-events/case-study/case-study-03.png",
+    "page": "events/corporate-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/events/corporate-events/case-study/case-study-04.png",
+    "page": "events/corporate-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/events/corporate-events/case-study/case-study-05.png",
+    "page": "events/corporate-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-01.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-02.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-03.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-04.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-05.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-06.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-07.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-08.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-09.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-10.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-11.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/events/corporate-events/gallery/gallery-12.png",
+    "page": "events/corporate-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/events/themed-events/what-we-do/offering-01.png",
+    "page": "events/themed-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 01"
+  },
+  {
+    "target": "/events/themed-events/what-we-do/offering-02.png",
+    "page": "events/themed-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 02"
+  },
+  {
+    "target": "/events/themed-events/what-we-do/offering-03.png",
+    "page": "events/themed-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 03"
+  },
+  {
+    "target": "/events/themed-events/what-we-do/offering-04.png",
+    "page": "events/themed-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 04"
+  },
+  {
+    "target": "/events/themed-events/case-study/case-study-01.png",
+    "page": "events/themed-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/events/themed-events/case-study/case-study-02.png",
+    "page": "events/themed-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/events/themed-events/case-study/case-study-03.png",
+    "page": "events/themed-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/events/themed-events/case-study/case-study-04.png",
+    "page": "events/themed-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/events/themed-events/case-study/case-study-05.png",
+    "page": "events/themed-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-01.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-02.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-03.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-04.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-05.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-06.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-07.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-08.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-09.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-10.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-11.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/events/themed-events/gallery/gallery-12.png",
+    "page": "events/themed-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/events/seasonal-events/what-we-do/offering-01.png",
+    "page": "events/seasonal-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 01"
+  },
+  {
+    "target": "/events/seasonal-events/what-we-do/offering-02.png",
+    "page": "events/seasonal-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 02"
+  },
+  {
+    "target": "/events/seasonal-events/what-we-do/offering-03.png",
+    "page": "events/seasonal-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 03"
+  },
+  {
+    "target": "/events/seasonal-events/what-we-do/offering-04.png",
+    "page": "events/seasonal-events",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 04"
+  },
+  {
+    "target": "/events/seasonal-events/case-study/case-study-01.png",
+    "page": "events/seasonal-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/events/seasonal-events/case-study/case-study-02.png",
+    "page": "events/seasonal-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/events/seasonal-events/case-study/case-study-03.png",
+    "page": "events/seasonal-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/events/seasonal-events/case-study/case-study-04.png",
+    "page": "events/seasonal-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/events/seasonal-events/case-study/case-study-05.png",
+    "page": "events/seasonal-events",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-01.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-02.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-03.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-04.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-05.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-06.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-07.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-08.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-09.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-10.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-11.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/events/seasonal-events/gallery/gallery-12.png",
+    "page": "events/seasonal-events",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/specialty-entertainment/difference/difference.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "THE MME DIFFERENCE"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-01.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 01"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-02.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 02"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-03.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 03"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-04.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 04"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-05.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 05"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-06.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 06"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-07.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 07"
+  },
+  {
+    "target": "/services/specialty-entertainment/divisions/division-08.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO 08"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-01.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 01"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-02.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 02"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-03.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 03"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-04.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 04"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-05.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 05"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-06.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 06"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-07.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 07"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-08.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 08"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-09.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 09"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-10.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 10"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-11.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 11"
+  },
+  {
+    "target": "/services/specialty-entertainment/what-we-offer/offer-12.png",
+    "page": "services/specialty-entertainment",
+    "slot": "offerCard",
+    "width": 1200,
+    "height": 800,
+    "kind": "image",
+    "label": "WHAT WE OFFER 12"
+  },
+  {
+    "target": "/services/specialty-entertainment/case-study/case-study-01.png",
+    "page": "services/specialty-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 01"
+  },
+  {
+    "target": "/services/specialty-entertainment/case-study/case-study-02.png",
+    "page": "services/specialty-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 02"
+  },
+  {
+    "target": "/services/specialty-entertainment/case-study/case-study-03.png",
+    "page": "services/specialty-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 03"
+  },
+  {
+    "target": "/services/specialty-entertainment/case-study/case-study-04.png",
+    "page": "services/specialty-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 04"
+  },
+  {
+    "target": "/services/specialty-entertainment/case-study/case-study-05.png",
+    "page": "services/specialty-entertainment",
+    "slot": "caseStudy",
+    "width": 1600,
+    "height": 900,
+    "kind": "image",
+    "label": "CASE STUDY 05"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-01.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 01"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-02.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 02"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-03.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 03"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-04.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 04"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-05.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 05"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-06.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 06"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-07.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 07"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-08.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 08"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-09.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 09"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-10.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 10"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-11.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 11"
+  },
+  {
+    "target": "/services/specialty-entertainment/gallery/gallery-12.png",
+    "page": "services/specialty-entertainment",
+    "slot": "gallery",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "GALLERY 12"
+  },
+  {
+    "target": "/services/logistics/event-management/event-management.png",
+    "page": "services/logistics",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "WHAT WE DO"
+  },
+  {
+    "target": "/services/logistics/event-management/event-management-detail.png",
+    "page": "services/logistics",
+    "slot": "introSquare",
+    "width": 1000,
+    "height": 1000,
+    "kind": "image",
+    "label": "INTRO COLLAGE"
+  },
+  {
+    "target": "/work/project-details/hero/hero-video-poster.png",
+    "page": "work/project-details",
+    "slot": "heroVideo",
+    "width": 1920,
+    "height": 1080,
+    "kind": "video",
+    "label": "PAGE HERO VIDEO"
+  },
+  {
+    "target": "/services/printing/hero/hero.png",
+    "page": "services/printing",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/lighting/hero/hero.png",
+    "page": "services/lighting",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/staging/hero/hero.png",
+    "page": "services/staging",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/themes/hero/hero.png",
+    "page": "services/themes",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/props/hero/hero.png",
+    "page": "services/props",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/musical-entertainment/hero/hero.png",
+    "page": "services/musical-entertainment",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/services/logistics/hero/hero.png",
+    "page": "services/logistics",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/events/award-dinners/hero/hero.png",
+    "page": "events/award-dinners",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/events/corporate-events/hero/hero.png",
+    "page": "events/corporate-events",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/events/themed-events/hero/hero.png",
+    "page": "events/themed-events",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/events/seasonal-events/hero/hero.png",
+    "page": "events/seasonal-events",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/about/team/team-background.png",
+    "page": "about",
+    "slot": "sectionBackground",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "TEAM SECTION BACKGROUND"
+  },
+  {
+    "target": "/about/sizzle-reel/hero/hero.png",
+    "page": "about/sizzle-reel",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "FULL SCREEN HERO"
+  },
+  {
+    "target": "/about/sizzle-reel/reel/sizzle-reel-poster.png",
+    "page": "about/sizzle-reel",
+    "slot": "heroVideo",
+    "width": 1920,
+    "height": 1080,
+    "kind": "video",
+    "label": "SIZZLE REEL"
+  },
+  {
+    "target": "/about/brochure/hero/hero.png",
+    "page": "about/brochure",
+    "slot": "heroImage",
+    "width": 1920,
+    "height": 1080,
+    "kind": "image",
+    "label": "PAGE HERO"
+  },
+  {
+    "target": "/about/brochure/pages/page-01.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "FRONT COVER"
+  },
+  {
+    "target": "/about/brochure/pages/page-02.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 02"
+  },
+  {
+    "target": "/about/brochure/pages/page-03.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 03"
+  },
+  {
+    "target": "/about/brochure/pages/page-04.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 04"
+  },
+  {
+    "target": "/about/brochure/pages/page-05.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 05"
+  },
+  {
+    "target": "/about/brochure/pages/page-06.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 06"
+  },
+  {
+    "target": "/about/brochure/pages/page-07.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 07"
+  },
+  {
+    "target": "/about/brochure/pages/page-08.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 08"
+  },
+  {
+    "target": "/about/brochure/pages/page-09.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 09"
+  },
+  {
+    "target": "/about/brochure/pages/page-10.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 10"
+  },
+  {
+    "target": "/about/brochure/pages/page-11.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 11"
+  },
+  {
+    "target": "/about/brochure/pages/page-12.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 12"
+  },
+  {
+    "target": "/about/brochure/pages/page-13.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 13"
+  },
+  {
+    "target": "/about/brochure/pages/page-14.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 14"
+  },
+  {
+    "target": "/about/brochure/pages/page-15.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BROCHURE PAGE 15"
+  },
+  {
+    "target": "/about/brochure/pages/page-16.png",
+    "page": "about/brochure",
+    "slot": "brochurePage",
+    "width": 1700,
+    "height": 2200,
+    "kind": "image",
+    "label": "BACK COVER"
+  },
+  {
+    "target": "/contact/testimonial/testimonial.png",
+    "page": "contact",
+    "slot": "testimonial",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "TESTIMONIAL"
+  }
+]

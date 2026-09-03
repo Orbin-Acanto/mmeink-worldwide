@@ -18,7 +18,7 @@ export default function EventSeasonalEventsPage() {
   return (
     <div className="min-h-screen bg-white">
       <EventTypeHero
-        image="/events/galas/gallery/27.jpg"
+        image="/events/seasonal-events/hero/hero.png"
         title="Seasonal Events"
         subtitle="Holiday and seasonal experiences, designed to return"
       />
@@ -30,7 +30,7 @@ export default function EventSeasonalEventsPage() {
         images={SeasonalEventsImageGallery}
       />
       <HomeCTA
-        backgroundImage="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        backgroundImage="/shared/backgrounds/cta-background.jpg"
         title="Make the Season Yours."
         subtitle="Seasonal & Holiday Events"
         description="Holiday parties, winter installations, and seasonal activations designed, built, and installed by one team."
