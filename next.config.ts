@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     qualities: [70, 75, 80, 90],
   },
+  allowedDevOrigins: ["172.31.160.1", "http://localhost:3000"],
 };
 
 export default nextConfig;

@@ -1,7 +1,9 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
-import EventTypeHero from "@/components/events/EventTypeHero";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
+import WorkHero from "@/components/work/WorkHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
@@ -10,20 +12,23 @@ import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   EventManagementData,
-  LogisticsCaseStudiesData,
+  // LogisticsCaseStudiesData,
   LogisticsData,
   LogisticsFAQ,
   LogisticsImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 
 export default function LogisticsServicePage() {
   return (
     <div className="min-h-screen bg-white">
-      <EventTypeHero
-        image="/services/logistics/hero/hero.png"
-        title="Logistics"
+      <WorkHero
+        videoSrc="/services/logistics/hero/hero-video.mp4"
+        posterSrc="/services/logistics/hero/hero-video-poster.jpg"
+        title="Event"
+        highlightedWord="Logistics"
         subtitle="Event management, white glove logistics, and storage, from the first site visit to the final load out"
       />
 
@@ -46,7 +51,8 @@ export default function LogisticsServicePage() {
         bottomRow={LogisticsData.bottomRow}
       />
       <ProcessApproach />
-      <CaseStudiesSection caseStudies={LogisticsCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={LogisticsCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["logistics"]} />
       <ImageGallerySection
         title="Logistics"
         subtitle="A look at how we coordinate, execute, and deliver flawless production logistics at every scale."

@@ -1,6 +1,8 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
 import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
@@ -8,13 +10,14 @@ import ProcessApproach from "@/components/services/ProcessApproach";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
-  PropsCaseStudiesData,
+  // PropsCaseStudiesData,
   PropsData,
   PropsFAQ,
   PropsImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 
 export default function PropsServicePage() {
   return (
@@ -34,7 +37,8 @@ export default function PropsServicePage() {
         bottomRow={PropsData.bottomRow}
       />
       <ProcessApproach />
-      <CaseStudiesSection caseStudies={PropsCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={PropsCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["props"]} />
       <ImageGallerySection
         title="Props"
         subtitle="Custom fabricated and curated props across themed events, activations, and installations."

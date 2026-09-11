@@ -19,6 +19,7 @@ export default function EventPage() {
     <div className="min-h-screen bg-white">
       <WorkHero
         videoSrc="/events/hero/hero-video.mp4"
+        posterSrc="/events/hero/hero-video-poster.jpg"
         title="Every Event"
         highlightedWord="An Experience"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"

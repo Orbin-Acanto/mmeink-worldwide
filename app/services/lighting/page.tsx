@@ -1,27 +1,32 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
-import EventTypeHero from "@/components/events/EventTypeHero";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
+import WorkHero from "@/components/work/WorkHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
-  LightingCaseStudiesData,
+  // LightingCaseStudiesData,
   LightingData,
   LightingFAQ,
   LightingImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 
 export default function LightingServicePage() {
   return (
     <div className="min-h-screen bg-white">
-      <EventTypeHero
-        image="/services/lighting/hero/hero.png"
+      <WorkHero
+        videoSrc="/services/lighting/hero/hero-video.mp4"
+        posterSrc="/services/lighting/hero/hero-video-poster.jpg"
         title="Lighting"
+        highlightedWord="Design"
         subtitle="Lighting design that creates emotion, defines atmosphere, and transforms the space"
       />
 
@@ -34,7 +39,8 @@ export default function LightingServicePage() {
         bottomRow={LightingData.bottomRow}
       />
       <ProcessApproach />
-      <CaseStudiesSection caseStudies={LightingCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={LightingCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["lighting"]} />
       <ImageGallerySection
         title="Lighting"
         subtitle="Stage washes, architectural uplighting, and custom gobo work across a range of venues."

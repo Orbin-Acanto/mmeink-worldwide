@@ -1,6 +1,8 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import WorkHero from "@/components/work/WorkHero";
 import FAQ from "@/components/FAQ";
@@ -10,13 +12,14 @@ import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   SpecialtyEntertainmentApproach,
-  SpecialtyEntertainmentCaseStudiesData,
+  // SpecialtyEntertainmentCaseStudiesData,
   SpecialtyEntertainmentData,
   SpecialtyEntertainmentDivisions,
   SpecialtyEntertainmentFAQ,
   SpecialtyEntertainmentImageGallery,
 } from "@/data";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 import HomeCTA from "@/sections/HomeCTA";
 
 export default function SpecialtyEntertainmentServicePage() {
@@ -24,6 +27,7 @@ export default function SpecialtyEntertainmentServicePage() {
     <div className="min-h-screen bg-white">
       <WorkHero
         videoSrc="/services/specialty-entertainment/hero/hero-video.mp4"
+        posterSrc="/services/specialty-entertainment/hero/hero-video-poster.jpg"
         title="Specialty"
         highlightedWord="Entertainment"
         subtitle="Extraordinary talent. Unexpected moments. Unforgettable experiences."
@@ -47,7 +51,8 @@ export default function SpecialtyEntertainmentServicePage() {
         difference={SpecialtyEntertainmentApproach.difference}
       />
 
-      <CaseStudiesSection caseStudies={SpecialtyEntertainmentCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={SpecialtyEntertainmentCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["specialty-entertainment"]} />
 
       <ImageGallerySection
         title="Specialty Entertainment"

@@ -1,7 +1,9 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
-import EventTypeHero from "@/components/events/EventTypeHero";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
+import WorkHero from "@/components/work/WorkHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
@@ -9,19 +11,22 @@ import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   CustomFabricationData,
-  CustomFabricationCaseStudiesData,
+  // CustomFabricationCaseStudiesData,
   CustomFabricationFAQ,
   CustomFabricationImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 
 export default function EventBrandActivationPage() {
   return (
     <div className="min-h-screen bg-white">
-      <EventTypeHero
-        image="/services/custom-fabrication/hero/hero.jpg"
-        title="Custom Fabrication"
+      <WorkHero
+        videoSrc="/services/custom-fabrication/hero/hero-video.mp4"
+        posterSrc="/services/custom-fabrication/hero/hero-video-poster.jpg"
+        title="Custom"
+        highlightedWord="Fabrication"
         subtitle="Custom fabrication for experiential activations, product launches, trade shows, and branded environments"
       />
 
@@ -33,7 +38,8 @@ export default function EventBrandActivationPage() {
         bottomRow={CustomFabricationData.bottomRow}
       />
       <ProcessApproach />
-      <CaseStudiesSection caseStudies={CustomFabricationCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={CustomFabricationCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["custom-fabrication"]} />
       <ImageGallerySection
         title="Custom Fabrication"
         subtitle="Explore our most memorable Custom Fabrication experiences"

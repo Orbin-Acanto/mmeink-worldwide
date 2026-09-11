@@ -23,6 +23,7 @@ export default function WorkPage() {
     <div className="min-h-screen bg-white">
       <WorkHero
         videoSrc="/work/hero/hero-video.mp4"
+        posterSrc="/work/hero/hero-video-poster.jpg"
         title="Our"
         highlightedWord="Work"
         subtitle="Three decades of unforgettable events, exceptional experiences, and lasting impressions"

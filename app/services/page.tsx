@@ -13,6 +13,7 @@ export default function ServicePage() {
     <div className="min-h-screen bg-white">
       <WorkHero
         videoSrc="/services/hero/hero-video.mp4"
+        posterSrc="/services/hero/hero-video-poster.jpg"
         title="Exceptional"
         highlightedWord="Services"
         subtitle="Crafted with precision, delivered with passion"

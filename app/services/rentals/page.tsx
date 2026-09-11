@@ -1,6 +1,8 @@
 "use client";
 
-import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+// Case studies are paused until new case study content is ready.
+// import CaseStudiesSection from "@/components/events/CaseStudiesSection";
+import FeaturedWork from "@/components/services/FeaturedWork";
 import EventTypeHero from "@/components/events/EventTypeHero";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import FAQ from "@/components/FAQ";
@@ -8,13 +10,14 @@ import ProcessApproach from "@/components/services/ProcessApproach";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
-  RentalCaseStudiesData,
+  // RentalCaseStudiesData,
   RentalData,
   RentalFAQ,
   RentalImageGallery,
 } from "@/data";
 import HomeCTA from "@/sections/HomeCTA";
 import { serviceIntros } from "@/data/serviceIntros";
+import { featuredWork } from "@/data/featuredWork";
 
 export default function EventBrandActivationPage() {
   return (
@@ -34,7 +37,8 @@ export default function EventBrandActivationPage() {
         bottomRow={RentalData.bottomRow}
       />
       <ProcessApproach />
-      <CaseStudiesSection caseStudies={RentalCaseStudiesData} />
+      {/* <CaseStudiesSection caseStudies={RentalCaseStudiesData} /> */}
+      <FeaturedWork content={featuredWork["rentals"]} />
       <ImageGallerySection
         title="Rentals"
         subtitle="Browse our lounge furniture, bars, tables, staging, décor, and specialty furnishings for events of every scale."
