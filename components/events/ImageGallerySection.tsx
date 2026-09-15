@@ -21,17 +21,21 @@ export default function ImageGallerySection({
     null
   );
 
+  // The grid runs 2 columns, then 3 from md, then 4 from lg, so a single tile
+  // is half, a third, then a quarter of the viewport. Every fifth tile spans
+  // two columns and needs double that, otherwise the browser picks a source
+  // roughly half the width it is painting into and the wide tiles render soft.
+  const SIZES_SINGLE = "(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw";
+  const SIZES_WIDE = "(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw";
+
   const imagesWithSpans = useMemo(() => {
     return images.map((image, index) => {
-      let span = "col-span-1";
-
-      if ((index + 1) % 5 === 0) {
-        span = "col-span-2";
-      }
+      const isWide = (index + 1) % 5 === 0;
 
       return {
         ...image,
-        computedSpan: span,
+        computedSpan: isWide ? "col-span-2" : "col-span-1",
+        computedSizes: isWide ? SIZES_WIDE : SIZES_SINGLE,
       };
     });
   }, [images]);
@@ -111,7 +115,7 @@ export default function ImageGallerySection({
                     alt={image.alt}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    sizes={image.computedSizes}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">

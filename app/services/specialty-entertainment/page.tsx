@@ -36,7 +36,8 @@ export default function SpecialtyEntertainmentServicePage() {
       <ServiceIntro content={serviceIntros["specialty-entertainment"]} />
 
       <EntertainmentDivisions
-        heading="Discover Our Entertainment"
+        headingPrefix="Discover Our"
+        headingPhrases={["Entertainment", "Specialty Talent", "Signature Acts"]}
         divisions={SpecialtyEntertainmentDivisions}
       />
 
@@ -45,6 +46,8 @@ export default function SpecialtyEntertainmentServicePage() {
         subtitle={SpecialtyEntertainmentData.subtitle}
         topRow={SpecialtyEntertainmentData.topRow}
         bottomRow={SpecialtyEntertainmentData.bottomRow}
+        topRowSlots={SpecialtyEntertainmentData.topRowSlots}
+        bottomRowSlots={SpecialtyEntertainmentData.bottomRowSlots}
       />
 
       <EntertainmentApproach

@@ -216,30 +216,50 @@ body {
   margin-block-end: 0;
 }
 
+/* The marquee rows lay their cards out four times over and travel exactly one
+   copy per cycle, so the frame the animation ends on is the same one it
+   started on and the loop has no seam.
+
+   Four copies rather than three because the shift has to be exact. A third of
+   the track cannot be written exactly as a percentage: -33.3333% of a 5496px
+   row lands two thousandths of a pixel short of a copy, which is enough to
+   rasterise differently and show as a tick. A quarter is exact at any width.
+   The track carries w-max so the percentage resolves against the content and
+   not against the width of the section. */
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-33.333%);
+    transform: translateX(-25%);
   }
 }
 
 @keyframes scroll-right {
   0% {
-    transform: translateX(-33.333%);
+    transform: translateX(-25%);
   }
   100% {
     transform: translateX(0);
   }
 }
 
+.animate-scroll-left,
+.animate-scroll-right {
+  /* One copy is roughly 1800px on a desktop, so 30s reads as an unhurried
+     drift rather than a conveyor belt. */
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
 .animate-scroll-left {
-  animation: scroll-left 15s linear infinite;
+  animation-name: scroll-left;
 }
 
 .animate-scroll-right {
-  animation: scroll-right 15s linear infinite;
+  animation-name: scroll-right;
 }
 
 .animate-scroll-left:hover,

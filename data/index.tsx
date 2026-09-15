@@ -66,7 +66,10 @@ export const navItems = [
     submenu: [
       { name: "Brand Activations", href: "/events/brand-activations" },
       { name: "Product Launches", href: "/events/product-launches" },
-      { name: "Exhibitions & Trade Shows", href: "/events/exhibits-trade-shows" },
+      {
+        name: "Exhibitions & Trade Shows",
+        href: "/events/exhibits-trade-shows",
+      },
       { name: "Conferences & Meetings", href: "/events/conferences-meetings" },
       { name: "Award Dinners", href: "/events/award-dinners" },
       { name: "Galas", href: "/events/galas" },
@@ -603,8 +606,7 @@ export const locations = [
   {
     city: "New York",
     address: "140 Florida St, Farmingdale, NY",
-    image:
-      "/about/locations/new-york.png",
+    image: "/about/locations/new-york.png",
   },
   {
     city: "Long Island",
@@ -614,8 +616,7 @@ export const locations = [
   {
     city: "Miami",
     address: "Coastal Event Center",
-    image:
-      "/about/locations/miami.png",
+    image: "/about/locations/miami.png",
   },
 ];
 
@@ -749,50 +750,50 @@ const withArtwork = (images: string[]) =>
 
 /** Scrolling band on the home page, headed Our Event Productions. */
 export const homeMarqueeProjects = withArtwork([
-    "/home/work-marquee/marquee-01.jpg",
-    "/home/work-marquee/marquee-02.jpg",
-    "/home/work-marquee/marquee-03.jpg",
-    "/home/work-marquee/marquee-04.jpg",
-    "/home/work-marquee/marquee-05.jpg",
-    "/home/work-marquee/marquee-06.jpg",
-    "/home/work-marquee/marquee-07.jpg",
-    "/home/work-marquee/marquee-08.jpg",
-    "/home/work-marquee/marquee-09.jpg",
-    "/home/work-marquee/marquee-10.jpg",
-    "/home/work-marquee/marquee-11.jpg",
-    "/home/work-marquee/marquee-12.jpg",
+  "/home/work-marquee/marquee-01.jpg",
+  "/home/work-marquee/marquee-02.jpg",
+  "/home/work-marquee/marquee-03.jpg",
+  "/home/work-marquee/marquee-04.jpg",
+  "/home/work-marquee/marquee-05.jpg",
+  "/home/work-marquee/marquee-06.jpg",
+  "/home/work-marquee/marquee-07.jpg",
+  "/home/work-marquee/marquee-08.jpg",
+  "/home/work-marquee/marquee-09.jpg",
+  "/home/work-marquee/marquee-10.jpg",
+  "/home/work-marquee/marquee-11.jpg",
+  "/home/work-marquee/marquee-12.jpg",
 ]);
 
 /** Scrolling band on the events overview page. */
 export const eventsMarqueeProjects = withArtwork([
-    "/events/work-marquee/marquee-01.jpg",
-    "/events/work-marquee/marquee-02.jpg",
-    "/events/work-marquee/marquee-03.jpg",
-    "/events/work-marquee/marquee-04.jpg",
-    "/events/work-marquee/marquee-05.jpg",
-    "/events/work-marquee/marquee-06.jpg",
-    "/events/work-marquee/marquee-07.jpg",
-    "/events/work-marquee/marquee-08.jpg",
-    "/events/work-marquee/marquee-09.jpg",
-    "/events/work-marquee/marquee-10.jpg",
-    "/events/work-marquee/marquee-11.jpg",
-    "/events/work-marquee/marquee-12.jpg",
+  "/events/work-marquee/marquee-01.jpg",
+  "/events/work-marquee/marquee-02.jpg",
+  "/events/work-marquee/marquee-03.jpg",
+  "/events/work-marquee/marquee-04.jpg",
+  "/events/work-marquee/marquee-05.jpg",
+  "/events/work-marquee/marquee-06.jpg",
+  "/events/work-marquee/marquee-07.jpg",
+  "/events/work-marquee/marquee-08.jpg",
+  "/events/work-marquee/marquee-09.jpg",
+  "/events/work-marquee/marquee-10.jpg",
+  "/events/work-marquee/marquee-11.jpg",
+  "/events/work-marquee/marquee-12.jpg",
 ]);
 
 /** Rotating showcase at the foot of the services overview page. */
 export const servicesFeaturedProjects = withArtwork([
-    "/services/featured-projects/project-01.jpg",
-    "/services/featured-projects/project-02.jpg",
-    "/services/featured-projects/project-03.jpg",
-    "/services/featured-projects/project-04.jpg",
-    "/services/featured-projects/project-05.jpg",
-    "/services/featured-projects/project-06.jpg",
-    "/services/featured-projects/project-07.jpg",
-    "/services/featured-projects/project-08.jpg",
-    "/services/featured-projects/project-09.jpg",
-    "/services/featured-projects/project-10.jpg",
-    "/services/featured-projects/project-11.jpg",
-    "/services/featured-projects/project-12.jpg",
+  "/services/featured-projects/project-01.jpg",
+  "/services/featured-projects/project-02.jpg",
+  "/services/featured-projects/project-03.jpg",
+  "/services/featured-projects/project-04.jpg",
+  "/services/featured-projects/project-05.jpg",
+  "/services/featured-projects/project-06.jpg",
+  "/services/featured-projects/project-07.jpg",
+  "/services/featured-projects/project-08.jpg",
+  "/services/featured-projects/project-09.jpg",
+  "/services/featured-projects/project-10.jpg",
+  "/services/featured-projects/project-11.jpg",
+  "/services/featured-projects/project-12.jpg",
 ]);
 
 export const steps: Step[] = [
@@ -899,32 +900,27 @@ export const testimonials = [
 export const featuredSlides: EventDetailsImageSlider[] = [
   {
     id: "1",
-    image:
-      "/work/project-details/slides/slide-01.png",
+    image: "/work/project-details/slides/slide-01.png",
     alt: "Conference Setup",
   },
   {
     id: "2",
-    image:
-      "/work/project-details/slides/slide-02.png",
+    image: "/work/project-details/slides/slide-02.png",
     alt: "Event Production",
   },
   {
     id: "3",
-    image:
-      "/work/project-details/slides/slide-03.png",
+    image: "/work/project-details/slides/slide-03.png",
     alt: "Stage Design",
   },
   {
     id: "4",
-    image:
-      "/work/project-details/slides/slide-04.png",
+    image: "/work/project-details/slides/slide-04.png",
     alt: "Event Decor",
   },
   {
     id: "5",
-    image:
-      "/work/project-details/slides/slide-05.png",
+    image: "/work/project-details/slides/slide-05.png",
     alt: "Gala Setup",
   },
 ];
@@ -934,24 +930,21 @@ export const RelatedProject = [
     id: "1",
     title: "Spotify Brand Experience",
     category: "Brand Activation",
-    image:
-      "/work/project-details/related/project-01.png",
+    image: "/work/project-details/related/project-01.png",
     href: "/work/work-details",
   },
   {
     id: "2",
     title: "Tech Innovation Summit",
     category: "Corporate | Conferences",
-    image:
-      "/work/project-details/related/project-02.png",
+    image: "/work/project-details/related/project-02.png",
     href: "/work/work-details",
   },
   {
     id: "3",
     title: "Fashion Week Gala",
     category: "Private Events",
-    image:
-      "/work/project-details/related/project-03.png",
+    image: "/work/project-details/related/project-03.png",
     href: "/work/work-details",
   },
 ];
@@ -2829,7 +2822,8 @@ export const CustomFabricationData = {
     {
       id: "4",
       title: "Custom Branded Carts",
-      image: "/services/custom-fabrication/what-we-offer/gifs/champagne-snack.webp",
+      image:
+        "/services/custom-fabrication/what-we-offer/gifs/champagne-snack.webp",
       width: "sm" as const,
     },
     {
@@ -2849,7 +2843,8 @@ export const CustomFabricationData = {
     {
       id: "7",
       title: "Branded Signage and Graphics",
-      image: "/services/custom-fabrication/what-we-offer/gifs/banana-republic.webp",
+      image:
+        "/services/custom-fabrication/what-we-offer/gifs/banana-republic.webp",
       width: "md" as const,
     },
     {
@@ -2861,13 +2856,15 @@ export const CustomFabricationData = {
     {
       id: "9",
       title: "Scenic Arches and Backdrops",
-      image: "/services/custom-fabrication/what-we-offer/gifs/more-fabrication.webp",
+      image:
+        "/services/custom-fabrication/what-we-offer/gifs/more-fabrication.webp",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Immersive Event Environments",
-      image: "/services/custom-fabrication/what-we-offer/gifs/texas-candy-4.webp",
+      image:
+        "/services/custom-fabrication/what-we-offer/gifs/texas-candy-4.webp",
       width: "xl" as const,
     },
     {
@@ -2879,7 +2876,8 @@ export const CustomFabricationData = {
     {
       id: "12",
       title: "Branded Bars and Decor",
-      image: "/services/custom-fabrication/what-we-offer/gifs/additional-decorations.webp",
+      image:
+        "/services/custom-fabrication/what-we-offer/gifs/additional-decorations.webp",
       width: "lg" as const,
     },
   ],
@@ -4920,37 +4918,43 @@ export const MusicalEntertainmentData = {
     {
       id: "1",
       title: "Live Bands",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-01.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-01.png",
       width: "lg" as const,
     },
     {
       id: "2",
       title: "DJs & Open Format Sets",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-02.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-02.png",
       width: "md" as const,
     },
     {
       id: "3",
       title: "Jazz Ensembles",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-03.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-03.png",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "String Quartets",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-04.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-04.png",
       width: "sm" as const,
     },
     {
       id: "5",
       title: "Solo Vocalists",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-05.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-05.png",
       width: "lg" as const,
     },
     {
       id: "6",
       title: "Pianists & Keyboardists",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-06.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-06.png",
       width: "md" as const,
     },
   ],
@@ -4958,37 +4962,43 @@ export const MusicalEntertainmentData = {
     {
       id: "7",
       title: "Cultural & World Music",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-07.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-07.png",
       width: "lg" as const,
     },
     {
       id: "8",
       title: "Ceremony Musicians",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-08.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-08.png",
       width: "md" as const,
     },
     {
       id: "9",
       title: "Cocktail Hour Sets",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-09.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-09.png",
       width: "xl" as const,
     },
     {
       id: "10",
       title: "Headline Acts",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-10.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-10.png",
       width: "sm" as const,
     },
     {
       id: "11",
       title: "Backline & Sound Support",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-11.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-11.png",
       width: "lg" as const,
     },
     {
       id: "12",
       title: "Musical Direction",
-      image: "/services/musical-entertainment/what-we-offer/images/offer-12.png",
+      image:
+        "/services/musical-entertainment/what-we-offer/images/offer-12.png",
       width: "md" as const,
     },
   ],
@@ -5203,68 +5213,24 @@ export const EntertainmentCaseStudiesData = [
   },
 ];
 
-export const EntertainmentImageGallery: GalleryImage[] = [
-  {
-    id: "1",
-    src: "/services/entertainment/gallery/gallery-01.png",
-    alt: "Emcee hosting from a branded stage at a corporate event",
-  },
-  {
-    id: "2",
-    src: "/services/entertainment/gallery/gallery-02.png",
-    alt: "Aerial performer suspended above a gala reception",
-  },
-  {
-    id: "3",
-    src: "/services/entertainment/gallery/gallery-03.png",
-    alt: "Guests taking part in an interactive photo experience at an activation",
-  },
-  {
-    id: "4",
-    src: "/services/entertainment/gallery/gallery-04.png",
-    alt: "Casino tables and professional dealers set for a private event",
-  },
-  {
-    id: "5",
-    src: "/services/entertainment/gallery/gallery-05.png",
-    alt: "Carnival games built into a company celebration",
-  },
-  {
-    id: "6",
-    src: "/services/entertainment/gallery/gallery-06.png",
-    alt: "Dancers performing a choreographed opening number",
-  },
-  {
-    id: "7",
-    src: "/services/entertainment/gallery/gallery-07.png",
-    alt: "Strolling magician working a cocktail reception",
-  },
-  {
-    id: "8",
-    src: "/services/entertainment/gallery/gallery-08.png",
-    alt: "Guests using a 360 degree video booth at a launch party",
-  },
-  {
-    id: "9",
-    src: "/services/entertainment/gallery/gallery-09.png",
-    alt: "Caricature artist drawing guests through dinner",
-  },
-  {
-    id: "10",
-    src: "/services/entertainment/gallery/gallery-10.png",
-    alt: "Virtual reality station set up in an activation space",
-  },
-  {
-    id: "11",
-    src: "/services/entertainment/gallery/gallery-11.png",
-    alt: "Team building activity running in a conference break out",
-  },
-  {
-    id: "12",
-    src: "/services/entertainment/gallery/gallery-12.png",
-    alt: "Performers and guests filling the floor at an after party",
-  },
-];
+/** How many photographs sit in the Entertainment gallery folder. */
+const ENTERTAINMENT_GALLERY_COUNT = 42;
+
+/**
+ * The Entertainment gallery.
+ *
+ * Half of one shoot, split with Specialty Entertainment: the performers,
+ * hosts and guest facing acts landed here, the fire, living art and themed
+ * productions stayed on the specialty page.
+ */
+export const EntertainmentImageGallery: GalleryImage[] = Array.from(
+  { length: ENTERTAINMENT_GALLERY_COUNT },
+  (_, i) => ({
+    id: String(i + 1),
+    src: `/services/entertainment/gallery/gallery-${String(i + 1).padStart(2, "0")}.jpg`,
+    alt: `Entertainment produced by MME Worldwide, photo ${i + 1} of ${ENTERTAINMENT_GALLERY_COUNT}`,
+  })
+);
 
 export const EntertainmentFAQ = [
   {
@@ -5865,11 +5831,30 @@ export const SeasonalEventsFAQ = [
 /* Specialty Entertainment                                             */
 /* ------------------------------------------------------------------ */
 
+/** Root for every division photograph, so the paths below stay readable. */
+const DIVISION_IMAGES = "/services/specialty-entertainment/divisions";
+
+/**
+ * Builds a division's photo set from the numbered files on disk.
+ *
+ * The folders hold uneven counts (six for the musicians, fifteen for living
+ * art), so the count is passed in rather than inferred. Alt text is the same
+ * sentence with a position on the end, which is what a screen reader user
+ * needs here: the photographs are a set, and the useful information is which
+ * one of the set is open in the viewer.
+ */
+const divisionGallery = (id: string, count: number, altBase: string) =>
+  Array.from({ length: count }, (_, i) => ({
+    src: `${DIVISION_IMAGES}/${id}/${String(i + 1).padStart(2, "0")}.jpg`,
+    alt: `${altBase}, photo ${i + 1} of ${count}`,
+  }));
+
 /**
  * The eight talent divisions that make up the Specialty Entertainment
- * offering. Each one renders as its own band on the service page with its own
- * call to action, so a visitor searching for "aerialists NYC" or "LED dancers
- * for corporate events" lands on crawlable copy rather than a generic list.
+ * offering. Each one is a card on the service page that opens a modal holding
+ * the full write up and that division's photographs, so a visitor searching
+ * for "aerialists NYC" or "LED dancers for corporate events" lands on
+ * crawlable copy rather than a generic list.
  */
 export const SpecialtyEntertainmentDivisions = [
   {
@@ -5892,8 +5877,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Hand balancing",
       "Specialty circus performers",
     ],
-    cta: "Explore Aerial Entertainment",
-    image: "/services/specialty-entertainment/divisions/division-01.png",
+    image: `${DIVISION_IMAGES}/aerial-acrobatic/01.jpg`,
+    gallery: divisionGallery(
+      "aerial-acrobatic",
+      8,
+      "Aerial and acrobatic performance produced by MME Worldwide"
+    ),
   },
   {
     id: "living-art",
@@ -5915,8 +5904,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Strolling characters",
       "Themed hosts and hostesses",
     ],
-    cta: "Discover Living Art",
-    image: "/services/specialty-entertainment/divisions/division-02.png",
+    image: `${DIVISION_IMAGES}/living-art/01.jpg`,
+    gallery: divisionGallery(
+      "living-art",
+      15,
+      "Living art and interactive performer produced by MME Worldwide"
+    ),
   },
   {
     id: "specialty-dancers",
@@ -5939,8 +5932,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Cultural dance",
       "Themed dance productions",
     ],
-    cta: "Explore Dance Experiences",
-    image: "/services/specialty-entertainment/divisions/division-03.png",
+    image: `${DIVISION_IMAGES}/specialty-dancers/01.jpg`,
+    gallery: divisionGallery(
+      "specialty-dancers",
+      9,
+      "Specialty dance performance produced by MME Worldwide"
+    ),
   },
   {
     id: "fire-led-visual",
@@ -5964,8 +5961,12 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     footnote:
       "Fire performance is subject to venue approval, permitting, and applicable safety requirements.",
-    cta: "Create a Visual Experience",
-    image: "/services/specialty-entertainment/divisions/division-04.png",
+    image: `${DIVISION_IMAGES}/fire-led-visual/01.jpg`,
+    gallery: divisionGallery(
+      "fire-led-visual",
+      6,
+      "Fire, LED and visual performance produced by MME Worldwide"
+    ),
   },
   {
     id: "strolling-immersive",
@@ -5987,8 +5988,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Celebrity impersonators",
       "Themed characters",
     ],
-    cta: "Discover Immersive Entertainment",
-    image: "/services/specialty-entertainment/divisions/division-05.png",
+    image: `${DIVISION_IMAGES}/strolling-immersive/01.jpg`,
+    gallery: divisionGallery(
+      "strolling-immersive",
+      11,
+      "Strolling and immersive entertainment produced by MME Worldwide"
+    ),
   },
   {
     id: "musicians-live-acts",
@@ -6012,8 +6017,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Roaming musicians",
       "Specialty bands",
     ],
-    cta: "Explore Live Music",
-    image: "/services/specialty-entertainment/divisions/division-06.png",
+    image: `${DIVISION_IMAGES}/musicians-live-acts/01.jpg`,
+    gallery: divisionGallery(
+      "musicians-live-acts",
+      6,
+      "Musicians and specialty live act produced by MME Worldwide"
+    ),
   },
   {
     id: "interactive-experiences",
@@ -6036,8 +6045,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Mentalists",
       "Custom guest activations",
     ],
-    cta: "Create an Interactive Moment",
-    image: "/services/specialty-entertainment/divisions/division-07.png",
+    image: `${DIVISION_IMAGES}/interactive-experiences/01.jpg`,
+    gallery: divisionGallery(
+      "interactive-experiences",
+      7,
+      "Interactive guest experience produced by MME Worldwide"
+    ),
   },
   {
     id: "themed-custom",
@@ -6058,8 +6071,12 @@ export const SpecialtyEntertainmentDivisions = [
       "Special effects",
       "Full theatrical productions",
     ],
-    cta: "Create Something Original",
-    image: "/services/specialty-entertainment/divisions/division-08.png",
+    image: `${DIVISION_IMAGES}/themed-custom/01.jpg`,
+    gallery: divisionGallery(
+      "themed-custom",
+      14,
+      "Themed and custom entertainment produced by MME Worldwide"
+    ),
   },
 ];
 
@@ -6074,182 +6091,146 @@ export const SpecialtyEntertainmentApproach = {
     title: "Not Just Entertainment.",
     titleHighlight: "An Experience.",
     paragraphs: [
-      "What sets MME Worldwide apart is our ability to connect entertainment with the entire creative production rather than treating it as a booking.",
-      "We consider the venue, the guest journey, the theme, the timing, the lighting, the music and the emotional impact you want before we recommend a single performer, so the entertainment feels like it belongs.",
+      "We connect entertainment to the whole creative production rather than treating it as a booking. Venue, guest journey, theme, lighting and music all shape who we cast, so the entertainment feels like it belongs.",
     ],
     statement: "One Creative Partner. Endless Possibilities.",
     cta: { text: "Our Approach", href: "/contact" },
-    image: "/services/specialty-entertainment/difference/difference.png",
-    imageAlt:
-      "Mirror suit violinist performing among guests at an MME Worldwide event",
+    video: "/services/specialty-entertainment/difference/difference-video.mp4",
+    videoPoster:
+      "/services/specialty-entertainment/difference/difference-video-poster.jpg",
   },
-
 };
 
 export const SpecialtyEntertainmentData = {
   title: "What We Offer",
   subtitle: "Specialty Performers, Immersive Talent & Custom Productions",
+  /* Slot sizes for each row, read left to right. 1 is a single card filling
+     the row height, 2 is a pair stacked inside one slot. Every clip takes a
+     full height slot, two of the stills do as well, and the remaining six
+     pair up, so the rows break their own rhythm as they pass. */
+  topRowSlots: [1, 2, 1, 1, 1, 2, 1],
+  bottomRowSlots: [2, 1, 1, 1, 1, 1],
   topRow: [
     {
       id: "1",
       title: "Aerial & Acrobatic Performers",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-01.png",
-      width: "lg" as const,
-    },
-    {
-      id: "2",
-      title: "Living Art & Human Installations",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-02.png",
-      width: "md" as const,
-    },
-    {
-      id: "3",
-      title: "Specialty Dancers",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-03.png",
-      width: "xl" as const,
-    },
-    {
-      id: "4",
-      title: "Fire, LED & Glow Artists",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-04.png",
-      width: "sm" as const,
-    },
-    {
-      id: "5",
-      title: "Strolling & Immersive Performers",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-05.png",
-      width: "lg" as const,
-    },
-    {
-      id: "6",
-      title: "Musicians & Specialty Live Acts",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-06.png",
-      width: "md" as const,
-    },
-  ],
-  bottomRow: [
-    {
-      id: "7",
-      title: "Interactive Guest Experiences",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-07.png",
-      width: "lg" as const,
-    },
-    {
-      id: "8",
-      title: "Themed & Custom Productions",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-08.png",
-      width: "md" as const,
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-01.mp4",
     },
     {
       id: "9",
       title: "Creative Development & Casting",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-09.png",
-      width: "xl" as const,
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-09.jpg",
     },
     {
       id: "10",
       title: "Costume & Choreography Direction",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-10.png",
-      width: "sm" as const,
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-10.jpg",
+    },
+    {
+      id: "2",
+      title: "Living Art & Human Installations",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-02.mp4",
     },
     {
       id: "11",
       title: "Show Calling & Music Direction",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-11.png",
-      width: "lg" as const,
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-11.jpg",
+    },
+    {
+      id: "3",
+      title: "Specialty Dancers",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-03.mp4",
     },
     {
       id: "12",
       title: "On Site Talent Management",
-      image: "/services/specialty-entertainment/what-we-offer/images/offer-12.png",
-      width: "md" as const,
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-12.jpg",
+    },
+    {
+      id: "13",
+      title: "Original Show Concepts",
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-13.jpg",
+    },
+    {
+      id: "4",
+      title: "Fire, LED & Glow Artists",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-04.mp4",
+    },
+  ],
+  bottomRow: [
+    {
+      id: "14",
+      title: "Custom Costume Design",
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-14.jpg",
+    },
+    {
+      id: "15",
+      title: "Scenic & Lighting Integration",
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-15.jpg",
+    },
+    {
+      id: "5",
+      title: "Strolling & Immersive Performers",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-05.mp4",
+    },
+    {
+      id: "6",
+      title: "Musicians & Specialty Live Acts",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-06.mp4",
+    },
+    {
+      id: "16",
+      title: "Special Effects",
+      image:
+        "/services/specialty-entertainment/what-we-offer/images/offer-16.jpg",
+    },
+    {
+      id: "7",
+      title: "Interactive Guest Experiences",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-07.mp4",
+    },
+    {
+      id: "8",
+      title: "Themed & Custom Productions",
+      image:
+        "/services/specialty-entertainment/what-we-offer/videos/offer-08.mp4",
     },
   ],
 };
 
-export const SpecialtyEntertainmentCaseStudiesData = [
-  {
-    id: "1",
-    clientName: "Client Name Pending",
-    projectTitle: "Specialty Entertainment Production",
-    challenge:
-      "PLACEHOLDER: awaiting client approved case study copy for this service.",
-    solution:
-      "PLACEHOLDER: awaiting client approved case study copy for this service.",
-    impact:
-      "PLACEHOLDER: awaiting client approved case study copy for this service.",
-    gallery: [
-      "/services/specialty-entertainment/case-study/case-study-01.png",
-      "/services/specialty-entertainment/case-study/case-study-02.png",
-      "/services/specialty-entertainment/case-study/case-study-03.png",
-      "/services/specialty-entertainment/case-study/case-study-04.png",
-      "/services/specialty-entertainment/case-study/case-study-05.png",
-    ],
-  },
-];
+/** How many photographs sit in the Specialty Entertainment gallery folder. */
+const SPECIALTY_GALLERY_COUNT = 34;
 
-export const SpecialtyEntertainmentImageGallery: GalleryImage[] = [
-  {
-    id: "1",
-    src: "/services/specialty-entertainment/gallery/gallery-01.png",
-    alt: "Aerialist performing above guests at a gala produced by MME Worldwide",
-  },
-  {
-    id: "2",
-    src: "/services/specialty-entertainment/gallery/gallery-02.png",
-    alt: "Living champagne wall greeting guests at a corporate reception",
-  },
-  {
-    id: "3",
-    src: "/services/specialty-entertainment/gallery/gallery-03.png",
-    alt: "LED dancers opening a product launch produced by MME Worldwide",
-  },
-  {
-    id: "4",
-    src: "/services/specialty-entertainment/gallery/gallery-04.png",
-    alt: "Body painted performer working as part of the event decor",
-  },
-  {
-    id: "5",
-    src: "/services/specialty-entertainment/gallery/gallery-05.png",
-    alt: "Strolling magician entertaining guests during cocktail hour",
-  },
-  {
-    id: "6",
-    src: "/services/specialty-entertainment/gallery/gallery-06.png",
-    alt: "Electric violinist performing at a luxury private celebration",
-  },
-  {
-    id: "7",
-    src: "/services/specialty-entertainment/gallery/gallery-07.png",
-    alt: "Contortionist featured in a themed entertainment production",
-  },
-  {
-    id: "8",
-    src: "/services/specialty-entertainment/gallery/gallery-08.png",
-    alt: "Caricature artist creating live artwork for event guests",
-  },
-  {
-    id: "9",
-    src: "/services/specialty-entertainment/gallery/gallery-09.png",
-    alt: "Choreographed dance production on a custom MME stage build",
-  },
-  {
-    id: "10",
-    src: "/services/specialty-entertainment/gallery/gallery-10.png",
-    alt: "Glow performers during an after dark brand activation",
-  },
-  {
-    id: "11",
-    src: "/services/specialty-entertainment/gallery/gallery-11.png",
-    alt: "Themed hosts welcoming guests at an immersive event entrance",
-  },
-  {
-    id: "12",
-    src: "/services/specialty-entertainment/gallery/gallery-12.png",
-    alt: "Full theatrical entertainment production staged by MME Worldwide",
-  },
-];
+/**
+ * The Specialty Entertainment gallery.
+ *
+ * Generated from the numbered files on disk rather than typed out, because
+ * there are eighty four of them. The alt text carries a position, which is
+ * what the lightbox caption needs: the photographs are one set, and the useful
+ * information is which of the set is open.
+ */
+export const SpecialtyEntertainmentImageGallery: GalleryImage[] = Array.from(
+  { length: SPECIALTY_GALLERY_COUNT },
+  (_, i) => ({
+    id: String(i + 1),
+    src: `/services/specialty-entertainment/gallery/gallery-${String(i + 1).padStart(2, "0")}.jpg`,
+    alt: `Specialty entertainment produced by MME Worldwide, photo ${i + 1} of ${SPECIALTY_GALLERY_COUNT}`,
+  })
+);
 
 export const SpecialtyEntertainmentFAQ = [
   {
@@ -6349,7 +6330,8 @@ export const EventManagementData = {
     { value: "1", suffix: "", label: "Point of contact, start to finish" },
   ],
   image: "/services/logistics/event-management/event-management.png",
-  supportImage: "/services/logistics/event-management/event-management-detail.png",
+  supportImage:
+    "/services/logistics/event-management/event-management-detail.png",
 };
 
 /* ------------------------------------------------------------------ */
