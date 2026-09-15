@@ -105,7 +105,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-12 lg:gap-8 xl:gap-12 mb-16">
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider text-purple mb-4">
               Events
@@ -124,11 +124,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="lg:col-span-2">
             <h4 className="text-sm font-bold uppercase tracking-wider text-purple mb-4">
               Services
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-3 lg:space-y-0 lg:grid lg:grid-flow-col lg:grid-rows-6 lg:auto-cols-fr lg:gap-x-6 lg:gap-y-3">
               {services.map((item) => (
                 <li key={item.name}>
                   <Link
@@ -160,7 +160,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="lg:col-span-2">
             <h4 className="text-sm font-bold uppercase tracking-wider text-purple mb-4">
               Get in Touch With Us
             </h4>

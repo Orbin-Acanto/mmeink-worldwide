@@ -10,6 +10,7 @@ import {
 import {
   MapPin,
   Award,
+  Globe,
   TrendingUp,
   Users,
   Presentation,
@@ -517,15 +518,24 @@ export const clientLogos: ClientLogo[] = [
 export const team = [
   {
     id: 1,
+    name: "Denise Tardi",
+    role: "President",
+    bio: "Founder of MME Worldwide. For more than 30 years she has built the company around creativity, personalized service, and production capability under one roof.",
+    avatar: "/about/team/denise-tardi.png",
+    linkedin: "#",
+    email: "dtardi@mmeink.com",
+  },
+  {
+    id: 2,
     name: "Michael Tardi",
-    role: "Owner",
+    role: "Managing Partner",
     bio: "Visionary leader with 30 years of experience transforming events into unforgettable experiences.",
     avatar: "/about/team/michael-tardi.jpg",
     linkedin: "https://www.linkedin.com/in/michael-tardi-1788672a/",
     email: "mtardi@mmeink.com",
   },
   {
-    id: 2,
+    id: 3,
     name: "Lauren Leuci",
     role: "Director of Events",
     bio: "Award winning designer specializing in immersive event experiences and brand activations.",
@@ -534,7 +544,7 @@ export const team = [
     email: "lleuci@mmeink.com",
   },
   {
-    id: 3,
+    id: 4,
     name: "Andrew Heaton",
     role: "Director of Operations",
     bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
@@ -543,80 +553,233 @@ export const team = [
     email: "aheaton@mmeink.com",
   },
   {
-    id: 4,
+    id: 5,
     name: "Juan Fuentes",
     role: "Director of Events & Production",
     bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
     avatar: "/about/team/juan-fuentes.png",
     linkedin: "#",
-    email: "apalacio@mmeink.com",
-  },
-  {
-    id: 5,
-    name: "Andrea Palacio",
-    role: "Manager of Events & Production",
-    bio: "Audio visual specialist with expertise in cutting edge technology and innovative solutions.",
-    avatar: null,
-    linkedin: "#",
-    email: "dhyatt@mmeink.com",
+    email: "jfuentes@mmeink.com",
   },
   {
     id: 6,
+    name: "Andrea Palacio",
+    role: "Manager of Events & Production",
+    bio: "Keeps events on schedule and on spec, managing production details from planning through load out.",
+    avatar: "/about/team/andrea-palacio.png",
+    linkedin: "#",
+    email: "apalacio@mmeink.com",
+  },
+  {
+    id: 7,
     name: "Herberto Deleon",
     role: "Director of Creative Fabrication",
-    bio: "Audio visual specialist with expertise in cutting edge technology and innovative solutions.",
+    bio: "Builds the sets, scenic, and custom pieces that turn a rendering into something guests can walk into.",
     avatar: "/about/team/herberto-deleon.png",
     linkedin: "#",
     email: "herberto@mmeink.com",
   },
 ];
 
+/* ------------------------------------------------------------------ */
+/* About hero                                                          */
+/* ------------------------------------------------------------------ */
+
+/**
+ * The /about header. The brief calls for a looping showcase reel cutting
+ * across design, custom fabrication, printing, audio visual, lighting,
+ * staging, musical entertainment, props, rentals, themes and logistics.
+ *
+ * `videoSrc` stays undefined until that cut is delivered. The hero falls back
+ * to the still, which doubles as the video's poster frame, so the page is
+ * never pointing at a file that is not there. Drop the MP4 at the path below
+ * and set `videoSrc` to it and the loop takes over with no other change.
+ */
+export const aboutHero = {
+  videoSrc: undefined as string | undefined,
+  // videoSrc: "/about/hero/hero-video.mp4",
+  poster: "/about/hero/hero.png",
+  posterAlt:
+    "A cinematic view from behind the audience toward an illuminated stage at an MME Worldwide production",
+  title: "Three Decades of Creating",
+  titleHighlight: "Exceptional Experiences",
+  titleTail: "for the World's Leading Brands",
+  subtitle:
+    "Transforming Bold Visions into Iconic Experiences—Driven by Creativity, Expertise and Three Decades of Excellence.",
+};
+
+/* ------------------------------------------------------------------ */
+/* Our Journey                                                         */
+/* ------------------------------------------------------------------ */
+
+/** Section copy above the timeline on /about. */
+export const ourJourney = {
+  label: "Our Journey",
+  title: "A Legacy of Extraordinary Experiences",
+  subtitle: "Built on Passion. Defined by Excellence. Driven by Innovation.",
+  intro:
+    "For more than 30 years, MME Worldwide has evolved from a creative vision into a full-service event production company, delivering exceptional experiences for clients and brands across the country and around the world.",
+  closing: "30+ Years of Experience. One Worldwide Creative Partner.",
+};
+
 export const timeline = [
   {
     year: "1995",
-    title: "The Beginning",
+    label: "The Beginning",
+    title: "A Vision Takes Shape",
     description:
-      "Founded by Michael Tardi with a vision to revolutionize event production in New York City.",
+      "Founded by Denise Tardi, MME began with a vision to transform the event and production industry through creativity, personalized service, and innovative production capabilities. What started in New York would become the foundation for decades of growth, creativity, and unforgettable experiences.",
     icon: <Award className="w-6 h-6" />,
+    /**
+     * The original Floral Park address. Left undefined until the photograph
+     * lands; the card renders the caption on its own rather than pointing at
+     * a file that is not there yet.
+     */
+    image: undefined as string | undefined,
+    imageCaption: "40 Woodbine Court, Floral Park, New York" as
+      | string
+      | undefined,
   },
   {
     year: "2005",
-    title: "Expansion",
+    label: "Expanding Our Production Capabilities",
+    title: "The Next Chapter of Growth",
     description:
-      "Extended operations to Long Island, bringing unforgettable experiences to a wider audience.",
+      "As demand continued to grow, MME expanded its New York operations with enhanced production and warehouse capabilities. This expansion allowed our team to provide clients with a broader range of in-house creative services, event production, custom fabrication, decor, entertainment, staging, lighting, and logistical support.",
     icon: <TrendingUp className="w-6 h-6" />,
+    image: undefined as string | undefined,
+    imageCaption: undefined as string | undefined,
   },
   {
     year: "2015",
-    title: "Going South",
+    label: "MME South Opens",
+    title: "Expanding Our Reach",
     description:
-      "Opened Miami location, establishing MMEink as a tri state powerhouse in event production.",
+      "MME continued its growth with the opening of MME South, establishing additional warehouse and production capabilities in South Florida. This expansion strengthened our ability to service events throughout Florida, the Caribbean, and destination markets, while providing clients with the same level of creativity, service, and execution that defined our New York operations.",
     icon: <MapPin className="w-6 h-6" />,
+    image: undefined as string | undefined,
+    imageCaption: undefined as string | undefined,
   },
   {
-    year: "2025",
-    title: "30 Years Strong",
+    year: "2026",
+    label: "MME Worldwide",
+    title: "From New York Roots to Worldwide Experiences",
     description:
-      "Celebrating three decades of creating unforgettable moments and pushing creative boundaries.",
-    icon: <Users className="w-6 h-6" />,
+      "Today, MME Worldwide has evolved into a multifaceted creative and event production company with an expanding network of production, warehouse, and operational capabilities across the East Coast, West Coast, and key destination markets. With capabilities spanning New York, Long Island, South Florida, South Carolina, Los Angeles, the Caribbean, and beyond, MME brings together creativity, production, fabrication, technology, entertainment, and logistics under one vision.",
+    icon: <Globe className="w-6 h-6" />,
+    image: undefined as string | undefined,
+    imageCaption: undefined as string | undefined,
   },
 ];
+
+/* ------------------------------------------------------------------ */
+/* Founder                                                             */
+/* ------------------------------------------------------------------ */
+
+/** Denise Tardi's executive profile, between the timeline and the team grid. */
+export const founder = {
+  label: "Leadership",
+  name: "Denise Tardi",
+  role: "President",
+  subtitle: "Founder & Owner | MME Worldwide",
+  disciplines: [
+    "Entrepreneur",
+    "Executive Producer",
+    "Event Production & Experiential Design Leader",
+  ],
+  portrait: "/about/founder/denise-tardi.png",
+  portraitAlt: "Denise Tardi, President and founder of MME Worldwide",
+  profileTitle: "Executive Profile",
+  profile: [
+    "Denise Tardi is the Founder and Owner of MME Worldwide, an event production, creative services, entertainment, fabrication, and experiential company whose history dates to 1995.",
+    "With more than three decades of experience, Denise has built MME around a vision of combining creativity, production expertise, personalized service, and innovative capabilities to deliver memorable experiences for corporate, luxury, social, nonprofit, and institutional clients.",
+    "Beginning with the company's New York roots, Denise guided MME through multiple stages of expansion, from its early creative and production operations to expanded New York production capabilities, the development of MME South in Florida, and today's broader MME Worldwide platform.",
+    "Under her leadership, MME has developed capabilities encompassing event production, creative design, custom fabrication, decor, entertainment, staging, lighting, audiovisual production, rentals, installation, logistics, and brand experiences.",
+  ],
+  milestonesTitle: "30+ Years of Leadership",
+  milestones: [
+    {
+      year: "1995",
+      title: "Founder & Entrepreneur",
+      description:
+        "Denise founded MME with a vision of creating a company capable of bringing together creativity, entertainment, production, and exceptional client service under one organization.",
+    },
+    {
+      year: "2005",
+      title: "Expansion of New York Operations",
+      description:
+        "As the company grew, MME expanded its New York production and operational capabilities, creating the infrastructure necessary to support increasingly sophisticated events and productions.",
+    },
+    {
+      year: "2015",
+      title: "Expansion into South Florida",
+      description:
+        "Denise continued the company's geographic expansion with MME South, extending production and warehouse capabilities into Florida and supporting opportunities throughout South Florida, the Caribbean, and destination markets.",
+    },
+    {
+      year: "2026",
+      title: "MME Worldwide",
+      description:
+        "Today, MME operates as a multifaceted creative and production organization, with dedicated executive, sales, marketing, creative, production, finance, venue sales, and catering functions.",
+    },
+  ],
+  expertiseTitle: "Areas of Expertise",
+  expertise: [
+    "Event & experiential production",
+    "Creative direction",
+    "Custom fabrication",
+    "Corporate & luxury events",
+    "Entertainment production",
+    "Audiovisual, lighting & staging",
+    "Decor & specialty rentals",
+    "Venue partnerships",
+    "Hospitality experiences",
+    "Business development",
+    "Strategic partnerships",
+    "Operational expansion",
+    "Client relationship management",
+  ],
+  expertiseNote:
+    "Her leadership extends beyond individual events into long term venue and institutional partnerships. MME's work with the Nassau County Museum of Art, for example, encompasses event production, rentals, design, installation, brand experience, and proposed investments in event and hospitality infrastructure.",
+  philosophyTitle: "Leadership Philosophy",
+  philosophy: [
+    "Denise has built MME around a philosophy that an extraordinary event requires more than individual services. It requires a team capable of understanding a client's vision and managing the creative and operational details necessary to bring that vision to life.",
+    "Her approach emphasizes relationships over transactions, creativity supported by execution, attention to detail, and long term partnerships with clients, venues, brands, and institutions.",
+  ],
+  pullQuote:
+    "Build lasting relationships, continually innovate, and deliver every experience with creativity, passion, and excellence.",
+};
 
 export const locations = [
   {
     city: "New York",
-    address: "140 Florida St, Farmingdale, NY",
-    image: "/about/locations/new-york.png",
+    address: "Creative, production & client services",
+    image: "/about/locations/new-york.jpg",
   },
   {
     city: "Long Island",
-    address: "Premium Event Venue",
+    address: "140 Florida St, Farmingdale, NY",
     image: "/about/locations/long-island.jpg",
   },
   {
-    city: "Miami",
-    address: "Coastal Event Center",
-    image: "/about/locations/miami.png",
+    city: "South Florida",
+    address: "MME South production & warehouse",
+    image: "/about/locations/south-florida.jpg",
+  },
+  {
+    city: "South Carolina",
+    address: "Production & operations support",
+    image: "/about/locations/south-carolina.jpg",
+  },
+  {
+    city: "Los Angeles",
+    address: "West Coast production",
+    image: "/about/locations/los-angeles.jpg",
+  },
+  {
+    city: "Caribbean",
+    address: "Destination event production",
+    image: "/about/locations/caribbean.jpg",
   },
 ];
 

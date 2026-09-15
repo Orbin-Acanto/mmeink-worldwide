@@ -89,20 +89,26 @@ This is the strongest page on the site for written content. The main company des
 
 | Section | What is there now | Status |
 | --- | --- | --- |
-| Hero | Header image with "Get in Touch" prompt. | Ready |
-| Company description | The full paragraph describing MMEink as a full service Event Management and Hospitality agency, naming Michael Tardi as CEO and listing the New York City, Long Island and Miami offices. | Ready. Verified against the live site. |
-| Our Story timeline | Four milestones: 1995 founding, 2005 Long Island, 2015 Miami, 2025 thirtieth anniversary. | Needs approval on the dates. |
-| Our Team | Six people. | Needs content. See below. |
+| Hero | "Three Decades of Creating Exceptional Experiences for the World's Leading Brands", over a video slot that falls back to the still. | Needs the reel. See below. |
+| Company description | Full paragraph describing MME Worldwide, naming Denise Tardi as President and listing the six markets. | Ready. |
+| Our Journey timeline | Four milestones: 1995 founding, 2005 New York expansion, 2015 MME South, 2026 MME Worldwide. | Ready. 1995 card needs its photograph. |
+| Leadership | Denise Tardi executive profile: portrait, profile, four leadership milestones, areas of expertise, philosophy. | Ready. |
+| Our Team | Seven people. | Needs biographies. See below. |
+| Locations | Six cards: New York, Long Island, South Florida, South Carolina, Los Angeles, Caribbean. | Needs real addresses for the four new markets. |
 | Process | Four steps: Discover, Design, Produce, Deliver. Each has its own illustration. | Ready |
-| Call to action | "Contact Us Today to Get Started". | Ready |
+| Call to action | "Let's Create Something Extraordinary Together". | Ready |
 
-**The team section needs the most attention**
+**The header video is not built yet**
 
-All six job titles are now correct following the brief. Michael Tardi is Owner, Lauren Leuci is Director of Events, Andrew Heaton is Director of Operations, Juan Fuentes is Director of Events and Production, Desmond Hyatt is Director of Events and Production, and Herberto Deleon is Director of Creative Fabrication.
+The hero reads `aboutHero.videoSrc` in `data/index.tsx`, which is left undefined so the page falls back to the still at `/about/hero/hero.png`. Drop the graded cut at `/about/hero/hero-video.mp4`, uncomment the line above it, and the loop takes over. The brief asks the reel to cover design, custom fabrication, printing, audio visual, lighting, staging, musical entertainment, props, event rentals and themes, and logistics.
 
-The biographies are the problem. All six read like stock descriptions rather than anything about the actual person. Worse, Desmond Hyatt and Herberto Deleon currently share the exact same sentence, word for word: "Audio-visual specialist with expertise in cutting-edge technology and innovative solutions." Since Herberto is now Director of Creative Fabrication, that sentence is also no longer accurate for him.
+**The team section still needs biographies**
 
-**What we need:** six real biographies, two or three sentences each.
+Job titles now follow the brief. Denise Tardi is President, Michael Tardi is Managing Partner, Lauren Leuci is Director of Events, Andrew Heaton is Director of Operations, Juan Fuentes is Director of Events and Production, Andrea Palacio is Manager of Events and Production, and Herberto Deleon is Director of Creative Fabrication.
+
+The biographies are still the problem. Most read like stock descriptions rather than anything about the actual person. The duplicate audio-visual sentence that Andrea Palacio and Herberto Deleon shared has been replaced with role-accurate placeholder copy, but it is placeholder copy and not something either of them said.
+
+**What we need:** seven real biographies, two or three sentences each.
 
 Desmond Hyatt has no photograph. His picture was removed as the brief requested, and his card now shows his initials in a styled circle so the layout stays intact. If a replacement headshot is coming, we will drop it in. If the initials are meant to stay, just confirm and we will leave it.
 

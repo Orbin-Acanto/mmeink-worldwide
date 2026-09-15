@@ -1,5 +1,6 @@
 "use client";
 
+import FounderSection from "@/components/about/FounderSection";
 import Hero from "@/components/about/Hero";
 import OurStorySection from "@/components/about/OurStorySection";
 import OurTeamSection from "@/components/about/OurTeamSection";
@@ -21,27 +22,28 @@ export default function About() {
       <Hero />
       <AboutSection
         label="About Us"
-        description="MMEink is a full service Event Management & Hospitality agency specializing in creating signature, first class luxury lifestyle experiences. Led by CEO Michael Tardi, our innovative and creative team combines the management capabilities of a large agency with the flexibility and efficiency of a boutique shop. We create authentic experiences that connect consumers to brands, engaging and rewarding audiences with unique, memorable events. With three decades of experience serving clients worldwide and offices in New York City, Long Island, and Miami, MMEink delivers exceptional events through our integrated marketing approach to maximize your brand's outreach."
+        description="MME Worldwide is a full service event production and hospitality company specializing in signature, first class luxury lifestyle experiences. Founded in 1995 and led by President Denise Tardi, our innovative and creative team combines the management capabilities of a large agency with the flexibility and efficiency of a boutique shop. We create authentic experiences that connect consumers to brands, engaging and rewarding audiences with unique, memorable events. With three decades of experience and production, warehouse, and operational capabilities spanning New York, Long Island, South Florida, South Carolina, Los Angeles, and the Caribbean, MME delivers exceptional events through an integrated approach that maximizes your brand's outreach."
         title="Our Experience Helps to"
         titleHighlight="Create Yours"
         graphic="/about/intro/anniversary-30-years.png"
       />
       <HomeCTA
         backgroundImage="/shared/backgrounds/cta-background.jpg"
-        title="Contact Us Today to Get Started"
+        title="Let's Create Something Extraordinary Together"
         subtitle="Let's Work Together"
-        description="Transform your vision into an unforgettable experience. Our team is ready to bring your event to life."
+        description="Our team brings your vision to life with bold creativity, impeccable execution, and world-class production."
         primaryButton={{
-          text: "Get Started",
+          text: "Let's Create Together",
           href: "/contact",
         }}
       />
       <OurStorySection />
+      <FounderSection />
       <OurTeamSection />
       <CTASection
         primaryButton={{
           href: "/contact",
-          text: "Get Started",
+          text: "Let's Create Together",
         }}
       />
       <ProcessSection />

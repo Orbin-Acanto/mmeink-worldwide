@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
-import { locations, timeline } from "@/data";
+import { locations, ourJourney, timeline } from "@/data";
 
 export default function OurStorySection() {
   return (
@@ -20,13 +20,13 @@ export default function OurStorySection() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <p className="section-label">Our Journey</p>
-              <h1 className="section-heading">
-                Our <span className="text-purple">Story</span>
-              </h1>
+              <p className="section-label">{ourJourney.label}</p>
+              <h2 className="section-heading">{ourJourney.title}</h2>
+              <p className="text-sm sm:text-base md:text-lg font-semibold uppercase tracking-wide text-purple mb-6">
+                {ourJourney.subtitle}
+              </p>
               <p className="section-body-center animate-fadeIn animation-delay-200">
-                Three decades of innovation, creativity, and unforgettable
-                moments
+                {ourJourney.intro}
               </p>
             </motion.div>
           </div>
@@ -64,8 +64,31 @@ export default function OurStorySection() {
                         </div>
                         <span className="timeline-year">{item.year}</span>
                       </div>
+                      <p className="text-[0.65rem] sm:text-xs font-semibold uppercase tracking-[0.2em] text-gray-500 mb-2">
+                        {item.label}
+                      </p>
                       <h3 className="timeline-heading">{item.title}</h3>
                       <p className="timeline-body">{item.description}</p>
+
+                      {/* The 1995 card carries a photograph of the address the
+                          company started at. Until that scan lands the caption
+                          stands on its own. */}
+                      {item.image && (
+                        <div className="relative mt-5 h-44 sm:h-52 w-full overflow-hidden">
+                          <Image
+                            src={item.image}
+                            alt={item.imageCaption ?? item.title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 1024px) 100vw, 45vw"
+                          />
+                        </div>
+                      )}
+                      {item.imageCaption && (
+                        <p className="mt-3 text-[0.65rem] sm:text-xs uppercase tracking-widest text-gray-400">
+                          {item.imageCaption}
+                        </p>
+                      )}
                     </div>
                   </div>
 
@@ -74,6 +97,16 @@ export default function OurStorySection() {
               ))}
             </div>
           </div>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16 text-lg sm:text-xl md:text-2xl font-bold uppercase tracking-tight text-gray-900"
+          >
+            {ourJourney.closing}
+          </motion.p>
         </div>
         {/* Location Area  */}
         <div className="relative -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-20 bg-black">
@@ -84,15 +117,16 @@ export default function OurStorySection() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h1 className="cta-heading">
+            <h2 className="cta-heading">
               Our <span className="gradient-text">Locations</span>
-            </h1>
+            </h2>
             <p className="cta-body animate-fadeIn animation-delay-200">
-              Serving clients across three iconic cities
+              Production, warehouse, and operational capabilities across the
+              East Coast, West Coast, and key destination markets
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto text-left">
             {locations.map((location, index) => (
               <motion.div
                 key={location.city}
@@ -108,6 +142,7 @@ export default function OurStorySection() {
                     alt={location.city}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
                 </div>
@@ -115,9 +150,9 @@ export default function OurStorySection() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <div className="flex items-center gap-2 mb-2">
                     <MapPin className="w-5 h-5 text-purple-light" />
-                    <h4 className="text-lg sm:text-xl font-bold uppercase">
+                    <h3 className="text-lg sm:text-xl font-bold uppercase">
                       {location.city}
-                    </h4>
+                    </h3>
                   </div>
                   <p className="text-sm text-gray-300">{location.address}</p>
                 </div>

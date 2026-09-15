@@ -4,13 +4,14 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About MME Worldwide | Event Production Since 1995",
   description:
-    "MME Worldwide is a full service event management and hospitality agency led by CEO Michael Tardi. Three decades of experience, with offices in New York City, Long Island, and Miami.",
+    "MME Worldwide is a full service event production and hospitality company founded in 1995 and led by President Denise Tardi. Three decades of experience across New York, Long Island, South Florida, South Carolina, Los Angeles, and the Caribbean.",
   path: "/about",
   keywords: [
     "about MME Worldwide",
     "event management agency New York",
     "event production company Long Island",
-    "event agency Miami",
+    "event agency South Florida",
+    "Denise Tardi MME",
     "Michael Tardi MME",
     "experiential agency team",
     "event production since 1995",
