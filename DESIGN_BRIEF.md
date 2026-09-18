@@ -42,11 +42,11 @@ to update one line, so flag it rather than renaming silently.
 
 | | Count |
 | --- | --- |
-| Still photographs required | 408 |
+| Still photographs required | 402 |
 | Animated loops required | 23 |
-| Films required | 2 |
+| Films required | 8 |
 | Pages affected | 24 |
-| Photographs already supplied and in use | 585 |
+| Photographs already supplied and in use | 869 |
 
 ## Priority one, film
 
@@ -84,10 +84,10 @@ two to four seconds, seamless, silent, no text.
 
 | Page | Files | Size |
 | --- | --- | --- |
-| [Audio Visual](https://mmeink-worldwide-production.up.railway.app/services/audio-visual) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/audio-visual/what-we-offer/` | 1200 x 800, 3:2 |
-| [Rentals](https://mmeink-worldwide-production.up.railway.app/services/rentals) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/rentals/what-we-offer/` | 1200 x 800, 3:2 |
-| [Design and Decor](https://mmeink-worldwide-production.up.railway.app/services/design-decor) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/design-decor/what-we-offer/` | 1200 x 800, 3:2 |
-| [Logistics](https://mmeink-worldwide-production.up.railway.app/services/logistics) | `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/logistics/what-we-offer/` | 1200 x 800, 3:2 |
+| [Audio Visual](https://mmeink-worldwide-production.up.railway.app/services/audio-visual) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/audio-visual/what-we-offer/gifs/` | 1200 x 800, 3:2 |
+| [Rentals](https://mmeink-worldwide-production.up.railway.app/services/rentals) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/rentals/what-we-offer/gifs/` | 1200 x 800, 3:2 |
+| [Design and Decor](https://mmeink-worldwide-production.up.railway.app/services/design-decor) | `offer-01.gif`, `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/design-decor/what-we-offer/gifs/` | 1200 x 800, 3:2 |
+| [Logistics](https://mmeink-worldwide-production.up.railway.app/services/logistics) | `offer-04.gif`, `offer-06.gif`, `offer-07.gif`, `offer-09.gif`, `offer-11.gif` in `public/services/logistics/what-we-offer/gifs/` | 1200 x 800, 3:2 |
 
 The Custom Fabrication page already has six of these and they are the
 reference for tone and length:
@@ -105,15 +105,6 @@ worth shooting first.
 | [Digital Brochure](https://mmeink-worldwide-production.up.railway.app/about/brochure) | 17 |
 | [Project Detail Template](https://mmeink-worldwide-production.up.railway.app/work/work-details) | 8 |
 | [Let Us Connect](https://mmeink-worldwide-production.up.railway.app/contact) | 1 |
-| [Printing](https://mmeink-worldwide-production.up.railway.app/services/printing) | 30 |
-| [Lighting](https://mmeink-worldwide-production.up.railway.app/services/lighting) | 30 |
-| [Staging](https://mmeink-worldwide-production.up.railway.app/services/staging) | 30 |
-| [Themes](https://mmeink-worldwide-production.up.railway.app/services/themes) | 30 |
-| [Props](https://mmeink-worldwide-production.up.railway.app/services/props) | 30 |
-| [Musical Entertainment](https://mmeink-worldwide-production.up.railway.app/services/musical-entertainment) | 30 |
-| [Entertainment](https://mmeink-worldwide-production.up.railway.app/services/entertainment) | 29 |
-| [Specialty Entertainment](https://mmeink-worldwide-production.up.railway.app/services/specialty-entertainment) | 38 |
-| [Logistics](https://mmeink-worldwide-production.up.railway.app/services/logistics) | 27 |
 | [Award Dinners](https://mmeink-worldwide-production.up.railway.app/events/award-dinners) | 22 |
 | [Corporate Events](https://mmeink-worldwide-production.up.railway.app/events/corporate-events) | 22 |
 | [Themed Events](https://mmeink-worldwide-production.up.railway.app/events/themed-events) | 22 |
@@ -127,14 +118,23 @@ the second column, that many pictures are in place and stay as they are.
 | Page | Photographs in use | Still needed |
 | --- | --- | --- |
 | [Home](https://mmeink-worldwide-production.up.railway.app/) | 52 | 4 |
-| [About Us](https://mmeink-worldwide-production.up.railway.app/about) | 12 | 3 |
-| [Our Work](https://mmeink-worldwide-production.up.railway.app/work) | 12 | nothing |
-| [Services Overview](https://mmeink-worldwide-production.up.railway.app/services) | 17 | 8 |
-| [Custom Fabrication](https://mmeink-worldwide-production.up.railway.app/services/custom-fabrication) | 49 | nothing |
-| [Audio Visual](https://mmeink-worldwide-production.up.railway.app/services/audio-visual) | 32 | 6 |
-| [Design and Decor](https://mmeink-worldwide-production.up.railway.app/services/design-decor) | 47 | 6 |
-| [Rentals](https://mmeink-worldwide-production.up.railway.app/services/rentals) | 48 | 6 |
-| [Events Overview](https://mmeink-worldwide-production.up.railway.app/events) | 21 | 4 |
+| [About Us](https://mmeink-worldwide-production.up.railway.app/about) | 20 | 3 |
+| [Our Work](https://mmeink-worldwide-production.up.railway.app/work) | 13 | nothing |
+| [Services Overview](https://mmeink-worldwide-production.up.railway.app/services) | 18 | 8 |
+| [Custom Fabrication](https://mmeink-worldwide-production.up.railway.app/services/custom-fabrication) | 55 | nothing |
+| [Printing](https://mmeink-worldwide-production.up.railway.app/services/printing) | 22 | 30 |
+| [Audio Visual](https://mmeink-worldwide-production.up.railway.app/services/audio-visual) | 38 | 6 |
+| [Lighting](https://mmeink-worldwide-production.up.railway.app/services/lighting) | 7 | 30 |
+| [Staging](https://mmeink-worldwide-production.up.railway.app/services/staging) | 7 | 30 |
+| [Design and Decor](https://mmeink-worldwide-production.up.railway.app/services/design-decor) | 53 | 6 |
+| [Themes](https://mmeink-worldwide-production.up.railway.app/services/themes) | 7 | 30 |
+| [Props](https://mmeink-worldwide-production.up.railway.app/services/props) | 6 | 30 |
+| [Rentals](https://mmeink-worldwide-production.up.railway.app/services/rentals) | 54 | 6 |
+| [Musical Entertainment](https://mmeink-worldwide-production.up.railway.app/services/musical-entertainment) | 7 | 30 |
+| [Entertainment](https://mmeink-worldwide-production.up.railway.app/services/entertainment) | 120 | 29 |
+| [Specialty Entertainment](https://mmeink-worldwide-production.up.railway.app/services/specialty-entertainment) | 126 | 38 |
+| [Logistics](https://mmeink-worldwide-production.up.railway.app/services/logistics) | 7 | 32 |
+| [Events Overview](https://mmeink-worldwide-production.up.railway.app/events) | 22 | 4 |
 | [Brand Activations](https://mmeink-worldwide-production.up.railway.app/events/brand-activations) | 64 | nothing |
 | [Product Launches](https://mmeink-worldwide-production.up.railway.app/events/product-launches) | 38 | nothing |
 | [Exhibitions & Trade Shows](https://mmeink-worldwide-production.up.railway.app/events/exhibits-trade-shows) | 47 | nothing |
@@ -182,14 +182,14 @@ Already supplied: 52 photographs. Still needed: 4.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/about
 
-Already supplied: 12 photographs. Still needed: 3.
+Already supplied: 20 photographs. Still needed: 3.
 
 **`public/about/locations/`**  Photograph of the actual premises, exterior or reception.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `new-york.png` | 1200 x 800 | 3:2 | New York |
-| `miami.png` | 1200 x 800 | 3:2 | Miami |
+| `new-york.png` | 1200 x 800 | 3:2 | Office location |
+| `miami.png` | 1200 x 800 | 3:2 | Office location |
 
 **`public/about/team/`**  Wide background behind a section of text. Needs to sit quietly under white type.
 
@@ -294,7 +294,7 @@ Already supplied: 0 photographs. Still needed: 1.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services
 
-Already supplied: 18 photographs. Still needed: 8.
+Already supplied: 19 photographs. Still needed: 8.
 
 **`public/services/index/cards/`**  Square card on the overview grid.
 
@@ -313,9 +313,9 @@ Already supplied: 18 photographs. Still needed: 8.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/printing
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 22 photographs. Still needed: 30.
 
-**`public/services/printing/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/printing/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -346,32 +346,32 @@ Already supplied: 0 photographs. Still needed: 30.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `gallery-01.png` | 1200 x 900 | 4:3 | Large format printer running a full colour vinyl banner in the MME print shop |
-| `gallery-02.png` | 1200 x 900 | 4:3 | Wall wrap being applied to a venue column during an event install |
-| `gallery-03.png` | 1200 x 900 | 4:3 | Step and repeat backdrop set up for arrivals at a brand launch |
-| `gallery-04.png` | 1200 x 900 | 4:3 | Fabric tension banner hung above a conference registration desk |
-| `gallery-05.png` | 1200 x 900 | 4:3 | Rigid foam board signage cut and finished for a corporate event |
-| `gallery-06.png` | 1200 x 900 | 4:3 | Floor graphic applied across a ballroom entrance walkway |
-| `gallery-07.png` | 1200 x 900 | 4:3 | Window graphics installed along a retail activation frontage |
-| `gallery-08.png` | 1200 x 900 | 4:3 | Directional and wayfinding signage placed through a conference venue |
-| `gallery-09.png` | 1200 x 900 | 4:3 | Large format brand graphics wrapping an exhibition backwall |
-| `gallery-10.png` | 1200 x 900 | 4:3 | Menu cards and printed table stationery produced for a gala dinner |
-| `gallery-11.png` | 1200 x 900 | 4:3 | Print operator checking colour against a brand guideline proof |
-| `gallery-12.png` | 1200 x 900 | 4:3 | Finished branded environment with printed walls, floor, and signage |
+| `gallery-01.png` | 1200 x 900 | 4:3 | Gallery number 01 |
+| `gallery-02.png` | 1200 x 900 | 4:3 | Gallery number 02 |
+| `gallery-03.png` | 1200 x 900 | 4:3 | Gallery number 03 |
+| `gallery-04.png` | 1200 x 900 | 4:3 | Gallery number 04 |
+| `gallery-05.png` | 1200 x 900 | 4:3 | Gallery number 05 |
+| `gallery-06.png` | 1200 x 900 | 4:3 | Gallery number 06 |
+| `gallery-07.png` | 1200 x 900 | 4:3 | Gallery number 07 |
+| `gallery-08.png` | 1200 x 900 | 4:3 | Gallery number 08 |
+| `gallery-09.png` | 1200 x 900 | 4:3 | Gallery number 09 |
+| `gallery-10.png` | 1200 x 900 | 4:3 | Gallery number 10 |
+| `gallery-11.png` | 1200 x 900 | 4:3 | Gallery number 11 |
+| `gallery-12.png` | 1200 x 900 | 4:3 | Gallery number 12 |
 
 **`public/services/printing/hero/`**  Full width hero across the top of the page. Wide establishing shot with the headline sitting over the middle, so keep the centre clear.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Audio Visual
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/audio-visual
 
-Already supplied: 32 photographs. Still needed: 6.
+Already supplied: 39 photographs. Still needed: 6.
 
-**`public/services/audio-visual/what-we-offer/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
+**`public/services/audio-visual/what-we-offer/gifs/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -386,9 +386,9 @@ Already supplied: 32 photographs. Still needed: 6.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/lighting
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 7 photographs. Still needed: 30.
 
-**`public/services/lighting/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/lighting/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -436,15 +436,15 @@ Already supplied: 0 photographs. Still needed: 30.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Staging
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/staging
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 7 photographs. Still needed: 30.
 
-**`public/services/staging/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/staging/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -492,15 +492,15 @@ Already supplied: 0 photographs. Still needed: 30.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Design and Decor
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/design-decor
 
-Already supplied: 47 photographs. Still needed: 6.
+Already supplied: 54 photographs. Still needed: 6.
 
-**`public/services/design-decor/what-we-offer/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
+**`public/services/design-decor/what-we-offer/gifs/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -515,9 +515,9 @@ Already supplied: 47 photographs. Still needed: 6.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/themes
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 7 photographs. Still needed: 30.
 
-**`public/services/themes/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/themes/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -565,15 +565,15 @@ Already supplied: 0 photographs. Still needed: 30.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Props
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/props
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 6 photographs. Still needed: 30.
 
-**`public/services/props/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/props/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -627,9 +627,9 @@ Already supplied: 0 photographs. Still needed: 30.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/rentals
 
-Already supplied: 48 photographs. Still needed: 6.
+Already supplied: 54 photographs. Still needed: 6.
 
-**`public/services/rentals/what-we-offer/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
+**`public/services/rentals/what-we-offer/gifs/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -644,9 +644,9 @@ Already supplied: 48 photographs. Still needed: 6.
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/musical-entertainment
 
-Already supplied: 0 photographs. Still needed: 30.
+Already supplied: 7 photographs. Still needed: 30.
 
-**`public/services/musical-entertainment/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/musical-entertainment/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
@@ -694,30 +694,30 @@ Already supplied: 0 photographs. Still needed: 30.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Entertainment
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/entertainment
 
-Already supplied: 1 photograph. Still needed: 29.
+Already supplied: 125 photographs. Still needed: 29.
 
-**`public/services/entertainment/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/entertainment/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `offer-01.png` | 1200 x 800 | 3:2 | Emcees & Hosts |
-| `offer-02.png` | 1200 x 800 | 3:2 | Interactive Performers |
-| `offer-03.png` | 1200 x 800 | 3:2 | Aerialists & Circus Acts |
-| `offer-04.png` | 1200 x 800 | 3:2 | Dancers & Choreography |
-| `offer-05.png` | 1200 x 800 | 3:2 | Magicians & Close Up |
-| `offer-06.png` | 1200 x 800 | 3:2 | Comedians |
-| `offer-07.png` | 1200 x 800 | 3:2 | Celebrity Talent |
-| `offer-08.png` | 1200 x 800 | 3:2 | Photo & 360 Booths |
-| `offer-09.png` | 1200 x 800 | 3:2 | Casino & Game Tables |
-| `offer-10.png` | 1200 x 800 | 3:2 | Brand Ambassadors |
-| `offer-11.png` | 1200 x 800 | 3:2 | Character Performers |
-| `offer-12.png` | 1200 x 800 | 3:2 | Guest Experience Design |
+| `offer-01.png` | 1200 x 800 | 3:2 | What we offer number 01 |
+| `offer-02.png` | 1200 x 800 | 3:2 | What we offer number 02 |
+| `offer-03.png` | 1200 x 800 | 3:2 | What we offer number 03 |
+| `offer-04.png` | 1200 x 800 | 3:2 | What we offer number 04 |
+| `offer-05.png` | 1200 x 800 | 3:2 | What we offer number 05 |
+| `offer-06.png` | 1200 x 800 | 3:2 | What we offer number 06 |
+| `offer-07.png` | 1200 x 800 | 3:2 | What we offer number 07 |
+| `offer-08.png` | 1200 x 800 | 3:2 | What we offer number 08 |
+| `offer-09.png` | 1200 x 800 | 3:2 | What we offer number 09 |
+| `offer-10.png` | 1200 x 800 | 3:2 | What we offer number 10 |
+| `offer-11.png` | 1200 x 800 | 3:2 | What we offer number 11 |
+| `offer-12.png` | 1200 x 800 | 3:2 | What we offer number 12 |
 
 **`public/services/entertainment/case-study/`**  Frame in the case study carousel. All frames in this folder should come from the same event.
 
@@ -733,60 +733,60 @@ Already supplied: 1 photograph. Still needed: 29.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `gallery-01.png` | 1200 x 900 | 4:3 | Emcee hosting from a branded stage at a corporate event |
-| `gallery-02.png` | 1200 x 900 | 4:3 | Aerial performer suspended above a gala reception |
-| `gallery-03.png` | 1200 x 900 | 4:3 | Guests taking part in an interactive photo experience at an activation |
-| `gallery-04.png` | 1200 x 900 | 4:3 | Casino tables and professional dealers set for a private event |
-| `gallery-05.png` | 1200 x 900 | 4:3 | Carnival games built into a company celebration |
-| `gallery-06.png` | 1200 x 900 | 4:3 | Dancers performing a choreographed opening number |
-| `gallery-07.png` | 1200 x 900 | 4:3 | Strolling magician working a cocktail reception |
-| `gallery-08.png` | 1200 x 900 | 4:3 | Guests using a 360 degree video booth at a launch party |
-| `gallery-09.png` | 1200 x 900 | 4:3 | Caricature artist drawing guests through dinner |
-| `gallery-10.png` | 1200 x 900 | 4:3 | Virtual reality station set up in an activation space |
-| `gallery-11.png` | 1200 x 900 | 4:3 | Team building activity running in a conference break out |
-| `gallery-12.png` | 1200 x 900 | 4:3 | Performers and guests filling the floor at an after party |
+| `gallery-01.png` | 1200 x 900 | 4:3 | Gallery number 01 |
+| `gallery-02.png` | 1200 x 900 | 4:3 | Gallery number 02 |
+| `gallery-03.png` | 1200 x 900 | 4:3 | Gallery number 03 |
+| `gallery-04.png` | 1200 x 900 | 4:3 | Gallery number 04 |
+| `gallery-05.png` | 1200 x 900 | 4:3 | Gallery number 05 |
+| `gallery-06.png` | 1200 x 900 | 4:3 | Gallery number 06 |
+| `gallery-07.png` | 1200 x 900 | 4:3 | Gallery number 07 |
+| `gallery-08.png` | 1200 x 900 | 4:3 | Gallery number 08 |
+| `gallery-09.png` | 1200 x 900 | 4:3 | Gallery number 09 |
+| `gallery-10.png` | 1200 x 900 | 4:3 | Gallery number 10 |
+| `gallery-11.png` | 1200 x 900 | 4:3 | Gallery number 11 |
+| `gallery-12.png` | 1200 x 900 | 4:3 | Gallery number 12 |
 
 ### Specialty Entertainment
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/specialty-entertainment
 
-Already supplied: 1 photograph. Still needed: 38.
+Already supplied: 136 photographs. Still needed: 38.
 
 **`public/services/specialty-entertainment/difference/`**  Tile in the What We Do grid.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `difference.png` | 1200 x 900 | 4:3 | Mirror suit violinist performing among guests at an MME Worldwide event |
+| `difference.png` | 1200 x 900 | 4:3 | The mme difference |
 
 **`public/services/specialty-entertainment/divisions/`**  Tile in the What We Do grid.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `division-01.png` | 1200 x 900 | 4:3 | Entertainment Above Expectations |
-| `division-02.png` | 1200 x 900 | 4:3 | Where Entertainment Becomes Part of the Environment |
-| `division-03.png` | 1200 x 900 | 4:3 | Movement. Energy. Spectacle. |
-| `division-04.png` | 1200 x 900 | 4:3 | Turn Down the Lights. Turn Up the Experience. |
-| `division-05.png` | 1200 x 900 | 4:3 | Entertainment Without a Stage |
-| `division-06.png` | 1200 x 900 | 4:3 | Give Your Event Its Own Sound |
-| `division-07.png` | 1200 x 900 | 4:3 | Make Your Guests Part of the Show |
-| `division-08.png` | 1200 x 900 | 4:3 | If You Can Imagine It, We Can Create It |
+| `division-01.png` | 1200 x 900 | 4:3 | What we do number 01 |
+| `division-02.png` | 1200 x 900 | 4:3 | What we do number 02 |
+| `division-03.png` | 1200 x 900 | 4:3 | What we do number 03 |
+| `division-04.png` | 1200 x 900 | 4:3 | What we do number 04 |
+| `division-05.png` | 1200 x 900 | 4:3 | What we do number 05 |
+| `division-06.png` | 1200 x 900 | 4:3 | What we do number 06 |
+| `division-07.png` | 1200 x 900 | 4:3 | What we do number 07 |
+| `division-08.png` | 1200 x 900 | 4:3 | What we do number 08 |
 
-**`public/services/specialty-entertainment/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/specialty-entertainment/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `offer-01.png` | 1200 x 800 | 3:2 | Aerial & Acrobatic Performers |
-| `offer-02.png` | 1200 x 800 | 3:2 | Living Art & Human Installations |
-| `offer-03.png` | 1200 x 800 | 3:2 | Specialty Dancers |
-| `offer-04.png` | 1200 x 800 | 3:2 | Fire, LED & Glow Artists |
-| `offer-05.png` | 1200 x 800 | 3:2 | Strolling & Immersive Performers |
-| `offer-06.png` | 1200 x 800 | 3:2 | Musicians & Specialty Live Acts |
-| `offer-07.png` | 1200 x 800 | 3:2 | Interactive Guest Experiences |
-| `offer-08.png` | 1200 x 800 | 3:2 | Themed & Custom Productions |
-| `offer-09.png` | 1200 x 800 | 3:2 | Creative Development & Casting |
-| `offer-10.png` | 1200 x 800 | 3:2 | Costume & Choreography Direction |
-| `offer-11.png` | 1200 x 800 | 3:2 | Show Calling & Music Direction |
-| `offer-12.png` | 1200 x 800 | 3:2 | On Site Talent Management |
+| `offer-01.png` | 1200 x 800 | 3:2 | What we offer number 01 |
+| `offer-02.png` | 1200 x 800 | 3:2 | What we offer number 02 |
+| `offer-03.png` | 1200 x 800 | 3:2 | What we offer number 03 |
+| `offer-04.png` | 1200 x 800 | 3:2 | What we offer number 04 |
+| `offer-05.png` | 1200 x 800 | 3:2 | What we offer number 05 |
+| `offer-06.png` | 1200 x 800 | 3:2 | What we offer number 06 |
+| `offer-07.png` | 1200 x 800 | 3:2 | What we offer number 07 |
+| `offer-08.png` | 1200 x 800 | 3:2 | What we offer number 08 |
+| `offer-09.png` | 1200 x 800 | 3:2 | What we offer number 09 |
+| `offer-10.png` | 1200 x 800 | 3:2 | What we offer number 10 |
+| `offer-11.png` | 1200 x 800 | 3:2 | What we offer number 11 |
+| `offer-12.png` | 1200 x 800 | 3:2 | What we offer number 12 |
 
 **`public/services/specialty-entertainment/case-study/`**  Frame in the case study carousel. All frames in this folder should come from the same event.
 
@@ -802,41 +802,46 @@ Already supplied: 1 photograph. Still needed: 38.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `gallery-01.png` | 1200 x 900 | 4:3 | Aerialist performing above guests at a gala produced by MME Worldwide |
-| `gallery-02.png` | 1200 x 900 | 4:3 | Living champagne wall greeting guests at a corporate reception |
-| `gallery-03.png` | 1200 x 900 | 4:3 | LED dancers opening a product launch produced by MME Worldwide |
-| `gallery-04.png` | 1200 x 900 | 4:3 | Body painted performer working as part of the event decor |
-| `gallery-05.png` | 1200 x 900 | 4:3 | Strolling magician entertaining guests during cocktail hour |
-| `gallery-06.png` | 1200 x 900 | 4:3 | Electric violinist performing at a luxury private celebration |
-| `gallery-07.png` | 1200 x 900 | 4:3 | Contortionist featured in a themed entertainment production |
-| `gallery-08.png` | 1200 x 900 | 4:3 | Caricature artist creating live artwork for event guests |
-| `gallery-09.png` | 1200 x 900 | 4:3 | Choreographed dance production on a custom MME stage build |
-| `gallery-10.png` | 1200 x 900 | 4:3 | Glow performers during an after dark brand activation |
-| `gallery-11.png` | 1200 x 900 | 4:3 | Themed hosts welcoming guests at an immersive event entrance |
-| `gallery-12.png` | 1200 x 900 | 4:3 | Full theatrical entertainment production staged by MME Worldwide |
+| `gallery-01.png` | 1200 x 900 | 4:3 | Gallery number 01 |
+| `gallery-02.png` | 1200 x 900 | 4:3 | Gallery number 02 |
+| `gallery-03.png` | 1200 x 900 | 4:3 | Gallery number 03 |
+| `gallery-04.png` | 1200 x 900 | 4:3 | Gallery number 04 |
+| `gallery-05.png` | 1200 x 900 | 4:3 | Gallery number 05 |
+| `gallery-06.png` | 1200 x 900 | 4:3 | Gallery number 06 |
+| `gallery-07.png` | 1200 x 900 | 4:3 | Gallery number 07 |
+| `gallery-08.png` | 1200 x 900 | 4:3 | Gallery number 08 |
+| `gallery-09.png` | 1200 x 900 | 4:3 | Gallery number 09 |
+| `gallery-10.png` | 1200 x 900 | 4:3 | Gallery number 10 |
+| `gallery-11.png` | 1200 x 900 | 4:3 | Gallery number 11 |
+| `gallery-12.png` | 1200 x 900 | 4:3 | Gallery number 12 |
 
 ### Logistics
 
 Live page: https://mmeink-worldwide-production.up.railway.app/services/logistics
 
-Already supplied: 0 photographs. Still needed: 32.
+Already supplied: 7 photographs. Still needed: 32.
 
-**`public/services/logistics/what-we-offer/`**  Capability card in the What We Offer strip.
+**`public/services/logistics/what-we-offer/images/`**  Capability card in the What We Offer strip.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
 | `offer-01.png` | 1200 x 800 | 3:2 | Venue Sourcing & Coordination |
 | `offer-02.png` | 1200 x 800 | 3:2 | Load In & Load Out Management |
 | `offer-03.png` | 1200 x 800 | 3:2 | Event Staffing & Crew |
-| `offer-04.gif` | 1200 x 800 | 3:2 | Transportation & Freight |
 | `offer-05.png` | 1200 x 800 | 3:2 | Permitting & Compliance |
+| `offer-08.png` | 1200 x 800 | 3:2 | Timeline & Run of Show |
+| `offer-10.png` | 1200 x 800 | 3:2 | Budget & Cost Management |
+| `offer-12.png` | 1200 x 800 | 3:2 | Post Event Reporting |
+
+**`public/services/logistics/what-we-offer/gifs/`**  Short animated loop for a capability card. Two to four seconds, seamless, no audio.
+
+| File | Size | Ratio | The frame |
+| --- | --- | --- | --- |
+| `offer-04.gif` | 1200 x 800 | 3:2 | Transportation & Freight |
 | `offer-06.gif` | 1200 x 800 | 3:2 | Vendor Management |
 | `offer-07.gif` | 1200 x 800 | 3:2 | On Site Production Management |
-| `offer-08.png` | 1200 x 800 | 3:2 | Timeline & Run of Show |
 | `offer-09.gif` | 1200 x 800 | 3:2 | Warehouse & Storage |
-| `offer-10.png` | 1200 x 800 | 3:2 | Budget & Cost Management |
 | `offer-11.gif` | 1200 x 800 | 3:2 | Safety & Risk Planning |
-| `offer-12.png` | 1200 x 800 | 3:2 | Post Event Reporting |
 
 **`public/services/logistics/case-study/`**  Frame in the case study carousel. All frames in this folder should come from the same event.
 
@@ -876,13 +881,13 @@ Already supplied: 0 photographs. Still needed: 32.
 
 | File | Size | Ratio | The frame |
 | --- | --- | --- | --- |
-| `hero.png` | 1920 x 1080 | 16:9 | Page hero |
+| `hero-video.mp4` | 1920 x 1080 | 16:9 | Page hero |
 
 ### Events Overview
 
 Live page: https://mmeink-worldwide-production.up.railway.app/events
 
-Already supplied: 22 photographs. Still needed: 4.
+Already supplied: 23 photographs. Still needed: 4.
 
 **`public/events/index/cards/`**  Square card on the overview grid.
 

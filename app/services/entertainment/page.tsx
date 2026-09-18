@@ -6,12 +6,14 @@ import FeaturedWork from "@/components/services/FeaturedWork";
 import ImageGallerySection from "@/components/events/ImageGallerySection";
 import WorkHero from "@/components/work/WorkHero";
 import FAQ from "@/components/FAQ";
+import EntertainmentDivisions from "@/components/services/EntertainmentDivisions";
 import ProcessApproach from "@/components/services/ProcessApproach";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
 import {
   // EntertainmentCaseStudiesData,
   EntertainmentData,
+  EntertainmentDivisionsData,
   EntertainmentFAQ,
   EntertainmentImageGallery,
 } from "@/data";
@@ -32,11 +34,19 @@ export default function EntertainmentServicePage() {
 
       <ServiceIntro content={serviceIntros["entertainment"]} />
 
+      <EntertainmentDivisions
+        headingPrefix="Discover Our"
+        headingPhrases={["Entertainment", "Live Talent", "Guest Experiences"]}
+        divisions={EntertainmentDivisionsData}
+      />
+
       <WhatWeOffer
         title={EntertainmentData.title}
         subtitle={EntertainmentData.subtitle}
         topRow={EntertainmentData.topRow}
         bottomRow={EntertainmentData.bottomRow}
+        topRowSlots={EntertainmentData.topRowSlots}
+        bottomRowSlots={EntertainmentData.bottomRowSlots}
       />
       <ProcessApproach />
       {/* <CaseStudiesSection caseStudies={EntertainmentCaseStudiesData} /> */}

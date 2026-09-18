@@ -72,8 +72,8 @@ Two components read these:
 
 ## Where the real photography lives
 
-585 files in `public/` are real assets (638.2 MB).
-433 are placeholders (10.6 MB) waiting on the design team.
+945 files in `public/` are real assets (732.3 MB).
+357 are placeholders (56.7 MB) waiting on the design team.
 
 Real photography and video that no page displays is preserved outside
 `public/` in `asset-archive/`, at the path it used to occupy. See the README
@@ -94,13 +94,14 @@ in that folder.
 | `/about/brochure/` | 1 | n/a | real, 1 file(s) |
 | `/about/brochure/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
 | `/about/brochure/pages/` | 16 | 1700 x 2200 (17:22) | **16 placeholder(s) needed** |
+| `/about/founder/` | 1 | n/a | real, 1 file(s) |
 | `/about/hero/` | 1 | n/a | real, 1 file(s) |
 | `/about/intro/` | 1 | n/a | real, 1 file(s) |
-| `/about/locations/` | 3 | 1200 x 800 (3:2) | 1 real, **2 needed** |
+| `/about/locations/` | 6 | n/a | real, 6 file(s) |
 | `/about/process/` | 4 | n/a | real, 4 file(s) |
 | `/about/sizzle-reel/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
 | `/about/sizzle-reel/reel/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/about/team/` | 6 | 1920 x 1080 (16:9) | 5 real, **1 needed** |
+| `/about/team/` | 8 | 1920 x 1080 (16:9) | 7 real, **1 needed** |
 
 ### public/contact
 
@@ -136,7 +137,7 @@ in that folder.
 | `/events/galas/gallery/` | 30 | n/a | real, 30 file(s) |
 | `/events/galas/hero/` | 1 | n/a | real, 1 file(s) |
 | `/events/galas/what-we-do/` | 4 | n/a | real, 4 file(s) |
-| `/events/hero/` | 1 | n/a | real, 1 file(s) |
+| `/events/hero/` | 2 | n/a | real, 2 file(s) |
 | `/events/index/cards/` | 10 | 1200 x 1200 (1:1) | 6 real, **4 needed** |
 | `/events/intro/` | 3 | n/a | real, 3 file(s) |
 | `/events/product-launches/case-study/` | 6 | n/a | real, 6 file(s) |
@@ -173,63 +174,97 @@ in that folder.
 | Folder | Files | Delivery size | Status |
 | --- | --- | --- | --- |
 | `/services/audio-visual/case-study/` | 5 | n/a | real, 5 file(s) |
+| `/services/audio-visual/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/audio-visual/gallery/` | 20 | n/a | real, 20 file(s) |
-| `/services/audio-visual/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/audio-visual/what-we-offer/` | 12 | 1200 x 800 (3:2) | 6 real, **6 needed** |
+| `/services/audio-visual/hero/` | 2 | n/a | real, 2 file(s) |
+| `/services/audio-visual/what-we-offer/gifs/` | 6 | 1200 x 800 (3:2) | **6 placeholder(s) needed** |
+| `/services/audio-visual/what-we-offer/images/` | 6 | n/a | real, 6 file(s) |
 | `/services/custom-fabrication/case-study/` | 6 | n/a | real, 6 file(s) |
+| `/services/custom-fabrication/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/custom-fabrication/gallery/` | 30 | n/a | real, 30 file(s) |
-| `/services/custom-fabrication/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/custom-fabrication/what-we-offer/` | 12 | n/a | real, 12 file(s) |
+| `/services/custom-fabrication/hero/` | 2 | n/a | real, 2 file(s) |
+| `/services/custom-fabrication/what-we-offer/gifs/` | 8 | n/a | real, 8 file(s) |
+| `/services/custom-fabrication/what-we-offer/images/` | 4 | n/a | real, 4 file(s) |
 | `/services/design-decor/case-study/` | 6 | n/a | real, 6 file(s) |
+| `/services/design-decor/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/design-decor/gallery/` | 34 | n/a | real, 34 file(s) |
-| `/services/design-decor/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/design-decor/what-we-offer/` | 12 | 1200 x 800 (3:2) | 6 real, **6 needed** |
+| `/services/design-decor/hero/` | 2 | n/a | real, 2 file(s) |
+| `/services/design-decor/what-we-offer/gifs/` | 6 | 1200 x 800 (3:2) | **6 placeholder(s) needed** |
+| `/services/design-decor/what-we-offer/images/` | 6 | n/a | real, 6 file(s) |
 | `/services/entertainment/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
-| `/services/entertainment/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/entertainment/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/entertainment/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/entertainment/divisions/brand-ambassadors/` | 8 | n/a | real, 8 file(s) |
+| `/services/entertainment/divisions/casino-game-tables/` | 8 | n/a | real, 8 file(s) |
+| `/services/entertainment/divisions/celebrity-talent/` | 4 | n/a | real, 4 file(s) |
+| `/services/entertainment/divisions/character-performers/` | 9 | n/a | real, 9 file(s) |
+| `/services/entertainment/divisions/dancers-choreography/` | 12 | n/a | real, 12 file(s) |
+| `/services/entertainment/divisions/digital-photo-experiences/` | 14 | n/a | real, 14 file(s) |
+| `/services/entertainment/divisions/guest-experience-design/` | 5 | n/a | real, 5 file(s) |
+| `/services/entertainment/divisions/magicians-close-up/` | 4 | n/a | real, 4 file(s) |
+| `/services/entertainment/featured/` | 5 | n/a | real, 5 file(s) |
+| `/services/entertainment/gallery/` | 42 | n/a | real, 42 file(s) |
+| `/services/entertainment/hero/` | 2 | n/a | real, 2 file(s) |
+| `/services/entertainment/what-we-offer/images/` | 8 | n/a | real, 8 file(s) |
+| `/services/entertainment/what-we-offer/videos/` | 4 | n/a | real, 4 file(s) |
 | `/services/featured-projects/` | 12 | n/a | real, 12 file(s) |
-| `/services/hero/` | 1 | n/a | real, 1 file(s) |
+| `/services/hero/` | 2 | n/a | real, 2 file(s) |
 | `/services/index/cards/` | 13 | 1200 x 1200 (1:1) | 5 real, **8 needed** |
 | `/services/lighting/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
+| `/services/lighting/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/lighting/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/lighting/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/lighting/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/lighting/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/lighting/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 | `/services/logistics/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
 | `/services/logistics/event-management/` | 2 | 1000 x 1000 (1:1)<br>1200 x 900 (4:3) | **2 placeholder(s) needed** |
+| `/services/logistics/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/logistics/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/logistics/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/logistics/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/logistics/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/logistics/what-we-offer/gifs/` | 5 | 1200 x 800 (3:2) | **5 placeholder(s) needed** |
+| `/services/logistics/what-we-offer/images/` | 7 | 1200 x 800 (3:2) | **7 placeholder(s) needed** |
 | `/services/musical-entertainment/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
+| `/services/musical-entertainment/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/musical-entertainment/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/musical-entertainment/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/musical-entertainment/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/musical-entertainment/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/musical-entertainment/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 | `/services/printing/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
-| `/services/printing/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/printing/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/printing/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/printing/featured/` | 8 | n/a | real, 8 file(s) |
+| `/services/printing/gallery/` | 13 | n/a | real, 13 file(s) |
+| `/services/printing/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/printing/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 | `/services/props/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
+| `/services/props/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/props/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
 | `/services/props/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/props/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/props/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 | `/services/rentals/case-study/` | 7 | n/a | real, 7 file(s) |
+| `/services/rentals/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/rentals/gallery/` | 34 | n/a | real, 34 file(s) |
 | `/services/rentals/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/rentals/what-we-offer/` | 12 | 1200 x 800 (3:2) | 6 real, **6 needed** |
-| `/services/specialty-entertainment/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
-| `/services/specialty-entertainment/difference/` | 1 | 1200 x 900 (4:3) | **1 placeholder(s) needed** |
-| `/services/specialty-entertainment/divisions/` | 8 | 1200 x 900 (4:3) | **8 placeholder(s) needed** |
-| `/services/specialty-entertainment/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/specialty-entertainment/hero/` | 1 | n/a | real, 1 file(s) |
-| `/services/specialty-entertainment/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/rentals/what-we-offer/gifs/` | 6 | 1200 x 800 (3:2) | **6 placeholder(s) needed** |
+| `/services/rentals/what-we-offer/images/` | 6 | n/a | real, 6 file(s) |
+| `/services/specialty-entertainment/difference/` | 2 | n/a | real, 2 file(s) |
+| `/services/specialty-entertainment/divisions/aerial-acrobatic/` | 8 | n/a | real, 8 file(s) |
+| `/services/specialty-entertainment/divisions/fire-led-visual/` | 6 | n/a | real, 6 file(s) |
+| `/services/specialty-entertainment/divisions/interactive-experiences/` | 7 | n/a | real, 7 file(s) |
+| `/services/specialty-entertainment/divisions/living-art/` | 15 | n/a | real, 15 file(s) |
+| `/services/specialty-entertainment/divisions/musicians-live-acts/` | 6 | n/a | real, 6 file(s) |
+| `/services/specialty-entertainment/divisions/specialty-dancers/` | 9 | n/a | real, 9 file(s) |
+| `/services/specialty-entertainment/divisions/strolling-immersive/` | 11 | n/a | real, 11 file(s) |
+| `/services/specialty-entertainment/divisions/themed-custom/` | 14 | n/a | real, 14 file(s) |
+| `/services/specialty-entertainment/featured/` | 6 | n/a | real, 6 file(s) |
+| `/services/specialty-entertainment/gallery/` | 34 | n/a | real, 34 file(s) |
+| `/services/specialty-entertainment/hero/` | 2 | n/a | real, 2 file(s) |
+| `/services/specialty-entertainment/what-we-offer/images/` | 8 | n/a | real, 8 file(s) |
+| `/services/specialty-entertainment/what-we-offer/videos/` | 8 | n/a | real, 8 file(s) |
 | `/services/staging/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
+| `/services/staging/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/staging/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/staging/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/staging/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/staging/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/staging/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 | `/services/themes/case-study/` | 5 | 1600 x 900 (16:9) | **5 placeholder(s) needed** |
+| `/services/themes/featured/` | 6 | n/a | real, 6 file(s) |
 | `/services/themes/gallery/` | 12 | 1200 x 900 (4:3) | **12 placeholder(s) needed** |
-| `/services/themes/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
-| `/services/themes/what-we-offer/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
+| `/services/themes/hero/` | 2 | 1920 x 1080 (16:9) | 1 real, **1 needed** |
+| `/services/themes/what-we-offer/images/` | 12 | 1200 x 800 (3:2) | **12 placeholder(s) needed** |
 
 ### public/shared
 
@@ -243,7 +278,7 @@ in that folder.
 
 | Folder | Files | Delivery size | Status |
 | --- | --- | --- | --- |
-| `/work/hero/` | 1 | n/a | real, 1 file(s) |
+| `/work/hero/` | 2 | n/a | real, 2 file(s) |
 | `/work/project-details/hero/` | 1 | 1920 x 1080 (16:9) | **1 placeholder(s) needed** |
 | `/work/project-details/related/` | 3 | 1200 x 900 (4:3) | **3 placeholder(s) needed** |
 | `/work/project-details/slides/` | 5 | 1200 x 1500 (4:5) | **5 placeholder(s) needed** |

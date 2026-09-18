@@ -40,8 +40,9 @@ interface EntertainmentDivisionsProps {
 }
 
 /**
- * The eight talent divisions, as a grid of cards that each open a modal.
+ * A page's talent divisions, as a grid of cards that each open a modal.
  *
+ * Shared by Specialty Entertainment and Entertainment, eight divisions each.
  * The card carries only the photograph, the division name, and the way in, so
  * the eight read as one set at a glance. Everything a visitor searching for
  * "aerial champagne service" or "LED dancers" needs sits in the modal, along
@@ -49,8 +50,9 @@ interface EntertainmentDivisionsProps {
  *
  * Every panel stays mounted so its copy is in the markup for crawlers and is
  * readable without JavaScript, but a panel's photographs are only mounted once
- * it has been opened. Without that, all seventy six images would be requested
- * on first paint for a section where most visitors open one division at most.
+ * it has been opened. Without that, every division's gallery would be
+ * requested on first paint, seventy odd images for a section where most
+ * visitors open one division at most.
  */
 export default function EntertainmentDivisions({
   headingPrefix,

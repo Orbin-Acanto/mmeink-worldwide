@@ -24,6 +24,11 @@ import {
   Music,
   Palette,
   Star,
+  Drama,
+  Dices,
+  Camera,
+  Handshake,
+  Mic,
 } from "lucide-react";
 
 export const navItems = [
@@ -5274,83 +5279,348 @@ export const MusicalEntertainmentFAQ = [
   },
 ];
 
+/**
+ * Builds a division's photo set from the numbered files on disk.
+ *
+ * The folders hold uneven counts (four for the magicians, fifteen for living
+ * art), so the count is passed in rather than inferred. Alt text is the same
+ * sentence with a position on the end, which is what a screen reader user
+ * needs here: the photographs are a set, and the useful information is which
+ * one of the set is open in the viewer.
+ */
+const divisionGallery = (
+  base: string,
+  id: string,
+  count: number,
+  altBase: string
+) =>
+  Array.from({ length: count }, (_, i) => ({
+    src: `${base}/${id}/${String(i + 1).padStart(2, "0")}.jpg`,
+    alt: `${altBase}, photo ${i + 1} of ${count}`,
+  }));
+
+/** Where the Entertainment division photographs live. */
+const ENTERTAINMENT_DIVISIONS = "/services/entertainment/divisions";
+
+/**
+ * The eight talent divisions behind the Entertainment page.
+ *
+ * Same card and modal treatment as Specialty Entertainment: the grid carries
+ * the photograph and the division name, and everything a visitor searching
+ * for "casino party NYC" or "brand ambassadors for a product launch" needs
+ * sits in the panel as crawlable copy alongside that division's photographs.
+ */
+export const EntertainmentDivisionsData = [
+  {
+    id: "dancers-choreography",
+    icon: PersonStanding,
+    blurb:
+      "Production casts, carnival troupes and social dancers, choreographed to your music, your theme and your run of show.",
+    eyebrow: "Dancers & Choreography",
+    title: "Choreography Built for Your Room",
+    paragraphs: [
+      "Dance is the fastest way to change the temperature of a room. We cast and choreograph everything from a two minute opening number to a full production cast that carries the evening, and we rehearse it against your music direction so the timing lands.",
+      "Casting follows the brief rather than a roster. A carnival troupe in feathers, a Broadway style line in tails, gold wing dancers framing an entrance, or a crew that pulls guests onto the floor once dinner clears.",
+    ],
+    featuring: [
+      "Production dance casts",
+      "Carnival and samba troupes",
+      "Showgirl lines",
+      "Gold wing and costume dancers",
+      "Ballroom and Latin",
+      "Hip hop crews",
+      "Cultural dance",
+      "Dance floor motivators",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/dancers-choreography/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "dancers-choreography",
+      12,
+      "Dance performance produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "character-performers",
+    icon: Drama,
+    blurb:
+      "Costumed characters who greet, host and hold court, built around the world your event is set in.",
+    eyebrow: "Character Performers",
+    title: "Characters Guests Walk Straight Into",
+    paragraphs: [
+      "A character performer does the work of scenery that can talk back. Guests meet the world of the event at the door, and that first impression carries through the night.",
+      "Casting is built around your theme, from astronaut greeters on a launch red carpet to a jester working a Mardi Gras ballroom, a fairy tale villain holding the dance floor, or knights in full plate staging a duel.",
+    ],
+    featuring: [
+      "Costumed greeters",
+      "Themed hosts and hostesses",
+      "Fairy tale and fantasy characters",
+      "Historical and period characters",
+      "Stilt walkers",
+      "Mascots and brand characters",
+      "Strolling characters",
+      "Custom costume builds",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/character-performers/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "character-performers",
+      9,
+      "Character performer produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "casino-game-tables",
+    icon: Dices,
+    blurb:
+      "Full size tables, professional dealers and roving games that turn a ballroom into a casino floor.",
+    eyebrow: "Casino & Game Tables",
+    title: "A Casino Floor, Built for One Night",
+    paragraphs: [
+      "A casino night gives guests something to do with their hands and a reason to stay in the room. We supply the tables, the chips, the dealers and the prize structure, then dress the floor so it reads as part of the event rather than rented equipment.",
+      "Where floor space is tight or the format is a standing reception, roving tables worn by costumed dealers bring the game to the guest instead.",
+    ],
+    featuring: [
+      "Blackjack",
+      "Roulette",
+      "Craps",
+      "Poker",
+      "Big six wheel",
+      "Slot machines",
+      "Roving gaming tables",
+      "Professional dealers",
+      "Prize and tournament structures",
+    ],
+    footnote:
+      "Play is for entertainment only. Prize structures are built to suit your venue and any local requirements that apply.",
+    image: `${ENTERTAINMENT_DIVISIONS}/casino-game-tables/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "casino-game-tables",
+      8,
+      "Casino and gaming entertainment produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "digital-photo-experiences",
+    icon: Camera,
+    blurb:
+      "Photo booths, 360 capture, touch tables and branded kiosks that put your event in the hands of everyone who attends.",
+    eyebrow: "Digital Engagement & Photo Experiences",
+    title: "Every Guest Leaves With the Content",
+    paragraphs: [
+      "Photo and digital activations are the part of the night guests take home and post. We design the capture moment, the set it sits in and the overlay it goes out with, so the content carries your brand rather than a booth logo.",
+      "The same team builds the quieter digital layer. Touch tables, product kiosks, digital towers and interactive walls let guests browse, play and sign up without a queue forming around a laptop.",
+    ],
+    featuring: [
+      "Open air and enclosed photo booths",
+      "360 video booths",
+      "Green screen and custom photo sets",
+      "GIF and Boomerang stations",
+      "Roaming photographers",
+      "Touch tables and interactive walls",
+      "Digital signage towers",
+      "Branded kiosks",
+      "Social sharing and data capture",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/digital-photo-experiences/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "digital-photo-experiences",
+      14,
+      "Digital engagement and photo experience produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "magicians-close-up",
+    icon: Wand2,
+    blurb:
+      "Close up magicians and mentalists working table to table, plus routines written around your message.",
+    eyebrow: "Magicians & Close Up",
+    title: "The Best Seat Is Right Next to You",
+    paragraphs: [
+      "Close up magic solves the hardest part of a cocktail hour, which is giving strangers a reason to talk to each other. A magician works a group of five or six at a time, then moves on, and the room warms up behind them.",
+      "For brand work, a routine can be written around a product, a number, or a launch reveal, so the effect carries the message rather than sitting next to it.",
+    ],
+    featuring: [
+      "Close up magicians",
+      "Strolling magic",
+      "Mentalists and mind readers",
+      "Table to table sets",
+      "Branded routines and reveals",
+      "Living statues",
+      "Stage illusion",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/magicians-close-up/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "magicians-close-up",
+      4,
+      "Close up magic produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "brand-ambassadors",
+    icon: Handshake,
+    blurb:
+      "Trained hosts, street teams and registration staff who carry your brand from the door to the last handshake.",
+    eyebrow: "Brand Ambassadors",
+    title: "The First Person Your Guest Meets",
+    paragraphs: [
+      "Most of what a guest thinks about your event is settled in the first thirty seconds, usually by whoever is standing at the door. We cast and brief that person the same way we cast a performer.",
+      "The same team covers registration desks, product sampling, street activations, step and repeat lines and VIP hosting, in your wardrobe and on your script.",
+    ],
+    featuring: [
+      "Event hosts and hostesses",
+      "Registration and check in staff",
+      "Street teams",
+      "Product sampling",
+      "Promotional models",
+      "VIP and green room hosts",
+      "Branded wardrobe",
+      "Multilingual staff",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/brand-ambassadors/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "brand-ambassadors",
+      8,
+      "Brand ambassador staffing produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "celebrity-talent",
+    icon: Mic,
+    blurb:
+      "Headline artists, celebrity hosts and speakers, sourced, contracted and managed through to the stage.",
+    eyebrow: "Celebrity Talent",
+    title: "Book the Name, Run the Night",
+    paragraphs: [
+      "A name on the invitation only works if the night around it works. We handle the offer, the contracting, the rider, the travel and the green room, then run the show so the appearance lands where your programme needs it.",
+      "That covers headline bands and recording artists, celebrity emcees and keynote speakers, athletes and on camera talent, matched to the audience you actually have in the room.",
+    ],
+    featuring: [
+      "Headline bands and artists",
+      "Recording artists and DJs",
+      "Celebrity emcees and hosts",
+      "Keynote speakers",
+      "Athletes and personalities",
+      "Meet and greet management",
+      "Rider and hospitality",
+      "Contracting and travel",
+    ],
+    footnote:
+      "Talent availability and fees move quickly, so we confirm holds in writing before anything is announced.",
+    image: `${ENTERTAINMENT_DIVISIONS}/celebrity-talent/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "celebrity-talent",
+      4,
+      "Celebrity talent booked by MME Worldwide"
+    ),
+  },
+  {
+    id: "guest-experience-design",
+    icon: Palette,
+    blurb:
+      "Live artists, fortune tellers and hands on installations that give guests a moment of their own.",
+    eyebrow: "Guest Experience Design",
+    title: "Something to Do, Not Just Watch",
+    paragraphs: [
+      "Not every guest wants to face a stage. Guest experience design fills the rest of the room with things worth walking over to, from a live painter capturing the ballroom to a graffiti wall the whole party signs.",
+      "Each activation is chosen for the shape of your event and the keepsake you want guests leaving with, whether that is a sketched portrait, a fortune card, or a photograph of the wall they helped paint.",
+    ],
+    featuring: [
+      "Live event painters",
+      "Caricature and silhouette artists",
+      "Fashion illustrators",
+      "Graffiti and mural walls",
+      "Fortune tellers",
+      "Interactive art installations",
+      "Custom keepsakes",
+      "Hands on guest activations",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/guest-experience-design/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "guest-experience-design",
+      5,
+      "Guest experience activation produced by MME Worldwide"
+    ),
+  },
+];
+
 export const EntertainmentData = {
   title: "What We Offer",
   subtitle: "Performers, Hosts & Interactive Experiences",
+  /* Slot sizes for each row, read left to right. 1 is a single card filling
+     the row height, 2 is a pair stacked inside one slot. Each clip takes a
+     full height slot and the stills pair up around it, and the two rows run
+     the pattern in opposite order so they do not march in step. */
+  topRowSlots: [1, 2, 1, 2],
+  bottomRowSlots: [2, 1, 2, 1],
   topRow: [
     {
       id: "1",
-      title: "Emcees & Hosts",
-      image: "/services/entertainment/what-we-offer/images/offer-01.png",
-      width: "lg" as const,
+      title: "Dancers & Choreography",
+      image: "/services/entertainment/what-we-offer/videos/offer-01.mp4",
     },
     {
       id: "2",
-      title: "Interactive Performers",
-      image: "/services/entertainment/what-we-offer/images/offer-02.png",
-      width: "md" as const,
+      title: "Emcees & Hosts",
+      image: "/services/entertainment/what-we-offer/images/offer-01.jpg",
     },
     {
       id: "3",
       title: "Aerialists & Circus Acts",
-      image: "/services/entertainment/what-we-offer/images/offer-03.png",
-      width: "xl" as const,
+      image: "/services/entertainment/what-we-offer/images/offer-02.jpg",
     },
     {
       id: "4",
-      title: "Dancers & Choreography",
-      image: "/services/entertainment/what-we-offer/images/offer-04.png",
-      width: "sm" as const,
+      title: "Character Performers",
+      image: "/services/entertainment/what-we-offer/videos/offer-02.mp4",
     },
     {
       id: "5",
       title: "Magicians & Close Up",
-      image: "/services/entertainment/what-we-offer/images/offer-05.png",
-      width: "lg" as const,
+      image: "/services/entertainment/what-we-offer/images/offer-03.jpg",
     },
     {
       id: "6",
       title: "Comedians",
-      image: "/services/entertainment/what-we-offer/images/offer-06.png",
-      width: "md" as const,
+      image: "/services/entertainment/what-we-offer/images/offer-04.jpg",
     },
   ],
   bottomRow: [
     {
       id: "7",
-      title: "Celebrity Talent",
-      image: "/services/entertainment/what-we-offer/images/offer-07.png",
-      width: "lg" as const,
+      title: "Interactive Performers",
+      image: "/services/entertainment/what-we-offer/images/offer-05.jpg",
     },
     {
       id: "8",
       title: "Photo & 360 Booths",
-      image: "/services/entertainment/what-we-offer/images/offer-08.png",
-      width: "md" as const,
+      image: "/services/entertainment/what-we-offer/images/offer-06.jpg",
     },
     {
       id: "9",
       title: "Casino & Game Tables",
-      image: "/services/entertainment/what-we-offer/images/offer-09.png",
-      width: "xl" as const,
+      image: "/services/entertainment/what-we-offer/videos/offer-03.mp4",
     },
     {
       id: "10",
-      title: "Brand Ambassadors",
-      image: "/services/entertainment/what-we-offer/images/offer-10.png",
-      width: "sm" as const,
+      title: "Celebrity Talent",
+      image: "/services/entertainment/what-we-offer/images/offer-07.jpg",
     },
     {
       id: "11",
-      title: "Character Performers",
-      image: "/services/entertainment/what-we-offer/images/offer-11.png",
-      width: "lg" as const,
+      title: "Brand Ambassadors",
+      image: "/services/entertainment/what-we-offer/images/offer-08.jpg",
     },
     {
       id: "12",
       title: "Guest Experience Design",
-      image: "/services/entertainment/what-we-offer/images/offer-12.png",
-      width: "md" as const,
+      image: "/services/entertainment/what-we-offer/videos/offer-04.mp4",
     },
   ],
 };
@@ -5998,21 +6268,6 @@ export const SeasonalEventsFAQ = [
 const DIVISION_IMAGES = "/services/specialty-entertainment/divisions";
 
 /**
- * Builds a division's photo set from the numbered files on disk.
- *
- * The folders hold uneven counts (six for the musicians, fifteen for living
- * art), so the count is passed in rather than inferred. Alt text is the same
- * sentence with a position on the end, which is what a screen reader user
- * needs here: the photographs are a set, and the useful information is which
- * one of the set is open in the viewer.
- */
-const divisionGallery = (id: string, count: number, altBase: string) =>
-  Array.from({ length: count }, (_, i) => ({
-    src: `${DIVISION_IMAGES}/${id}/${String(i + 1).padStart(2, "0")}.jpg`,
-    alt: `${altBase}, photo ${i + 1} of ${count}`,
-  }));
-
-/**
  * The eight talent divisions that make up the Specialty Entertainment
  * offering. Each one is a card on the service page that opens a modal holding
  * the full write up and that division's photographs, so a visitor searching
@@ -6042,6 +6297,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/aerial-acrobatic/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "aerial-acrobatic",
       8,
       "Aerial and acrobatic performance produced by MME Worldwide"
@@ -6069,6 +6325,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/living-art/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "living-art",
       15,
       "Living art and interactive performer produced by MME Worldwide"
@@ -6097,6 +6354,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/specialty-dancers/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "specialty-dancers",
       9,
       "Specialty dance performance produced by MME Worldwide"
@@ -6126,6 +6384,7 @@ export const SpecialtyEntertainmentDivisions = [
       "Fire performance is subject to venue approval, permitting, and applicable safety requirements.",
     image: `${DIVISION_IMAGES}/fire-led-visual/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "fire-led-visual",
       6,
       "Fire, LED and visual performance produced by MME Worldwide"
@@ -6153,6 +6412,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/strolling-immersive/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "strolling-immersive",
       11,
       "Strolling and immersive entertainment produced by MME Worldwide"
@@ -6182,6 +6442,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/musicians-live-acts/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "musicians-live-acts",
       6,
       "Musicians and specialty live act produced by MME Worldwide"
@@ -6210,6 +6471,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/interactive-experiences/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "interactive-experiences",
       7,
       "Interactive guest experience produced by MME Worldwide"
@@ -6236,6 +6498,7 @@ export const SpecialtyEntertainmentDivisions = [
     ],
     image: `${DIVISION_IMAGES}/themed-custom/01.jpg`,
     gallery: divisionGallery(
+      DIVISION_IMAGES,
       "themed-custom",
       14,
       "Themed and custom entertainment produced by MME Worldwide"
