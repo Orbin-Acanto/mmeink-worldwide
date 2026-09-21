@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import AbstractWaves from "./ui/AbstractWaves";
 import Button from "./Button";
 
 export default function CTASection({
@@ -33,6 +34,10 @@ export default function CTASection({
         animate={{ opacity: [0.7, 1, 0.7] }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       />
+
+      {/* The waves ride on top of the wash so their crests stay legible
+          against the photograph, and under the copy so the text does not. */}
+      <AbstractWaves tone="dark" />
 
       <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">

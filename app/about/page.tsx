@@ -1,5 +1,6 @@
 "use client";
 
+import BrandPartnersSection from "@/components/about/BrandPartnersSection";
 import FounderSection from "@/components/about/FounderSection";
 import Hero from "@/components/about/Hero";
 import OurStorySection from "@/components/about/OurStorySection";
@@ -40,6 +41,7 @@ export default function About() {
       <OurStorySection />
       <FounderSection />
       <OurTeamSection />
+      <BrandPartnersSection />
       <CTASection
         primaryButton={{
           href: "/contact",

@@ -3731,15 +3731,6 @@
     "label": "PAGE HERO"
   },
   {
-    "target": "/about/team/team-background.png",
-    "page": "about",
-    "slot": "sectionBackground",
-    "width": 1920,
-    "height": 1080,
-    "kind": "image",
-    "label": "TEAM SECTION BACKGROUND"
-  },
-  {
     "target": "/about/sizzle-reel/hero/hero.png",
     "page": "about/sizzle-reel",
     "slot": "heroImage",

@@ -520,6 +520,170 @@ export const clientLogos: ClientLogo[] = [
   },
 ];
 
+/**
+ * The About page's partner wall.
+ *
+ * Kept separate from `clientLogos` (the home page strip) because the two walls
+ * are curated for different jobs: the home strip is a short recognisable set,
+ * this one is the fuller roster. The artwork is the raw brand drop with its
+ * background keyed out, so every file sits on transparency and the tile behind
+ * it supplies the white.
+ */
+export const brandPartnerLogos: ClientLogo[] = [
+  {
+    id: "jpmorganchase",
+    name: "JPMorganChase",
+    alt: "JPMorganChase logo, global financial services firm and MME Worldwide client",
+    src: "/about/client-logos/jpmorganchase.png",
+  },
+  {
+    id: "estee-lauder",
+    name: "The Estée Lauder Companies",
+    alt: "The Estée Lauder Companies logo, global beauty group and MME Worldwide client",
+    src: "/about/client-logos/estee-lauder.png",
+  },
+  {
+    id: "samsung",
+    name: "Samsung",
+    alt: "Samsung logo, consumer electronics company and MME Worldwide client",
+    src: "/about/client-logos/samsung.png",
+  },
+  {
+    id: "lenovo",
+    name: "Lenovo",
+    alt: "Lenovo logo, technology company and MME Worldwide client",
+    src: "/about/client-logos/lenovo.png",
+  },
+  {
+    id: "jordan",
+    name: "Jordan Brand",
+    alt: "Jordan Brand Jumpman logo, Nike athletic brand and MME Worldwide client",
+    src: "/about/client-logos/jordan.png",
+  },
+  {
+    id: "lebron-james",
+    name: "LeBron James",
+    alt: "LeBron James logo, athlete brand and MME Worldwide client",
+    src: "/about/client-logos/lebron-james.png",
+  },
+  {
+    id: "universal-television",
+    name: "Universal Television",
+    alt: "Universal Television logo, television studio and MME Worldwide client",
+    src: "/about/client-logos/universal-television.png",
+  },
+  {
+    id: "nyu",
+    name: "New York University",
+    alt: "New York University logo, university and MME Worldwide client",
+    src: "/about/client-logos/nyu.png",
+  },
+  {
+    id: "carnegie-mellon",
+    name: "Carnegie Mellon University",
+    alt: "Carnegie Mellon University logo, university and MME Worldwide client",
+    src: "/about/client-logos/carnegie-mellon.png",
+  },
+  {
+    id: "ropes-gray",
+    name: "Ropes & Gray",
+    alt: "Ropes & Gray logo, international law firm and MME Worldwide client",
+    src: "/about/client-logos/ropes-gray.png",
+  },
+  {
+    id: "arnold-porter",
+    name: "Arnold & Porter",
+    alt: "Arnold & Porter logo, international law firm and MME Worldwide client",
+    src: "/about/client-logos/arnold-porter.png",
+  },
+  {
+    id: "friedman-kaplan",
+    name: "Friedman Kaplan",
+    alt: "Friedman Kaplan logo, litigation law firm and MME Worldwide client",
+    src: "/about/client-logos/friedman-kaplan.png",
+  },
+  {
+    id: "clase-azul",
+    name: "Clase Azul México",
+    alt: "Clase Azul México logo, luxury tequila brand and MME Worldwide client",
+    src: "/about/client-logos/clase-azul.png",
+  },
+  {
+    id: "rhum-barbancourt",
+    name: "Rhum Barbancourt",
+    alt: "Rhum Barbancourt logo, Haitian rum distillery and MME Worldwide client",
+    src: "/about/client-logos/rhum-barbancourt.png",
+  },
+  {
+    id: "crillon-importers",
+    name: "Crillon Importers",
+    alt: "Crillon Importers logo, spirits importer and MME Worldwide client",
+    src: "/about/client-logos/crillon-importers.png",
+  },
+  {
+    id: "national",
+    name: "National",
+    alt: "National logo, consumer foods brand and MME Worldwide client",
+    src: "/about/client-logos/national.png",
+  },
+  {
+    id: "birthright-israel",
+    name: "Taglit Birthright Israel",
+    alt: "Taglit Birthright Israel logo, educational travel nonprofit and MME Worldwide client",
+    src: "/about/client-logos/birthright-israel.png",
+  },
+  {
+    id: "radial",
+    name: "Radial",
+    alt: "Radial logo, commerce and fulfillment company and MME Worldwide client",
+    src: "/about/client-logos/radial.png",
+  },
+  {
+    id: "civil-regime",
+    name: "Civil Regime",
+    alt: "Civil Regime logo, streetwear label and MME Worldwide client",
+    src: "/about/client-logos/civil-regime.png",
+  },
+  {
+    id: "rock-shrimp",
+    name: "Rock Shrimp Productions",
+    alt: "Rock Shrimp Productions logo, television production company and MME Worldwide client",
+    src: "/about/client-logos/rock-shrimp.png",
+  },
+  {
+    id: "money-channel",
+    name: "Money Channel New York",
+    alt: "Money Channel New York logo, financial media network and MME Worldwide client",
+    src: "/about/client-logos/money-channel.png",
+  },
+  {
+    id: "jcp-downtown",
+    name: "JCP Downtown",
+    alt: "JCP Downtown logo, downtown development partnership and MME Worldwide client",
+    src: "/about/client-logos/jcp-downtown.png",
+  },
+  {
+    id: "fpm-us",
+    name: "FPM.US",
+    alt: "FPM.US logo, Fellows of Politecnico di Milano association and MME Worldwide client",
+    src: "/about/client-logos/fpm-us.png",
+  },
+];
+
+/** Copy for the About page partner wall. */
+export const brandPartners = {
+  label: "Trusted by Leading Brands",
+  title: "Where Iconic Brands Meet",
+  titleHighlight: "Exceptional Experiences",
+  intro: [
+    "For more than 30 years, MME Worldwide has partnered with leading brands, corporations, agencies, and organizations to create extraordinary experiences that leave a lasting impression.",
+    "From intimate executive gatherings to large-scale corporate events, brand activations, product launches, experiential environments, and custom productions, our team brings together creativity, innovation, and flawless execution.",
+  ],
+  pullQuote: "Our experience helps",
+  pullQuoteHighlight: "create yours.",
+  wallLabel: "Proud to have partnered with",
+};
+
 export const team = [
   {
     id: 1,
@@ -700,56 +864,6 @@ export const founder = {
     "With more than three decades of experience, Denise has built MME around a vision of combining creativity, production expertise, personalized service, and innovative capabilities to deliver memorable experiences for corporate, luxury, social, nonprofit, and institutional clients.",
     "Beginning with the company's New York roots, Denise guided MME through multiple stages of expansion, from its early creative and production operations to expanded New York production capabilities, the development of MME South in Florida, and today's broader MME Worldwide platform.",
     "Under her leadership, MME has developed capabilities encompassing event production, creative design, custom fabrication, decor, entertainment, staging, lighting, audiovisual production, rentals, installation, logistics, and brand experiences.",
-  ],
-  milestonesTitle: "30+ Years of Leadership",
-  milestones: [
-    {
-      year: "1995",
-      title: "Founder & Entrepreneur",
-      description:
-        "Denise founded MME with a vision of creating a company capable of bringing together creativity, entertainment, production, and exceptional client service under one organization.",
-    },
-    {
-      year: "2005",
-      title: "Expansion of New York Operations",
-      description:
-        "As the company grew, MME expanded its New York production and operational capabilities, creating the infrastructure necessary to support increasingly sophisticated events and productions.",
-    },
-    {
-      year: "2015",
-      title: "Expansion into South Florida",
-      description:
-        "Denise continued the company's geographic expansion with MME South, extending production and warehouse capabilities into Florida and supporting opportunities throughout South Florida, the Caribbean, and destination markets.",
-    },
-    {
-      year: "2026",
-      title: "MME Worldwide",
-      description:
-        "Today, MME operates as a multifaceted creative and production organization, with dedicated executive, sales, marketing, creative, production, finance, venue sales, and catering functions.",
-    },
-  ],
-  expertiseTitle: "Areas of Expertise",
-  expertise: [
-    "Event & experiential production",
-    "Creative direction",
-    "Custom fabrication",
-    "Corporate & luxury events",
-    "Entertainment production",
-    "Audiovisual, lighting & staging",
-    "Decor & specialty rentals",
-    "Venue partnerships",
-    "Hospitality experiences",
-    "Business development",
-    "Strategic partnerships",
-    "Operational expansion",
-    "Client relationship management",
-  ],
-  expertiseNote:
-    "Her leadership extends beyond individual events into long term venue and institutional partnerships. MME's work with the Nassau County Museum of Art, for example, encompasses event production, rentals, design, installation, brand experience, and proposed investments in event and hospitality infrastructure.",
-  philosophyTitle: "Leadership Philosophy",
-  philosophy: [
-    "Denise has built MME around a philosophy that an extraordinary event requires more than individual services. It requires a team capable of understanding a client's vision and managing the creative and operational details necessary to bring that vision to life.",
-    "Her approach emphasizes relationships over transactions, creativity supported by execution, attention to detail, and long term partnerships with clients, venues, brands, and institutions.",
   ],
   pullQuote:
     "Build lasting relationships, continually innovate, and deliver every experience with creativity, passion, and excellence.",

@@ -385,3 +385,81 @@ body {
     display: none;
   }
 }
+
+/* Abstract waving backdrop (components/ui/AbstractWaves.tsx).
+
+   Each band draws the same wave four periods wide and is laid out at 200% of
+   its frame, so translating it exactly half its own width lands on an
+   identical phase and the loop has no seam. The vertical nudge at the midpoint
+   is what stops it reading as a flat sideways slide: the band rises as it
+   travels and settles back, which is the part the eye reads as water. */
+@keyframes wave-drift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-25%, -1.25%, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes wave-drift-reverse {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  50% {
+    transform: translate3d(-25%, 1.25%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* The slow swell behind the bands. Scale and drift together so the colour
+   pools in a different place each pass rather than pulsing in place.
+
+   Deliberately no `opacity` here. An animated property beats an inline style,
+   so animating opacity would override the per-swell opacity the component
+   sets and every swell would bloom to full strength. */
+@keyframes aurora-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(6%, -4%, 0) scale(1.25);
+  }
+}
+
+.animate-wave {
+  animation-name: wave-drift;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.animate-wave-reverse {
+  animation-name: wave-drift-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.animate-aurora {
+  animation-name: aurora-drift;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+/* Decoration only — nothing here carries meaning, so it is safe to simply
+   stop it for anyone who has asked the OS for less movement. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-wave,
+  .animate-wave-reverse,
+  .animate-aurora {
+    animation: none;
+  }
+}

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Mail } from "lucide-react";
+import AbstractWaves from "@/components/ui/AbstractWaves";
 import { team } from "@/data";
 
 type TeamMember = (typeof team)[number];
@@ -83,14 +84,20 @@ export default function OurTeamSection() {
 
   return (
     <section className="relative w-full py-20 bg-white overflow-hidden">
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0">
         <Image
-          src="/about/team/team-background.png"
-          alt="Team Background"
+          src="/about/team/team-background.jpg"
+          alt=""
+          aria-hidden="true"
           fill
           className="object-cover"
+          sizes="100vw"
         />
       </div>
+
+      {/* Same backdrop as the closing CTA, pulled right back so it reads as
+          texture behind the cards rather than as artwork of its own. */}
+      <AbstractWaves tone="light" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
