@@ -37,7 +37,11 @@ export default function EntertainmentServicePage() {
 
       <EntertainmentDivisions
         headingPrefix="Discover Our"
-        headingPhrases={["Entertainment", "Live Talent", "Guest Experiences"]}
+        headingPhrases={[
+          "Entertainment",
+          "Interactive Experiences",
+          "Guest Activations",
+        ]}
         divisions={EntertainmentDivisionsData}
       />
 

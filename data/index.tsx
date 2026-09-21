@@ -24,11 +24,15 @@ import {
   Music,
   Palette,
   Star,
-  Drama,
   Dices,
   Camera,
   Handshake,
   Mic,
+  Gamepad2,
+  FerrisWheel,
+  MonitorSmartphone,
+  PartyPopper,
+  Trophy,
 } from "lucide-react";
 
 export const navItems = [
@@ -5426,240 +5430,245 @@ const ENTERTAINMENT_DIVISIONS = "/services/entertainment/divisions";
  */
 export const EntertainmentDivisionsData = [
   {
-    id: "dancers-choreography",
-    icon: PersonStanding,
-    blurb:
-      "Production casts, carnival troupes and social dancers, choreographed to your music, your theme and your run of show.",
-    eyebrow: "Dancers & Choreography",
-    title: "Choreography Built for Your Room",
-    paragraphs: [
-      "Dance is the fastest way to change the temperature of a room. We cast and choreograph everything from a two minute opening number to a full production cast that carries the evening, and we rehearse it against your music direction so the timing lands.",
-      "Casting follows the brief rather than a roster. A carnival troupe in feathers, a Broadway style line in tails, gold wing dancers framing an entrance, or a crew that pulls guests onto the floor once dinner clears.",
-    ],
-    featuring: [
-      "Production dance casts",
-      "Carnival and samba troupes",
-      "Showgirl lines",
-      "Gold wing and costume dancers",
-      "Ballroom and Latin",
-      "Hip hop crews",
-      "Cultural dance",
-      "Dance floor motivators",
-    ],
-    image: `${ENTERTAINMENT_DIVISIONS}/dancers-choreography/01.jpg`,
-    gallery: divisionGallery(
-      ENTERTAINMENT_DIVISIONS,
-      "dancers-choreography",
-      12,
-      "Dance performance produced by MME Worldwide"
-    ),
-  },
-  {
-    id: "character-performers",
-    icon: Drama,
-    blurb:
-      "Costumed characters who greet, host and hold court, built around the world your event is set in.",
-    eyebrow: "Character Performers",
-    title: "Characters Guests Walk Straight Into",
-    paragraphs: [
-      "A character performer does the work of scenery that can talk back. Guests meet the world of the event at the door, and that first impression carries through the night.",
-      "Casting is built around your theme, from astronaut greeters on a launch red carpet to a jester working a Mardi Gras ballroom, a fairy tale villain holding the dance floor, or knights in full plate staging a duel.",
-    ],
-    featuring: [
-      "Costumed greeters",
-      "Themed hosts and hostesses",
-      "Fairy tale and fantasy characters",
-      "Historical and period characters",
-      "Stilt walkers",
-      "Mascots and brand characters",
-      "Strolling characters",
-      "Custom costume builds",
-    ],
-    image: `${ENTERTAINMENT_DIVISIONS}/character-performers/01.jpg`,
-    gallery: divisionGallery(
-      ENTERTAINMENT_DIVISIONS,
-      "character-performers",
-      9,
-      "Character performer produced by MME Worldwide"
-    ),
-  },
-  {
-    id: "casino-game-tables",
+    id: "casino-experiences",
     icon: Dices,
     blurb:
-      "Full size tables, professional dealers and roving games that turn a ballroom into a casino floor.",
-    eyebrow: "Casino & Game Tables",
-    title: "A Casino Floor, Built for One Night",
+      "Full size tables, a chip bank and dealers who run the room, dressed so the floor looks built in rather than rented.",
+    eyebrow: "Casino Experiences",
+    title: "A Casino Floor That Opens for One Night",
     paragraphs: [
-      "A casino night gives guests something to do with their hands and a reason to stay in the room. We supply the tables, the chips, the dealers and the prize structure, then dress the floor so it reads as part of the event rather than rented equipment.",
-      "Where floor space is tight or the format is a standing reception, roving tables worn by costumed dealers bring the game to the guest instead.",
+      "A casino gives guests something to do with their hands and a reason to stay in the room. We bring the tables, the chips, the layouts and the dealers, then dress the floor so it sits inside your design instead of fighting it.",
+      "Scale runs from three tables in a cocktail corner to a full pit with a prize structure and a tournament clock. Where the floor plan is tight or the format is standing only, roving tables worn by costumed dealers bring the game to the guest.",
     ],
     featuring: [
       "Blackjack",
       "Roulette",
       "Craps",
-      "Poker",
+      "Texas hold em",
       "Big six wheel",
       "Slot machines",
       "Roving gaming tables",
       "Professional dealers",
-      "Prize and tournament structures",
+      "Chip banks and prize structures",
     ],
     footnote:
-      "Play is for entertainment only. Prize structures are built to suit your venue and any local requirements that apply.",
-    image: `${ENTERTAINMENT_DIVISIONS}/casino-game-tables/01.jpg`,
+      "Play is for entertainment only. Prize structures are built around your venue and whatever local rules apply.",
+    image: `${ENTERTAINMENT_DIVISIONS}/casino-experiences/01.jpg`,
     gallery: divisionGallery(
       ENTERTAINMENT_DIVISIONS,
-      "casino-game-tables",
+      "casino-experiences",
       8,
-      "Casino and gaming entertainment produced by MME Worldwide"
+      "Casino experience produced by MME Worldwide"
     ),
   },
   {
-    id: "digital-photo-experiences",
+    id: "photo-activations",
     icon: Camera,
     blurb:
-      "Photo booths, 360 capture, touch tables and branded kiosks that put your event in the hands of everyone who attends.",
-    eyebrow: "Digital Engagement & Photo Experiences",
-    title: "Every Guest Leaves With the Content",
+      "Booths, green screen, 360 capture and audio guestbooks, built into a set so the content carries your brand.",
+    eyebrow: "Photo Activations & Immersive Content Experiences",
+    title: "Everyone Leaves With Something to Post",
     paragraphs: [
-      "Photo and digital activations are the part of the night guests take home and post. We design the capture moment, the set it sits in and the overlay it goes out with, so the content carries your brand rather than a booth logo.",
-      "The same team builds the quieter digital layer. Touch tables, product kiosks, digital towers and interactive walls let guests browse, play and sign up without a queue forming around a laptop.",
+      "The photo moment is the part of the night that keeps going after everyone goes home. We build the set it sits in, the capture itself and the overlay it goes out with, so what lands on a phone looks like your event and not a booth vendor's template.",
+      "Formats run from a vintage cabinet on a midway to an open air booth against a floral wall, a full green screen stage, or a rotary phone that records voice messages through the night. Prints, instant sharing and a gallery you keep afterwards all come standard.",
     ],
     featuring: [
-      "Open air and enclosed photo booths",
-      "360 video booths",
-      "Green screen and custom photo sets",
-      "GIF and Boomerang stations",
-      "Roaming photographers",
-      "Touch tables and interactive walls",
-      "Digital signage towers",
-      "Branded kiosks",
-      "Social sharing and data capture",
+      "Open air and enclosed booths",
+      "Vintage photo cabinets",
+      "360 video capture",
+      "Green screen studios",
+      "Branded kiosks and towers",
+      "Audio guestbooks",
+      "Custom backdrops and sets",
+      "Overlays, prints and instant sharing",
+      "Post event galleries",
     ],
-    image: `${ENTERTAINMENT_DIVISIONS}/digital-photo-experiences/01.jpg`,
+    image: `${ENTERTAINMENT_DIVISIONS}/photo-activations/01.jpg`,
     gallery: divisionGallery(
       ENTERTAINMENT_DIVISIONS,
-      "digital-photo-experiences",
-      14,
-      "Digital engagement and photo experience produced by MME Worldwide"
+      "photo-activations",
+      7,
+      "Photo activation produced by MME Worldwide"
     ),
   },
   {
-    id: "magicians-close-up",
-    icon: Wand2,
+    id: "sports-competitive",
+    icon: Trophy,
     blurb:
-      "Close up magicians and mentalists working table to table, plus routines written around your message.",
-    eyebrow: "Magicians & Close Up",
-    title: "The Best Seat Is Right Next to You",
+      "Pop a shot, mini golf, turf builds and full courts, run as a bracket or left open for anyone walking past.",
+    eyebrow: "Sports & Competitive Experiences",
+    title: "Something to Win Before Dinner",
     paragraphs: [
-      "Close up magic solves the hardest part of a cocktail hour, which is giving strangers a reason to talk to each other. A magician works a group of five or six at a time, then moves on, and the room warms up behind them.",
-      "For brand work, a routine can be written around a product, a number, or a launch reveal, so the effect carries the message rather than sitting next to it.",
+      "A competition gives people who do not know each other a reason to talk. We build the game, the surface it sits on and the scoreboard, then either leave it open for drop in play or run it as a bracket with a trophy at the end.",
+      "The footprint bends to the space. A single basketball unit fits beside a garden bar, a nine hole mini golf course can thread a courtyard, and a sport court under clear span tent turns a parking lot into a full sized floor.",
     ],
     featuring: [
-      "Close up magicians",
-      "Strolling magic",
-      "Mentalists and mind readers",
-      "Table to table sets",
-      "Branded routines and reveals",
-      "Living statues",
-      "Stage illusion",
+      "Basketball and pop a shot",
+      "Mini golf courses",
+      "Full sport courts",
+      "Turf builds and field activations",
+      "Batting and pitching cages",
+      "Golf and driving simulators",
+      "Foosball, air hockey and shuffleboard",
+      "Brackets, scoring and trophies",
+      "Referees and game staff",
     ],
-    image: `${ENTERTAINMENT_DIVISIONS}/magicians-close-up/01.jpg`,
+    image: `${ENTERTAINMENT_DIVISIONS}/sports-competitive/01.jpg`,
     gallery: divisionGallery(
       ENTERTAINMENT_DIVISIONS,
-      "magicians-close-up",
+      "sports-competitive",
+      5,
+      "Sports and competitive experience produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "arcade-gaming",
+    icon: Gamepad2,
+    blurb:
+      "Cabinet walls, racing rigs, giant lawn games and console lounges, every machine set to free play.",
+    eyebrow: "Arcade & Gaming",
+    title: "Free Play, All Night",
+    paragraphs: [
+      "Arcade is the easiest way to fill the hour between dinner and dancing. Every machine runs on free play, so nobody hunts for quarters and nobody queues at a change desk.",
+      "We mix eras on purpose. A row of lit cabinets against a skyline window, a pair of racing rigs with wheel and pedals, a claw machine loaded with your product, and giant chess or Jenga for the guests who want a game they can talk over.",
+    ],
+    featuring: [
+      "Classic arcade cabinets",
+      "Racing and driving simulators",
+      "Skee ball and air hockey",
+      "Claw and prize machines",
+      "Console and VR lounges",
+      "Giant chess, Jenga and connect four",
+      "Indoor putting greens",
+      "Free play conversion",
+      "Onsite attendants and technicians",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/arcade-gaming/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "arcade-gaming",
+      7,
+      "Arcade and gaming experience produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "digital-engagement",
+    icon: MonitorSmartphone,
+    blurb:
+      "Touch tables, product kiosks, digital towers and simulators that let guests browse, play and sign up without a queue.",
+    eyebrow: "Digital Engagement & Interactive Technology",
+    title: "The Quiet Half of the Guest Experience",
+    paragraphs: [
+      "Not every interaction needs a performer. Touch tables, kiosks and digital walls let guests explore a product, enter a draw or book a follow up on their own time, and they hand you the data afterwards.",
+      "The same team covers the showpiece end. A golf simulator against a lounge wall, a branded touchscreen at the entry, or a digital tower running your reel between sessions, all skinned to your artwork and staffed by a technician who stays for the event.",
+    ],
+    featuring: [
+      "Interactive touch tables",
+      "Product and lead capture kiosks",
+      "Digital towers and video walls",
+      "Golf and sports simulators",
+      "Branded touchscreen games",
+      "Virtual and augmented reality",
+      "Data capture and reporting",
+      "Custom interface and artwork",
+      "Onsite technical support",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/digital-engagement/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "digital-engagement",
+      5,
+      "Digital engagement experience produced by MME Worldwide"
+    ),
+  },
+  {
+    id: "carnival-experiences",
+    icon: FerrisWheel,
+    blurb:
+      "Midway tents, classic games, costumed hosts and prize walls, run by staff who keep the line moving.",
+    eyebrow: "Carnival Experiences",
+    title: "A Midway You Can Build Indoors",
+    paragraphs: [
+      "Carnival games work because they are quick, loud and easy to join halfway through. We bring the striped tents, the boards, the prizes and the hosts who call people over, and we run it so a family can play three games in ten minutes.",
+      "It sets up on a lawn under a ferris wheel or inside a ballroom against draping, and the same crew can put a feathered carnival cast on the dance floor later if the theme calls for it.",
+    ],
+    featuring: [
+      "Balloon dart and ring toss",
+      "Striped midway tents",
+      "Prize walls and redemption",
+      "Costumed game hosts",
+      "Ferris wheels and rides",
+      "Popcorn, cotton candy and snow cones",
+      "Samba and carnival dance casts",
+      "Ticketing and prize management",
+      "Indoor and outdoor builds",
+    ],
+    image: `${ENTERTAINMENT_DIVISIONS}/carnival-experiences/01.jpg`,
+    gallery: divisionGallery(
+      ENTERTAINMENT_DIVISIONS,
+      "carnival-experiences",
       4,
-      "Close up magic produced by MME Worldwide"
+      "Carnival experience produced by MME Worldwide"
     ),
   },
   {
-    id: "brand-ambassadors",
-    icon: Handshake,
+    id: "inflatable-experiences",
+    icon: PartyPopper,
     blurb:
-      "Trained hosts, street teams and registration staff who carry your brand from the door to the last handshake.",
-    eyebrow: "Brand Ambassadors",
-    title: "The First Person Your Guest Meets",
+      "Bungee runs, obstacle courses, climbing walls and slides, anchored and staffed for adults or kids.",
+    eyebrow: "Inflatable Experiences & Attractions",
+    title: "The Attraction People Queue For",
     paragraphs: [
-      "Most of what a guest thinks about your event is settled in the first thirty seconds, usually by whoever is standing at the door. We cast and brief that person the same way we cast a performer.",
-      "The same team covers registration desks, product sampling, street activations, step and repeat lines and VIP hosting, in your wardrobe and on your script.",
+      "Inflatables draw a crowd before anyone explains the rules. A bungee run gets two people racing in harnesses, an obstacle course turns into a timed heat, and a climbing wall pulls a circle of spectators with phones out.",
+      "Everything arrives anchored, matted and staffed. Our crew handles harnesses, rotation and the safety brief, and we size the unit to the surface you have, whether that is lawn, deck, turf or ballroom floor.",
     ],
     featuring: [
-      "Event hosts and hostesses",
-      "Registration and check in staff",
-      "Street teams",
-      "Product sampling",
-      "Promotional models",
-      "VIP and green room hosts",
-      "Branded wardrobe",
-      "Multilingual staff",
+      "Bungee runs",
+      "Inflatable obstacle courses",
+      "Rock climbing walls",
+      "Slides and bounce structures",
+      "Air dancers and inflatable decor",
+      "Custom branded inflatables",
+      "Anchoring for hard and soft surfaces",
+      "Trained attendants",
+      "Indoor and outdoor rigs",
     ],
-    image: `${ENTERTAINMENT_DIVISIONS}/brand-ambassadors/01.jpg`,
+    image: `${ENTERTAINMENT_DIVISIONS}/inflatable-experiences/01.jpg`,
     gallery: divisionGallery(
       ENTERTAINMENT_DIVISIONS,
-      "brand-ambassadors",
-      8,
-      "Brand ambassador staffing produced by MME Worldwide"
+      "inflatable-experiences",
+      5,
+      "Inflatable attraction produced by MME Worldwide"
     ),
   },
   {
-    id: "celebrity-talent",
-    icon: Mic,
-    blurb:
-      "Headline artists, celebrity hosts and speakers, sourced, contracted and managed through to the stage.",
-    eyebrow: "Celebrity Talent",
-    title: "Book the Name, Run the Night",
-    paragraphs: [
-      "A name on the invitation only works if the night around it works. We handle the offer, the contracting, the rider, the travel and the green room, then run the show so the appearance lands where your programme needs it.",
-      "That covers headline bands and recording artists, celebrity emcees and keynote speakers, athletes and on camera talent, matched to the audience you actually have in the room.",
-    ],
-    featuring: [
-      "Headline bands and artists",
-      "Recording artists and DJs",
-      "Celebrity emcees and hosts",
-      "Keynote speakers",
-      "Athletes and personalities",
-      "Meet and greet management",
-      "Rider and hospitality",
-      "Contracting and travel",
-    ],
-    footnote:
-      "Talent availability and fees move quickly, so we confirm holds in writing before anything is announced.",
-    image: `${ENTERTAINMENT_DIVISIONS}/celebrity-talent/01.jpg`,
-    gallery: divisionGallery(
-      ENTERTAINMENT_DIVISIONS,
-      "celebrity-talent",
-      4,
-      "Celebrity talent booked by MME Worldwide"
-    ),
-  },
-  {
-    id: "guest-experience-design",
+    id: "creative-crafts-workshops",
     icon: Palette,
     blurb:
-      "Live artists, fortune tellers and hands on installations that give guests a moment of their own.",
-    eyebrow: "Guest Experience Design",
-    title: "Something to Do, Not Just Watch",
+      "Caricature artists, live painters, graffiti walls and craft stations that leave the guest holding the thing they made.",
+    eyebrow: "Creative Crafts & Interactive Workshops",
+    title: "Watch It Get Made, Then Take It Home",
     paragraphs: [
-      "Not every guest wants to face a stage. Guest experience design fills the rest of the room with things worth walking over to, from a live painter capturing the ballroom to a graffiti wall the whole party signs.",
-      "Each activation is chosen for the shape of your event and the keepsake you want guests leaving with, whether that is a sketched portrait, a fortune card, or a photograph of the wall they helped paint.",
+      "A craft station slows the room down in a good way. Guests sit, talk to the artist and walk off with something in their hand, which is a longer interaction than any photo moment buys you.",
+      "Live art works the other way around. A painter starts a blank canvas at cocktails and finishes the room by dessert, or a bare wall fills with guest sprayed color across the night, and the finished piece goes home with the host.",
     ],
     featuring: [
+      "Caricature artists, traditional and digital",
       "Live event painters",
-      "Caricature and silhouette artists",
-      "Fashion illustrators",
-      "Graffiti and mural walls",
-      "Fortune tellers",
-      "Interactive art installations",
-      "Custom keepsakes",
-      "Hands on guest activations",
+      "Guest painted graffiti walls",
+      "Portrait and sketch stations",
+      "Cigar rolling and artisan demonstrations",
+      "Candle, terrarium and scent bars",
+      "Engraving and monogramming",
+      "Branded take home pieces",
+      "Artist coordination and setup",
     ],
-    image: `${ENTERTAINMENT_DIVISIONS}/guest-experience-design/01.jpg`,
+    image: `${ENTERTAINMENT_DIVISIONS}/creative-crafts-workshops/01.jpg`,
     gallery: divisionGallery(
       ENTERTAINMENT_DIVISIONS,
-      "guest-experience-design",
-      5,
-      "Guest experience activation produced by MME Worldwide"
+      "creative-crafts-workshops",
+      4,
+      "Creative craft workshop produced by MME Worldwide"
     ),
   },
 ];
@@ -5671,8 +5680,8 @@ export const EntertainmentData = {
      the row height, 2 is a pair stacked inside one slot. Each clip takes a
      full height slot and the stills pair up around it, and the two rows run
      the pattern in opposite order so they do not march in step. */
-  topRowSlots: [1, 2, 1, 2],
-  bottomRowSlots: [2, 1, 2, 1],
+  topRowSlots: [1, 2, 1, 2, 1, 1],
+  bottomRowSlots: [1, 1, 2, 1, 2, 1],
   topRow: [
     {
       id: "1",
@@ -5681,60 +5690,80 @@ export const EntertainmentData = {
     },
     {
       id: "2",
-      title: "Emcees & Hosts",
+      title: "Magicians & Close Up",
       image: "/services/entertainment/what-we-offer/images/offer-01.jpg",
     },
     {
       id: "3",
-      title: "Aerialists & Circus Acts",
+      title: "Caricature Artists",
       image: "/services/entertainment/what-we-offer/images/offer-02.jpg",
     },
     {
       id: "4",
-      title: "Character Performers",
+      title: "Casino & Game Tables",
       image: "/services/entertainment/what-we-offer/videos/offer-02.mp4",
     },
     {
       id: "5",
-      title: "Magicians & Close Up",
+      title: "Live Art & Graffiti Walls",
       image: "/services/entertainment/what-we-offer/images/offer-03.jpg",
     },
     {
       id: "6",
-      title: "Comedians",
+      title: "Character Performers",
       image: "/services/entertainment/what-we-offer/images/offer-04.jpg",
+    },
+    {
+      id: "7",
+      title: "Arcade & Gaming",
+      image: "/services/entertainment/what-we-offer/videos/offer-03.mp4",
+    },
+    {
+      id: "8",
+      title: "Carnival Games & Midway",
+      image: "/services/entertainment/what-we-offer/videos/offer-04.mp4",
     },
   ],
   bottomRow: [
     {
-      id: "7",
-      title: "Interactive Performers",
-      image: "/services/entertainment/what-we-offer/images/offer-05.jpg",
-    },
-    {
-      id: "8",
-      title: "Photo & 360 Booths",
-      image: "/services/entertainment/what-we-offer/images/offer-06.jpg",
-    },
-    {
       id: "9",
-      title: "Casino & Game Tables",
-      image: "/services/entertainment/what-we-offer/videos/offer-03.mp4",
+      title: "Sports & Competition",
+      image: "/services/entertainment/what-we-offer/videos/offer-05.mp4",
     },
     {
       id: "10",
-      title: "Celebrity Talent",
-      image: "/services/entertainment/what-we-offer/images/offer-07.jpg",
+      title: "Inflatables & Attractions",
+      image: "/services/entertainment/what-we-offer/videos/offer-06.mp4",
     },
     {
       id: "11",
-      title: "Brand Ambassadors",
-      image: "/services/entertainment/what-we-offer/images/offer-08.jpg",
+      title: "Circus & Sideshow Acts",
+      image: "/services/entertainment/what-we-offer/images/offer-05.jpg",
     },
     {
       id: "12",
-      title: "Guest Experience Design",
-      image: "/services/entertainment/what-we-offer/videos/offer-04.mp4",
+      title: "Strolling & Specialty Performers",
+      image: "/services/entertainment/what-we-offer/images/offer-06.jpg",
+    },
+    {
+      id: "13",
+      title: "Artisan & Craft Stations",
+      image: "/services/entertainment/what-we-offer/videos/offer-07.mp4",
+    },
+    {
+      id: "14",
+      title: "Fortune Tellers & Novelty",
+      image: "/services/entertainment/what-we-offer/images/offer-07.jpg",
+    },
+    {
+      id: "15",
+      title: "Giant Games & Lawn Play",
+      image: "/services/entertainment/what-we-offer/images/offer-08.jpg",
+    },
+    {
+      id: "16",
+      title: "Interactive Technology",
+      image: "/services/entertainment/what-we-offer/videos/offer-08.mp4",
     },
   ],
 };
@@ -5761,14 +5790,15 @@ export const EntertainmentCaseStudiesData = [
 ];
 
 /** How many photographs sit in the Entertainment gallery folder. */
-const ENTERTAINMENT_GALLERY_COUNT = 42;
+const ENTERTAINMENT_GALLERY_COUNT = 20;
 
 /**
  * The Entertainment gallery.
  *
- * Half of one shoot, split with Specialty Entertainment: the performers,
- * hosts and guest facing acts landed here, the fire, living art and themed
- * productions stayed on the specialty page.
+ * The client supplied performer set, strongest first: dance casts, magicians,
+ * live art, characters and specialty acts. The interactive attractions are
+ * not in here on purpose, they each sit inside their own division panel
+ * above, so the gallery stays a picture of the talent roster.
  */
 export const EntertainmentImageGallery: GalleryImage[] = Array.from(
   { length: ENTERTAINMENT_GALLERY_COUNT },
