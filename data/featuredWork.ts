@@ -340,14 +340,15 @@ export const featuredWork: Record<string, FeaturedWorkContent> = {
   },
   "musical-entertainment": {
     title: "Featured",
-    titleAccent: "Work",
-    subtitle: "From Vision to Reality",
-    lead: "Explore a selection of MME Worldwide’s musical entertainment work, where bold ideas are transformed into exceptional physical experiences.",
+    titleAccent: "Musical Entertainment",
+    subtitle: "Exceptional Talent. Unforgettable Performances.",
+    lead: "Discover a selection of MME Worldwide’s featured musical artists, ensembles, bands, and specialty performers, curated to create extraordinary moments for every occasion.",
     paragraphs: [
-      "From initial concept and creative development through design, engineering, fabrication, finishing, installation, and final execution, every project reflects our commitment to craftsmanship, innovation, and detail.",
-      "Working alongside leading brands, agencies, designers, and creative teams, MME brings complex visions to life through custom-built environments, experiential activations, scenic installations, branded spaces, and one-of-a-kind experiences.",
+      "From sophisticated jazz ensembles and string quartets to high energy bands, DJs, vocalists, electric musicians, orchestras, and headline talent, MME brings together exceptional performers selected to complement each event, audience, and atmosphere.",
+      "Whether setting the tone for an elegant cocktail reception, energizing a corporate celebration, creating a memorable brand moment, or delivering a show stopping headline performance, every musical experience is thoughtfully curated from the first note to the final encore.",
+      "For more than 30 years, music and entertainment have been at the heart of MME Worldwide, connecting audiences, creating energy, and transforming events through the power of live performance.",
     ],
-    closing: "One vision. One creative partner. From concept to completion.",
+    closing: "Discover the Artists. Experience the Music. Remember the Moment.",
     images: [
       {
         src: "/services/musical-entertainment/featured/persol.jpg",

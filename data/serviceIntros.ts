@@ -267,30 +267,45 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
   },
 
   "musical-entertainment": {
-    eyebrow: "Musical Entertainment",
-    headline: "The Sound. The Energy. The Experience",
+    eyebrow: "Where It All Began",
+    headline: "30 Years of Music. Entertainment. Extraordinary Experiences.",
     paragraphs: [
-      "At MME Worldwide, we believe music is more than entertainment. It sets the tone, creates emotion, and defines the energy of an extraordinary event. From sophisticated corporate gatherings and conferences to product launches, experiential activations, galas, fashion events, weddings, and private celebrations, we curate exceptional musical talent to complement your audience, brand, and vision.",
-      "Our entertainment portfolio includes live bands, DJs, vocalists, jazz ensembles, string quartets, pianists, acoustic performers, orchestras, specialty musicians, roaming performers, and custom musical productions. From an elegant cocktail reception to a high energy celebration, every performance is thoughtfully selected to create the right atmosphere at the right moment.",
-      "For corporate and branded experiences, our creative team can develop custom entertainment concepts, branded performances, musical reveals, product launch moments, and immersive entertainment experiences designed specifically around your campaign or event.",
-      "From talent selection and contracting to technical production, staging, audio, lighting, artist coordination, and show management, MME Worldwide provides one seamless entertainment solution from concept through performance.",
-      "Whether the moment calls for sophistication, excitement, or something completely unexpected, we curate entertainment that does not simply perform for your guests. It connects with them.",
+      "More than 30 years ago, MME Worldwide began with music and entertainment at its core. What started with a passion for bringing people together through music has grown into a full service global event, entertainment, and experiential production company. That same passion still defines who we are.",
     ],
-    closing: "Curated Talent. Unforgettable Energy. Extraordinary Experiences.",
-    capabilitiesHeading: "Musical Entertainment Talent",
+    blocks: [
+      {
+        heading: "The Sound. The Energy. The Experience.",
+        paragraphs: [
+          "Music does more than entertain. It creates emotion, transforms an atmosphere, and defines the moment guests remember long after an event has ended.",
+          "From corporate gatherings and international conferences to product launches, galas, fashion events, weddings, and private celebrations, we curate talent around each audience and brand, then match every artist to the setting, whether that is the understated elegance of a cocktail reception or the energy of a headline celebration.",
+        ],
+      },
+      {
+        heading: "Beyond the Performance",
+        paragraphs: [
+          "For corporate and branded events, our creative team develops custom entertainment concepts, branded performances, musical reveals, and product launch moments built around a campaign, brand, or audience.",
+          "And we manage everything behind it, from talent selection and contracting to staging, audio, lighting, technical production, artist coordination, and show management. One team, one vision, from the first creative idea to the final performance.",
+        ],
+      },
+    ],
+    closing:
+      "30 Years of Entertainment. Countless Unforgettable Moments. One Extraordinary Experience at a Time.",
+    capabilitiesHeading: "The Art of Live Entertainment",
+    capabilitiesIntro: "Curated Music & Bespoke Performances",
     capabilities: [
-      "Live bands",
-      "DJs",
-      "Vocalists",
-      "Jazz ensembles",
-      "String quartets",
+      "DJs & Music Curators",
+      "Vocalists & Featured Singers",
+      "Jazz Ensembles",
+      "String Quartets & Classical Ensembles",
       "Pianists",
-      "Acoustic performers",
-      "Orchestras",
-      "Specialty musicians",
-      "Roaming performers",
-      "Custom musical productions",
+      "Acoustic Performers",
+      "Live Bands & Orchestras",
+      "Specialty & International Musicians",
+      "Electric Violinists & Harpists",
+      "Celebrity Artists & Headline Entertainment",
     ],
+    capabilitiesNote:
+      "From intimate musical moments to spectacular headline performances, MME curates exceptional talent and custom musical experiences designed around your event, audience, and vision.",
   },
 
   logistics: {

@@ -33,6 +33,11 @@ import {
   MonitorSmartphone,
   PartyPopper,
   Trophy,
+  Disc3,
+  Drum,
+  Music4,
+  Piano,
+  Guitar,
 } from "lucide-react";
 
 export const navItems = [
@@ -5410,10 +5415,12 @@ const divisionGallery = (
   base: string,
   id: string,
   count: number,
-  altBase: string
+  altBase: string,
+  /** Placeholder slots are still PNG; real photography lands as JPEG. */
+  ext: "jpg" | "png" = "jpg"
 ) =>
   Array.from({ length: count }, (_, i) => ({
-    src: `${base}/${id}/${String(i + 1).padStart(2, "0")}.jpg`,
+    src: `${base}/${id}/${String(i + 1).padStart(2, "0")}.${ext}`,
     alt: `${altBase}, photo ${i + 1} of ${count}`,
   }));
 
@@ -5669,6 +5676,273 @@ export const EntertainmentDivisionsData = [
       "creative-crafts-workshops",
       4,
       "Creative craft workshop produced by MME Worldwide"
+    ),
+  },
+];
+
+/* ------------------------------------------------------------------ */
+/* Musical Entertainment divisions                                      */
+/* ------------------------------------------------------------------ */
+
+/** Where the Musical Entertainment division photographs will live. */
+const MUSICAL_DIVISIONS = "/services/musical-entertainment/divisions";
+
+/**
+ * The eight musical divisions behind the Musical Entertainment page.
+ *
+ * Same card and modal treatment as the other two entertainment pages. The
+ * client supplied ten talent headings; "Pianists" and "Acoustic Performers"
+ * are carried as one division, and electric violinists and harpists sit
+ * inside Specialty rather than standing alone, which brings the set to the
+ * eight the grid is built for without dropping anything from the list.
+ *
+ * Copy here is interim, written to hold the layout and give search engines
+ * something real to read until client approved wording arrives. Imagery is
+ * still placeholder: every slot is generated from
+ * scripts/placeholder-manifest.json, so each file on disk states the size the
+ * photograph should be delivered at.
+ */
+export const MusicalEntertainmentDivisionsData = [
+  {
+    id: "djs-music-curators",
+    icon: Disc3,
+    blurb:
+      "Open format DJs who read the room, plus curated sets for the hours nobody is dancing.",
+    eyebrow: "DJs & Music Curators",
+    title: "The Room Read in Real Time",
+    paragraphs: [
+      "A good DJ is not a playlist with a person standing behind it. Ours watch the floor, read the energy and move between genres as the night turns, which is the difference between a full dance floor and a polite one.",
+      "The same booking covers the quieter hours. Arrival, dinner and cocktail sets are programmed to sit under conversation, then handed over to the headline set once the room is ready for it.",
+    ],
+    featuring: [
+      "Open format DJs",
+      "Dinner and cocktail sets",
+      "DJ and saxophone pairings",
+      "DJ and percussion sets",
+      "Custom playlist curation",
+      "MC and hosting",
+      "Booth design and branding",
+      "Sound and lighting support",
+    ],
+    image: `${MUSICAL_DIVISIONS}/djs-music-curators/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "djs-music-curators",
+      3,
+      "DJ set produced by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "vocalists-featured-singers",
+    icon: Mic,
+    blurb:
+      "Soloists and featured vocalists for a ceremony, a first dance or the top of a show.",
+    eyebrow: "Vocalists & Featured Singers",
+    title: "One Voice, One Moment",
+    paragraphs: [
+      "A featured vocalist does what a track cannot. A room goes quiet for a live voice, which is why we put one on the moments that carry the most weight: an entrance, a ceremony, a toast, the opening of a show.",
+      "Casting runs across genre and language, from jazz standards and soul to opera, gospel and contemporary pop, and every singer arrives rehearsed against your music direction and run of show.",
+    ],
+    featuring: [
+      "Solo vocalists",
+      "Featured singers with band",
+      "Jazz and soul vocalists",
+      "Opera and classical crossover",
+      "Gospel soloists and choirs",
+      "Multilingual repertoire",
+      "Ceremony and first dance",
+      "Custom arrangements",
+    ],
+    image: `${MUSICAL_DIVISIONS}/vocalists-featured-singers/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "vocalists-featured-singers",
+      3,
+      "Featured vocalist booked by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "live-bands-orchestras",
+    icon: Music,
+    blurb:
+      "Four piece party bands through to full orchestras, sized to the room and the run of show.",
+    eyebrow: "Live Bands & Orchestras",
+    title: "Scaled to the Room",
+    paragraphs: [
+      "A band fills a room in a way nothing else does. We size the lineup to the space and the format, from a tight four piece working a cocktail reception to a twelve piece show band with horns, or a full orchestra behind a headline moment.",
+      "Repertoire is built with you rather than handed to you. Set lists, keys, medleys and walk on music are agreed in advance and rehearsed, so the band plays your night instead of their standard show.",
+    ],
+    featuring: [
+      "Party and show bands",
+      "Corporate event bands",
+      "Horn sections",
+      "Full and chamber orchestras",
+      "Custom set lists",
+      "Walk on and reveal music",
+      "Musical direction",
+      "Rehearsals and run of show",
+    ],
+    image: `${MUSICAL_DIVISIONS}/live-bands-orchestras/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "live-bands-orchestras",
+      3,
+      "Live band performance produced by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "jazz-ensembles",
+    icon: Drum,
+    blurb:
+      "Trios, quartets and swing bands for arrival, dinner and anywhere the room needs to stay conversational.",
+    eyebrow: "Jazz Ensembles",
+    title: "Music That Sits Under the Conversation",
+    paragraphs: [
+      "Jazz is the safest booking for the parts of an evening where music has to be present without taking over. A trio at arrival or a quartet through dinner lifts the room and still lets a table talk across it.",
+      "The same players turn it up when the format changes. A swing or big band set moves a cocktail crowd onto the floor without changing the tone of the event.",
+    ],
+    featuring: [
+      "Jazz trios and quartets",
+      "Swing and big band",
+      "Bossa nova and Latin jazz",
+      "Gypsy jazz",
+      "Vocal jazz",
+      "Arrival and dinner sets",
+      "Brass and horn features",
+      "Acoustic and amplified setups",
+    ],
+    image: `${MUSICAL_DIVISIONS}/jazz-ensembles/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "jazz-ensembles",
+      3,
+      "Jazz ensemble booked by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "string-quartets-classical",
+    icon: Music4,
+    blurb:
+      "Quartets, trios and chamber groups for ceremonies, arrivals and the formal half of an evening.",
+    eyebrow: "String Quartets & Classical Ensembles",
+    title: "The Formal Hours, Properly Scored",
+    paragraphs: [
+      "A string quartet does the work of a room full of decor. It tells guests the evening is a considered one, from the moment they walk in through the ceremony and the receiving line.",
+      "Repertoire is not limited to the classical canon. Our arrangers write contemporary songs for strings, so a processional or a brand moment can be scored to music the audience actually recognises.",
+    ],
+    featuring: [
+      "String quartets",
+      "String trios and duos",
+      "Harp and strings",
+      "Chamber ensembles",
+      "Ceremony and processional",
+      "Contemporary songs arranged for strings",
+      "Custom arrangements",
+      "Amplification for outdoor settings",
+    ],
+    image: `${MUSICAL_DIVISIONS}/string-quartets-classical/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "string-quartets-classical",
+      3,
+      "String ensemble booked by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "pianists-acoustic",
+    icon: Piano,
+    blurb:
+      "Solo pianists, guitarists and acoustic duos for the hours that call for one performer and nothing more.",
+    eyebrow: "Pianists & Acoustic Performers",
+    title: "One Performer, Room to Breathe",
+    paragraphs: [
+      "Some hours do not need a band. A pianist at a grand, a guitarist in a corner or an acoustic duo gives a room warmth and a focal point without raising the volume on anyone's conversation.",
+      "It is also the most flexible booking we offer. A single performer fits a lobby, a terrace or a private dining room, needs very little power and staging, and can play straight through a long arrival window.",
+    ],
+    featuring: [
+      "Solo pianists",
+      "Singer pianists",
+      "Acoustic guitarists",
+      "Acoustic duos",
+      "Lobby and cocktail sets",
+      "Long arrival coverage",
+      "Piano hire and tuning",
+      "Minimal staging and power",
+    ],
+    image: `${MUSICAL_DIVISIONS}/pianists-acoustic/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "pianists-acoustic",
+      3,
+      "Solo musician booked by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "specialty-international",
+    icon: Guitar,
+    blurb:
+      "Electric strings, harpists, cultural ensembles and roaming players for the moments that need something unexpected.",
+    eyebrow: "Specialty & International Musicians",
+    title: "The Booking Nobody Expects",
+    paragraphs: [
+      "Specialty musicians are how you surprise a room that has seen a band before. An electric violinist over a DJ set, an LED harp at arrival, or a drumline that appears behind the doors as they open.",
+      "Cultural and international ensembles do the same work with more meaning attached, and we cast them to the audience and the market the event sits in, whether that is a mariachi band, taiko drummers, bagpipers or a Bollywood ensemble.",
+    ],
+    featuring: [
+      "Electric violinists",
+      "Harpists and LED harps",
+      "Saxophonists and percussionists",
+      "Drumlines and brass bands",
+      "Mariachi and Latin ensembles",
+      "Taiko and cultural drumming",
+      "Bagpipers and ceremonial players",
+      "Roaming and strolling musicians",
+    ],
+    image: `${MUSICAL_DIVISIONS}/specialty-international/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "specialty-international",
+      3,
+      "Specialty musician booked by MME Worldwide",
+      "png"
+    ),
+  },
+  {
+    id: "celebrity-headline",
+    icon: Star,
+    blurb:
+      "Recognised artists and headline acts, with the contracting, riders and production that come with them.",
+    eyebrow: "Celebrity Artists & Headline Entertainment",
+    title: "The Name on the Invitation",
+    paragraphs: [
+      "A headline artist changes what an event is. It moves from something guests attend to something they tell people about, and it is usually the line that sells the ticket or fills the room.",
+      "We handle the part that is harder than the booking. Offers and contracting, technical and hospitality riders, travel and security, advance production, sound checks and the show call on the night.",
+    ],
+    featuring: [
+      "Recording artists and headliners",
+      "Comedians and speakers",
+      "Tribute and legacy acts",
+      "Offer and contract negotiation",
+      "Technical and hospitality riders",
+      "Travel, security and logistics",
+      "Advance production and sound check",
+      "Show calling and stage management",
+    ],
+    footnote:
+      "Artist availability and fees move constantly. We confirm both at the point of offer rather than quoting from a roster.",
+    image: `${MUSICAL_DIVISIONS}/celebrity-headline/01.png`,
+    gallery: divisionGallery(
+      MUSICAL_DIVISIONS,
+      "celebrity-headline",
+      3,
+      "Headline artist booked by MME Worldwide",
+      "png"
     ),
   },
 ];

@@ -3909,5 +3909,221 @@
     "height": 900,
     "kind": "image",
     "label": "TESTIMONIAL"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/djs-music-curators/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "DJS & MUSIC CURATORS 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/djs-music-curators/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "DJS & MUSIC CURATORS 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/djs-music-curators/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "DJS & MUSIC CURATORS 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/vocalists-featured-singers/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "VOCALISTS & FEATURED SINGERS 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/vocalists-featured-singers/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "VOCALISTS & FEATURED SINGERS 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/vocalists-featured-singers/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "VOCALISTS & FEATURED SINGERS 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/live-bands-orchestras/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "LIVE BANDS & ORCHESTRAS 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/live-bands-orchestras/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "LIVE BANDS & ORCHESTRAS 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/live-bands-orchestras/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "LIVE BANDS & ORCHESTRAS 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/jazz-ensembles/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "JAZZ ENSEMBLES 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/jazz-ensembles/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "JAZZ ENSEMBLES 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/jazz-ensembles/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "JAZZ ENSEMBLES 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/string-quartets-classical/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "STRING QUARTETS & CLASSICAL 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/string-quartets-classical/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "STRING QUARTETS & CLASSICAL 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/string-quartets-classical/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "STRING QUARTETS & CLASSICAL 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/pianists-acoustic/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "PIANISTS & ACOUSTIC 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/pianists-acoustic/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "PIANISTS & ACOUSTIC 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/pianists-acoustic/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "PIANISTS & ACOUSTIC 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/specialty-international/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "SPECIALTY & INTERNATIONAL 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/specialty-international/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "SPECIALTY & INTERNATIONAL 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/specialty-international/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "SPECIALTY & INTERNATIONAL 03"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/celebrity-headline/01.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "CELEBRITY & HEADLINE 01"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/celebrity-headline/02.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "CELEBRITY & HEADLINE 02"
+  },
+  {
+    "target": "/services/musical-entertainment/divisions/celebrity-headline/03.png",
+    "page": "services/musical-entertainment",
+    "slot": "offeringTile",
+    "width": 1200,
+    "height": 900,
+    "kind": "image",
+    "label": "CELEBRITY & HEADLINE 03"
   }
 ]

@@ -9,9 +9,11 @@ import FAQ from "@/components/FAQ";
 import ProcessApproach from "@/components/services/ProcessApproach";
 import ServiceIntro from "@/components/services/ServiceIntro";
 import WhatWeOffer from "@/components/services/WhatWeOffer";
+import EntertainmentDivisions from "@/components/services/EntertainmentDivisions";
 import {
   // MusicalEntertainmentCaseStudiesData,
   MusicalEntertainmentData,
+  MusicalEntertainmentDivisionsData,
   MusicalEntertainmentFAQ,
   MusicalEntertainmentImageGallery,
 } from "@/data";
@@ -25,12 +27,21 @@ export default function MusicalEntertainmentServicePage() {
       <WorkHero
         videoSrc="/services/musical-entertainment/hero/hero-video.mp4"
         posterSrc="/services/musical-entertainment/hero/hero-video-poster.jpg"
-        title="Musical"
-        highlightedWord="Entertainment"
-        subtitle="Curated musical talent that sets the tone and defines the energy of your event"
+        title="Set the Tone."
+        highlightedWord="Create the Moment."
+        stackHeadline
+        tagline="Exceptional Music for Extraordinary Events."
+        subtitle="Curated artists. Captivating performances. Unforgettable energy."
+        exploreLabel="Explore Musical Entertainment"
       />
 
       <ServiceIntro content={serviceIntros["musical-entertainment"]} />
+
+      <EntertainmentDivisions
+        headingPrefix="Discover Our"
+        headingPhrases={["Musical Talent", "Live Music", "Featured Artists"]}
+        divisions={MusicalEntertainmentDivisionsData}
+      />
 
       <WhatWeOffer
         title={MusicalEntertainmentData.title}

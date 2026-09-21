@@ -19,6 +19,16 @@ interface WorkHeroProps {
   /** Optional line between the headline and the subtitle, set as a kicker. */
   tagline?: string;
   subtitle: string;
+  /**
+   * Label on the scroll cue at the foot of the hero. Defaults to "Explore";
+   * pass a fuller phrase where the page wants the cue to name its own subject.
+   */
+  exploreLabel?: string;
+  /**
+   * Break the headline so the highlighted half sits on its own line. Off by
+   * default, where the two halves run together and wrap on their own.
+   */
+  stackHeadline?: boolean;
   showScrollIndicator?: boolean;
   showVideoControls?: boolean;
 }
@@ -30,6 +40,8 @@ export default function WorkHero({
   highlightedWord,
   tagline,
   subtitle,
+  exploreLabel = "Explore",
+  stackHeadline = false,
   showScrollIndicator = true,
   showVideoControls = true,
 }: WorkHeroProps) {
@@ -83,8 +95,13 @@ export default function WorkHero({
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white mb-6 [text-shadow:0_4px_12px_rgb(0_0_0_/80%),0_2px_4px_rgb(0_0_0_/60%)]">
-              {title}{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-cyan to-purple-light [text-shadow:0_0_20px_rgb(104_50_147_/60%)]">
+              {title}
+              {stackHeadline ? null : " "}
+              <span
+                className={`text-transparent bg-clip-text bg-linear-to-r from-purple via-cyan to-purple-light [text-shadow:0_0_20px_rgb(104_50_147_/60%)]${
+                  stackHeadline ? " block" : ""
+                }`}
+              >
                 {highlightedWord}
               </span>
             </h1>
@@ -127,8 +144,8 @@ export default function WorkHero({
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
         <div className="flex flex-col items-center gap-2">
-          <span className="text-white/60 text-xs uppercase tracking-wider">
-            Explore
+          <span className="text-white/60 text-xs uppercase tracking-wider text-center px-4">
+            {exploreLabel}
           </span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
