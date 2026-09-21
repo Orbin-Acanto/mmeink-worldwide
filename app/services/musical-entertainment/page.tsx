@@ -60,11 +60,15 @@ export default function MusicalEntertainmentServicePage() {
 
       <HomeCTA
         backgroundImage="/shared/backgrounds/cta-background.jpg"
-        title="The Sound. The Energy. The Experience."
+        title="The Sound. The Atmosphere. The Vibe."
         subtitle="Musical Entertainment"
-        description="From a string quartet at cocktail hour to a full band closing the night, we curate entertainment that does not simply perform for your guests. It connects with them."
+        description="From the timeless elegance of a string quartet and the sophistication of live jazz to world class vocalists, specialty musicians, and high energy bands, MME Worldwide curates musical entertainment designed to define the atmosphere of every occasion."
+        paragraphs={[
+          "Every performance is thoughtfully selected to complement the setting, elevate the guest experience, and create an unforgettable connection between music, energy, and celebration.",
+          "Exceptional talent. Impeccable presentation. Unforgettable performances.",
+        ]}
         primaryButton={{
-          text: "Plan Your Event",
+          text: "Curate Your Experience",
           href: "/contact",
         }}
       />
