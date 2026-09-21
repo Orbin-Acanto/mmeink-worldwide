@@ -16,6 +16,8 @@ interface WorkHeroProps {
   posterSrc?: string;
   title: string;
   highlightedWord: string;
+  /** Optional line between the headline and the subtitle, set as a kicker. */
+  tagline?: string;
   subtitle: string;
   showScrollIndicator?: boolean;
   showVideoControls?: boolean;
@@ -26,6 +28,7 @@ export default function WorkHero({
   posterSrc,
   title,
   highlightedWord,
+  tagline,
   subtitle,
   showScrollIndicator = true,
   showVideoControls = true,
@@ -85,6 +88,12 @@ export default function WorkHero({
                 {highlightedWord}
               </span>
             </h1>
+
+            {tagline && (
+              <p className="mb-4 text-sm sm:text-base md:text-lg font-semibold uppercase tracking-[0.2em] text-white/90 [text-shadow:0_2px_8px_rgb(0_0_0_/80%)] px-4">
+                {tagline}
+              </p>
+            )}
 
             <p className="text-base sm:text-lg md:text-xl text-white font-light max-w-4xl mx-auto leading-relaxed [text-shadow:0_2px_8px_rgb(0_0_0_/80%),0_1px_3px_rgb(0_0_0_/60%)] px-4">
               {subtitle}

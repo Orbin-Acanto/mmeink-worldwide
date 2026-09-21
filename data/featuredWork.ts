@@ -190,14 +190,17 @@ export const featuredWork: Record<string, FeaturedWorkContent> = {
   },
   entertainment: {
     title: "Featured",
-    titleAccent: "Work",
-    subtitle: "From Vision to Reality",
-    lead: "Explore a selection of MME Worldwide entertainment work, where a brief becomes the part of the night guests are still talking about on the way home.",
+    titleAccent: "Experiences",
+    subtitle: "Where Vision Becomes Experience",
+    lead: "Step inside a world of entertainment without limits.",
     paragraphs: [
-      "From first concept and creative development through casting, contracting, technical production, rehearsal, show calling, and the night itself, every project reflects our commitment to craft, invention, and detail.",
-      "Working alongside leading brands, agencies, planners, and creative teams, MME brings ambitious ideas to life through headline talent, production dance, casino floors, close up magic, photo and digital activations, and guest experiences built for one room on one night.",
+      "MME Worldwide curates and produces extraordinary entertainment experiences designed to transform an event, energize a room, and create moments guests remember long after the night is over.",
+      "From the first creative concept through the final experience, every detail is thoughtfully considered and seamlessly produced. Creative direction, talent curation, casting, choreography, technical production, custom fabrication, rehearsals, staffing, show management, and onsite execution come together under one creative vision.",
+      "Our entertainment portfolio spans live performances, specialty and strolling performers, aerialists and acrobats, dancers, musicians, magicians and mentalists, luxury casino experiences, carnival and midway attractions, interactive sports games and challenges, arcade experiences, simulators, photo booths, 360 degree video experiences, AI powered photo activations, immersive technology, and custom designed guest experiences.",
+      "From the sophistication of a beautifully produced casino floor to the energy of an elevated carnival, the excitement of interactive sports and gaming, or the unexpected arrival of a roaming performer, MME creates layers of discovery throughout the event, giving guests something to watch, something to experience, and something to become part of.",
+      "We don’t simply provide entertainment. We create the moments that become the experience.",
     ],
-    closing: "One vision. One creative partner. From concept to completion.",
+    closing: "One Vision. Endless Possibilities. One Extraordinary Experience.",
     images: [
       {
         src: "/services/entertainment/featured/featured-01.jpg",

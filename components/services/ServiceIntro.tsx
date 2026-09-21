@@ -26,8 +26,11 @@ export default function ServiceIntro({
     paragraphs,
     blocks,
     closing,
+    closingNote,
     capabilitiesHeading,
+    capabilitiesIntro,
     capabilities,
+    capabilitiesNote,
   } = content;
 
   return (
@@ -47,7 +50,7 @@ export default function ServiceIntro({
                 {eyebrow}
               </span>
 
-              <h2 className="mt-6 text-3xl sm:text-4xl md:text-5xl font-bold uppercase text-black tracking-tight">
+              <h2 className="mt-6 text-2xl sm:text-3xl md:text-4xl font-bold uppercase text-black tracking-tight">
                 {headline}
               </h2>
             </motion.div>
@@ -62,7 +65,7 @@ export default function ServiceIntro({
               {paragraphs.map((paragraph) => (
                 <p
                   key={paragraph.slice(0, 48)}
-                  className="text-base sm:text-lg text-gray-700 leading-relaxed"
+                  className="text-sm sm:text-base text-gray-700 leading-relaxed"
                 >
                   {paragraph}
                 </p>
@@ -78,14 +81,19 @@ export default function ServiceIntro({
                 transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                 className="mt-10"
               >
-                <h3 className="text-xl sm:text-2xl font-bold text-purple mb-4">
+                {block.eyebrow && (
+                  <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-gray-500 mb-2">
+                    {block.eyebrow}
+                  </p>
+                )}
+                <h3 className="text-lg sm:text-xl font-bold text-purple mb-4">
                   {block.heading}
                 </h3>
                 <div className="space-y-6">
                   {block.paragraphs.map((paragraph) => (
                     <p
                       key={paragraph.slice(0, 48)}
-                      className="text-base sm:text-lg text-gray-700 leading-relaxed"
+                      className="text-sm sm:text-base text-gray-700 leading-relaxed"
                     >
                       {paragraph}
                     </p>
@@ -99,10 +107,22 @@ export default function ServiceIntro({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.25, duration: 0.6 }}
-              className="mt-10 border-l-4 border-purple pl-6 text-xl sm:text-2xl md:text-3xl font-bold text-black leading-snug"
+              className="mt-10 border-l-4 border-purple pl-6 text-lg sm:text-xl md:text-2xl font-bold text-black leading-snug"
             >
               {closing}
             </motion.p>
+
+            {closingNote && (
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+                className="mt-5 pl-6 text-sm sm:text-base text-gray-600 leading-relaxed"
+              >
+                {closingNote}
+              </motion.p>
+            )}
           </div>
 
           <motion.aside
@@ -113,14 +133,19 @@ export default function ServiceIntro({
             className="lg:col-span-4"
           >
             <div className="bg-gray-50 border-t-4 border-purple p-6 sm:p-8 lg:sticky lg:top-28">
-              <h3 className="text-lg sm:text-xl font-bold uppercase text-black tracking-tight mb-6">
+              <h3 className="text-base sm:text-lg font-bold uppercase text-black tracking-tight mb-2">
                 {capabilitiesHeading}
               </h3>
-              <ul className="space-y-3">
+              {capabilitiesIntro && (
+                <p className="mb-6 text-sm text-purple font-semibold">
+                  {capabilitiesIntro}
+                </p>
+              )}
+              <ul className={`space-y-3 ${capabilitiesIntro ? "" : "mt-6"}`}>
                 {capabilities.map((capability) => (
                   <li
                     key={capability}
-                    className="flex items-start gap-3 text-sm sm:text-base text-gray-700"
+                    className="flex items-start gap-3 text-xs sm:text-sm text-gray-700"
                   >
                     <Check
                       className="w-5 h-5 text-purple shrink-0 mt-0.5"
@@ -130,6 +155,11 @@ export default function ServiceIntro({
                   </li>
                 ))}
               </ul>
+              {capabilitiesNote && (
+                <p className="mt-6 border-t border-gray-200 pt-5 text-sm text-gray-600 leading-relaxed">
+                  {capabilitiesNote}
+                </p>
+              )}
             </div>
           </motion.aside>
         </div>

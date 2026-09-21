@@ -27,9 +27,10 @@ export default function EntertainmentServicePage() {
       <WorkHero
         videoSrc="/services/entertainment/hero/hero-video.mp4"
         posterSrc="/services/entertainment/hero/hero-video-poster.jpg"
-        title="Entertainment"
-        highlightedWord="& Experiences"
-        subtitle="Live entertainment, photo experiences, and interactive activations tailored to your brand"
+        title="Experience the"
+        highlightedWord="Extraordinary."
+        tagline="Entertainment. Performance. Play. Technology. Connection."
+        subtitle="Curated experiences designed to captivate, engage, and be remembered."
       />
 
       <ServiceIntro content={serviceIntros["entertainment"]} />
@@ -59,11 +60,15 @@ export default function EntertainmentServicePage() {
 
       <HomeCTA
         backgroundImage="/shared/backgrounds/cta-background.jpg"
-        title="Perform. Play. Capture. Share."
-        subtitle="Entertainment & Interactive Experiences"
-        description="From specialty performers and photo booths to casino nights and carnival games, we create energy, inspire interaction, and give guests something to remember."
+        title="Perform. Play. Engage. Experience."
+        subtitle="Entertainment & Immersive Experiences"
+        description="Where extraordinary talent, interactive entertainment, and imaginative experiences come together."
+        paragraphs={[
+          "From captivating live performers and immersive photo moments to sophisticated casino experiences, elevated carnival attractions, interactive gaming, sports challenges, and next generation technology, MME Worldwide creates experiences that invite guests to become part of the moment.",
+          "Designed to captivate. Created to connect. Remembered long after the event ends.",
+        ]}
         primaryButton={{
-          text: "Plan Your Event",
+          text: "Create Your Experience",
           href: "/contact",
         }}
       />

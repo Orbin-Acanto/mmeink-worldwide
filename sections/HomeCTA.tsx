@@ -8,6 +8,8 @@ interface CTASectionProps {
   title: string;
   subtitle?: string;
   description: string;
+  /** Optional copy under the description, for a CTA that carries more than a line. */
+  paragraphs?: string[];
   primaryButton: {
     text: string;
     href: string;
@@ -20,6 +22,7 @@ export default function HomeCTA({
   title,
   subtitle,
   description,
+  paragraphs,
   primaryButton,
   className = "",
 }: CTASectionProps) {
@@ -46,7 +49,11 @@ export default function HomeCTA({
   return (
     <section
       ref={sectionRef}
-      className={`relative w-full h-[50vh] min-h-[400px] overflow-hidden ${className}`}
+      className={`relative w-full overflow-hidden ${
+        paragraphs?.length
+          ? "min-h-[50vh] flex items-center py-20"
+          : "h-[50vh] min-h-[400px]"
+      } ${className}`}
     >
       <div
         className="absolute inset-0 w-full h-[200%] -top-[25%] bg-cover bg-center will-change-transform"
@@ -59,7 +66,11 @@ export default function HomeCTA({
 
       <div className="absolute inset-0 bg-black/60" />
 
-      <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <div
+        className={`relative flex w-full items-center justify-center px-4 sm:px-6 lg:px-8 ${
+          paragraphs?.length ? "" : "h-full"
+        }`}
+      >
         <div className="max-w-4xl mx-auto text-center z-10">
           {subtitle && (
             <p className="cta-label animate-fadeIn">
@@ -74,6 +85,15 @@ export default function HomeCTA({
           <p className="cta-body animate-fadeIn animation-delay-200">
             {description}
           </p>
+
+          {paragraphs?.map((paragraph) => (
+            <p
+              key={paragraph.slice(0, 48)}
+              className="cta-body animate-fadeIn animation-delay-200"
+            >
+              {paragraph}
+            </p>
+          ))}
 
           <div className="flex justify-center animate-fadeIn animation-delay-300">
             <Button href={primaryButton.href}>{primaryButton.text}</Button>

@@ -10,6 +10,8 @@
  */
 
 export interface ServiceIntroBlock {
+  /** Optional kicker above the block heading. */
+  eyebrow?: string;
   heading: string;
   paragraphs: string[];
 }
@@ -25,9 +27,15 @@ export interface ServiceIntroContent {
   blocks?: ServiceIntroBlock[];
   /** Closing line, styled as a statement rather than body copy. */
   closing: string;
+  /** Optional sign off under the closing line, set smaller. */
+  closingNote?: string;
   /** Plain-language capability list. Rendered as a visible, crawlable list. */
   capabilitiesHeading: string;
+  /** Optional line under the capabilities heading, above the list. */
+  capabilitiesIntro?: string;
   capabilities: string[];
+  /** Optional line under the capabilities list. */
+  capabilitiesNote?: string;
 }
 
 export const serviceIntros: Record<string, ServiceIntroContent> = {
@@ -345,47 +353,72 @@ export const serviceIntros: Record<string, ServiceIntroContent> = {
   },
 
   entertainment: {
-    eyebrow: "Entertainment & Interactive Experiences",
+    eyebrow: "Entertainment, Elevated",
     headline:
-      "Entertainment That Captivates. Experiences That Connect. Moments That Last",
+      "Extraordinary Talent. Immersive Experiences. Unforgettable Moments.",
     paragraphs: [
-      "At MME Worldwide, we believe exceptional entertainment does more than fill a room. It creates energy, inspires interaction, and gives guests something to remember. From corporate events and experiential activations to product launches, conferences, galas, holiday celebrations, and private events, we curate live entertainment and interactive experiences tailored to your brand, audience, and vision.",
-      "Our entertainment portfolio includes specialty performers, dancers, aerialists, acrobats, cirque style acts, magicians, mentalists, strolling performers, character entertainment, casino experiences, carnival and midway games, arcade games, sports challenges, simulators, virtual reality, team building activities, and custom branded experiences.",
+      "At MME Worldwide, entertainment is more than what your guests see. It is what they feel, experience, and remember.",
+      "We curate extraordinary entertainment and immersive experiences designed to transform an event, captivate an audience, and create moments that live far beyond the occasion itself.",
+      "From sophisticated corporate celebrations and global brand activations to product launches, conferences, galas, holiday experiences, and private events, every entertainment concept is thoughtfully curated around your brand, audience, environment, and vision.",
+      "Our extensive entertainment portfolio brings together exceptional talent and next generation experiences, including specialty performers, dancers, aerialists, acrobats, cirque inspired acts, illusionists, mentalists, musicians, immersive characters, strolling entertainment, casino experiences, carnival and midway attractions, arcade gaming, sports challenges, simulators, virtual reality, interactive technology, team building experiences, and fully customized branded activations.",
+      "Whether you are selecting one extraordinary performance or designing an entire entertainment environment, MME Worldwide creates experiences with purpose, energy, and impact.",
     ],
     blocks: [
       {
-        heading: "Photo Booths & Social Experiences",
+        eyebrow: "Capture the Moment",
+        heading: "Photo, Social & Digital Experiences",
         paragraphs: [
-          "Turn every guest into part of the experience with our collection of premium photo booths and interactive content activations, including 360 degree video booths, glam booths, AI powered photo experiences, GIF and Boomerang stations, green screen experiences, roaming photography, custom photo sets, branded backdrops, and immersive photo environments.",
-          "For corporate and experiential campaigns, photo experiences can be completely customized with brand graphics, digital overlays, scenic fabrication, custom props, branded content, social sharing, and personalized guest interactions, extending the experience beyond the event itself.",
+          "Turn a moment into a memory, and a guest into part of the experience.",
+          "MME Worldwide creates sophisticated photo, video, AI, and social activations designed to engage guests while generating memorable, shareable content.",
+          "From 360 degree video experiences and editorial style glam booths to AI powered photography, GIF and Boomerang activations, green screen environments, roaming photography, digital installations, custom photo moments, and immersive scenic sets, every activation can become an extension of your event or brand.",
+          "For corporate events and experiential campaigns, we can customize every detail, from scenic fabrication and branded environments to digital overlays, interactive technology, custom props, personalized content, and social integration.",
+          "The result is more than a photograph. It is a branded experience your guests become part of.",
         ],
       },
       {
-        heading: "Casino, Carnival & Interactive Gaming",
+        eyebrow: "Play, Reimagined",
+        heading: "Casino, Carnival & Interactive Experiences",
         paragraphs: [
-          "From the sophistication of a private casino evening to the energy of a fully immersive carnival, MME Worldwide creates complete entertainment environments featuring casino tables and professional dealers, carnival games, arcade experiences, interactive challenges, prize stations, specialty performers, and custom designed attractions.",
-          "Whether you need a single signature activation or an entire entertainment experience, MME Worldwide manages everything from creative concept and talent sourcing to equipment, staffing, technical production, installation, show management, and strike.",
+          "From the timeless sophistication of a private casino to the unexpected energy of a modern carnival, MME Worldwide transforms traditional entertainment into beautifully produced interactive experiences.",
+          "Our capabilities include premium casino tables and professional dealers, elevated carnival and midway games, contemporary arcade experiences, interactive challenges, sports activations, simulators, prize experiences, specialty performers, and custom designed attractions.",
+          "Every environment can be tailored to complement your event aesthetic, or completely transformed around a brand, theme, destination, or creative concept.",
+          "Whether you are looking for one signature attraction or an entire interactive entertainment destination, we manage the experience from beginning to end.",
+        ],
+      },
+      {
+        eyebrow: "Curated. Produced. Performed.",
+        heading: "Behind Every Unforgettable Moment Is Exceptional Production",
+        paragraphs: [
+          "MME Worldwide provides a complete entertainment solution encompassing creative direction, talent curation, choreography, casting, custom fabrication, technical production, staging, lighting, audio, equipment, staffing, installation, onsite show management, and strike.",
+          "One creative team. One production partner. One seamless experience.",
+          "From the first concept to the final applause, every detail is thoughtfully considered and professionally executed.",
         ],
       },
     ],
     closing:
-      "Perform. Play. Capture. Share. Experience Entertainment Differently.",
-    capabilitiesHeading: "Entertainment & Interactive Capabilities",
+      "Experience Entertainment Differently. Perform. Engage. Play. Capture. Connect.",
+    closingNote:
+      "MME Worldwide, creating extraordinary experiences one unforgettable moment at a time.",
+    capabilitiesHeading: "Curated Entertainment & Immersive Experiences",
+    capabilitiesIntro:
+      "Exceptional talent. Elevated experiences. Limitless possibilities.",
     capabilities: [
-      "Specialty performers and dancers",
-      "Aerialists, acrobats, and cirque style acts",
-      "Magicians and mentalists",
-      "Strolling and character entertainment",
-      "360 degree video booths and glam booths",
-      "AI powered photo experiences",
-      "GIF, Boomerang, and green screen stations",
-      "Casino tables and professional dealers",
-      "Carnival, midway, and arcade games",
-      "Sports challenges and simulators",
-      "Virtual reality experiences",
-      "Team building activities",
-      "Custom branded experiences",
+      "Specialty performers and choreographed dance experiences",
+      "Aerial artistry, acrobatic performances, and cirque inspired acts",
+      "Illusionists, magicians, and mentalists",
+      "Strolling artists and immersive character experiences",
+      "360 degree video experiences and editorial glam studios",
+      "AI powered photo and digital experiences",
+      "Interactive GIF, Boomerang, and green screen activations",
+      "Luxury casino experiences and professional dealers",
+      "Elevated carnival, midway, and contemporary arcade experiences",
+      "Interactive sports challenges and immersive simulators",
+      "Virtual and extended reality experiences",
+      "Curated team building and guest engagement experiences",
+      "Bespoke branded entertainment and custom activations",
     ],
+    capabilitiesNote:
+      "From extraordinary live talent to next generation interactive experiences, MME Worldwide curates every element to captivate, engage, and leave a lasting impression.",
   },
 
   "specialty-entertainment": {

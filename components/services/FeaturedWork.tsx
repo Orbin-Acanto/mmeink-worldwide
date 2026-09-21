@@ -148,22 +148,22 @@ export default function FeaturedWork({ content }: FeaturedWorkProps) {
         viewport={{ once: true }}
         className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-16 text-center relative z-10 mb-10 sm:mb-12 md:mb-16"
       >
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
           {content.title}
           <span className="text-purple"> {content.titleAccent}</span>
         </h2>
-        <p className="text-xl sm:text-2xl md:text-3xl font-semibold text-neutral-900 mb-6">
+        <p className="text-lg sm:text-xl md:text-2xl font-semibold text-neutral-900 mb-6">
           {content.subtitle}
         </p>
 
         <div className="max-w-4xl mx-auto space-y-5 sm:space-y-6">
-          <p className="text-base sm:text-lg md:text-xl text-neutral-700 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-neutral-700 leading-relaxed">
             {content.lead}
           </p>
           {content.paragraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="text-base sm:text-lg text-neutral-700 leading-relaxed"
+              className="text-sm sm:text-base text-neutral-700 leading-relaxed"
             >
               {paragraph}
             </p>
@@ -180,7 +180,7 @@ export default function FeaturedWork({ content }: FeaturedWorkProps) {
           />
         </div>
 
-        <p className="text-lg sm:text-xl md:text-2xl font-bold uppercase tracking-tight text-neutral-900">
+        <p className="text-base sm:text-lg md:text-xl font-bold uppercase tracking-tight text-neutral-900">
           {content.closing}
         </p>
       </motion.div>
