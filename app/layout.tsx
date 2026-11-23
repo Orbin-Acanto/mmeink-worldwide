@@ -6,6 +6,9 @@ import Footer from "@/components/Footer";
 import SmoothAnchors from "@/components/SmoothAnchors";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { BRAND, SITE_URL, buildMetadata } from "@/lib/seo";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import ClickTracking from "@/components/ClickTracking";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -55,6 +58,9 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
+        <SpeedInsights />
+        <ClickTracking />
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Mail, Phone, MapPin, Send, Upload, X } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { track } from "@vercel/analytics";
 import EventRFPForm from "@/components/contact/EventRFPForm";
 
 interface FormDataType {
@@ -168,6 +169,7 @@ export default function ContactPage() {
       const result = await response.json();
 
       if (result.success) {
+        track("lead_submitted", { form: "contact" });
         setSubmitStatus({
           type: "success",
           message:

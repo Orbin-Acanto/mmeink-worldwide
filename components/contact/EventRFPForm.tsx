@@ -23,6 +23,7 @@ import {
   Paperclip,
 } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { track } from "@vercel/analytics";
 import Button from "@/components/Button";
 import FileDropzone from "@/components/contact/FileDropzone";
 
@@ -587,6 +588,7 @@ export default function EventRFPForm() {
       const result = await response.json();
 
       if (result.success) {
+        track("lead_submitted", { form: "rfp" });
         setShowModal(true);
         resetForm();
       } else {

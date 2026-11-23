@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { withBotId } from "botid/next/config";
 
 const nextConfig: NextConfig = {
   images: {
@@ -12,9 +13,18 @@ const nextConfig: NextConfig = {
     qualities: [70, 75, 80, 90],
   },
   allowedDevOrigins: ["172.31.160.1", "http://localhost:3000"],
-  // Keep the development copy out of search until the site launches on www.mmeink.com.
   async headers() {
     return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=()" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+        ],
+      },
+      // Keep the development copy out of search until the site launches on www.mmeink.com.
       {
         source: "/:path*",
         has: [{ type: "host", value: "development.mmeink.com" }],
@@ -24,4 +34,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withBotId(nextConfig);
