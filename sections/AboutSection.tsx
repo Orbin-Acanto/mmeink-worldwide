@@ -40,10 +40,10 @@ export default function AboutSection({
         <p className="section-label">{label}</p>
         <div className="grid gap-10 sm:gap-12 md:gap-16 lg:grid-cols-2 items-start">
           <div className="space-y-5 sm:space-y-6">
-            <h1 className="section-heading">
+            <h2 className="section-heading">
               {title}
               <span className="section-heading-highlight">{titleHighlight}</span>
-            </h1>
+            </h2>
 
             <p className="section-body">{description}</p>
 

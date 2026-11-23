@@ -78,9 +78,9 @@ export default function HomeCTA({
             </p>
           )}
 
-          <h1 className="cta-heading">
+          <h2 className="cta-heading">
             {title}
-          </h1>
+          </h2>
 
           <p className="cta-body animate-fadeIn animation-delay-200">
             {description}

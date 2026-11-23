@@ -180,9 +180,9 @@ export default function WhatWeDoSection({ offerings }: WhatWeDoSectionProps) {
         viewport={{ once: true }}
         className="max-w-7xl mx-auto text-center"
       >
-        <h1 className="uppercase mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
+        <h2 className="uppercase mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900">
           What <span className=" text-purple">We Do</span>
-        </h1>
+        </h2>
         <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-10 max-w-2xl mx-auto">
           Transforming visions into unforgettable experiences
         </p>

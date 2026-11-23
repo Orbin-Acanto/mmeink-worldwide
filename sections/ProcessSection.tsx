@@ -60,10 +60,10 @@ export default function ProcessSection() {
             transition={{ duration: 0.8 }}
           >
             <p className="section-label">Our Approach</p>
-            <h1 className="section-heading">
+            <h2 className="section-heading">
               How We Bring Your{" "}
               <span className="text-purple">Vision to Life</span>
-            </h1>
+            </h2>
           </motion.div>
         </div>
 

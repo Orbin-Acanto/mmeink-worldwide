@@ -41,9 +41,9 @@ export default function EventIntroSection({
               </span>
             </motion.div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
               Creating Unforgettable Moments
-            </h1>
+            </h2>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}

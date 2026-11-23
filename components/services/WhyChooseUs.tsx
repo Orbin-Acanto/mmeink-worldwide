@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12 md:mb-16 lg:mb-20"
         >
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl">
             Why Choose{" "}
             <span className="text-transparent bg-clip-text bg-purple">
               <HighlightText
@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
                 transition={{ duration: 1.5, ease: "easeOut" }}
               />
             </span>
-          </h1>
+          </h2>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">

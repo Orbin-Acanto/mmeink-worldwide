@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SmoothAnchors from "@/components/SmoothAnchors";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { BRAND, SITE_URL, buildMetadata } from "@/lib/seo";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   ...buildMetadata({
@@ -41,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.variable}>
       <body>
         <OrganizationJsonLd />
         <SmoothAnchors />

@@ -197,12 +197,12 @@ const ProcessApproach: React.FC = () => {
 
       <div className="max-w-7xl mx-auto w-full relative z-10">
         <div className="text-center mb-12 sm:mb-14 lg:mb-16">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-tight drop-shadow-2xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-white mb-6 tracking-tight drop-shadow-2xl">
             Our{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-purple via-cyan to-purple-light">
               Process
             </span>
-          </h1>
+          </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-8 sm:mb-10 max-w-2xl mx-auto">
             A streamlined approach to delivering exceptional events
           </p>

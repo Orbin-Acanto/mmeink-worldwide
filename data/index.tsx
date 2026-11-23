@@ -699,7 +699,7 @@ export const team = [
     name: "Denise Tardi",
     role: "President",
     bio: "Founder of MME Worldwide. For more than 30 years she has built the company around creativity, personalized service, and production capability under one roof.",
-    avatar: "/about/team/denise-tardi.png",
+    avatar: "/about/team/denise-tardi.webp",
     linkedin: "#",
     email: "dtardi@mmeink.com",
   },
@@ -717,7 +717,7 @@ export const team = [
     name: "Lauren Leuci",
     role: "Director of Events",
     bio: "Award winning designer specializing in immersive event experiences and brand activations.",
-    avatar: "/about/team/lauren-leuci.png",
+    avatar: "/about/team/lauren-leuci.webp",
     linkedin: "https://www.linkedin.com/in/lauren-leuci-a47075242/",
     email: "lleuci@mmeink.com",
   },
@@ -726,7 +726,7 @@ export const team = [
     name: "Andrew Heaton",
     role: "Director of Operations",
     bio: "Technical expert ensuring flawless execution of complex events with precision and care.",
-    avatar: "/about/team/andrew-heaton.png",
+    avatar: "/about/team/andrew-heaton.webp",
     linkedin: "#",
     email: "aheaton@mmeink.com",
   },
@@ -735,7 +735,7 @@ export const team = [
     name: "Juan Fuentes",
     role: "Director of Events & Production",
     bio: "Dedicated to building lasting partnerships and exceeding client expectations every time.",
-    avatar: "/about/team/juan-fuentes.png",
+    avatar: "/about/team/juan-fuentes.webp",
     linkedin: "#",
     email: "jfuentes@mmeink.com",
   },
@@ -744,7 +744,7 @@ export const team = [
     name: "Andrea Palacio",
     role: "Manager of Events & Production",
     bio: "Keeps events on schedule and on spec, managing production details from planning through load out.",
-    avatar: "/about/team/andrea-palacio.png",
+    avatar: "/about/team/andrea-palacio.webp",
     linkedin: "#",
     email: "apalacio@mmeink.com",
   },
@@ -753,7 +753,7 @@ export const team = [
     name: "Herberto Deleon",
     role: "Director of Creative Fabrication",
     bio: "Builds the sets, scenic, and custom pieces that turn a rendering into something guests can walk into.",
-    avatar: "/about/team/herberto-deleon.png",
+    avatar: "/about/team/herberto-deleon.webp",
     linkedin: "#",
     email: "herberto@mmeink.com",
   },
@@ -776,7 +776,7 @@ export const team = [
 export const aboutHero = {
   videoSrc: undefined as string | undefined,
   // videoSrc: "/about/hero/hero-video.mp4",
-  poster: "/about/hero/hero.png",
+  poster: "/about/hero/hero.webp",
   posterAlt:
     "A cinematic view from behind the audience toward an illuminated stage at an MME Worldwide production",
   title: "Three Decades of Creating",
@@ -865,7 +865,7 @@ export const founder = {
     "Executive Producer",
     "Event Production & Experiential Design Leader",
   ],
-  portrait: "/about/founder/denise-tardi.png",
+  portrait: "/about/founder/denise-tardi.webp",
   portraitAlt: "Denise Tardi, President and founder of MME Worldwide",
   profileTitle: "Executive Profile",
   profile: [
@@ -1092,19 +1092,19 @@ export const steps: Step[] = [
     id: "discover",
     title: "Discover",
     subtitle: "We listen and strategize",
-    image: "/about/process/discover.png",
+    image: "/about/process/discover.webp",
   },
   {
     id: "design",
     title: "Design",
     subtitle: "Creative concepts that wow",
-    image: "/about/process/design.png",
+    image: "/about/process/design.webp",
   },
   {
     id: "produce",
     title: "Produce",
     subtitle: "Flawless execution",
-    image: "/about/process/produce.png",
+    image: "/about/process/produce.webp",
   },
   {
     id: "deliver",
@@ -3095,7 +3095,7 @@ export const CustomFabricationData = {
     {
       id: "1",
       title: "Custom Wood Work and Finishing",
-      image: "/services/custom-fabrication/what-we-offer/gifs/wood-work.webp",
+      image: "/services/custom-fabrication/what-we-offer/gifs/wood-work.mp4",
       width: "lg" as const,
     },
     {
@@ -3107,14 +3107,14 @@ export const CustomFabricationData = {
     {
       id: "3",
       title: "Stage and Set Installation",
-      image: "/services/custom-fabrication/what-we-offer/gifs/stage.webp",
+      image: "/services/custom-fabrication/what-we-offer/gifs/stage.mp4",
       width: "xl" as const,
     },
     {
       id: "4",
       title: "Custom Branded Carts",
       image:
-        "/services/custom-fabrication/what-we-offer/gifs/champagne-snack.webp",
+        "/services/custom-fabrication/what-we-offer/gifs/champagne-snack.mp4",
       width: "sm" as const,
     },
     {
@@ -3126,7 +3126,7 @@ export const CustomFabricationData = {
     {
       id: "6",
       title: "Dimensional Letter Fabrication",
-      image: "/services/custom-fabrication/what-we-offer/gifs/ausa.webp",
+      image: "/services/custom-fabrication/what-we-offer/gifs/ausa.mp4",
       width: "md" as const,
     },
   ],
@@ -3135,7 +3135,7 @@ export const CustomFabricationData = {
       id: "7",
       title: "Branded Signage and Graphics",
       image:
-        "/services/custom-fabrication/what-we-offer/gifs/banana-republic.webp",
+        "/services/custom-fabrication/what-we-offer/gifs/banana-republic.mp4",
       width: "md" as const,
     },
     {
@@ -3148,14 +3148,14 @@ export const CustomFabricationData = {
       id: "9",
       title: "Scenic Arches and Backdrops",
       image:
-        "/services/custom-fabrication/what-we-offer/gifs/more-fabrication.webp",
+        "/services/custom-fabrication/what-we-offer/gifs/more-fabrication.mp4",
       width: "lg" as const,
     },
     {
       id: "10",
       title: "Immersive Event Environments",
       image:
-        "/services/custom-fabrication/what-we-offer/gifs/texas-candy-4.webp",
+        "/services/custom-fabrication/what-we-offer/gifs/texas-candy-4.mp4",
       width: "xl" as const,
     },
     {
@@ -3168,7 +3168,7 @@ export const CustomFabricationData = {
       id: "12",
       title: "Branded Bars and Decor",
       image:
-        "/services/custom-fabrication/what-we-offer/gifs/additional-decorations.webp",
+        "/services/custom-fabrication/what-we-offer/gifs/additional-decorations.mp4",
       width: "lg" as const,
     },
   ],

@@ -29,6 +29,8 @@ export default function RelatedProjectsSection({
           src={backgroundImage}
           alt=""
           className="h-full w-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
@@ -44,7 +46,7 @@ export default function RelatedProjectsSection({
           viewport={{ once: true }}
           className="mb-8 sm:mb-10"
         >
-          <h1 className="mb-2 uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest">
+          <h2 className="mb-2 uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest">
             <span
               style={{
                 textShadow: `
@@ -62,7 +64,7 @@ export default function RelatedProjectsSection({
             >
               More Work
             </span>
-          </h1>
+          </h2>
 
           <p className="text-sm sm:text-base text-neutral-300">
             Explore our portfolio of memorable experiences
@@ -86,6 +88,7 @@ export default function RelatedProjectsSection({
                       alt={project.title}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                       loading="lazy"
+                      decoding="async"
                     />
 
                     <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />

@@ -48,7 +48,7 @@ export default function AdditionalExperiences({
     <section className="relative w-full bg-white py-12 sm:py-14 lg:py-16">
       <div className="relative z-10">
         <div className="max-w-7xl mx-auto text-center">
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -56,7 +56,7 @@ export default function AdditionalExperiences({
             className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase text-black mb-6 tracking-tight drop-shadow-2xl"
           >
             {title} <span className="text-purple">{highlightedText}</span>
-          </motion.h1>
+          </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

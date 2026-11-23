@@ -76,7 +76,7 @@ export function buildMetadata({
   description,
   path,
   keywords = [],
-  image = "/shared/brand/logo.png",
+  image = "/og-image.jpg",
 }: BuildMetadataArgs): Metadata {
   const url = `${SITE_URL}${path}`;
   const absoluteImage = image.startsWith("http") ? image : `${SITE_URL}${image}`;
