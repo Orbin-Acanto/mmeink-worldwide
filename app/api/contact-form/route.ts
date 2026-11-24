@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { checkBotId } from "botid/server";
 import { ratelimit } from "@/lib/rate-limit";
+import { n8nLeadsEnabled, sendToCrm } from "@/lib/fidi-crm";
 
 const HONEYPOT_FIELD = "website";
 
@@ -195,27 +196,38 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    const username = process.env.N8N_USERNAME!;
-    const password = process.env.N8N_PASSWORD!;
-    const credentials = Buffer.from(`${username}:${password}`).toString(
-      "base64"
+    const crm = sendToCrm(
+      "FIDI_CRM_CONTACT_KEY",
+      { ...submissionData, attachments: files.map((f) => f.name).join(", ") },
+      request
     );
 
-    const n8nResponse = await fetch(process.env.N8N_LEAD_WEBHOOK_URL!, {
-      method: "POST",
-      headers: {
-        Authorization: `Basic ${credentials}`,
-      },
-      body: n8nFormData,
-    });
+    let n8nData: unknown = {};
+    // n8n also runs as the fallback when it is switched off and the CRM failed.
+    if (n8nLeadsEnabled() || !(await crm)) {
+      const username = process.env.N8N_USERNAME!;
+      const password = process.env.N8N_PASSWORD!;
+      const credentials = Buffer.from(`${username}:${password}`).toString(
+        "base64"
+      );
 
-    if (!n8nResponse.ok) {
-      const errorText = await n8nResponse.text();
-      console.error("n8n webhook error:", errorText);
-      throw new Error("Failed to send data to n8n");
+      const n8nResponse = await fetch(process.env.N8N_LEAD_WEBHOOK_URL!, {
+        method: "POST",
+        headers: {
+          Authorization: `Basic ${credentials}`,
+        },
+        body: n8nFormData,
+      });
+
+      if (!n8nResponse.ok) {
+        const errorText = await n8nResponse.text();
+        console.error("n8n webhook error:", errorText);
+        throw new Error("Failed to send data to n8n");
+      }
+
+      n8nData = await n8nResponse.json();
     }
-
-    const n8nData = await n8nResponse.json();
+    await crm;
 
     return NextResponse.json(
       {
